@@ -1,8 +1,8 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "cron": "pool-status-history",
-  "generatedAt": "2026-05-29T22:32:13.073Z",
-  "sourceDailyFiles": 16,
+  "generatedAt": "2026-05-31T00:58:00.427Z",
+  "sourceDailyFiles": 18,
   "epochs": [
     184,
     185,
@@ -11,10 +11,13 @@
   ],
   "pools": [
     {
+      "gauge_pool_id": "native:factory/terra186rpfczl7l2kugdsqqedegl4es4hp624phfc7ddy8my02a4e8lgq5rlx7y/ampCAPA",
+      "pool_address": null,
       "name": "ampCAPA",
       "dex": "Single",
       "bucket": "single",
-      "pool_address": null,
+      "dex_subtype": "single",
+      "legacy_name_dex_key": "ampCAPA|Single",
       "epochs": {
         "184": {
           "vp_human": 4774411.34322,
@@ -26,9 +29,12 @@
           "a0_sym": null,
           "a0_amt": 0,
           "a0_px": 0,
+          "a0_price_source": null,
           "a1_sym": null,
           "a1_amt": 0,
           "a1_px": 0,
+          "a1_price_source": null,
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-13T23:40:18.882Z"
         },
         "185": {
@@ -41,9 +47,12 @@
           "a0_sym": null,
           "a0_amt": 0,
           "a0_px": 0,
+          "a0_price_source": null,
           "a1_sym": null,
           "a1_amt": 0,
           "a1_px": 0,
+          "a1_price_source": null,
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-17T23:40:23.409Z"
         },
         "186": {
@@ -56,33 +65,42 @@
           "a0_sym": null,
           "a0_amt": 0,
           "a0_px": 0,
+          "a0_price_source": null,
           "a1_sym": null,
           "a1_amt": 0,
           "a1_px": 0,
+          "a1_price_source": null,
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-24T23:40:25.917Z"
         },
         "187": {
-          "vp_human": 6973274.871382,
-          "bucket_pct": 29.523059431931387,
+          "vp_human": 6974505.67822,
+          "bucket_pct": 29.463831673956992,
           "status": "active",
           "active": true,
           "depth_usd": 0,
-          "staked_usd": 199195.5823351428,
+          "staked_usd": 204772.37218711872,
           "a0_sym": null,
           "a0_amt": 0,
           "a0_px": 0,
+          "a0_price_source": null,
           "a1_sym": null,
           "a1_amt": 0,
           "a1_px": 0,
-          "capturedAt": "2026-05-28T23:40:19.166Z"
+          "a1_price_source": null,
+          "is_migration_corpse": false,
+          "capturedAt": "2026-05-30T23:40:29.160Z"
         }
       }
     },
     {
+      "gauge_pool_id": "cw20:terra10un5hr6asmn7g0ggh9sz0x3v8f9evh5cvawk8xs65rghundc25mq7g5par",
+      "pool_address": "terra1tsx0dmasjvd45k6tdywzv77d5t9k3lpzyuleavuah77pg3lwm9cq4469pm",
       "name": "ampLUNA-LUNA",
       "dex": "Skeleton Swap",
       "bucket": "project",
-      "pool_address": "terra1tsx0dmasjvd45k6tdywzv77d5t9k3lpzyuleavuah77pg3lwm9cq4469pm",
+      "dex_subtype": null,
+      "legacy_name_dex_key": "ampLUNA-LUNA|Skeleton Swap",
       "epochs": {
         "184": {
           "vp_human": 4183.703597,
@@ -94,9 +112,12 @@
           "a0_sym": "ampLUNA",
           "a0_amt": 417313.927726,
           "a0_px": 0.14129178901546352,
+          "a0_price_source": "direct",
           "a1_sym": "LUNA",
           "a1_amt": 873414.522081,
           "a1_px": 0.066856,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-13T23:40:18.882Z"
         },
         "185": {
@@ -109,9 +130,12 @@
           "a0_sym": "ampLUNA",
           "a0_amt": 414741.393925,
           "a0_px": 0.136933591976096,
+          "a0_price_source": "direct",
           "a1_sym": "LUNA",
           "a1_amt": 878932.174778,
           "a1_px": 0.064584,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-17T23:40:23.409Z"
         },
         "186": {
@@ -124,33 +148,42 @@
           "a0_sym": "ampLUNA",
           "a0_amt": 415006.142593,
           "a0_px": 0.12988452545326098,
+          "a0_price_source": "direct",
           "a1_sym": "LUNA",
           "a1_amt": 878468.327455,
           "a1_px": 0.060938,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-24T23:40:25.917Z"
         },
         "187": {
           "vp_human": 4183.703595,
-          "bucket_pct": 0.017722980621981195,
+          "bucket_pct": 0.01768428194557447,
           "status": "voted_but_below_threshold",
           "active": false,
-          "depth_usd": 113440.91,
-          "staked_usd": 162.6999697672187,
+          "depth_usd": 111309.43,
+          "staked_usd": 164.69393041838407,
           "a0_sym": "ampLUNA",
-          "a0_amt": 413986.208713,
-          "a0_px": 0.12687594266041724,
+          "a0_amt": 414564.537196,
+          "a0_px": 0.1285970254565351,
+          "a0_price_source": "direct",
           "a1_sym": "LUNA",
-          "a1_amt": 880709.013532,
-          "a1_px": 0.059366,
-          "capturedAt": "2026-05-28T23:40:19.166Z"
+          "a1_amt": 879507.514585,
+          "a1_px": 0.060079,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
+          "capturedAt": "2026-05-30T23:40:29.160Z"
         }
       }
     },
     {
+      "gauge_pool_id": "native:factory/terra1d8ap3zyd6tfnruuuwvs0t927lr4zwptruhulfwnxjpqzudvyn8usfgl8ze/uLP",
+      "pool_address": "terra1d8ap3zyd6tfnruuuwvs0t927lr4zwptruhulfwnxjpqzudvyn8usfgl8ze",
       "name": "ampROAR-ROAR",
       "dex": "Skeleton Swap",
       "bucket": "single",
-      "pool_address": "terra1d8ap3zyd6tfnruuuwvs0t927lr4zwptruhulfwnxjpqzudvyn8usfgl8ze",
+      "dex_subtype": null,
+      "legacy_name_dex_key": "ampROAR-ROAR|Skeleton Swap",
       "epochs": {
         "184": {
           "vp_human": 1446873.170247,
@@ -162,9 +195,12 @@
           "a0_sym": "ampROAR",
           "a0_amt": 74767510997.9819,
           "a0_px": 3.112214404644474e-7,
+          "a0_price_source": "direct",
           "a1_sym": "ROAR",
           "a1_amt": 86393937259.83522,
           "a1_px": 2.67327554484e-7,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-13T23:40:18.882Z"
         },
         "185": {
@@ -177,9 +213,12 @@
           "a0_sym": "ampROAR",
           "a0_amt": 74767450740.09941,
           "a0_px": 2.9927322507432873e-7,
+          "a0_price_source": "direct",
           "a1_sym": "ROAR",
           "a1_amt": 86533099978.89487,
           "a1_px": 2.56846232524e-7,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-17T23:40:23.409Z"
         },
         "186": {
@@ -192,33 +231,42 @@
           "a0_sym": "ampROAR",
           "a0_amt": 75026240911.39337,
           "a0_px": 2.823315128695005e-7,
+          "a0_price_source": "direct",
           "a1_sym": "ROAR",
           "a1_amt": 87812717543.963,
           "a1_px": 2.41958812203e-7,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-24T23:40:25.917Z"
         },
         "187": {
           "vp_human": 1446649.002929,
-          "bucket_pct": 6.124741284169795,
+          "bucket_pct": 6.111375440800561,
           "status": "active",
           "active": true,
-          "depth_usd": 44968.21,
-          "staked_usd": 35109.838057944806,
+          "depth_usd": 43890.35,
+          "staked_usd": 35411.91450877075,
           "a0_sym": "ampROAR",
-          "a0_amt": 74992293347.39635,
-          "a0_px": 2.7942821376710256e-7,
+          "a0_amt": 74992263617.32207,
+          "a0_px": 2.819107953624388e-7,
+          "a0_price_source": "direct",
           "a1_sym": "ROAR",
-          "a1_amt": 87912571835.5245,
-          "a1_px": 2.3927526825e-7,
-          "capturedAt": "2026-05-28T23:40:19.166Z"
+          "a1_amt": 87982200996.08296,
+          "a1_px": 2.41302677173e-7,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
+          "capturedAt": "2026-05-30T23:40:29.160Z"
         }
       }
     },
     {
+      "gauge_pool_id": "cw20:terra12mvtdvn4fgtsqs4fwxr56vcwjw0xe23lhdfyjq5ghk7vmfeuxn0srau9q2",
+      "pool_address": "terra1a0h6vrzkztjystg8sd949qyrc6mw9gzxk2870cr2mukg53uzgvqs46qul9",
       "name": "ATOM-dATOM",
       "dex": "Astroport",
       "bucket": "single",
-      "pool_address": "terra1a0h6vrzkztjystg8sd949qyrc6mw9gzxk2870cr2mukg53uzgvqs46qul9",
+      "dex_subtype": "concentrated",
+      "legacy_name_dex_key": "ATOM-dATOM|Astroport",
       "epochs": {
         "184": {
           "vp_human": 607231.338735,
@@ -230,9 +278,12 @@
           "a0_sym": "ATOM",
           "a0_amt": 2265.787339,
           "a0_px": 2.04,
+          "a0_price_source": "direct",
           "a1_sym": "dATOM",
           "a1_amt": 1201.128723,
           "a1_px": 3.8482188320460304,
+          "a1_price_source": "pool_derived:ATOM-dATOM(ATOM)",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-13T23:40:18.882Z"
         },
         "185": {
@@ -245,9 +296,12 @@
           "a0_sym": "ATOM",
           "a0_amt": 2089.219253,
           "a0_px": 2.04,
+          "a0_price_source": "direct",
           "a1_sym": "dATOM",
           "a1_amt": 1332.947765,
           "a1_px": 3.1974300779295737,
+          "a1_price_source": "pool_derived:ATOM-dATOM(ATOM)",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-17T23:40:23.409Z"
         },
         "186": {
@@ -260,33 +314,42 @@
           "a0_sym": "ATOM",
           "a0_amt": 2258.339259,
           "a0_px": 2.04,
+          "a0_price_source": "direct",
           "a1_sym": "dATOM",
           "a1_amt": 1208.766422,
           "a1_px": 3.8113336079747593,
+          "a1_price_source": "pool_derived:ATOM-dATOM(ATOM)",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-24T23:40:25.917Z"
         },
         "187": {
           "vp_human": 631953.706788,
-          "bucket_pct": 2.6755301042699156,
+          "bucket_pct": 2.6696913733514736,
           "status": "active",
           "active": true,
-          "depth_usd": 8321.73,
-          "staked_usd": 176.85115123266158,
+          "depth_usd": 8048.27,
+          "staked_usd": 177.1138584215562,
           "a0_sym": "ATOM",
-          "a0_amt": 2408.106051,
-          "a0_px": 2.04,
+          "a0_amt": 2436.95367,
+          "a0_px": 2.02,
+          "a0_price_source": "direct",
           "a1_sym": "dATOM",
-          "a1_amt": 1101.239125,
-          "a1_px": 4.460917009318934,
-          "capturedAt": "2026-05-28T23:40:19.166Z"
+          "a1_amt": 1081.179174,
+          "a1_px": 4.553034808456271,
+          "a1_price_source": "pool_derived:ATOM-dATOM(ATOM)",
+          "is_migration_corpse": false,
+          "capturedAt": "2026-05-30T23:40:29.160Z"
         }
       }
     },
     {
+      "gauge_pool_id": "native:factory/terra1aa8nurhuk7rwedhjyzptggypuxd3y66qp4nsx6ph240g37esdm7qyheqkd/uLP",
+      "pool_address": "terra1aa8nurhuk7rwedhjyzptggypuxd3y66qp4nsx6ph240g37esdm7qyheqkd",
       "name": "ATOM-dATOM",
       "dex": "Skeleton Swap",
       "bucket": "single",
-      "pool_address": "terra1aa8nurhuk7rwedhjyzptggypuxd3y66qp4nsx6ph240g37esdm7qyheqkd",
+      "dex_subtype": null,
+      "legacy_name_dex_key": "ATOM-dATOM|Skeleton Swap",
       "epochs": {
         "184": {
           "vp_human": 7896.793172,
@@ -298,9 +361,12 @@
           "a0_sym": "ATOM",
           "a0_amt": 801.636985,
           "a0_px": 2.04,
+          "a0_price_source": "direct",
           "a1_sym": "dATOM",
           "a1_amt": 592.529231,
           "a1_px": 3.8482188320460304,
+          "a1_price_source": "pool_derived:ATOM-dATOM(ATOM)",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-13T23:40:18.882Z"
         },
         "185": {
@@ -313,9 +379,12 @@
           "a0_sym": "ATOM",
           "a0_amt": 798.843081,
           "a0_px": 2.04,
+          "a0_price_source": "direct",
           "a1_sym": "dATOM",
           "a1_amt": 594.730679,
           "a1_px": 3.1974300779295737,
+          "a1_price_source": "pool_derived:ATOM-dATOM(ATOM)",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-17T23:40:23.409Z"
         },
         "186": {
@@ -328,33 +397,42 @@
           "a0_sym": "ATOM",
           "a0_amt": 806.255692,
           "a0_px": 2.04,
+          "a0_price_source": "direct",
           "a1_sym": "dATOM",
           "a1_amt": 589.42458,
           "a1_px": 3.8113336079747593,
+          "a1_price_source": "pool_derived:ATOM-dATOM(ATOM)",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-24T23:40:25.917Z"
         },
         "187": {
           "vp_human": 7896.793162,
-          "bucket_pct": 0.03343299929279727,
+          "bucket_pct": 0.03336003943846576,
           "status": "voted_but_below_threshold",
           "active": false,
           "depth_usd": 0,
-          "staked_usd": 516.8080849828725,
+          "staked_usd": 520.7914203088296,
           "a0_sym": "ATOM",
-          "a0_amt": 821.687722,
-          "a0_px": 2.04,
+          "a0_amt": 823.339117,
+          "a0_px": 2.02,
+          "a0_price_source": "direct",
           "a1_sym": "dATOM",
-          "a1_amt": 578.486336,
-          "a1_px": 4.460917009318934,
-          "capturedAt": "2026-05-28T23:40:19.166Z"
+          "a1_amt": 577.38908,
+          "a1_px": 4.553034808456271,
+          "a1_price_source": "pool_derived:ATOM-dATOM(ATOM)",
+          "is_migration_corpse": false,
+          "capturedAt": "2026-05-30T23:40:29.160Z"
         }
       }
     },
     {
+      "gauge_pool_id": "cw20:terra1adp223mw8937arxcfl36acjjyn2dcf7wzp8h09jek5k0gw3vch8sqlq6su",
+      "pool_address": "terra1frfcj4xhvx0emkup4vel5jun9zun0797j5yhn7ant3r4jzy9mkxqzcwev6",
       "name": "ATOM-LUNA",
       "dex": "Skeleton Swap",
       "bucket": "bluechip",
-      "pool_address": "terra1frfcj4xhvx0emkup4vel5jun9zun0797j5yhn7ant3r4jzy9mkxqzcwev6",
+      "dex_subtype": null,
+      "legacy_name_dex_key": "ATOM-LUNA|Skeleton Swap",
       "epochs": {
         "184": {
           "vp_human": 453386.276817,
@@ -366,9 +444,12 @@
           "a0_sym": "ATOM",
           "a0_amt": 3264.191409,
           "a0_px": 2.04,
+          "a0_price_source": "direct",
           "a1_sym": "LUNA",
           "a1_amt": 99767.211156,
           "a1_px": 0.066856,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-13T23:40:18.882Z"
         },
         "185": {
@@ -381,9 +462,12 @@
           "a0_sym": "ATOM",
           "a0_amt": 3221.308492,
           "a0_px": 2.04,
+          "a0_price_source": "direct",
           "a1_sym": "LUNA",
           "a1_amt": 101517.985387,
           "a1_px": 0.064584,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-17T23:40:23.409Z"
         },
         "186": {
@@ -396,33 +480,42 @@
           "a0_sym": "ATOM",
           "a0_amt": 3296.467561,
           "a0_px": 2.04,
+          "a0_price_source": "direct",
           "a1_sym": "LUNA",
           "a1_amt": 110429.796881,
           "a1_px": 0.060938,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-24T23:40:25.917Z"
         },
         "187": {
           "vp_human": 453321.100465,
-          "bucket_pct": 1.9247174483361114,
+          "bucket_pct": 1.92050524456086,
           "status": "active",
           "active": true,
-          "depth_usd": 13723.32,
-          "staked_usd": 10079.608087322265,
+          "depth_usd": 13924.81,
+          "staked_usd": 10096.792149515197,
           "a0_sym": "ATOM",
-          "a0_amt": 2976.479677,
-          "a0_px": 2.04,
+          "a0_amt": 3013.892154,
+          "a0_px": 2.02,
+          "a0_price_source": "direct",
           "a1_sym": "LUNA",
-          "a1_amt": 102972.210869,
-          "a1_px": 0.059366,
-          "capturedAt": "2026-05-28T23:40:19.166Z"
+          "a1_amt": 101901.036419,
+          "a1_px": 0.060079,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
+          "capturedAt": "2026-05-30T23:40:29.160Z"
         }
       }
     },
     {
+      "gauge_pool_id": "cw20:terra1pz99udaf85erk8lumjylczz0cuf70mmq9gns3ejxt7s3mk266mqq6gkqkn",
+      "pool_address": "terra1f9vmtntpjmkyhkxtlc49jcq6cv8rfz0kr06zv6efdtdgae4m9y9qlzm36t",
       "name": "ATOM-stATOM",
       "dex": "Astroport",
       "bucket": "single",
-      "pool_address": "terra1f9vmtntpjmkyhkxtlc49jcq6cv8rfz0kr06zv6efdtdgae4m9y9qlzm36t",
+      "dex_subtype": "concentrated",
+      "legacy_name_dex_key": "ATOM-stATOM|Astroport",
       "epochs": {
         "184": {
           "vp_human": 0.000015,
@@ -434,9 +527,12 @@
           "a0_sym": "ATOM",
           "a0_amt": 312.640877,
           "a0_px": 2.04,
+          "a0_price_source": "direct",
           "a1_sym": "stATOM",
           "a1_amt": 100.808784,
           "a1_px": 3.8044001037583355,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-13T23:40:18.882Z"
         },
         "185": {
@@ -449,9 +545,12 @@
           "a0_sym": "ATOM",
           "a0_amt": 312.223505,
           "a0_px": 2.04,
+          "a0_price_source": "direct",
           "a1_sym": "stATOM",
           "a1_amt": 101.037903,
           "a1_px": 3.7963395596244687,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-17T23:40:23.409Z"
         },
         "186": {
@@ -464,33 +563,42 @@
           "a0_sym": "ATOM",
           "a0_amt": 307.759699,
           "a0_px": 2.04,
+          "a0_price_source": "direct",
           "a1_sym": "stATOM",
           "a1_amt": 103.49135,
           "a1_px": 3.7322537848874346,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-24T23:40:25.917Z"
         },
         "187": {
           "vp_human": 0.000015,
-          "bucket_pct": 6.350615738616443e-11,
+          "bucket_pct": 6.336756976046353e-11,
           "status": "voted_but_below_threshold",
           "active": false,
-          "depth_usd": 658.572,
-          "staked_usd": 0.042768064277983325,
+          "depth_usd": 632.053,
+          "staked_usd": 0.042338388097978144,
           "a0_sym": "ATOM",
-          "a0_amt": 312.897307,
-          "a0_px": 2.04,
+          "a0_amt": 312.897302,
+          "a0_px": 2.02,
+          "a0_price_source": "direct",
           "a1_sym": "stATOM",
-          "a1_amt": 100.700367,
-          "a1_px": 3.7848704026589304,
-          "capturedAt": "2026-05-28T23:40:19.166Z"
+          "a1_amt": 100.70037,
+          "a1_px": 3.7503846642954657,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
+          "capturedAt": "2026-05-30T23:40:29.160Z"
         }
       }
     },
     {
+      "gauge_pool_id": "cw20:terra1q475uvk9te5nxq2lzu0h96t0devmx4v8ctxqtm253ut05wrpugsq0m4e3k",
+      "pool_address": "terra1j5znhs9jeyty9u9jcagl3vefkvzwqp6u9tq9a3e5qrz4gmj2udyqp0z0xc",
       "name": "bLUNA-LUNA",
       "dex": "Skeleton Swap",
       "bucket": "project",
-      "pool_address": "terra1j5znhs9jeyty9u9jcagl3vefkvzwqp6u9tq9a3e5qrz4gmj2udyqp0z0xc",
+      "dex_subtype": null,
+      "legacy_name_dex_key": "bLUNA-LUNA|Skeleton Swap",
       "epochs": {
         "184": {
           "vp_human": 2430106.27599,
@@ -502,9 +610,12 @@
           "a0_sym": "bLUNA",
           "a0_amt": 1298265.914199,
           "a0_px": 0.11623998096621985,
+          "a0_price_source": "direct",
           "a1_sym": "LUNA",
           "a1_amt": 2230318.410952,
           "a1_px": 0.066856,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-13T23:40:18.882Z"
         },
         "185": {
@@ -517,9 +628,12 @@
           "a0_sym": "bLUNA",
           "a0_amt": 1291850.467124,
           "a0_px": 0.11252961728383129,
+          "a0_price_source": "direct",
           "a1_sym": "LUNA",
           "a1_amt": 2225091.663903,
           "a1_px": 0.064584,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-17T23:40:23.409Z"
         },
         "186": {
@@ -532,33 +646,42 @@
           "a0_sym": "bLUNA",
           "a0_amt": 1296624.416767,
           "a0_px": 0.10655562246643778,
+          "a0_price_source": "direct",
           "a1_sym": "LUNA",
           "a1_amt": 2242264.433304,
           "a1_px": 0.060938,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-24T23:40:25.917Z"
         },
         "187": {
           "vp_human": 2485225.103944,
-          "bucket_pct": 10.527896003698777,
+          "bucket_pct": 10.504908017119055,
           "status": "active",
           "active": true,
-          "depth_usd": 289929.14,
-          "staked_usd": 67547.35279102121,
+          "depth_usd": 284750.56,
+          "staked_usd": 68413.05978812792,
           "a0_sym": "bLUNA",
-          "a0_amt": 1291377.916285,
-          "a0_px": 0.10402138661566185,
+          "a0_amt": 1288708.786189,
+          "a0_px": 0.10538430760913571,
+          "a0_price_source": "direct",
           "a1_sym": "LUNA",
-          "a1_amt": 2249315.18408,
-          "a1_px": 0.059366,
-          "capturedAt": "2026-05-28T23:40:19.166Z"
+          "a1_amt": 2254902.350628,
+          "a1_px": 0.060079,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
+          "capturedAt": "2026-05-30T23:40:29.160Z"
         }
       }
     },
     {
+      "gauge_pool_id": "native:factory/terra15rzp38yq2cqy2jnewc9vgzqguf3t2q0gqpv9evg8tckrtqp8x44qezhthc/uLP",
+      "pool_address": "terra15rzp38yq2cqy2jnewc9vgzqguf3t2q0gqpv9evg8tckrtqp8x44qezhthc",
       "name": "CAPA-LUNA",
       "dex": "Skeleton Swap",
       "bucket": "project",
-      "pool_address": "terra15rzp38yq2cqy2jnewc9vgzqguf3t2q0gqpv9evg8tckrtqp8x44qezhthc",
+      "dex_subtype": null,
+      "legacy_name_dex_key": "CAPA-LUNA|Skeleton Swap",
       "epochs": {
         "184": {
           "vp_human": 18131.238853,
@@ -570,9 +693,12 @@
           "a0_sym": "CAPA",
           "a0_amt": 177146.00623,
           "a0_px": 0.001629097460271557,
+          "a0_price_source": "direct",
           "a1_sym": "LUNA",
           "a1_amt": 4310.804991,
           "a1_px": 0.066856,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-13T23:40:18.882Z"
         },
         "185": {
@@ -585,9 +711,12 @@
           "a0_sym": "CAPA",
           "a0_amt": 176211.558672,
           "a0_px": 0.001592329685123026,
+          "a0_price_source": "direct",
           "a1_sym": "LUNA",
           "a1_amt": 4333.711128,
           "a1_px": 0.064584,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-17T23:40:23.409Z"
         },
         "186": {
@@ -600,33 +729,42 @@
           "a0_sym": "CAPA",
           "a0_amt": 172428.367189,
           "a0_px": 0.00157817407145085,
+          "a0_price_source": "direct",
           "a1_sym": "LUNA",
           "a1_amt": 4429.05549,
           "a1_px": 0.060938,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-24T23:40:25.917Z"
         },
         "187": {
           "vp_human": 18131.238853,
-          "bucket_pct": 0.0768074476471681,
+          "bucket_pct": 0.07663973620937317,
           "status": "voted_but_below_threshold",
           "active": false,
-          "depth_usd": 564.56,
-          "staked_usd": 47.13368960394918,
+          "depth_usd": 552.67,
+          "staked_usd": 48.03770988933468,
           "a0_sym": "CAPA",
-          "a0_amt": 175088.395602,
-          "a0_px": 0.00148577672643895,
+          "a0_amt": 173548.730866,
+          "a0_px": 0.001526653423063753,
+          "a0_price_source": "direct",
           "a1_sym": "LUNA",
-          "a1_amt": 4361.901566,
-          "a1_px": 0.059366,
-          "capturedAt": "2026-05-28T23:40:19.166Z"
+          "a1_amt": 4400.676867,
+          "a1_px": 0.060079,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
+          "capturedAt": "2026-05-30T23:40:29.160Z"
         }
       }
     },
     {
+      "gauge_pool_id": "cw20:terra10xwhrfj2hqtwr4jwam3e24w92ypgl85lqz35lqzqhuay5r2h7pgqv4596s",
+      "pool_address": "terra1sjujvcvkszrt84280agzv0du7tsrf44y4n7hcd9n8y0q7snfgersd68ens",
       "name": "cw20:terra10xwhrfj2hqtwr4jwam3e24w92ypgl85lqz35lqz",
       "dex": null,
       "bucket": "single",
-      "pool_address": "terra1sjujvcvkszrt84280agzv0du7tsrf44y4n7hcd9n8y0q7snfgersd68ens",
+      "dex_subtype": null,
+      "legacy_name_dex_key": "cw20:terra10xwhrfj2hqtwr4jwam3e24w92ypgl85lqz35lqz|null",
       "epochs": {
         "184": {
           "vp_human": 0,
@@ -638,9 +776,12 @@
           "a0_sym": "ROAR",
           "a0_amt": 0,
           "a0_px": 2.67327554484e-7,
+          "a0_price_source": "direct",
           "a1_sym": "amproar",
           "a1_amt": 0,
           "a1_px": 3.112214404644474e-7,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-13T23:40:18.882Z"
         },
         "185": {
@@ -653,9 +794,12 @@
           "a0_sym": "ROAR",
           "a0_amt": 0,
           "a0_px": 2.56846232524e-7,
+          "a0_price_source": "direct",
           "a1_sym": "amproar",
           "a1_amt": 0,
           "a1_px": 2.9927322507432873e-7,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-17T23:40:23.409Z"
         },
         "186": {
@@ -668,9 +812,12 @@
           "a0_sym": "ROAR",
           "a0_amt": 0,
           "a0_px": 2.41958812203e-7,
+          "a0_price_source": "direct",
           "a1_sym": "amproar",
           "a1_amt": 0,
           "a1_px": 2.823315128695005e-7,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-24T23:40:25.917Z"
         },
         "187": {
@@ -682,19 +829,25 @@
           "staked_usd": 0,
           "a0_sym": "ROAR",
           "a0_amt": 0,
-          "a0_px": 2.3927526825e-7,
+          "a0_px": 2.41302677173e-7,
+          "a0_price_source": "direct",
           "a1_sym": "amproar",
           "a1_amt": 0,
-          "a1_px": 2.7942821376710256e-7,
-          "capturedAt": "2026-05-28T23:40:19.166Z"
+          "a1_px": 2.819107953624388e-7,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
+          "capturedAt": "2026-05-30T23:40:29.160Z"
         }
       }
     },
     {
+      "gauge_pool_id": "cw20:terra16z3ksy6aqjkug8l3u48q0kvdaqk3dgaytl7ykt6vg2he9d6z9rgslr4k7l",
+      "pool_address": "terra1ntx595elf3ukxcd0wy76h24rzztcv2p6n3wmfd358ks95prv42fs9mn63n",
       "name": "cw20:terra16z3ksy6aqjkug8l3u48q0kvdaqk3dgaytl7ykt6",
       "dex": null,
       "bucket": "single",
-      "pool_address": "terra1ntx595elf3ukxcd0wy76h24rzztcv2p6n3wmfd358ks95prv42fs9mn63n",
+      "dex_subtype": null,
+      "legacy_name_dex_key": "ampWHALE-WHALE|Skeleton Swap",
       "epochs": {
         "184": {
           "vp_human": 27979.936455,
@@ -706,9 +859,12 @@
           "a0_sym": "ampWHALE",
           "a0_amt": 1166661.692672,
           "a0_px": 0,
+          "a0_price_source": "unknown",
           "a1_sym": "WHALE",
           "a1_amt": 1277973.371706,
           "a1_px": 0.000098642355368279,
+          "a1_price_source": "pool_derived:LUNA-WHALE(LUNA)",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-13T23:40:18.882Z"
         },
         "185": {
@@ -721,9 +877,12 @@
           "a0_sym": "ampWHALE",
           "a0_amt": 1166661.692672,
           "a0_px": 0,
+          "a0_price_source": "unknown",
           "a1_sym": "WHALE",
           "a1_amt": 1277973.371706,
           "a1_px": 0.00009529014417711098,
+          "a1_price_source": "pool_derived:LUNA-WHALE(LUNA)",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-17T23:40:23.409Z"
         },
         "186": {
@@ -736,33 +895,42 @@
           "a0_sym": "ampWHALE",
           "a0_amt": 1166661.692672,
           "a0_px": 0,
+          "a0_price_source": "unknown",
           "a1_sym": "WHALE",
           "a1_amt": 1277973.371706,
           "a1_px": 0.00008991067146452355,
+          "a1_price_source": "pool_derived:LUNA-WHALE(LUNA)",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-24T23:40:25.917Z"
         },
         "187": {
           "vp_human": 27960.012343,
-          "bucket_pct": 0.11837552962491052,
+          "bucket_pct": 0.11811720217656492,
           "status": "voted_but_below_threshold",
           "active": false,
           "depth_usd": 0,
-          "staked_usd": 11.483586035925079,
+          "staked_usd": 11.614695768919512,
           "a0_sym": "ampWHALE",
           "a0_amt": 1166661.692672,
           "a0_px": 0,
+          "a0_price_source": "unknown",
           "a1_sym": "WHALE",
           "a1_amt": 1277973.371706,
-          "a1_px": 0.00008759127181993017,
-          "capturedAt": "2026-05-28T23:40:19.166Z"
+          "a1_px": 0.00008864326415236979,
+          "a1_price_source": "pool_derived:LUNA-WHALE(LUNA)",
+          "is_migration_corpse": false,
+          "capturedAt": "2026-05-30T23:40:29.160Z"
         }
       }
     },
     {
+      "gauge_pool_id": "cw20:terra1hqq6pnx74q0wae7eqqu2wgddzr2xn8l9gvd33sfwqfew50qawj0sfn69fh",
+      "pool_address": "terra1tkj3j48d0xrh932szzsap3w8htfv3gmj2zld06an2kp90xzq5kzqvtjwfl",
       "name": "cw20:terra1hqq6pnx74q0wae7eqqu2wgddzr2xn8l9gvd33sf",
       "dex": null,
       "bucket": "single",
-      "pool_address": "terra1tkj3j48d0xrh932szzsap3w8htfv3gmj2zld06an2kp90xzq5kzqvtjwfl",
+      "dex_subtype": null,
+      "legacy_name_dex_key": "cw20:terra1hqq6pnx74q0wae7eqqu2wgddzr2xn8l9gvd33sf|null",
       "epochs": {
         "184": {
           "vp_human": 417625.991168,
@@ -774,9 +942,12 @@
           "a0_sym": "ampROAR",
           "a0_amt": 12492875817.510792,
           "a0_px": 3.112214404644474e-7,
+          "a0_price_source": "direct",
           "a1_sym": "ROAR",
           "a1_amt": 17278739129.57397,
           "a1_px": 2.67327554484e-7,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-13T23:40:18.882Z"
         },
         "185": {
@@ -789,9 +960,12 @@
           "a0_sym": "ampROAR",
           "a0_amt": 12492875817.510792,
           "a0_px": 2.9927322507432873e-7,
+          "a0_price_source": "direct",
           "a1_sym": "ROAR",
           "a1_amt": 17307726398.81185,
           "a1_px": 2.56846232524e-7,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-17T23:40:23.409Z"
         },
         "186": {
@@ -804,33 +978,42 @@
           "a0_sym": "ampROAR",
           "a0_amt": 14563556180.558231,
           "a0_px": 2.823315128695005e-7,
+          "a0_price_source": "direct",
           "a1_sym": "ROAR",
           "a1_amt": 15182471583.91774,
           "a1_px": 2.41958812203e-7,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-24T23:40:25.917Z"
         },
         "187": {
           "vp_human": 429934.689662,
-          "bucket_pct": 1.8202333378297821,
+          "bucket_pct": 1.8162610959733352,
           "status": "active",
           "active": true,
           "depth_usd": 0,
-          "staked_usd": 7432.639856997981,
+          "staked_usd": 7493.153271216444,
           "a0_sym": "ampROAR",
           "a0_amt": 14842162712.794178,
-          "a0_px": 2.7942821376710256e-7,
+          "a0_px": 2.819107953624388e-7,
+          "a0_price_source": "direct",
           "a1_sym": "ROAR",
           "a1_amt": 14921423317.867332,
-          "a1_px": 2.3927526825e-7,
-          "capturedAt": "2026-05-28T23:40:19.166Z"
+          "a1_px": 2.41302677173e-7,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
+          "capturedAt": "2026-05-30T23:40:29.160Z"
         }
       }
     },
     {
+      "gauge_pool_id": "cw20:terra1le46uu9qjk53aktjs8dev96sl9sd2ujvcpspk75pdeg0txfvhyuswm6653",
+      "pool_address": "terra1j9jmsplecj9ay2py27953p84nfmv7f6ce75ms5fleyhd0aecpc7q0hgmsa",
       "name": "cw20:terra1le46uu9qjk53aktjs8dev96sl9sd2ujvcpspk75",
       "dex": null,
       "bucket": "single",
-      "pool_address": "terra1j9jmsplecj9ay2py27953p84nfmv7f6ce75ms5fleyhd0aecpc7q0hgmsa",
+      "dex_subtype": null,
+      "legacy_name_dex_key": "bWHALE-WHALE|Skeleton Swap",
       "epochs": {
         "184": {
           "vp_human": 65181.442677,
@@ -842,9 +1025,12 @@
           "a0_sym": "bWHALE",
           "a0_amt": 1562469.924427,
           "a0_px": 0,
+          "a0_price_source": "unknown",
           "a1_sym": "WHALE",
           "a1_amt": 1552682.407046,
           "a1_px": 0.000098642355368279,
+          "a1_price_source": "pool_derived:LUNA-WHALE(LUNA)",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-13T23:40:18.882Z"
         },
         "185": {
@@ -857,9 +1043,12 @@
           "a0_sym": "bWHALE",
           "a0_amt": 1562469.924427,
           "a0_px": 0,
+          "a0_price_source": "unknown",
           "a1_sym": "WHALE",
           "a1_amt": 1552682.407046,
           "a1_px": 0.00009529014417711098,
+          "a1_price_source": "pool_derived:LUNA-WHALE(LUNA)",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-17T23:40:23.409Z"
         },
         "186": {
@@ -872,33 +1061,42 @@
           "a0_sym": "bWHALE",
           "a0_amt": 1562469.924427,
           "a0_px": 0,
+          "a0_price_source": "unknown",
           "a1_sym": "WHALE",
           "a1_amt": 1552682.407046,
           "a1_px": 0.00008991067146452355,
+          "a1_price_source": "pool_derived:LUNA-WHALE(LUNA)",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-24T23:40:25.917Z"
         },
         "187": {
           "vp_human": 65181.442677,
-          "bucket_pct": 0.27596153048685446,
+          "bucket_pct": 0.2753593077281635,
           "status": "voted_but_below_threshold",
           "active": false,
           "depth_usd": 0,
-          "staked_usd": 36.49736991541614,
+          "staked_usd": 36.914065573184395,
           "a0_sym": "bWHALE",
           "a0_amt": 1562469.924427,
           "a0_px": 0,
+          "a0_price_source": "unknown",
           "a1_sym": "WHALE",
           "a1_amt": 1552682.407046,
-          "a1_px": 0.00008759127181993017,
-          "capturedAt": "2026-05-28T23:40:19.166Z"
+          "a1_px": 0.00008864326415236979,
+          "a1_price_source": "pool_derived:LUNA-WHALE(LUNA)",
+          "is_migration_corpse": false,
+          "capturedAt": "2026-05-30T23:40:29.160Z"
         }
       }
     },
     {
+      "gauge_pool_id": "cw20:terra1my4tml2ae4zewq0u5fpq2qzq4rdpfh5pq7y3eekxxhwxdwdmce4shw9mt4",
+      "pool_address": "terra1cupwgntu082ypw2ztgtxfzcenexcu6ggp5zzunn3yzfwgrvdcclqgjrjqg",
       "name": "LUNA-ampLUNA",
       "dex": "Astroport",
       "bucket": "project",
-      "pool_address": "terra1cupwgntu082ypw2ztgtxfzcenexcu6ggp5zzunn3yzfwgrvdcclqgjrjqg",
+      "dex_subtype": "concentrated",
+      "legacy_name_dex_key": "LUNA-ampLUNA|Astroport",
       "epochs": {
         "184": {
           "vp_human": 4248644.892148,
@@ -910,9 +1108,12 @@
           "a0_sym": "LUNA",
           "a0_amt": 10968963.958509,
           "a0_px": 0.066856,
+          "a0_price_source": "direct",
           "a1_sym": "ampLUNA",
           "a1_amt": 3136047.31236,
           "a1_px": 0.14129178901546352,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-13T23:40:18.882Z"
         },
         "185": {
@@ -925,9 +1126,12 @@
           "a0_sym": "LUNA",
           "a0_amt": 11016904.672891,
           "a0_px": 0.064584,
+          "a0_price_source": "direct",
           "a1_sym": "ampLUNA",
           "a1_amt": 3112720.547112,
           "a1_px": 0.136933591976096,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-17T23:40:23.409Z"
         },
         "186": {
@@ -940,33 +1144,42 @@
           "a0_sym": "LUNA",
           "a0_amt": 11111387.842448,
           "a0_px": 0.060938,
+          "a0_price_source": "direct",
           "a1_sym": "ampLUNA",
           "a1_amt": 3140420.258216,
           "a1_px": 0.12988452545326098,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-24T23:40:25.917Z"
         },
         "187": {
-          "vp_human": 4304760.885268,
-          "bucket_pct": 18.235802804731765,
+          "vp_human": 4305148.181672,
+          "bucket_pct": 18.19762144554242,
           "status": "active",
           "active": true,
-          "depth_usd": 1088130,
-          "staked_usd": 132012.6005649775,
+          "depth_usd": 1061500,
+          "staked_usd": 132526.90486874132,
           "a0_sym": "LUNA",
-          "a0_amt": 11092915.388713,
-          "a0_px": 0.059366,
+          "a0_amt": 11101906.585673,
+          "a0_px": 0.060079,
+          "a0_price_source": "direct",
           "a1_sym": "ampLUNA",
-          "a1_amt": 3145811.173983,
-          "a1_px": 0.12687594266041724,
-          "capturedAt": "2026-05-28T23:40:19.166Z"
+          "a1_amt": 3133465.016366,
+          "a1_px": 0.1285970254565351,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
+          "capturedAt": "2026-05-30T23:40:29.160Z"
         }
       }
     },
     {
+      "gauge_pool_id": "cw20:terra19z7g4fnu529250sdkdmgm9kw4qgwmmqrjas9t24ll84mpd94lxnshf0z2h",
+      "pool_address": "terra16nfwldn9j5xhry2y78gvm3x4vte8vu77zr3ctlan79w5f5aheawqnz7a4f",
       "name": "LUNA-arbLUNA",
       "dex": "Astroport",
       "bucket": "single",
-      "pool_address": "terra16nfwldn9j5xhry2y78gvm3x4vte8vu77zr3ctlan79w5f5aheawqnz7a4f",
+      "dex_subtype": "stable",
+      "legacy_name_dex_key": "LUNA-arbLUNA|Astroport",
       "epochs": {
         "184": {
           "vp_human": 29752.158632,
@@ -978,9 +1191,12 @@
           "a0_sym": "arbLUNA",
           "a0_amt": 10154.716048,
           "a0_px": 0.19437097457673747,
+          "a0_price_source": "direct",
           "a1_sym": "LUNA",
           "a1_amt": 149231.881994,
           "a1_px": 0.066856,
+          "a1_price_source": "direct",
+          "is_migration_corpse": true,
           "capturedAt": "2026-05-13T23:40:18.882Z"
         },
         "185": {
@@ -993,9 +1209,12 @@
           "a0_sym": "arbLUNA",
           "a0_amt": 10112.061038,
           "a0_px": 0.18808181662852227,
+          "a0_price_source": "direct",
           "a1_sym": "LUNA",
           "a1_amt": 149356.191668,
           "a1_px": 0.064584,
+          "a1_price_source": "direct",
+          "is_migration_corpse": true,
           "capturedAt": "2026-05-17T23:40:23.409Z"
         },
         "186": {
@@ -1008,33 +1227,42 @@
           "a0_sym": "arbLUNA",
           "a0_amt": 10116.471384,
           "a0_px": 0.17770556108339097,
+          "a0_price_source": "direct",
           "a1_sym": "LUNA",
           "a1_amt": 149344.1732,
           "a1_px": 0.060938,
+          "a1_price_source": "direct",
+          "is_migration_corpse": true,
           "capturedAt": "2026-05-24T23:40:25.917Z"
         },
         "187": {
           "vp_human": 29346.721342,
-          "bucket_pct": 0.12424650028753084,
+          "bucket_pct": 0.12397536079200461,
           "status": "voted_but_below_threshold",
           "active": false,
-          "depth_usd": 10805,
-          "staked_usd": 8279.859246969481,
+          "depth_usd": 10548.7,
+          "staked_usd": 8375.416339907435,
           "a0_sym": "arbLUNA",
-          "a0_amt": 10148.835278,
-          "a0_px": 0.17329234540186872,
+          "a0_amt": 10136.107369,
+          "a0_px": 0.17548053418904674,
+          "a0_price_source": "direct",
           "a1_sym": "LUNA",
-          "a1_amt": 149251.0507,
-          "a1_px": 0.059366,
-          "capturedAt": "2026-05-28T23:40:19.166Z"
+          "a1_amt": 149288.086781,
+          "a1_px": 0.060079,
+          "a1_price_source": "direct",
+          "is_migration_corpse": true,
+          "capturedAt": "2026-05-30T23:40:29.160Z"
         }
       }
     },
     {
+      "gauge_pool_id": "cw20:terra1phz6qdzszgwj303rp5cfpfgcgfq0wwg0na2he980t58mryz69hyqsjkfc0",
+      "pool_address": "terra1p9lcjw8knxhtv2pyr9wa8e2ushjnjllljvsuu9cugv7trqynjzasz4x52j",
       "name": "LUNA-arbLUNA",
       "dex": "Astroport",
       "bucket": "single",
-      "pool_address": "terra1p9lcjw8knxhtv2pyr9wa8e2ushjnjllljvsuu9cugv7trqynjzasz4x52j",
+      "dex_subtype": "concentrated",
+      "legacy_name_dex_key": "LUNA-arbLUNA|Astroport",
       "epochs": {
         "184": {
           "vp_human": 3258409.090101,
@@ -1046,9 +1274,12 @@
           "a0_sym": "LUNA",
           "a0_amt": 1003923.737553,
           "a0_px": 0.066856,
+          "a0_price_source": "direct",
           "a1_sym": "arbLUNA",
           "a1_amt": 208890.084217,
           "a1_px": 0.19437097457673747,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-13T23:40:18.882Z"
         },
         "185": {
@@ -1061,9 +1292,12 @@
           "a0_sym": "LUNA",
           "a0_amt": 967507.563959,
           "a0_px": 0.064584,
+          "a0_price_source": "direct",
           "a1_sym": "arbLUNA",
           "a1_amt": 199788.242577,
           "a1_px": 0.18808181662852227,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-17T23:40:23.409Z"
         },
         "186": {
@@ -1076,33 +1310,42 @@
           "a0_sym": "LUNA",
           "a0_amt": 888340.685487,
           "a0_px": 0.060938,
+          "a0_price_source": "direct",
           "a1_sym": "arbLUNA",
           "a1_amt": 183950.352254,
           "a1_px": 0.17770556108339097,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-24T23:40:25.917Z"
         },
         "187": {
-          "vp_human": 2000548.834955,
-          "bucket_pct": 8.469811278090674,
+          "vp_human": 2001149.14438,
+          "bucket_pct": 8.453863867172771,
           "status": "active",
           "active": true,
-          "depth_usd": 69536.6,
-          "staked_usd": 66782.42953945858,
+          "depth_usd": 67874.5,
+          "staked_usd": 67575.76511551841,
           "a0_sym": "LUNA",
-          "a0_amt": 729283.017121,
-          "a0_px": 0.059366,
+          "a0_amt": 729540.155544,
+          "a0_px": 0.060079,
+          "a0_price_source": "direct",
           "a1_sym": "arbLUNA",
-          "a1_amt": 151120.781015,
-          "a1_px": 0.17329234540186872,
-          "capturedAt": "2026-05-28T23:40:19.166Z"
+          "a1_amt": 151105.592704,
+          "a1_px": 0.17548053418904674,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
+          "capturedAt": "2026-05-30T23:40:29.160Z"
         }
       }
     },
     {
+      "gauge_pool_id": "native:factory/terra1wttdzwa6pdegtrdjdw49y0pd3dd8qd3cqn89j6t9v978lx05rr8sew5jyq/uLP",
+      "pool_address": "terra1wttdzwa6pdegtrdjdw49y0pd3dd8qd3cqn89j6t9v978lx05rr8sew5jyq",
       "name": "LUNA-arbLUNA",
       "dex": "Skeleton Swap",
       "bucket": "single",
-      "pool_address": "terra1wttdzwa6pdegtrdjdw49y0pd3dd8qd3cqn89j6t9v978lx05rr8sew5jyq",
+      "dex_subtype": null,
+      "legacy_name_dex_key": "LUNA-arbLUNA|Skeleton Swap",
       "epochs": {
         "184": {
           "vp_human": 15878.66188,
@@ -1114,9 +1357,12 @@
           "a0_sym": "LUNA",
           "a0_amt": 12228.858602,
           "a0_px": 0.066856,
+          "a0_price_source": "direct",
           "a1_sym": "arbLUNA",
           "a1_amt": 4217.332631,
           "a1_px": 0.19437097457673747,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-13T23:40:18.882Z"
         },
         "185": {
@@ -1129,9 +1375,12 @@
           "a0_sym": "LUNA",
           "a0_amt": 12245.456591,
           "a0_px": 0.064584,
+          "a0_price_source": "direct",
           "a1_sym": "arbLUNA",
           "a1_amt": 4211.865879,
           "a1_px": 0.18808181662852227,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-17T23:40:23.409Z"
         },
         "186": {
@@ -1144,33 +1393,42 @@
           "a0_sym": "LUNA",
           "a0_amt": 12231.888458,
           "a0_px": 0.060938,
+          "a0_price_source": "direct",
           "a1_sym": "arbLUNA",
           "a1_amt": 4216.723736,
           "a1_px": 0.17770556108339097,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-24T23:40:25.917Z"
         },
         "187": {
           "vp_human": 15878.66188,
-          "bucket_pct": 0.0672261866955313,
+          "bucket_pct": 0.0670794809589142,
           "status": "voted_but_below_threshold",
           "active": false,
-          "depth_usd": 1579.76,
-          "staked_usd": 33.294702221735506,
+          "depth_usd": 1549.28,
+          "staked_usd": 33.68663391005576,
           "a0_sym": "LUNA",
-          "a0_amt": 12261.640191,
-          "a0_px": 0.059366,
+          "a0_amt": 12252.080548,
+          "a0_px": 0.060079,
+          "a0_price_source": "direct",
           "a1_sym": "arbLUNA",
-          "a1_amt": 4206.643159,
-          "a1_px": 0.17329234540186872,
-          "capturedAt": "2026-05-28T23:40:19.166Z"
+          "a1_amt": 4209.976195,
+          "a1_px": 0.17548053418904674,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
+          "capturedAt": "2026-05-30T23:40:29.160Z"
         }
       }
     },
     {
+      "gauge_pool_id": "cw20:terra14lul8rjcad0jeuu680n4q7dwgxjkr6mqzx8umyewj8c6xn93squqllleht",
+      "pool_address": "terra1nwepezm3mghyxm7fjfhfr2d4jwqzndtncf9tclgunqfcwhe52mpq4sxaqr",
       "name": "LUNA-ASTRO",
       "dex": "Astroport",
       "bucket": "project",
-      "pool_address": "terra1nwepezm3mghyxm7fjfhfr2d4jwqzndtncf9tclgunqfcwhe52mpq4sxaqr",
+      "dex_subtype": "concentrated",
+      "legacy_name_dex_key": "LUNA-ASTRO|Astroport",
       "epochs": {
         "184": {
           "vp_human": 194604.309718,
@@ -1182,9 +1440,12 @@
           "a0_sym": "ASTRO",
           "a0_amt": 1358499.621831,
           "a0_px": 0.001044455158522924,
+          "a0_price_source": "direct",
           "a1_sym": "LUNA",
           "a1_amt": 21976.989379,
           "a1_px": 0.066856,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-13T23:40:18.882Z"
         },
         "185": {
@@ -1197,9 +1458,12 @@
           "a0_sym": "ASTRO",
           "a0_amt": 1477143.677056,
           "a0_px": 0.000909539415818997,
+          "a0_price_source": "direct",
           "a1_sym": "LUNA",
           "a1_amt": 20238.356739,
           "a1_px": 0.064584,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-17T23:40:23.409Z"
         },
         "186": {
@@ -1212,33 +1476,42 @@
           "a0_sym": "ASTRO",
           "a0_amt": 5841182.795131,
           "a0_px": 0.000984065150545837,
+          "a0_price_source": "direct",
           "a1_sym": "LUNA",
           "a1_amt": 94291.023093,
           "a1_px": 0.060938,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-24T23:40:25.917Z"
         },
         "187": {
-          "vp_human": 669134.131359,
-          "bucket_pct": 2.8345820812341214,
+          "vp_human": 669342.234989,
+          "bucket_pct": 2.8292723260253902,
           "status": "active",
           "active": true,
-          "depth_usd": 11732.4,
-          "staked_usd": 9767.346390351982,
+          "depth_usd": 11828.4,
+          "staked_usd": 10118.539124995206,
           "a0_sym": "ASTRO",
-          "a0_amt": 5774137.462156,
-          "a0_px": 0.000985054796162666,
+          "a0_amt": 5923695.177457,
+          "a0_px": 0.000994644620305999,
+          "a0_price_source": "direct",
           "a1_sym": "LUNA",
-          "a1_amt": 97776.779832,
-          "a1_px": 0.059366,
-          "capturedAt": "2026-05-28T23:40:19.166Z"
+          "a1_amt": 99470.411404,
+          "a1_px": 0.060079,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
+          "capturedAt": "2026-05-30T23:40:29.160Z"
         }
       }
     },
     {
+      "gauge_pool_id": "native:factory/terra1hvntefafgn05llkqyl6uxx6j0jjwmqjtxqdrwdm43s9tkzx7xkfqkcl7h6/uLP",
+      "pool_address": "terra1hvntefafgn05llkqyl6uxx6j0jjwmqjtxqdrwdm43s9tkzx7xkfqkcl7h6",
       "name": "LUNA-ASTRO",
       "dex": "Skeleton Swap",
       "bucket": "project",
-      "pool_address": "terra1hvntefafgn05llkqyl6uxx6j0jjwmqjtxqdrwdm43s9tkzx7xkfqkcl7h6",
+      "dex_subtype": null,
+      "legacy_name_dex_key": "LUNA-ASTRO|Skeleton Swap",
       "epochs": {
         "184": {
           "vp_human": 0.709649,
@@ -1250,9 +1523,12 @@
           "a0_sym": "LUNA",
           "a0_amt": 15.994339,
           "a0_px": 0.066856,
+          "a0_price_source": "direct",
           "a1_sym": "ASTRO",
           "a1_amt": 1116.761189,
           "a1_px": 0.001044455158522924,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-13T23:40:18.882Z"
         },
         "185": {
@@ -1265,9 +1541,12 @@
           "a0_sym": "LUNA",
           "a0_amt": 15.952714,
           "a0_px": 0.064584,
+          "a0_price_source": "direct",
           "a1_sym": "ASTRO",
           "a1_amt": 1120.242463,
           "a1_px": 0.000909539415818997,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-17T23:40:23.409Z"
         },
         "186": {
@@ -1280,33 +1559,42 @@
           "a0_sym": "LUNA",
           "a0_amt": 15.952714,
           "a0_px": 0.060938,
+          "a0_price_source": "direct",
           "a1_sym": "ASTRO",
           "a1_amt": 1120.242463,
           "a1_px": 0.000984065150545837,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-24T23:40:25.917Z"
         },
         "187": {
           "vp_human": 0.675035,
-          "bucket_pct": 0.0000028595793063487986,
+          "bucket_pct": 0.000002853335326479041,
           "status": "voted_but_below_threshold",
           "active": false,
-          "depth_usd": 1.99,
-          "staked_usd": 0.4811401060592108,
+          "depth_usd": 1.94,
+          "staked_usd": 0.48612780483193335,
           "a0_sym": "LUNA",
           "a0_amt": 17.952714,
-          "a0_px": 0.059366,
+          "a0_px": 0.060079,
+          "a0_price_source": "direct",
           "a1_sym": "ASTRO",
           "a1_amt": 995.692829,
-          "a1_px": 0.000985054796162666,
-          "capturedAt": "2026-05-28T23:40:19.166Z"
+          "a1_px": 0.000994644620305999,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
+          "capturedAt": "2026-05-30T23:40:29.160Z"
         }
       }
     },
     {
+      "gauge_pool_id": "cw20:terra19xrvvkq5607xudcxvw444yycjz6e3vk3l8p633z68k0vv5q09wnsa9q2qt",
+      "pool_address": "terra1j3d29y506cvtavdpakdzl6e0g2xcskvmmulsetcd0jfwrpr8eu9qfe0dmf",
       "name": "LUNA-ATOM",
       "dex": "Astroport",
       "bucket": "bluechip",
-      "pool_address": "terra1j3d29y506cvtavdpakdzl6e0g2xcskvmmulsetcd0jfwrpr8eu9qfe0dmf",
+      "dex_subtype": "xyk",
+      "legacy_name_dex_key": "LUNA-ATOM|Astroport",
       "epochs": {
         "184": {
           "vp_human": 865398.839675,
@@ -1318,9 +1606,12 @@
           "a0_sym": "ATOM",
           "a0_amt": 6782.6134,
           "a0_px": 2.04,
+          "a0_price_source": "direct",
           "a1_sym": "LUNA",
           "a1_amt": 207204.245729,
           "a1_px": 0.066856,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-13T23:40:18.882Z"
         },
         "185": {
@@ -1333,9 +1624,12 @@
           "a0_sym": "ATOM",
           "a0_amt": 6241.679717,
           "a0_px": 2.04,
+          "a0_price_source": "direct",
           "a1_sym": "LUNA",
           "a1_amt": 196169.885106,
           "a1_px": 0.064584,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-17T23:40:23.409Z"
         },
         "186": {
@@ -1348,33 +1642,42 @@
           "a0_sym": "ATOM",
           "a0_amt": 7131.877613,
           "a0_px": 2.04,
+          "a0_price_source": "direct",
           "a1_sym": "LUNA",
           "a1_amt": 237984.598979,
           "a1_px": 0.060938,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-24T23:40:25.917Z"
         },
         "187": {
-          "vp_human": 854845.91358,
-          "bucket_pct": 3.6295174520191624,
+          "vp_human": 873933.964467,
+          "bucket_pct": 3.70244129478443,
           "status": "active",
           "active": true,
-          "depth_usd": 26076.8,
-          "staked_usd": 20333.065441971234,
+          "depth_usd": 25159.1,
+          "staked_usd": 20402.757035782044,
           "a0_sym": "ATOM",
-          "a0_amt": 6162.776372,
-          "a0_px": 2.04,
+          "a0_amt": 6233.25585,
+          "a0_px": 2.02,
+          "a0_price_source": "direct",
           "a1_sym": "LUNA",
-          "a1_amt": 211924.044614,
-          "a1_px": 0.059366,
-          "capturedAt": "2026-05-28T23:40:19.166Z"
+          "a1_amt": 210527.694084,
+          "a1_px": 0.060079,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
+          "capturedAt": "2026-05-30T23:40:29.160Z"
         }
       }
     },
     {
+      "gauge_pool_id": "cw20:terra1h3z2zv6aw94fx5263dy6tgz6699kxmewlx3vrcu4jjrudg6xmtyqk6vt0u",
+      "pool_address": "terra1h32epkd72x7st0wk49z35qlpsxf26pw4ydacs8acq6uka7hgshmq7z7vl9",
       "name": "LUNA-bLUNA",
       "dex": "Astroport",
       "bucket": "project",
-      "pool_address": "terra1h32epkd72x7st0wk49z35qlpsxf26pw4ydacs8acq6uka7hgshmq7z7vl9",
+      "dex_subtype": "stable",
+      "legacy_name_dex_key": "LUNA-bLUNA|Astroport",
       "epochs": {
         "184": {
           "vp_human": 692487.891076,
@@ -1386,9 +1689,12 @@
           "a0_sym": "bLUNA",
           "a0_amt": 33902.198274,
           "a0_px": 0.11623998096621985,
+          "a0_price_source": "direct",
           "a1_sym": "LUNA",
           "a1_amt": 265427.496091,
           "a1_px": 0.066856,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-13T23:40:18.882Z"
         },
         "185": {
@@ -1401,9 +1707,12 @@
           "a0_sym": "bLUNA",
           "a0_amt": 33664.518716,
           "a0_px": 0.11252961728383129,
+          "a0_price_source": "direct",
           "a1_sym": "LUNA",
           "a1_amt": 265837.599418,
           "a1_px": 0.064584,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-17T23:40:23.409Z"
         },
         "186": {
@@ -1416,33 +1725,42 @@
           "a0_sym": "bLUNA",
           "a0_amt": 12817.050347,
           "a0_px": 0.10655562246643778,
+          "a0_price_source": "direct",
           "a1_sym": "LUNA",
           "a1_amt": 100709.946952,
           "a1_px": 0.060938,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-24T23:40:25.917Z"
         },
         "187": {
           "vp_human": 63834.663754,
-          "bucket_pct": 0.27041602805583725,
+          "bucket_pct": 0.269825566293895,
           "status": "voted_but_below_threshold",
           "active": false,
-          "depth_usd": 6849.69,
-          "staked_usd": 5099.819889521294,
+          "depth_usd": 6696.77,
+          "staked_usd": 5159.220630758183,
           "a0_sym": "bLUNA",
-          "a0_amt": 12518.264313,
-          "a0_px": 0.10402138661566185,
+          "a0_amt": 12460.879348,
+          "a0_px": 0.10538430760913571,
+          "a0_price_source": "direct",
           "a1_sym": "LUNA",
-          "a1_amt": 99563.418243,
-          "a1_px": 0.059366,
-          "capturedAt": "2026-05-28T23:40:19.166Z"
+          "a1_amt": 99663.447129,
+          "a1_px": 0.060079,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
+          "capturedAt": "2026-05-30T23:40:29.160Z"
         }
       }
     },
     {
+      "gauge_pool_id": "cw20:terra1cg9t08mqa88us074mpwpuu8lp5w4jwtye3vaazll45w27at52cpsq7c564",
+      "pool_address": "terra183wqgrwa2k0uvlz99j57c496gfuwgtaccrhv4stcjzv3ydacl9zq0hmf25",
       "name": "LUNA-CAPA",
       "dex": "Astroport",
       "bucket": "project",
-      "pool_address": "terra183wqgrwa2k0uvlz99j57c496gfuwgtaccrhv4stcjzv3ydacl9zq0hmf25",
+      "dex_subtype": "concentrated",
+      "legacy_name_dex_key": "LUNA-CAPA|Astroport",
       "epochs": {
         "184": {
           "vp_human": 4905934.594837,
@@ -1454,9 +1772,12 @@
           "a0_sym": "CAPA",
           "a0_amt": 23599646.240529,
           "a0_px": 0.001629097460271557,
+          "a0_price_source": "direct",
           "a1_sym": "LUNA",
           "a1_amt": 579878.875825,
           "a1_px": 0.066856,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-13T23:40:18.882Z"
         },
         "185": {
@@ -1469,9 +1790,12 @@
           "a0_sym": "CAPA",
           "a0_amt": 23480417.136059,
           "a0_px": 0.001592329685123026,
+          "a0_price_source": "direct",
           "a1_sym": "LUNA",
           "a1_amt": 585024.532875,
           "a1_px": 0.064584,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-17T23:40:23.409Z"
         },
         "186": {
@@ -1484,33 +1808,42 @@
           "a0_sym": "CAPA",
           "a0_amt": 23071742.474039,
           "a0_px": 0.00157817407145085,
+          "a0_price_source": "direct",
           "a1_sym": "LUNA",
           "a1_amt": 601367.987684,
           "a1_px": 0.060938,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-24T23:40:25.917Z"
         },
         "187": {
-          "vp_human": 5003683.189524,
-          "bucket_pct": 21.196573369215198,
+          "vp_human": 5004542.410357,
+          "bucket_pct": 21.15392187417571,
           "status": "active",
           "active": true,
-          "depth_usd": 71911.9,
-          "staked_usd": 65590.79297879536,
+          "depth_usd": 71432.5,
+          "staked_usd": 67160.26888904805,
           "a0_sym": "CAPA",
-          "a0_amt": 23552528.247292,
-          "a0_px": 0.00148577672643895,
+          "a0_amt": 23439079.333172,
+          "a0_px": 0.001526653423063753,
+          "a0_price_source": "direct",
           "a1_sym": "LUNA",
-          "a1_amt": 593351.087202,
-          "a1_px": 0.059366,
-          "capturedAt": "2026-05-28T23:40:19.166Z"
+          "a1_amt": 601421.169925,
+          "a1_px": 0.060079,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
+          "capturedAt": "2026-05-30T23:40:29.160Z"
         }
       }
     },
     {
+      "gauge_pool_id": "cw20:terra1xkt5etsaptddec6achnjlqnx884fwxwuk795fs885v6eyygu6eus7uauhc",
+      "pool_address": "terra1vhxl8ggscmhae3muvwvs2vs8ppprzqf07xngcdp798fwnrcksjxszqfa8n",
       "name": "LUNA-EURe",
       "dex": "Astroport",
       "bucket": "stable",
-      "pool_address": "terra1vhxl8ggscmhae3muvwvs2vs8ppprzqf07xngcdp798fwnrcksjxszqfa8n",
+      "dex_subtype": "concentrated",
+      "legacy_name_dex_key": "LUNA-EURe|Astroport",
       "epochs": {
         "184": {
           "vp_human": 1159763.783774,
@@ -1522,9 +1855,12 @@
           "a0_sym": "LUNA",
           "a0_amt": 358693.707812,
           "a0_px": 0.066856,
+          "a0_price_source": "direct",
           "a1_sym": "EURE",
           "a1_amt": 20265.918124,
           "a1_px": 1.17,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-13T23:40:18.882Z"
         },
         "185": {
@@ -1537,9 +1873,12 @@
           "a0_sym": "LUNA",
           "a0_amt": 370893.982593,
           "a0_px": 0.064584,
+          "a0_price_source": "direct",
           "a1_sym": "EURE",
           "a1_amt": 20533.269435,
           "a1_px": 1.16,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-17T23:40:23.409Z"
         },
         "186": {
@@ -1552,33 +1891,42 @@
           "a0_sym": "LUNA",
           "a0_amt": 376383.915242,
           "a0_px": 0.060938,
+          "a0_price_source": "direct",
           "a1_sym": "EURE",
           "a1_amt": 19509.307147,
           "a1_px": 1.16,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-24T23:40:25.917Z"
         },
         "187": {
           "vp_human": 1160900.511378,
-          "bucket_pct": 4.7304479895635705,
+          "bucket_pct": 4.720511587326475,
           "status": "active",
           "active": true,
-          "depth_usd": 45653.8,
-          "staked_usd": 38152.43621447055,
+          "depth_usd": 45210.7,
+          "staked_usd": 38562.34162334605,
           "a0_sym": "LUNA",
-          "a0_amt": 383882.17439,
-          "a0_px": 0.059366,
+          "a0_amt": 381490.93665,
+          "a0_px": 0.060079,
+          "a0_price_source": "direct",
           "a1_sym": "EURE",
-          "a1_amt": 19189.181233,
-          "a1_px": 1.16,
-          "capturedAt": "2026-05-28T23:40:19.166Z"
+          "a1_amt": 19343.339863,
+          "a1_px": 1.17,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
+          "capturedAt": "2026-05-30T23:40:29.160Z"
         }
       }
     },
     {
+      "gauge_pool_id": "native:factory/terra1gny66hmejvrkra39cn7r8f7y7yg06hy3cv2xehpxraqfgjtdtpnqjtmu53/uLP",
+      "pool_address": "terra1gny66hmejvrkra39cn7r8f7y7yg06hy3cv2xehpxraqfgjtdtpnqjtmu53",
       "name": "LUNA-EURe",
       "dex": "Skeleton Swap",
       "bucket": "stable",
-      "pool_address": "terra1gny66hmejvrkra39cn7r8f7y7yg06hy3cv2xehpxraqfgjtdtpnqjtmu53",
+      "dex_subtype": null,
+      "legacy_name_dex_key": "LUNA-EURe|Skeleton Swap",
       "epochs": {
         "184": {
           "vp_human": 25295.939312,
@@ -1590,9 +1938,12 @@
           "a0_sym": "LUNA",
           "a0_amt": 24128.302062,
           "a0_px": 0.066856,
+          "a0_price_source": "direct",
           "a1_sym": "EURE",
           "a1_amt": 1388.456674,
           "a1_px": 1.17,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-13T23:40:18.882Z"
         },
         "185": {
@@ -1605,9 +1956,12 @@
           "a0_sym": "LUNA",
           "a0_amt": 24372.137856,
           "a0_px": 0.064584,
+          "a0_price_source": "direct",
           "a1_sym": "EURE",
           "a1_amt": 1375.013713,
           "a1_px": 1.16,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-17T23:40:23.409Z"
         },
         "186": {
@@ -1620,33 +1974,42 @@
           "a0_sym": "LUNA",
           "a0_amt": 25252.219412,
           "a0_px": 0.060938,
+          "a0_price_source": "direct",
           "a1_sym": "EURE",
           "a1_amt": 1327.429436,
           "a1_px": 1.16,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-24T23:40:25.917Z"
         },
         "187": {
-          "vp_human": 25822.873717,
-          "bucket_pct": 0.1052232812907791,
+          "vp_human": 26022.583506,
+          "bucket_pct": 0.10581432755717511,
           "status": "voted_but_below_threshold",
           "active": false,
-          "depth_usd": 3165.37,
-          "staked_usd": 728.5035728090028,
+          "depth_usd": 3107.32,
+          "staked_usd": 735.6260493156703,
           "a0_sym": "LUNA",
-          "a0_amt": 25775.992324,
-          "a0_px": 0.059366,
+          "a0_amt": 25483.170522,
+          "a0_px": 0.060079,
+          "a0_price_source": "direct",
           "a1_sym": "EURE",
-          "a1_amt": 1300.781962,
-          "a1_px": 1.16,
-          "capturedAt": "2026-05-28T23:40:19.166Z"
+          "a1_amt": 1315.826072,
+          "a1_px": 1.17,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
+          "capturedAt": "2026-05-30T23:40:29.160Z"
         }
       }
     },
     {
+      "gauge_pool_id": "cw20:terra1e6k3u9uwysataqnysfdn7y5v254pawm0gcuflumugtd7l4w74slq0qww44",
+      "pool_address": "terra10yfnsqn20rzlnlzkeva5255q27zp6ws9te9uuql9e0lacfcze7zsffjct5",
       "name": "LUNA-FUEL",
       "dex": "Astroport",
       "bucket": "project",
-      "pool_address": "terra10yfnsqn20rzlnlzkeva5255q27zp6ws9te9uuql9e0lacfcze7zsffjct5",
+      "dex_subtype": "concentrated",
+      "legacy_name_dex_key": "LUNA-FUEL|Astroport",
       "epochs": {
         "184": {
           "vp_human": 4009365.01777,
@@ -1658,9 +2021,12 @@
           "a0_sym": "FUEL",
           "a0_amt": 8619796.948344,
           "a0_px": 0.003700577387968905,
+          "a0_price_source": "pool_derived:LUNA-FUEL(LUNA)",
           "a1_sym": "LUNA",
           "a1_amt": 477118.368971,
           "a1_px": 0.066856,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-13T23:40:18.882Z"
         },
         "185": {
@@ -1673,9 +2039,12 @@
           "a0_sym": "FUEL",
           "a0_amt": 8628820.367983,
           "a0_px": 0.003580962697392362,
+          "a0_price_source": "pool_derived:LUNA-FUEL(LUNA)",
           "a1_sym": "LUNA",
           "a1_amt": 478438.68234,
           "a1_px": 0.064584,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-17T23:40:23.409Z"
         },
         "186": {
@@ -1688,33 +2057,42 @@
           "a0_sym": "FUEL",
           "a0_amt": 8758842.675202,
           "a0_px": 0.003379960578672343,
+          "a0_price_source": "pool_derived:LUNA-FUEL(LUNA)",
           "a1_sym": "LUNA",
           "a1_amt": 485814.154665,
           "a1_px": 0.060938,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-24T23:40:25.917Z"
         },
         "187": {
-          "vp_human": 3982352.6098,
-          "bucket_pct": 16.870018759869062,
+          "vp_human": 4007687.398191,
+          "bucket_pct": 16.940271290737897,
           "status": "active",
           "active": true,
-          "depth_usd": 59875.6,
-          "staked_usd": 46463.91938220206,
+          "depth_usd": 58750.5,
+          "staked_usd": 47102.2198156022,
           "a0_sym": "FUEL",
           "a0_amt": 8797774.769633,
-          "a0_px": 0.0032788296702248735,
+          "a0_px": 0.003324894387145181,
+          "a0_price_source": "pool_derived:LUNA-FUEL(LUNA)",
           "a1_sym": "LUNA",
-          "a1_amt": 485907.841974,
-          "a1_px": 0.059366,
-          "capturedAt": "2026-05-28T23:40:19.166Z"
+          "a1_amt": 486886.798231,
+          "a1_px": 0.060079,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
+          "capturedAt": "2026-05-30T23:40:29.160Z"
         }
       }
     },
     {
+      "gauge_pool_id": "cw20:terra1euf8klqukk4wlly90nve0n6drqvq9pst73wc34pruuvx09nptxyse68hgl",
+      "pool_address": "terra10m23jmgtx0lvc6v5gffdmcutlmrgy9pnf8wun4mxft2xd3dnqdvsv392j5",
       "name": "LUNA-INJ",
       "dex": "Astroport",
       "bucket": "bluechip",
-      "pool_address": "terra10m23jmgtx0lvc6v5gffdmcutlmrgy9pnf8wun4mxft2xd3dnqdvsv392j5",
+      "dex_subtype": "xyk",
+      "legacy_name_dex_key": "LUNA-INJ|Astroport",
       "epochs": {
         "184": {
           "vp_human": 3000435.949221,
@@ -1726,9 +2104,12 @@
           "a0_sym": "LUNA",
           "a0_amt": 371568.636248,
           "a0_px": 0.066856,
+          "a0_price_source": "direct",
           "a1_sym": "INJ",
           "a1_amt": 4845.841086766148,
           "a1_px": 5.103379109337923,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-13T23:40:18.882Z"
         },
         "185": {
@@ -1741,9 +2122,12 @@
           "a0_sym": "LUNA",
           "a0_amt": 504248.805291,
           "a0_px": 0.064584,
+          "a0_price_source": "direct",
           "a1_sym": "INJ",
           "a1_amt": 7047.7306815678585,
           "a1_px": 4.592835502849571,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-17T23:40:23.409Z"
         },
         "186": {
@@ -1756,33 +2140,42 @@
           "a0_sym": "LUNA",
           "a0_amt": 536480.857787,
           "a0_px": 0.060938,
+          "a0_price_source": "direct",
           "a1_sym": "INJ",
           "a1_amt": 6367.388067351234,
           "a1_px": 5.131825277596248,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-24T23:40:25.917Z"
         },
         "187": {
-          "vp_human": 3047067.845207,
-          "bucket_pct": 12.937285826576334,
+          "vp_human": 3048277.89871,
+          "bucket_pct": 12.914099267266527,
           "status": "active",
           "active": true,
-          "depth_usd": 67349.1,
-          "staked_usd": 64673.12994236695,
+          "depth_usd": 73024.1,
+          "staked_usd": 71235.40348247376,
           "a0_sym": "LUNA",
-          "a0_amt": 561604.603872,
-          "a0_px": 0.059366,
+          "a0_amt": 611159.505731,
+          "a0_px": 0.060079,
+          "a0_price_source": "direct",
           "a1_sym": "INJ",
-          "a1_amt": 6097.994027365039,
-          "a1_px": 5.442011020522455,
-          "capturedAt": "2026-05-28T23:40:19.166Z"
+          "a1_amt": 5612.264702686213,
+          "a1_px": 6.520947706883021,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
+          "capturedAt": "2026-05-30T23:40:29.160Z"
         }
       }
     },
     {
+      "gauge_pool_id": "native:factory/terra1q2gd6kc7nt8xct94chrlsqtpxfs9rve0j76lquce624y5zp85cdseshh85/uLP",
+      "pool_address": "terra1q2gd6kc7nt8xct94chrlsqtpxfs9rve0j76lquce624y5zp85cdseshh85",
       "name": "LUNA-INJ",
       "dex": "Skeleton Swap",
       "bucket": "bluechip",
-      "pool_address": "terra1q2gd6kc7nt8xct94chrlsqtpxfs9rve0j76lquce624y5zp85cdseshh85",
+      "dex_subtype": null,
+      "legacy_name_dex_key": "LUNA-INJ|Skeleton Swap",
       "epochs": {
         "184": {
           "vp_human": 11984.529753,
@@ -1794,9 +2187,12 @@
           "a0_sym": "LUNA",
           "a0_amt": 5564.027976,
           "a0_px": 0.066856,
+          "a0_price_source": "direct",
           "a1_sym": "INJ",
           "a1_amt": 72.79618117000659,
           "a1_px": 5.103379109337923,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-13T23:40:18.882Z"
         },
         "185": {
@@ -1809,9 +2205,12 @@
           "a0_sym": "LUNA",
           "a0_amt": 5378.421317,
           "a0_px": 0.064584,
+          "a0_price_source": "direct",
           "a1_sym": "INJ",
           "a1_amt": 75.34240997060964,
           "a1_px": 4.592835502849571,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-17T23:40:23.409Z"
         },
         "186": {
@@ -1824,33 +2223,42 @@
           "a0_sym": "LUNA",
           "a0_amt": 5836.181352,
           "a0_px": 0.060938,
+          "a0_price_source": "direct",
           "a1_sym": "INJ",
           "a1_amt": 69.66721270674613,
           "a1_px": 5.131825277596248,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-24T23:40:25.917Z"
         },
         "187": {
           "vp_human": 11810.575749,
-          "bucket_pct": 0.05014551759377177,
+          "bucket_pct": 0.05003577518004603,
           "status": "voted_but_below_threshold",
           "active": false,
-          "depth_usd": 741.98,
-          "staked_usd": 10.226306438749896,
+          "depth_usd": 738.48,
+          "staked_usd": 11.258137742871707,
           "a0_sym": "LUNA",
-          "a0_amt": 6117.020988,
-          "a0_px": 0.059366,
+          "a0_amt": 6692.289589,
+          "a0_px": 0.060079,
+          "a0_price_source": "direct",
           "a1_sym": "INJ",
-          "a1_amt": 66.49779282140818,
-          "a1_px": 5.442011020522455,
-          "capturedAt": "2026-05-28T23:40:19.166Z"
+          "a1_amt": 60.81187158205143,
+          "a1_px": 6.520947706883021,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
+          "capturedAt": "2026-05-30T23:40:29.160Z"
         }
       }
     },
     {
+      "gauge_pool_id": "cw20:terra1sxmrwp48wt3h4whatla7xwl9g6t5y95u589az2cdu0myuzjpkkrs4ztprc",
+      "pool_address": "terra1xgdyzzhs2v2ne3us2kyj5ry47fwc7uk44k035dyyygq42xechwwqlddmcr",
       "name": "LUNA-PAXG",
       "dex": "Astroport",
       "bucket": "bluechip",
-      "pool_address": "terra1xgdyzzhs2v2ne3us2kyj5ry47fwc7uk44k035dyyygq42xechwwqlddmcr",
+      "dex_subtype": "concentrated",
+      "legacy_name_dex_key": "LUNA-PAXG|Astroport",
       "epochs": {
         "184": {
           "vp_human": 5998998.320877,
@@ -1862,9 +2270,12 @@
           "a0_sym": "LUNA",
           "a0_amt": 806663.436234,
           "a0_px": 0.066856,
+          "a0_price_source": "direct",
           "a1_sym": "PAXG",
           "a1_amt": 11.637447071718455,
           "a1_px": 4687.23,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-13T23:40:18.882Z"
         },
         "185": {
@@ -1877,9 +2288,12 @@
           "a0_sym": "LUNA",
           "a0_amt": 796643.027105,
           "a0_px": 0.064584,
+          "a0_price_source": "direct",
           "a1_sym": "PAXG",
           "a1_amt": 11.80415479755908,
           "a1_px": 4535.04,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-17T23:40:23.409Z"
         },
         "186": {
@@ -1892,33 +2306,42 @@
           "a0_sym": "LUNA",
           "a0_amt": 790569.062244,
           "a0_px": 0.060938,
+          "a0_price_source": "direct",
           "a1_sym": "PAXG",
           "a1_amt": 10.550975199835682,
           "a1_px": 4566.84,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-24T23:40:25.917Z"
         },
         "187": {
-          "vp_human": 2955529.275615,
-          "bucket_pct": 12.548630010844997,
+          "vp_human": 2975913.117784,
+          "bucket_pct": 12.607524212305874,
           "status": "active",
           "active": true,
-          "depth_usd": 95301,
-          "staked_usd": 92075.17011646673,
+          "depth_usd": 95013.2,
+          "staked_usd": 92956.96028406292,
           "a0_sym": "LUNA",
-          "a0_amt": 798776.951854,
-          "a0_px": 0.059366,
+          "a0_amt": 800714.331548,
+          "a0_px": 0.060079,
+          "a0_price_source": "direct",
           "a1_sym": "PAXG",
-          "a1_amt": 10.443882167058987,
-          "a1_px": 4480.68,
-          "capturedAt": "2026-05-28T23:40:19.166Z"
+          "a1_amt": 10.419945569942941,
+          "a1_px": 4516.73,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
+          "capturedAt": "2026-05-30T23:40:29.160Z"
         }
       }
     },
     {
+      "gauge_pool_id": "cw20:terra1vczn40ch624g2kserhzqu2n69j3h7h7c5nfeznw96pnxjuly5h5s25u9dm",
+      "pool_address": "terra189v2ewgfx5wdhje6geefdtxefeemujplk8qw2wx3x5hdswn95l8qf4n2r0",
       "name": "LUNA-ROAR",
       "dex": "Astroport",
       "bucket": "project",
-      "pool_address": "terra189v2ewgfx5wdhje6geefdtxefeemujplk8qw2wx3x5hdswn95l8qf4n2r0",
+      "dex_subtype": "concentrated",
+      "legacy_name_dex_key": "LUNA-ROAR|Astroport",
       "epochs": {
         "184": {
           "vp_human": 1190744.600916,
@@ -1930,9 +2353,12 @@
           "a0_sym": "ROAR",
           "a0_amt": 76050724313.40028,
           "a0_px": 2.67327554484e-7,
+          "a0_price_source": "direct",
           "a1_sym": "LUNA",
           "a1_amt": 311292.861442,
           "a1_px": 0.066856,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-13T23:40:18.882Z"
         },
         "185": {
@@ -1945,9 +2371,12 @@
           "a0_sym": "ROAR",
           "a0_amt": 73076159484.23837,
           "a0_px": 2.56846232524e-7,
+          "a0_price_source": "direct",
           "a1_sym": "LUNA",
           "a1_amt": 297530.259943,
           "a1_px": 0.064584,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-17T23:40:23.409Z"
         },
         "186": {
@@ -1960,33 +2389,42 @@
           "a0_sym": "ROAR",
           "a0_amt": 73737815133.56958,
           "a0_px": 2.41958812203e-7,
+          "a0_price_source": "direct",
           "a1_sym": "LUNA",
           "a1_amt": 299348.274064,
           "a1_px": 0.060938,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-24T23:40:25.917Z"
         },
         "187": {
           "vp_human": 1146280.486122,
-          "bucket_pct": 4.855866669707367,
+          "bucket_pct": 4.845263734629272,
           "status": "active",
           "active": true,
-          "depth_usd": 36520.5,
-          "staked_usd": 30887.73430502593,
+          "depth_usd": 35699.6,
+          "staked_usd": 31246.778749128633,
           "a0_sym": "ROAR",
-          "a0_amt": 73403078237.27048,
-          "a0_px": 2.3927526825e-7,
+          "a0_amt": 73581212827.47913,
+          "a0_px": 2.41302677173e-7,
+          "a0_price_source": "direct",
           "a1_sym": "LUNA",
-          "a1_amt": 302710.335734,
-          "a1_px": 0.059366,
-          "capturedAt": "2026-05-28T23:40:19.166Z"
+          "a1_amt": 302979.857932,
+          "a1_px": 0.060079,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
+          "capturedAt": "2026-05-30T23:40:29.160Z"
         }
       }
     },
     {
+      "gauge_pool_id": "native:factory/terra126w5m24usxydxn0tjqd73k8uw06r42wttahf9t0cjyhmljlqhrdsjucx45/uLP",
+      "pool_address": "terra126w5m24usxydxn0tjqd73k8uw06r42wttahf9t0cjyhmljlqhrdsjucx45",
       "name": "LUNA-ROAR",
       "dex": "Skeleton Swap",
       "bucket": "project",
-      "pool_address": "terra126w5m24usxydxn0tjqd73k8uw06r42wttahf9t0cjyhmljlqhrdsjucx45",
+      "dex_subtype": null,
+      "legacy_name_dex_key": "LUNA-ROAR|Skeleton Swap",
       "epochs": {
         "184": {
           "vp_human": 6833.88772,
@@ -1998,9 +2436,12 @@
           "a0_sym": "LUNA",
           "a0_amt": 818.214732,
           "a0_px": 0.066856,
+          "a0_price_source": "direct",
           "a1_sym": "ROAR",
           "a1_amt": 204259237.247161,
           "a1_px": 2.67327554484e-7,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-13T23:40:18.882Z"
         },
         "185": {
@@ -2013,9 +2454,12 @@
           "a0_sym": "LUNA",
           "a0_amt": 818.214732,
           "a0_px": 0.064584,
+          "a0_price_source": "direct",
           "a1_sym": "ROAR",
           "a1_amt": 204259237.247161,
           "a1_px": 2.56846232524e-7,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-17T23:40:23.409Z"
         },
         "186": {
@@ -2028,33 +2472,42 @@
           "a0_sym": "LUNA",
           "a0_amt": 818.214732,
           "a0_px": 0.060938,
+          "a0_price_source": "direct",
           "a1_sym": "ROAR",
           "a1_amt": 204259237.247161,
           "a1_px": 2.41958812203e-7,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-24T23:40:25.917Z"
         },
         "187": {
           "vp_human": 6823.599078,
-          "bucket_pct": 0.02890609037793528,
+          "bucket_pct": 0.02884297303545329,
           "status": "voted_but_below_threshold",
           "active": false,
-          "depth_usd": 105.14,
-          "staked_usd": 0.0012152693000762268,
+          "depth_usd": 102.82,
+          "staked_usd": 0.0012270587995972804,
           "a0_sym": "LUNA",
           "a0_amt": 826.214732,
-          "a0_px": 0.059366,
+          "a0_px": 0.060079,
+          "a0_price_source": "direct",
           "a1_sym": "ROAR",
           "a1_amt": 202285409.27361,
-          "a1_px": 2.3927526825e-7,
-          "capturedAt": "2026-05-28T23:40:19.166Z"
+          "a1_px": 2.41302677173e-7,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
+          "capturedAt": "2026-05-30T23:40:29.160Z"
         }
       }
     },
     {
+      "gauge_pool_id": "cw20:terra14arerdfc88cdv6m6frc03a0963z877756kqac4h4xvd9vftn0hqqhquca8",
+      "pool_address": "terra1e45ctmel6t5m9vdgxv3zxh3ecflkfcd6mr42sluzrqnhveqmy3fss338s7",
       "name": "LUNA-SOLID",
       "dex": "Astroport",
       "bucket": "project",
-      "pool_address": "terra1e45ctmel6t5m9vdgxv3zxh3ecflkfcd6mr42sluzrqnhveqmy3fss338s7",
+      "dex_subtype": "xyk",
+      "legacy_name_dex_key": "LUNA-SOLID|Astroport",
       "epochs": {
         "184": {
           "vp_human": 273751.023106,
@@ -2066,9 +2519,12 @@
           "a0_sym": "SOLID",
           "a0_amt": 6009.163772,
           "a0_px": 1.0293377186587689,
+          "a0_price_source": "direct",
           "a1_sym": "LUNA",
           "a1_amt": 91929.85151,
           "a1_px": 0.066856,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-13T23:40:18.882Z"
         },
         "185": {
@@ -2081,9 +2537,12 @@
           "a0_sym": "SOLID",
           "a0_amt": 5917.234598,
           "a0_px": 1.0273521389416966,
+          "a0_price_source": "direct",
           "a1_sym": "LUNA",
           "a1_amt": 93519.83815,
           "a1_px": 0.064584,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-17T23:40:23.409Z"
         },
         "186": {
@@ -2096,33 +2555,42 @@
           "a0_sym": "SOLID",
           "a0_amt": 6316.580368,
           "a0_px": 1.050901631887729,
+          "a0_price_source": "direct",
           "a1_sym": "LUNA",
           "a1_amt": 108631.813325,
           "a1_px": 0.060938,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-24T23:40:25.917Z"
         },
         "187": {
-          "vp_human": 546735.619845,
-          "bucket_pct": 2.3160782249106275,
+          "vp_human": 546805.987783,
+          "bucket_pct": 2.3113184378165585,
           "status": "active",
           "active": true,
-          "depth_usd": 13415.9,
-          "staked_usd": 10773.021004442624,
+          "depth_usd": 13307.7,
+          "staked_usd": 10910.6326859938,
           "a0_sym": "SOLID",
-          "a0_amt": 6169.073801,
-          "a0_px": 1.068480143688576,
+          "a0_amt": 6218.949487,
+          "a0_px": 1.07894132023545,
+          "a0_price_source": "direct",
           "a1_sym": "LUNA",
-          "a1_amt": 111491.483751,
-          "a1_px": 0.059366,
-          "capturedAt": "2026-05-28T23:40:19.166Z"
+          "a1_amt": 111032.148052,
+          "a1_px": 0.060079,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
+          "capturedAt": "2026-05-30T23:40:29.160Z"
         }
       }
     },
     {
+      "gauge_pool_id": "native:factory/terra18fved7svlqq9q9h23cg4uw97lllmg7fa03psevczy20ayhdwrm3sznjeh5/uLP",
+      "pool_address": "terra18fved7svlqq9q9h23cg4uw97lllmg7fa03psevczy20ayhdwrm3sznjeh5",
       "name": "LUNA-SOLID",
       "dex": "Skeleton Swap",
       "bucket": "project",
-      "pool_address": "terra18fved7svlqq9q9h23cg4uw97lllmg7fa03psevczy20ayhdwrm3sznjeh5",
+      "dex_subtype": null,
+      "legacy_name_dex_key": "LUNA-SOLID|Skeleton Swap",
       "epochs": {
         "184": {
           "vp_human": 6228.614932,
@@ -2134,9 +2602,12 @@
           "a0_sym": "LUNA",
           "a0_amt": 670.237328,
           "a0_px": 0.066856,
+          "a0_price_source": "direct",
           "a1_sym": "SOLID",
           "a1_amt": 43.313394,
           "a1_px": 1.0293377186587689,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-13T23:40:18.882Z"
         },
         "185": {
@@ -2149,9 +2620,12 @@
           "a0_sym": "LUNA",
           "a0_amt": 671.90843,
           "a0_px": 0.064584,
+          "a0_price_source": "direct",
           "a1_sym": "SOLID",
           "a1_amt": 43.216376,
           "a1_px": 1.0273521389416966,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-17T23:40:23.409Z"
         },
         "186": {
@@ -2164,33 +2638,42 @@
           "a0_sym": "LUNA",
           "a0_amt": 703.417729,
           "a0_px": 0.060938,
+          "a0_price_source": "direct",
           "a1_sym": "SOLID",
           "a1_amt": 41.290155,
           "a1_px": 1.050901631887729,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-24T23:40:25.917Z"
         },
         "187": {
           "vp_human": 6032.703384,
-          "bucket_pct": 0.025555702679456282,
+          "bucket_pct": 0.025499901012150272,
           "status": "voted_but_below_threshold",
           "active": false,
-          "depth_usd": 87.68,
-          "staked_usd": 0.05623204241701412,
+          "depth_usd": 87.85,
+          "staked_usd": 0.056819576204827554,
           "a0_sym": "LUNA",
           "a0_amt": 723.347819,
-          "a0_px": 0.059366,
+          "a0_px": 0.060079,
+          "a0_price_source": "direct",
           "a1_sym": "SOLID",
           "a1_amt": 40.157066,
-          "a1_px": 1.068480143688576,
-          "capturedAt": "2026-05-28T23:40:19.166Z"
+          "a1_px": 1.07894132023545,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
+          "capturedAt": "2026-05-30T23:40:29.160Z"
         }
       }
     },
     {
+      "gauge_pool_id": "cw20:terra14n22zd24nath0tf8fwn468nz7753rjuks67ppddrcqwq37x2xsxsddqxqc",
+      "pool_address": "terra1re0yj0j6e9v2szg7kp02ut6u8jjea586t6pnpq6628wl36fphtpqwt6l7p",
       "name": "LUNA-stLUNA",
       "dex": "Astroport",
       "bucket": "project",
-      "pool_address": "terra1re0yj0j6e9v2szg7kp02ut6u8jjea586t6pnpq6628wl36fphtpqwt6l7p",
+      "dex_subtype": "stable",
+      "legacy_name_dex_key": "LUNA-stLUNA|Astroport",
       "epochs": {
         "184": {
           "vp_human": 208738.252636,
@@ -2202,9 +2685,12 @@
           "a0_sym": "stLUNA",
           "a0_amt": 11109.395464,
           "a0_px": 0.12341910365641195,
+          "a0_price_source": "direct",
           "a1_sym": "LUNA",
           "a1_amt": 95427.123701,
           "a1_px": 0.066856,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-13T23:40:18.882Z"
         },
         "185": {
@@ -2217,9 +2703,12 @@
           "a0_sym": "stLUNA",
           "a0_amt": 11109.395464,
           "a0_px": 0.12341910365641195,
+          "a0_price_source": "direct",
           "a1_sym": "LUNA",
           "a1_amt": 96939.876019,
           "a1_px": 0.064584,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-17T23:40:23.409Z"
         },
         "186": {
@@ -2232,33 +2721,42 @@
           "a0_sym": "stLUNA",
           "a0_amt": 10453.002156,
           "a0_px": 0.11583886913584368,
+          "a0_price_source": "direct",
           "a1_sym": "LUNA",
           "a1_amt": 91178.803015,
           "a1_px": 0.060938,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-24T23:40:25.917Z"
         },
         "187": {
           "vp_human": 227581.606798,
-          "bucket_pct": 0.9640798674219409,
+          "bucket_pct": 0.9619747692098869,
           "status": "voted_but_below_threshold",
           "active": false,
-          "depth_usd": 6800.81,
-          "staked_usd": 5164.721041638503,
+          "depth_usd": 6661.08,
+          "staked_usd": 5215.270480667512,
           "a0_sym": "stLUNA",
           "a0_amt": 11461.592356,
           "a0_px": 0.1091714676902187,
+          "a0_price_source": "direct",
           "a1_sym": "LUNA",
-          "a1_amt": 100017.804314,
-          "a1_px": 0.059366,
-          "capturedAt": "2026-05-28T23:40:19.166Z"
+          "a1_amt": 100054.034835,
+          "a1_px": 0.060079,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
+          "capturedAt": "2026-05-30T23:40:29.160Z"
         }
       }
     },
     {
+      "gauge_pool_id": "cw20:terra1wwy8xjk4mff7qp2g7qzmgfu9agd6wjdmz99crj94zv9tmh7dvhmq0jsf6a",
+      "pool_address": "terra1crlsemxx6yjpeq3am9dzccln0dykusm685ecxscuyny7u596elqqj6xd9z",
       "name": "LUNA-SWTH",
       "dex": "Astroport",
       "bucket": "project",
-      "pool_address": "terra1crlsemxx6yjpeq3am9dzccln0dykusm685ecxscuyny7u596elqqj6xd9z",
+      "dex_subtype": "xyk",
+      "legacy_name_dex_key": "LUNA-SWTH|Astroport",
       "epochs": {
         "184": {
           "vp_human": 47038.191279,
@@ -2270,9 +2768,12 @@
           "a0_sym": "SWTH",
           "a0_amt": 1149766.36661058,
           "a0_px": 0.00032383258835622,
+          "a0_price_source": "direct",
           "a1_sym": "LUNA",
           "a1_amt": 5633.445538,
           "a1_px": 0.066856,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-13T23:40:18.882Z"
         },
         "185": {
@@ -2285,9 +2786,12 @@
           "a0_sym": "SWTH",
           "a0_amt": 1186907.60876942,
           "a0_px": 0.000295472155016439,
+          "a0_price_source": "direct",
           "a1_sym": "LUNA",
           "a1_amt": 5460.892878,
           "a1_px": 0.064584,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-17T23:40:23.409Z"
         },
         "186": {
@@ -2300,33 +2804,42 @@
           "a0_sym": "SWTH",
           "a0_amt": 1238601.77154598,
           "a0_px": 0.000254601088359276,
+          "a0_price_source": "direct",
           "a1_sym": "LUNA",
           "a1_amt": 5233.433514,
           "a1_px": 0.060938,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-24T23:40:25.917Z"
         },
         "187": {
           "vp_human": 48639.95074,
-          "bucket_pct": 0.20604827393828307,
+          "bucket_pct": 0.2055983611585212,
           "status": "voted_but_below_threshold",
           "active": false,
-          "depth_usd": 696.148,
-          "staked_usd": 12.186647909375381,
+          "depth_usd": 688.243,
+          "staked_usd": 12.413228777345777,
           "a0_sym": "SWTH",
           "a0_amt": 1125105.58569666,
-          "a0_px": 0.000301374140404604,
+          "a0_px": 0.000309326823485355,
+          "a0_price_source": "direct",
           "a1_sym": "LUNA",
           "a1_amt": 5764.21642,
-          "a1_px": 0.059366,
-          "capturedAt": "2026-05-28T23:40:19.166Z"
+          "a1_px": 0.060079,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
+          "capturedAt": "2026-05-30T23:40:29.160Z"
         }
       }
     },
     {
+      "gauge_pool_id": "cw20:terra1s275y73lfupag0g03nglxaedfnsw5z4m5zc9wk66guy503zuw5ss889tlx",
+      "pool_address": "terra1v3lqxl0eyte9x3nhdgcj8hwvjq76aupnnzz0yll8mxs5cckc29pqvg2scu",
       "name": "LUNA-USDC",
       "dex": "Astroport",
       "bucket": "stable",
-      "pool_address": "terra1v3lqxl0eyte9x3nhdgcj8hwvjq76aupnnzz0yll8mxs5cckc29pqvg2scu",
+      "dex_subtype": "concentrated",
+      "legacy_name_dex_key": "LUNA-USDC|Astroport",
       "epochs": {
         "184": {
           "vp_human": 19729848.704302,
@@ -2338,9 +2851,12 @@
           "a0_sym": "LUNA",
           "a0_amt": 5334370.303658,
           "a0_px": 0.066856,
+          "a0_price_source": "direct",
           "a1_sym": "USDC",
           "a1_amt": 351326.383485,
           "a1_px": 1,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-13T23:40:18.882Z"
         },
         "185": {
@@ -2353,9 +2869,12 @@
           "a0_sym": "LUNA",
           "a0_amt": 5447846.408538,
           "a0_px": 0.064584,
+          "a0_price_source": "direct",
           "a1_sym": "USDC",
           "a1_amt": 346137.937307,
           "a1_px": 0.999971,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-17T23:40:23.409Z"
         },
         "186": {
@@ -2368,33 +2887,42 @@
           "a0_sym": "LUNA",
           "a0_amt": 5617412.690946,
           "a0_px": 0.060938,
+          "a0_price_source": "direct",
           "a1_sym": "USDC",
           "a1_amt": 337480.748846,
           "a1_px": 0.99974,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-24T23:40:25.917Z"
         },
         "187": {
-          "vp_human": 20088923.208453,
-          "bucket_pct": 81.85852747288601,
+          "vp_human": 20093461.913876,
+          "bucket_pct": 81.70503748108898,
           "status": "active",
           "active": true,
-          "depth_usd": 681536,
-          "staked_usd": 591687.0123856027,
+          "depth_usd": 673120,
+          "staked_usd": 595582.8623389491,
           "a0_sym": "LUNA",
-          "a0_amt": 5690732.082557,
-          "a0_px": 0.059366,
+          "a0_amt": 5670592.379715,
+          "a0_px": 0.060079,
+          "a0_price_source": "direct",
           "a1_sym": "USDC",
-          "a1_amt": 333325.689358,
-          "a1_px": 0.99955,
-          "capturedAt": "2026-05-28T23:40:19.166Z"
+          "a1_amt": 335148.93075,
+          "a1_px": 0.999683,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
+          "capturedAt": "2026-05-30T23:40:29.160Z"
         }
       }
     },
     {
+      "gauge_pool_id": "native:factory/terra16a45v4k74w3yy30utfxdsekdlnks27sv48sn2suaf4wt7u6meq8scz75mx/uLP",
+      "pool_address": "terra16a45v4k74w3yy30utfxdsekdlnks27sv48sn2suaf4wt7u6meq8scz75mx",
       "name": "LUNA-USDC",
       "dex": "Skeleton Swap",
       "bucket": "stable",
-      "pool_address": "terra16a45v4k74w3yy30utfxdsekdlnks27sv48sn2suaf4wt7u6meq8scz75mx",
+      "dex_subtype": null,
+      "legacy_name_dex_key": "LUNA-USDC|Skeleton Swap",
       "epochs": {
         "184": {
           "vp_human": 2478028.916337,
@@ -2406,9 +2934,12 @@
           "a0_sym": "LUNA",
           "a0_amt": 816389.186582,
           "a0_px": 0.066856,
+          "a0_price_source": "direct",
           "a1_sym": "USDC",
           "a1_amt": 54666.946026,
           "a1_px": 1,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-13T23:40:18.882Z"
         },
         "185": {
@@ -2421,9 +2952,12 @@
           "a0_sym": "LUNA",
           "a0_amt": 862185.693367,
           "a0_px": 0.064584,
+          "a0_price_source": "direct",
           "a1_sym": "USDC",
           "a1_amt": 55826.103548,
           "a1_px": 0.999971,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-17T23:40:23.409Z"
         },
         "186": {
@@ -2436,33 +2970,42 @@
           "a0_sym": "LUNA",
           "a0_amt": 890313.818566,
           "a0_px": 0.060938,
+          "a0_price_source": "direct",
           "a1_sym": "USDC",
           "a1_amt": 54308.995814,
           "a1_px": 0.99974,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-24T23:40:25.917Z"
         },
         "187": {
           "vp_human": 2477929.974427,
-          "bucket_pct": 10.097091655075351,
+          "bucket_pct": 10.075882508641229,
           "status": "active",
           "active": true,
-          "depth_usd": 111502.5,
-          "staked_usd": 80881.57154651548,
+          "depth_usd": 110478.24,
+          "staked_usd": 81392.30403576979,
           "a0_sym": "LUNA",
-          "a0_amt": 903278.783464,
-          "a0_px": 0.059366,
+          "a0_amt": 898448.892375,
+          "a0_px": 0.060079,
+          "a0_price_source": "direct",
           "a1_sym": "USDC",
-          "a1_amt": 53673.17823,
-          "a1_px": 0.99955,
-          "capturedAt": "2026-05-28T23:40:19.166Z"
+          "a1_amt": 54029.246589,
+          "a1_px": 0.999683,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
+          "capturedAt": "2026-05-30T23:40:29.160Z"
         }
       }
     },
     {
+      "gauge_pool_id": "native:factory/terra1wymgwg90ry2w04avy899ucmuuak7w8n3xw2msmw2jf9rfugre0ssenx4hn/uLP",
+      "pool_address": "terra1wymgwg90ry2w04avy899ucmuuak7w8n3xw2msmw2jf9rfugre0ssenx4hn",
       "name": "LUNA-USDt",
       "dex": "Skeleton Swap",
       "bucket": "stable",
-      "pool_address": "terra1wymgwg90ry2w04avy899ucmuuak7w8n3xw2msmw2jf9rfugre0ssenx4hn",
+      "dex_subtype": null,
+      "legacy_name_dex_key": "LUNA-USDt|Skeleton Swap",
       "epochs": {
         "184": {
           "vp_human": 49308.902311,
@@ -2474,9 +3017,12 @@
           "a0_sym": "LUNA",
           "a0_amt": 49545.4265,
           "a0_px": 0.066856,
+          "a0_price_source": "direct",
           "a1_sym": "USDT",
           "a1_amt": 3330.742393,
           "a1_px": 0.999523,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-13T23:40:18.882Z"
         },
         "185": {
@@ -2489,9 +3035,12 @@
           "a0_sym": "LUNA",
           "a0_amt": 50433.774844,
           "a0_px": 0.064584,
+          "a0_price_source": "direct",
           "a1_sym": "USDT",
           "a1_amt": 3273.440831,
           "a1_px": 0.99944,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-17T23:40:23.409Z"
         },
         "186": {
@@ -2504,33 +3053,42 @@
           "a0_sym": "LUNA",
           "a0_amt": 51986.147263,
           "a0_px": 0.060938,
+          "a0_price_source": "direct",
           "a1_sym": "USDT",
           "a1_amt": 3176.712009,
           "a1_px": 0.998753,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-24T23:40:25.917Z"
         },
         "187": {
           "vp_human": 49163.995645,
-          "bucket_pct": 0.20033389776161117,
+          "bucket_pct": 0.19991309233382162,
           "status": "voted_but_below_threshold",
           "active": false,
-          "depth_usd": 6520.09,
-          "staked_usd": 13.381469114071134,
+          "depth_usd": 6455.11,
+          "staked_usd": 13.4550745132752,
           "a0_sym": "LUNA",
-          "a0_amt": 52747.449935,
-          "a0_px": 0.059366,
+          "a0_amt": 52243.444718,
+          "a0_px": 0.060079,
+          "a0_price_source": "direct",
           "a1_sym": "USDT",
-          "a1_amt": 3131.744747,
-          "a1_px": 0.998577,
-          "capturedAt": "2026-05-28T23:40:19.166Z"
+          "a1_amt": 3162.257644,
+          "a1_px": 0.998601,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
+          "capturedAt": "2026-05-30T23:40:29.160Z"
         }
       }
     },
     {
+      "gauge_pool_id": "cw20:terra14h48hukanmfv6wrrs50m4w2f9hf09lakwl5d5pkpt4rpl3gtg7ks4ye6d4",
+      "pool_address": "terra1aategw0787y4fyunmwdvdqraxfc8jtxykyed2skx3p5fd3lkgkmsqry7pz",
       "name": "LUNA-USDT",
       "dex": "Astroport",
       "bucket": "stable",
-      "pool_address": "terra1aategw0787y4fyunmwdvdqraxfc8jtxykyed2skx3p5fd3lkgkmsqry7pz",
+      "dex_subtype": "concentrated",
+      "legacy_name_dex_key": "LUNA-USDT|Astroport",
       "epochs": {
         "184": {
           "vp_human": 670185.969915,
@@ -2542,9 +3100,12 @@
           "a0_sym": "USDT",
           "a0_amt": 11838.969151,
           "a0_px": 0.999523,
+          "a0_price_source": "direct",
           "a1_sym": "LUNA",
           "a1_amt": 179120.541496,
           "a1_px": 0.066856,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-13T23:40:18.882Z"
         },
         "185": {
@@ -2557,9 +3118,12 @@
           "a0_sym": "USDT",
           "a0_amt": 11649.599119,
           "a0_px": 0.99944,
+          "a0_price_source": "direct",
           "a1_sym": "LUNA",
           "a1_amt": 182201.835901,
           "a1_px": 0.064584,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-17T23:40:23.409Z"
         },
         "186": {
@@ -2572,33 +3136,42 @@
           "a0_sym": "USDT",
           "a0_amt": 11324.945163,
           "a0_px": 0.998753,
+          "a0_price_source": "direct",
           "a1_sym": "LUNA",
           "a1_amt": 187888.103056,
           "a1_px": 0.060938,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-24T23:40:25.917Z"
         },
         "187": {
-          "vp_human": 738286.289211,
-          "bucket_pct": 3.008375703422666,
+          "vp_human": 785205.30765,
+          "bucket_pct": 3.192841003052311,
           "status": "active",
           "active": true,
-          "depth_usd": 22871.2,
-          "staked_usd": 19409.087462447398,
+          "depth_usd": 22634.9,
+          "staked_usd": 19521.268785476703,
           "a0_sym": "USDT",
-          "a0_amt": 11205.18267,
-          "a0_px": 0.998577,
+          "a0_amt": 11315.094318,
+          "a0_px": 0.998601,
+          "a0_price_source": "direct",
           "a1_sym": "LUNA",
-          "a1_amt": 191510.089264,
-          "a1_px": 0.059366,
-          "capturedAt": "2026-05-28T23:40:19.166Z"
+          "a1_amt": 189770.389309,
+          "a1_px": 0.060079,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
+          "capturedAt": "2026-05-30T23:40:29.160Z"
         }
       }
     },
     {
+      "gauge_pool_id": "native:factory/terra1m5juz238n27dd24d9e3kacmqax8gu7j5ee9hhfczpl52f3n7adaqudk2c9/uLP",
+      "pool_address": "terra1m5juz238n27dd24d9e3kacmqax8gu7j5ee9hhfczpl52f3n7adaqudk2c9",
       "name": "LUNA-wBNB",
       "dex": "Skeleton Swap",
       "bucket": "bluechip",
-      "pool_address": "terra1m5juz238n27dd24d9e3kacmqax8gu7j5ee9hhfczpl52f3n7adaqudk2c9",
+      "dex_subtype": null,
+      "legacy_name_dex_key": "LUNA-wBNB|Skeleton Swap",
       "epochs": {
         "184": {
           "vp_human": 71.204921,
@@ -2610,9 +3183,12 @@
           "a0_sym": "LUNA",
           "a0_amt": 0.007605,
           "a0_px": 0.066856,
+          "a0_price_source": "direct",
           "a1_sym": "WBNB",
           "a1_amt": 0.0000014,
           "a1_px": 670.0278677381485,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-13T23:40:18.882Z"
         },
         "185": {
@@ -2625,9 +3201,12 @@
           "a0_sym": "LUNA",
           "a0_amt": 0.007605,
           "a0_px": 0.064584,
+          "a0_price_source": "direct",
           "a1_sym": "WBNB",
           "a1_amt": 0.0000014,
           "a1_px": 651.271211204276,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-17T23:40:23.409Z"
         },
         "186": {
@@ -2640,33 +3219,42 @@
           "a0_sym": "LUNA",
           "a0_amt": 0.007605,
           "a0_px": 0.060938,
+          "a0_price_source": "direct",
           "a1_sym": "WBNB",
           "a1_amt": 0.0000014,
           "a1_px": 655.6682642712336,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-24T23:40:25.917Z"
         },
         "187": {
           "vp_human": 68.145069,
-          "bucket_pct": 0.00028933134413515975,
+          "bucket_pct": 0.000288698148555664,
           "status": "voted_but_below_threshold",
           "active": false,
           "depth_usd": 0,
-          "staked_usd": 0.000006690842444186398,
+          "staked_usd": 0.0000072233547215140945,
           "a0_sym": "LUNA",
           "a0_amt": 0.007605,
-          "a0_px": 0.059366,
+          "a0_px": 0.060079,
+          "a0_price_source": "direct",
           "a1_sym": "WBNB",
           "a1_amt": 0.0000014,
-          "a1_px": 638.1292152010471,
-          "capturedAt": "2026-05-28T23:40:19.166Z"
+          "a1_px": 710.7096457316666,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
+          "capturedAt": "2026-05-30T23:40:29.160Z"
         }
       }
     },
     {
+      "gauge_pool_id": "cw20:terra10ca0xhyjrzl3zk9g26yjxlw5rjplu5ts4jgcvvrgr62ml8jf57hqs3nck5",
+      "pool_address": "terra10clh64cpvjjen8f24qz2046d24s79w2ev2dyd9ke29wmqdqp4yjs3cyk0y",
       "name": "LUNA-wBNB.axl",
       "dex": "Astroport",
       "bucket": "bluechip",
-      "pool_address": "terra10clh64cpvjjen8f24qz2046d24s79w2ev2dyd9ke29wmqdqp4yjs3cyk0y",
+      "dex_subtype": "concentrated",
+      "legacy_name_dex_key": "LUNA-wBNB.axl|Astroport",
       "epochs": {
         "184": {
           "vp_human": 12202.799275,
@@ -2678,9 +3266,12 @@
           "a0_sym": "BNB",
           "a0_amt": 0.3778400477830414,
           "a0_px": 669.44,
+          "a0_price_source": "direct",
           "a1_sym": "LUNA",
           "a1_amt": 3499.412201,
           "a1_px": 0.066856,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-13T23:40:18.882Z"
         },
         "185": {
@@ -2693,9 +3284,12 @@
           "a0_sym": "BNB",
           "a0_amt": 0.3778400477830414,
           "a0_px": 651.06,
+          "a0_price_source": "direct",
           "a1_sym": "LUNA",
           "a1_amt": 3499.412201,
           "a1_px": 0.064584,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-17T23:40:23.409Z"
         },
         "186": {
@@ -2708,33 +3302,42 @@
           "a0_sym": "BNB",
           "a0_amt": 0.35887685675363096,
           "a0_px": 655.52,
+          "a0_price_source": "direct",
           "a1_sym": "LUNA",
           "a1_amt": 3682.944124,
           "a1_px": 0.060938,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-24T23:40:25.917Z"
         },
         "187": {
           "vp_human": 12145.164661,
-          "bucket_pct": 0.051566120156250374,
+          "bucket_pct": 0.05145326878360603,
           "status": "voted_but_below_threshold",
           "active": false,
-          "depth_usd": 456.603,
-          "staked_usd": 1.6634843782912974,
+          "depth_usd": 450.259,
+          "staked_usd": 1.7693504182896396,
           "a0_sym": "BNB",
-          "a0_amt": 0.3539291554825192,
-          "a0_px": 638.11,
+          "a0_amt": 0.34903244146118245,
+          "a0_px": 712.81,
+          "a0_price_source": "direct",
           "a1_sym": "LUNA",
-          "a1_amt": 3734.044124,
-          "a1_px": 0.059366,
-          "capturedAt": "2026-05-28T23:40:19.166Z"
+          "a1_amt": 3786.044124,
+          "a1_px": 0.060079,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
+          "capturedAt": "2026-05-30T23:40:29.160Z"
         }
       }
     },
     {
+      "gauge_pool_id": "cw20:terra12eu8jk4w7lgn2rk7xs46nz7c7r9fw8q98afy9adlwtkghazj40asjf65zu",
+      "pool_address": "terra1v3xmc8nn8h8e7z55d80a72g4rgz6mrxyasxq089k8n6m40xldlksf2w5x8",
       "name": "LUNA-wBNB.wh",
       "dex": "Astroport",
       "bucket": "bluechip",
-      "pool_address": "terra1v3xmc8nn8h8e7z55d80a72g4rgz6mrxyasxq089k8n6m40xldlksf2w5x8",
+      "dex_subtype": "concentrated",
+      "legacy_name_dex_key": "LUNA-wBNB.wh|Astroport",
       "epochs": {
         "184": {
           "vp_human": 14.094726,
@@ -2746,9 +3349,12 @@
           "a0_sym": "LUNA",
           "a0_amt": 167.38176,
           "a0_px": 0.066856,
+          "a0_price_source": "direct",
           "a1_sym": "WBNB",
           "a1_amt": 0.02868237,
           "a1_px": 670.0278677381485,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-13T23:40:18.882Z"
         },
         "185": {
@@ -2761,9 +3367,12 @@
           "a0_sym": "LUNA",
           "a0_amt": 167.38176,
           "a0_px": 0.064584,
+          "a0_price_source": "direct",
           "a1_sym": "WBNB",
           "a1_amt": 0.02868237,
           "a1_px": 651.271211204276,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-17T23:40:23.409Z"
         },
         "186": {
@@ -2776,33 +3385,42 @@
           "a0_sym": "LUNA",
           "a0_amt": 167.38176,
           "a0_px": 0.060938,
+          "a0_price_source": "direct",
           "a1_sym": "WBNB",
           "a1_amt": 0.02868237,
           "a1_px": 655.6682642712336,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-24T23:40:25.917Z"
         },
         "187": {
           "vp_human": 14.094726,
-          "bucket_pct": 0.00005984359658945805,
+          "bucket_pct": 0.00005971263013321448,
           "status": "voted_but_below_threshold",
           "active": false,
-          "depth_usd": 28.7528,
-          "staked_usd": 8.813802940645186,
+          "depth_usd": 28.3909,
+          "staked_usd": 9.494990091061672,
           "a0_sym": "LUNA",
           "a0_amt": 167.38176,
-          "a0_px": 0.059366,
+          "a0_px": 0.060079,
+          "a0_price_source": "direct",
           "a1_sym": "WBNB",
           "a1_amt": 0.02868237,
-          "a1_px": 638.1292152010471,
-          "capturedAt": "2026-05-28T23:40:19.166Z"
+          "a1_px": 710.7096457316666,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
+          "capturedAt": "2026-05-30T23:40:29.160Z"
         }
       }
     },
     {
+      "gauge_pool_id": "cw20:terra1tfr4ghftlsf2l9nxr3clewk52g5q8wj7m2rglw67dkql9x6u7w6q53gwrn",
+      "pool_address": "terra1p996av7ftzj973swd4yt2er2sn3v9y5j9qfxz67gatnrpf8lfgwsel8hcg",
       "name": "LUNA-WBTC",
       "dex": "Astroport",
       "bucket": "bluechip",
-      "pool_address": "terra1p996av7ftzj973swd4yt2er2sn3v9y5j9qfxz67gatnrpf8lfgwsel8hcg",
+      "dex_subtype": "concentrated",
+      "legacy_name_dex_key": "LUNA-WBTC|Astroport",
       "epochs": {
         "184": {
           "vp_human": 18588.506837,
@@ -2814,9 +3432,12 @@
           "a0_sym": "WBTC",
           "a0_amt": 0.00033534,
           "a0_px": 79124,
+          "a0_price_source": "direct",
           "a1_sym": "LUNA",
           "a1_amt": 385.128506,
           "a1_px": 0.066856,
+          "a1_price_source": "direct",
+          "is_migration_corpse": true,
           "capturedAt": "2026-05-13T23:40:18.882Z"
         },
         "185": {
@@ -2829,9 +3450,12 @@
           "a0_sym": "WBTC",
           "a0_amt": 0.00033332,
           "a0_px": 77516,
+          "a0_price_source": "direct",
           "a1_sym": "LUNA",
           "a1_amt": 387.47984,
           "a1_px": 0.064584,
+          "a1_price_source": "direct",
+          "is_migration_corpse": true,
           "capturedAt": "2026-05-17T23:40:23.409Z"
         },
         "186": {
@@ -2844,33 +3468,42 @@
           "a0_sym": "WBTC",
           "a0_amt": 0.00033332,
           "a0_px": 76664,
+          "a0_price_source": "direct",
           "a1_sym": "LUNA",
           "a1_amt": 387.47984,
           "a1_px": 0.060938,
+          "a1_price_source": "direct",
+          "is_migration_corpse": true,
           "capturedAt": "2026-05-24T23:40:25.917Z"
         },
         "187": {
           "vp_human": 18588.506837,
-          "bucket_pct": 0.07892335788250236,
+          "bucket_pct": 0.0787506357687627,
           "status": "voted_but_below_threshold",
           "active": false,
-          "depth_usd": 48.3636,
-          "staked_usd": 0.0009300592030561296,
+          "depth_usd": 47.5294,
+          "staked_usd": 0.0009368961336476648,
           "a0_sym": "WBTC",
           "a0_amt": 0.00032426,
-          "a0_px": 73430,
+          "a0_px": 73630,
+          "a0_price_source": "direct",
           "a1_sym": "LUNA",
           "a1_amt": 398.342231,
-          "a1_px": 0.059366,
-          "capturedAt": "2026-05-28T23:40:19.166Z"
+          "a1_px": 0.060079,
+          "a1_price_source": "direct",
+          "is_migration_corpse": true,
+          "capturedAt": "2026-05-30T23:40:29.160Z"
         }
       }
     },
     {
+      "gauge_pool_id": "cw20:terra1wdzdltygkgqyuvggnqnxsny9vhfyex92kzaz6zkued2wvp7nvxpsv739js",
+      "pool_address": "terra1mea829xtsnxwv4l9lhzs0tzpnyamjpz5y45a9tpp06jgdhjd48yqc4ales",
       "name": "LUNA-WBTC",
       "dex": "Astroport",
       "bucket": "bluechip",
-      "pool_address": "terra1mea829xtsnxwv4l9lhzs0tzpnyamjpz5y45a9tpp06jgdhjd48yqc4ales",
+      "dex_subtype": "concentrated",
+      "legacy_name_dex_key": "LUNA-WBTC|Astroport",
       "epochs": {
         "184": {
           "vp_human": 5989090.054682,
@@ -2882,9 +3515,12 @@
           "a0_sym": "LUNA",
           "a0_amt": 980962.552076,
           "a0_px": 0.066856,
+          "a0_price_source": "direct",
           "a1_sym": "WBTC",
           "a1_amt": 0.81392769,
           "a1_px": 79124,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-13T23:40:18.882Z"
         },
         "185": {
@@ -2897,9 +3533,12 @@
           "a0_sym": "LUNA",
           "a0_amt": 1011397.291035,
           "a0_px": 0.064584,
+          "a0_price_source": "direct",
           "a1_sym": "WBTC",
           "a1_amt": 0.82456896,
           "a1_px": 77516,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-17T23:40:23.409Z"
         },
         "186": {
@@ -2912,33 +3551,42 @@
           "a0_sym": "LUNA",
           "a0_amt": 1067273.93811,
           "a0_px": 0.060938,
+          "a0_price_source": "direct",
           "a1_sym": "WBTC",
           "a1_amt": 0.83803612,
           "a1_px": 76664,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-24T23:40:25.917Z"
         },
         "187": {
-          "vp_human": 7784308.919942,
-          "bucket_pct": 33.05073420602351,
+          "vp_human": 7804119.898012,
+          "bucket_pct": 33.06233303047183,
           "status": "active",
           "active": true,
-          "depth_usd": 132947,
-          "staked_usd": 124922.39413760368,
+          "depth_usd": 131271,
+          "staked_usd": 126511.37737168708,
           "a0_sym": "LUNA",
-          "a0_amt": 1128362.559905,
-          "a0_px": 0.059366,
+          "a0_amt": 1114564.229195,
+          "a0_px": 0.060079,
+          "a0_price_source": "direct",
           "a1_sym": "WBTC",
-          "a1_amt": 0.86932107,
-          "a1_px": 73430,
-          "capturedAt": "2026-05-28T23:40:19.166Z"
+          "a1_amt": 0.89039927,
+          "a1_px": 73630,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
+          "capturedAt": "2026-05-30T23:40:29.160Z"
         }
       }
     },
     {
+      "gauge_pool_id": "cw20:terra1a5apghncafx0nem740fsrmd6demaywvp332a4uat63u2jtwn8mgsz7khkw",
+      "pool_address": "terra1afkvgc0mxfqakqlaqpxdgy58n79x4r239q3tucxmrsqvqk7ce3ksnctxfu",
       "name": "LUNA-WBTC.axl",
       "dex": "Astroport",
       "bucket": "bluechip",
-      "pool_address": "terra1afkvgc0mxfqakqlaqpxdgy58n79x4r239q3tucxmrsqvqk7ce3ksnctxfu",
+      "dex_subtype": "concentrated",
+      "legacy_name_dex_key": "LUNA-WBTC.axl|Astroport",
       "epochs": {
         "184": {
           "vp_human": 418276.051224,
@@ -2950,9 +3598,12 @@
           "a0_sym": "LUNA",
           "a0_amt": 6653.211918,
           "a0_px": 0.066856,
+          "a0_price_source": "direct",
           "a1_sym": "WBTC",
           "a1_amt": 0.00563849,
           "a1_px": 79124,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-13T23:40:18.882Z"
         },
         "185": {
@@ -2965,9 +3616,12 @@
           "a0_sym": "LUNA",
           "a0_amt": 6701.222647,
           "a0_px": 0.064584,
+          "a0_price_source": "direct",
           "a1_sym": "WBTC",
           "a1_amt": 0.00559599,
           "a1_px": 77516,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-17T23:40:23.409Z"
         },
         "186": {
@@ -2980,33 +3634,42 @@
           "a0_sym": "LUNA",
           "a0_amt": 6842.770394,
           "a0_px": 0.060938,
+          "a0_price_source": "direct",
           "a1_sym": "WBTC",
           "a1_amt": 0.00547978,
           "a1_px": 76664,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-24T23:40:25.917Z"
         },
         "187": {
-          "vp_human": 437181.649135,
-          "bucket_pct": 1.8561923266297575,
+          "vp_human": 418093.598248,
+          "bucket_pct": 1.771263123046705,
           "status": "active",
           "active": true,
-          "depth_usd": 644.843,
-          "staked_usd": 221.60103209593734,
+          "depth_usd": 638.257,
+          "staked_usd": 223.12024904740426,
           "a0_sym": "LUNA",
-          "a0_amt": 5155.240225,
-          "a0_px": 0.059366,
+          "a0_amt": 5104.830635,
+          "a0_px": 0.060079,
+          "a0_price_source": "direct",
           "a1_sym": "WBTC",
-          "a1_amt": 0.00413263,
-          "a1_px": 73430,
-          "capturedAt": "2026-05-28T23:40:19.166Z"
+          "a1_amt": 0.00417394,
+          "a1_px": 73630,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
+          "capturedAt": "2026-05-30T23:40:29.160Z"
         }
       }
     },
     {
+      "gauge_pool_id": "cw20:terra1stavsz7hhsw56tngxt6p5xmkm86a9nvgztgvv56wj7q6yceutmwsvrwjdz",
+      "pool_address": "terra1a6d0lcvfzyllulaaazzg5j70yn4m3e2t90shtlxsr3fwhcg34g2sgwfr75",
       "name": "LUNA-WHALE",
       "dex": "Astroport",
       "bucket": "project",
-      "pool_address": "terra1a6d0lcvfzyllulaaazzg5j70yn4m3e2t90shtlxsr3fwhcg34g2sgwfr75",
+      "dex_subtype": "concentrated",
+      "legacy_name_dex_key": "LUNA-WHALE|Astroport",
       "epochs": {
         "184": {
           "vp_human": 501.334722,
@@ -3018,9 +3681,12 @@
           "a0_sym": "WHALE",
           "a0_amt": 21168.19847,
           "a0_px": 0.000098642355368279,
+          "a0_price_source": "pool_derived:LUNA-WHALE(LUNA)",
           "a1_sym": "LUNA",
           "a1_amt": 31.232514,
           "a1_px": 0.066856,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-13T23:40:18.882Z"
         },
         "185": {
@@ -3033,9 +3699,12 @@
           "a0_sym": "WHALE",
           "a0_amt": 21168.19847,
           "a0_px": 0.00009529014417711098,
+          "a0_price_source": "pool_derived:LUNA-WHALE(LUNA)",
           "a1_sym": "LUNA",
           "a1_amt": 31.232514,
           "a1_px": 0.064584,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-17T23:40:23.409Z"
         },
         "186": {
@@ -3048,33 +3717,42 @@
           "a0_sym": "WHALE",
           "a0_amt": 21168.19847,
           "a0_px": 0.00008991067146452355,
+          "a0_price_source": "pool_derived:LUNA-WHALE(LUNA)",
           "a1_sym": "LUNA",
           "a1_amt": 31.232514,
           "a1_px": 0.060938,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-24T23:40:25.917Z"
         },
         "187": {
           "vp_human": 501.334722,
-          "bucket_pct": 0.0021237512078415605,
+          "bucket_pct": 0.002119113931386001,
           "status": "voted_but_below_threshold",
           "active": false,
-          "depth_usd": 3.98881,
-          "staked_usd": 0.0001605970818220265,
+          "depth_usd": 3.97996,
+          "staked_usd": 0.0001625258915673202,
           "a0_sym": "WHALE",
           "a0_amt": 21168.19847,
-          "a0_px": 0.00008759127181993017,
+          "a0_px": 0.00008864326415236979,
+          "a0_price_source": "pool_derived:LUNA-WHALE(LUNA)",
           "a1_sym": "LUNA",
           "a1_amt": 31.232514,
-          "a1_px": 0.059366,
-          "capturedAt": "2026-05-28T23:40:19.166Z"
+          "a1_px": 0.060079,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
+          "capturedAt": "2026-05-30T23:40:29.160Z"
         }
       }
     },
     {
+      "gauge_pool_id": "native:factory/terra12u7a9wkjqrkhxjcxx70uhfx8y49j4lclfnet2smw9agpnrv9chps27n9mh/uLP",
+      "pool_address": "terra12u7a9wkjqrkhxjcxx70uhfx8y49j4lclfnet2smw9agpnrv9chps27n9mh",
       "name": "LUNA-wSOL",
       "dex": "Skeleton Swap",
       "bucket": "bluechip",
-      "pool_address": "terra12u7a9wkjqrkhxjcxx70uhfx8y49j4lclfnet2smw9agpnrv9chps27n9mh",
+      "dex_subtype": null,
+      "legacy_name_dex_key": "LUNA-wSOL|Skeleton Swap",
       "epochs": {
         "184": {
           "vp_human": 33231.875439,
@@ -3086,9 +3764,12 @@
           "a0_sym": "LUNA",
           "a0_amt": 102.197312,
           "a0_px": 0.066856,
+          "a0_price_source": "direct",
           "a1_sym": "SOL",
           "a1_amt": 0.2361075,
           "a1_px": 28.938104427313828,
+          "a1_price_source": "pool_derived:LUNA-wSOL(LUNA)",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-13T23:40:18.882Z"
         },
         "185": {
@@ -3101,9 +3782,12 @@
           "a0_sym": "LUNA",
           "a0_amt": 102.197312,
           "a0_px": 0.064584,
+          "a0_price_source": "direct",
           "a1_sym": "SOL",
           "a1_amt": 0.2361075,
           "a1_px": 28.08164462978216,
+          "a1_price_source": "pool_derived:LUNA-wSOL.wh(LUNA)",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-17T23:40:23.409Z"
         },
         "186": {
@@ -3116,33 +3800,42 @@
           "a0_sym": "LUNA",
           "a0_amt": 102.197312,
           "a0_px": 0.060938,
+          "a0_price_source": "direct",
           "a1_sym": "SOL",
           "a1_amt": 0.2361075,
           "a1_px": 26.376543729682453,
+          "a1_price_source": "pool_derived:LUNA-wSOL(LUNA)",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-24T23:40:25.917Z"
         },
         "187": {
           "vp_human": 33231.875439,
-          "bucket_pct": 0.14109638936454924,
+          "bucket_pct": 0.1407876028751507,
           "status": "voted_but_below_threshold",
           "active": false,
           "depth_usd": 0,
-          "staked_usd": 2.6162024423564394,
+          "staked_usd": 2.652047508521407,
           "a0_sym": "LUNA",
           "a0_amt": 102.197312,
-          "a0_px": 0.059366,
+          "a0_px": 0.060079,
+          "a0_price_source": "direct",
           "a1_sym": "SOL",
           "a1_amt": 0.2361075,
-          "a1_px": 25.696115643052423,
-          "capturedAt": "2026-05-28T23:40:19.166Z"
+          "a1_px": 26.12283425790726,
+          "a1_price_source": "pool_derived:LUNA-wSOL.wh(LUNA)",
+          "is_migration_corpse": false,
+          "capturedAt": "2026-05-30T23:40:29.160Z"
         }
       }
     },
     {
+      "gauge_pool_id": "cw20:terra1vc66wpr2ghcesnf203em6yefpze3vrmq99n8yz0me3jzs6g4e8rs2kec75",
+      "pool_address": "terra16zzqwekwsqn4zlsyu4vhjr52ee2hdvppjcr8h22qznjadaazzdgsvd905d",
       "name": "LUNA-wSOL.wh",
       "dex": "Astroport",
       "bucket": "bluechip",
-      "pool_address": "terra16zzqwekwsqn4zlsyu4vhjr52ee2hdvppjcr8h22qznjadaazzdgsvd905d",
+      "dex_subtype": "concentrated",
+      "legacy_name_dex_key": "LUNA-wSOL.wh|Astroport",
       "epochs": {
         "184": {
           "vp_human": 391.204858,
@@ -3154,9 +3847,12 @@
           "a0_sym": "LUNA",
           "a0_amt": 2644.02525,
           "a0_px": 0.066856,
+          "a0_price_source": "direct",
           "a1_sym": "SOL",
           "a1_amt": 6.08090192,
           "a1_px": 28.938104427313828,
+          "a1_price_source": "pool_derived:LUNA-wSOL(LUNA)",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-13T23:40:18.882Z"
         },
         "185": {
@@ -3169,9 +3865,12 @@
           "a0_sym": "LUNA",
           "a0_amt": 2644.02525,
           "a0_px": 0.064584,
+          "a0_price_source": "direct",
           "a1_sym": "SOL",
           "a1_amt": 6.08090192,
           "a1_px": 28.08164462978216,
+          "a1_price_source": "pool_derived:LUNA-wSOL.wh(LUNA)",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-17T23:40:23.409Z"
         },
         "186": {
@@ -3184,33 +3883,42 @@
           "a0_sym": "LUNA",
           "a0_amt": 2644.02525,
           "a0_px": 0.060938,
+          "a0_price_source": "direct",
           "a1_sym": "SOL",
           "a1_amt": 6.08090192,
           "a1_px": 26.376543729682453,
+          "a1_price_source": "pool_derived:LUNA-wSOL(LUNA)",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-24T23:40:25.917Z"
         },
         "187": {
           "vp_human": 391.204858,
-          "bucket_pct": 0.001660983385273912,
+          "bucket_pct": 0.001657348357965291,
           "status": "voted_but_below_threshold",
           "active": false,
-          "depth_usd": 662.817,
-          "staked_usd": 275.5349043052046,
+          "depth_usd": 655.62,
+          "staked_usd": 279.3058653245512,
           "a0_sym": "LUNA",
           "a0_amt": 2644.02525,
-          "a0_px": 0.059366,
+          "a0_px": 0.060079,
+          "a0_price_source": "direct",
           "a1_sym": "SOL",
           "a1_amt": 6.08090192,
-          "a1_px": 25.696115643052423,
-          "capturedAt": "2026-05-28T23:40:19.166Z"
+          "a1_px": 26.12283425790726,
+          "a1_price_source": "pool_derived:LUNA-wSOL.wh(LUNA)",
+          "is_migration_corpse": false,
+          "capturedAt": "2026-05-30T23:40:29.160Z"
         }
       }
     },
     {
+      "gauge_pool_id": "cw20:terra19d8tttv0lvhwpj828qqrcmm6yaqdfhrchfheuufcw4kywtmk9u3q98ask3",
+      "pool_address": "terra1u0sp5gaw9amfa8vsaaqvvjpqqdyz4eeslzdjsgaq40afctpx7f6s6augj2",
       "name": "LUNA-wstETH",
       "dex": "Astroport",
       "bucket": "bluechip",
-      "pool_address": "terra1u0sp5gaw9amfa8vsaaqvvjpqqdyz4eeslzdjsgaq40afctpx7f6s6augj2",
+      "dex_subtype": "concentrated",
+      "legacy_name_dex_key": "LUNA-wstETH|Astroport",
       "epochs": {
         "184": {
           "vp_human": 55585.982467,
@@ -3222,9 +3930,12 @@
           "a0_sym": "LUNA",
           "a0_amt": 381.861092,
           "a0_px": 0.066856,
+          "a0_price_source": "direct",
           "a1_sym": "WSTETH",
           "a1_amt": 0.009361179279862405,
           "a1_px": 2780.29,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-13T23:40:18.882Z"
         },
         "185": {
@@ -3237,9 +3948,12 @@
           "a0_sym": "LUNA",
           "a0_amt": 376.280609,
           "a0_px": 0.064584,
+          "a0_price_source": "direct",
           "a1_sym": "WSTETH",
           "a1_amt": 0.009503356998623223,
           "a1_px": 2674.73,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-17T23:40:23.409Z"
         },
         "186": {
@@ -3252,33 +3966,42 @@
           "a0_sym": "LUNA",
           "a0_amt": 381.912809,
           "a0_px": 0.060938,
+          "a0_price_source": "direct",
           "a1_sym": "WSTETH",
           "a1_amt": 0.009364559944810716,
           "a1_px": 2588.48,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-24T23:40:25.917Z"
         },
         "187": {
           "vp_human": 59036.970887,
-          "bucket_pct": 0.2506600461495462,
+          "bucket_pct": 0.2501114818947727,
           "status": "voted_but_below_threshold",
           "active": false,
-          "depth_usd": 46.7482,
-          "staked_usd": 0.9576530105250602,
+          "depth_usd": 46.0652,
+          "staked_usd": 0.967007899526558,
           "a0_sym": "LUNA",
           "a0_amt": 386.062739,
-          "a0_px": 0.059366,
+          "a0_px": 0.060079,
+          "a0_price_source": "direct",
           "a1_sym": "WSTETH",
           "a1_amt": 0.009263951814053734,
-          "a1_px": 2477.7,
-          "capturedAt": "2026-05-28T23:40:19.166Z"
+          "a1_px": 2499.23,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
+          "capturedAt": "2026-05-30T23:40:29.160Z"
         }
       }
     },
     {
+      "gauge_pool_id": "native:factory/terra12hs75vlyd38zjvhegsqzr8uvz2r764fdy8mhqw0qg0s2mv858yvstwmsf8/uLP",
+      "pool_address": "terra12hs75vlyd38zjvhegsqzr8uvz2r764fdy8mhqw0qg0s2mv858yvstwmsf8",
       "name": "LUNA-wstETH",
       "dex": "Skeleton Swap",
       "bucket": "bluechip",
-      "pool_address": "terra12hs75vlyd38zjvhegsqzr8uvz2r764fdy8mhqw0qg0s2mv858yvstwmsf8",
+      "dex_subtype": null,
+      "legacy_name_dex_key": "LUNA-wstETH|Skeleton Swap",
       "epochs": {
         "184": {
           "vp_human": 1555178.371619,
@@ -3290,9 +4013,12 @@
           "a0_sym": "LUNA",
           "a0_amt": 86243.610399,
           "a0_px": 0.066856,
+          "a0_price_source": "direct",
           "a1_sym": "WSTETH",
           "a1_amt": 2.1374073755105405,
           "a1_px": 2780.29,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-13T23:40:18.882Z"
         },
         "185": {
@@ -3305,9 +4031,12 @@
           "a0_sym": "LUNA",
           "a0_amt": 85644.288818,
           "a0_px": 0.064584,
+          "a0_price_source": "direct",
           "a1_sym": "WSTETH",
           "a1_amt": 2.1527557940570103,
           "a1_px": 2674.73,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-17T23:40:23.409Z"
         },
         "186": {
@@ -3320,33 +4049,42 @@
           "a0_sym": "LUNA",
           "a0_amt": 86669.942246,
           "a0_px": 0.060938,
+          "a0_price_source": "direct",
           "a1_sym": "WSTETH",
           "a1_amt": 2.1281642546343598,
           "a1_px": 2588.48,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-24T23:40:25.917Z"
         },
         "187": {
           "vp_human": 1555080.868361,
-          "bucket_pct": 6.602585403233792,
+          "bucket_pct": 6.588135783531966,
           "status": "active",
           "active": true,
-          "depth_usd": 11203.71,
-          "staked_usd": 6518.2777466883135,
+          "depth_usd": 11043.08,
+          "staked_usd": 6582.447394707815,
           "a0_sym": "LUNA",
-          "a0_amt": 84976.471355,
-          "a0_px": 0.059366,
+          "a0_amt": 84032.17054,
+          "a0_px": 0.060079,
+          "a0_price_source": "direct",
           "a1_sym": "WSTETH",
-          "a1_amt": 2.0302662208668463,
-          "a1_px": 2477.7,
-          "capturedAt": "2026-05-28T23:40:19.166Z"
+          "a1_amt": 2.0531538804556972,
+          "a1_px": 2499.23,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
+          "capturedAt": "2026-05-30T23:40:29.160Z"
         }
       }
     },
     {
+      "gauge_pool_id": "native:factory/terra17vas9rhxhc6j6f5wrup9cqapxn74jvpft069py7l7l9kr7wx3tnsxrazux/uLP",
+      "pool_address": "terra17vas9rhxhc6j6f5wrup9cqapxn74jvpft069py7l7l9kr7wx3tnsxrazux",
       "name": "native:factory/terra17vas9rhxhc6j6f5wrup9cqapxn74j",
       "dex": null,
       "bucket": "bluechip",
-      "pool_address": "terra17vas9rhxhc6j6f5wrup9cqapxn74jvpft069py7l7l9kr7wx3tnsxrazux",
+      "dex_subtype": null,
+      "legacy_name_dex_key": "native:factory/terra17vas9rhxhc6j6f5wrup9cqapxn74j|null",
       "epochs": {
         "184": {
           "vp_human": 31200.940189,
@@ -3358,9 +4096,12 @@
           "a0_sym": "USDC",
           "a0_amt": 1861.330412,
           "a0_px": 1,
+          "a0_price_source": "direct",
           "a1_sym": "USDT",
           "a1_amt": 1861.433644,
           "a1_px": 0.999523,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-13T23:40:18.882Z"
         },
         "185": {
@@ -3373,9 +4114,12 @@
           "a0_sym": "USDC",
           "a0_amt": 1861.330412,
           "a0_px": 0.999971,
+          "a0_price_source": "direct",
           "a1_sym": "USDT",
           "a1_amt": 1861.433644,
           "a1_px": 0.99944,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-17T23:40:23.409Z"
         },
         "186": {
@@ -3388,33 +4132,42 @@
           "a0_sym": "USDC",
           "a0_amt": 1861.330412,
           "a0_px": 0.99974,
+          "a0_price_source": "direct",
           "a1_sym": "USDT",
           "a1_amt": 1861.433644,
           "a1_px": 0.998753,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-24T23:40:25.917Z"
         },
         "187": {
           "vp_human": 31200.940189,
-          "bucket_pct": 0.13247341437373988,
+          "bucket_pct": 0.13218349908428897,
           "status": "voted_but_below_threshold",
           "active": false,
           "depth_usd": 0,
-          "staked_usd": 0.3284110636061971,
+          "staked_usd": 0.32843686754410456,
           "a0_sym": "USDC",
           "a0_amt": 1861.330412,
-          "a0_px": 0.99955,
+          "a0_px": 0.999683,
+          "a0_price_source": "direct",
           "a1_sym": "USDT",
           "a1_amt": 1861.433644,
-          "a1_px": 0.998577,
-          "capturedAt": "2026-05-28T23:40:19.166Z"
+          "a1_px": 0.998601,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
+          "capturedAt": "2026-05-30T23:40:29.160Z"
         }
       }
     },
     {
+      "gauge_pool_id": "native:factory/terra1zushwxgqdkg22mtv9p946yp53r6den6lv427esjaadua3ftzyjpsqgtl5z/uLP",
+      "pool_address": "terra1zushwxgqdkg22mtv9p946yp53r6den6lv427esjaadua3ftzyjpsqgtl5z",
       "name": "native:factory/terra1zushwxgqdkg22mtv9p946yp53r6de",
       "dex": null,
       "bucket": "project",
-      "pool_address": "terra1zushwxgqdkg22mtv9p946yp53r6den6lv427esjaadua3ftzyjpsqgtl5z",
+      "dex_subtype": null,
+      "legacy_name_dex_key": "LUNA-WHALE|Skeleton Swap",
       "epochs": {
         "184": {
           "vp_human": 57263.76479,
@@ -3426,9 +4179,12 @@
           "a0_sym": "LUNA",
           "a0_amt": 3547.393391,
           "a0_px": 0.066856,
+          "a0_price_source": "direct",
           "a1_sym": "WHALE",
           "a1_amt": 2428469.889101,
           "a1_px": 0.000098642355368279,
+          "a1_price_source": "pool_derived:LUNA-WHALE(LUNA)",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-13T23:40:18.882Z"
         },
         "185": {
@@ -3441,9 +4197,12 @@
           "a0_sym": "LUNA",
           "a0_amt": 3575.850991,
           "a0_px": 0.064584,
+          "a0_price_source": "direct",
           "a1_sym": "WHALE",
           "a1_amt": 2409580.94736,
           "a1_px": 0.00009529014417711098,
+          "a1_price_source": "pool_derived:LUNA-WHALE(LUNA)",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-17T23:40:23.409Z"
         },
         "186": {
@@ -3456,33 +4215,42 @@
           "a0_sym": "LUNA",
           "a0_amt": 3582.938104,
           "a0_px": 0.060938,
+          "a0_price_source": "direct",
           "a1_sym": "WHALE",
           "a1_amt": 2405276.515861,
           "a1_px": 0.00008991067146452355,
+          "a1_price_source": "pool_derived:LUNA-WHALE(LUNA)",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-24T23:40:25.917Z"
         },
         "187": {
           "vp_human": 57263.76479,
-          "bucket_pct": 0.24258042441815453,
+          "bucket_pct": 0.24205074255778392,
           "status": "voted_but_below_threshold",
           "active": false,
           "depth_usd": 0,
-          "staked_usd": 26.016704280138118,
+          "staked_usd": 26.3118721352098,
           "a0_sym": "LUNA",
-          "a0_amt": 3631.987671,
-          "a0_px": 0.059366,
+          "a0_amt": 3616.886198,
+          "a0_px": 0.060079,
+          "a0_price_source": "direct",
           "a1_sym": "WHALE",
-          "a1_amt": 2373063.499101,
-          "a1_px": 0.00008759127181993017,
-          "capturedAt": "2026-05-28T23:40:19.166Z"
+          "a1_amt": 2382991.616944,
+          "a1_px": 0.00008864326415236979,
+          "a1_price_source": "pool_derived:LUNA-WHALE(LUNA)",
+          "is_migration_corpse": false,
+          "capturedAt": "2026-05-30T23:40:29.160Z"
         }
       }
     },
     {
+      "gauge_pool_id": "cw20:terra1h840qkh5pqmrvnt6d3m97slcl3q8k6czv67rrmnydp96xwda2afsghwnjr",
+      "pool_address": "terra1g55qjcptzqgdyqfgzu5mj8x82955rvlxy4c37z5t6ldgz7cz033q0xr2lx",
       "name": "PAXG-WBTC",
       "dex": "Astroport",
       "bucket": "single",
-      "pool_address": "terra1g55qjcptzqgdyqfgzu5mj8x82955rvlxy4c37z5t6ldgz7cz033q0xr2lx",
+      "dex_subtype": "concentrated",
+      "legacy_name_dex_key": "PAXG-WBTC|Astroport",
       "epochs": {
         "184": {
           "vp_human": 3127817.645731,
@@ -3494,9 +4262,12 @@
           "a0_sym": "PAXG",
           "a0_amt": 8.866636304308777,
           "a0_px": 4687.23,
+          "a0_price_source": "direct",
           "a1_sym": "WBTC",
           "a1_amt": 0.50877127,
           "a1_px": 79124,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-13T23:40:18.882Z"
         },
         "185": {
@@ -3509,9 +4280,12 @@
           "a0_sym": "PAXG",
           "a0_amt": 8.785943971390184,
           "a0_px": 4535.04,
+          "a0_price_source": "direct",
           "a1_sym": "WBTC",
           "a1_amt": 0.49490455,
           "a1_px": 77516,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-17T23:40:23.409Z"
         },
         "186": {
@@ -3524,33 +4298,42 @@
           "a0_sym": "PAXG",
           "a0_amt": 12.012510723856773,
           "a0_px": 4566.84,
+          "a0_price_source": "direct",
           "a1_sym": "WBTC",
           "a1_amt": 0.69458911,
           "a1_px": 76664,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-24T23:40:25.917Z"
         },
         "187": {
-          "vp_human": 6494114.810913,
-          "bucket_pct": 27.494418484377498,
+          "vp_human": 6496824.097755,
+          "bucket_pct": 27.445863615730037,
           "status": "active",
           "active": true,
-          "depth_usd": 106331,
-          "staked_usd": 106315.03812968194,
+          "depth_usd": 108099,
+          "staked_usd": 107510.1220791634,
           "a0_sym": "PAXG",
-          "a0_amt": 12.293318325643789,
-          "a0_px": 4480.68,
+          "a0_amt": 11.841676748509798,
+          "a0_px": 4516.73,
+          "a0_price_source": "direct",
           "a1_sym": "WBTC",
-          "a1_amt": 0.70945272,
-          "a1_px": 73430,
-          "capturedAt": "2026-05-28T23:40:19.166Z"
+          "a1_amt": 0.74629334,
+          "a1_px": 73630,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
+          "capturedAt": "2026-05-30T23:40:29.160Z"
         }
       }
     },
     {
+      "gauge_pool_id": "cw20:terra1mnucaeckccseq66kglv299wasp02akyh535jcpcdu37tdakr92esf9mjm5",
+      "pool_address": "terra1rzw2egugtjhxz2x58z55kwldm96fzck8qsf9srf5v0uehf64a2asjsak68",
       "name": "SWTH-rSWTH",
       "dex": "Astroport",
       "bucket": "single",
-      "pool_address": "terra1rzw2egugtjhxz2x58z55kwldm96fzck8qsf9srf5v0uehf64a2asjsak68",
+      "dex_subtype": "xyk",
+      "legacy_name_dex_key": "SWTH-rSWTH|Astroport",
       "epochs": {
         "184": {
           "vp_human": 29611.827412,
@@ -3562,9 +4345,12 @@
           "a0_sym": "SWTH",
           "a0_amt": 1197514.45297622,
           "a0_px": 0.00032383258835622,
+          "a0_price_source": "direct",
           "a1_sym": "rSWTH",
           "a1_amt": 1305169.01689964,
           "a1_px": 0.0002971218285754721,
+          "a1_price_source": "pool_derived:SWTH-rSWTH(SWTH)",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-13T23:40:18.882Z"
         },
         "185": {
@@ -3577,9 +4363,12 @@
           "a0_sym": "SWTH",
           "a0_amt": 1197514.45297622,
           "a0_px": 0.000295472155016439,
+          "a0_price_source": "direct",
           "a1_sym": "rSWTH",
           "a1_amt": 1305169.01689964,
           "a1_px": 0.0002711006555493675,
+          "a1_price_source": "pool_derived:SWTH-rSWTH(SWTH)",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-17T23:40:23.409Z"
         },
         "186": {
@@ -3592,33 +4381,42 @@
           "a0_sym": "SWTH",
           "a0_amt": 1197514.45297622,
           "a0_px": 0.000254601088359276,
+          "a0_price_source": "direct",
           "a1_sym": "rSWTH",
           "a1_amt": 1305169.01689964,
           "a1_px": 0.00023360076672518254,
+          "a1_price_source": "pool_derived:SWTH-rSWTH(SWTH)",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-24T23:40:25.917Z"
         },
         "187": {
           "vp_human": 28891.869826,
-          "bucket_pct": 0.12232077549003541,
+          "bucket_pct": 0.12205383844728576,
           "status": "voted_but_below_threshold",
           "active": false,
-          "depth_usd": 366.499,
-          "staked_usd": 73.94254885175603,
+          "depth_usd": 366.008,
+          "staked_usd": 75.89375029329808,
           "a0_sym": "SWTH",
           "a0_amt": 1197514.45297622,
-          "a0_px": 0.000301374140404604,
+          "a0_px": 0.000309326823485355,
+          "a0_price_source": "direct",
           "a1_sym": "rSWTH",
           "a1_amt": 1305169.01689964,
-          "a1_px": 0.0002765158260844228,
-          "capturedAt": "2026-05-28T23:40:19.166Z"
+          "a1_px": 0.0002838125461305063,
+          "a1_price_source": "pool_derived:SWTH-rSWTH(SWTH)",
+          "is_migration_corpse": false,
+          "capturedAt": "2026-05-30T23:40:29.160Z"
         }
       }
     },
     {
+      "gauge_pool_id": "cw20:terra17thxg96vtxv39kcltc0dvrltqgkumu8fv93rpz3xz98675cgxdjq3y4ddn",
+      "pool_address": "terra1ys7edvw89krf47n4zsz4c4m9das7ppltjtfv2epw85thqpvl6hhqn55m6y",
       "name": "USDC-EURe",
       "dex": "Astroport",
       "bucket": "bluechip",
-      "pool_address": "terra1ys7edvw89krf47n4zsz4c4m9das7ppltjtfv2epw85thqpvl6hhqn55m6y",
+      "dex_subtype": "concentrated",
+      "legacy_name_dex_key": "USDC-EURe|Astroport",
       "epochs": {
         "184": {
           "vp_human": 2992371.274874,
@@ -3630,9 +4428,12 @@
           "a0_sym": "USDC",
           "a0_amt": 157753.975264,
           "a0_px": 1,
+          "a0_price_source": "direct",
           "a1_sym": "EURE",
           "a1_amt": 134598.326511,
           "a1_px": 1.17,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-13T23:40:18.882Z"
         },
         "185": {
@@ -3645,9 +4446,12 @@
           "a0_sym": "USDC",
           "a0_amt": 135206.44856,
           "a0_px": 0.999971,
+          "a0_price_source": "direct",
           "a1_sym": "EURE",
           "a1_amt": 119437.425459,
           "a1_px": 1.16,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-17T23:40:23.409Z"
         },
         "186": {
@@ -3660,33 +4464,42 @@
           "a0_sym": "USDC",
           "a0_amt": 169154.382574,
           "a0_px": 0.99974,
+          "a0_price_source": "direct",
           "a1_sym": "EURE",
           "a1_amt": 146489.479484,
           "a1_px": 1.16,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-24T23:40:25.917Z"
         },
         "187": {
-          "vp_human": 4589851.309536,
-          "bucket_pct": 19.4876587294757,
+          "vp_human": 4600103.869443,
+          "bucket_pct": 19.48844560230675,
           "status": "active",
           "active": true,
-          "depth_usd": 340005,
-          "staked_usd": 311399.38513616077,
+          "depth_usd": 340740,
+          "staked_usd": 313341.42191949935,
           "a0_sym": "USDC",
-          "a0_amt": 169761.814937,
-          "a0_px": 0.99955,
+          "a0_amt": 170690.173727,
+          "a0_px": 0.999683,
+          "a0_price_source": "direct",
           "a1_sym": "EURE",
-          "a1_amt": 147070.358127,
-          "a1_px": 1.16,
-          "capturedAt": "2026-05-28T23:40:19.166Z"
+          "a1_amt": 146915.847809,
+          "a1_px": 1.17,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
+          "capturedAt": "2026-05-30T23:40:29.160Z"
         }
       }
     },
     {
+      "gauge_pool_id": "native:factory/terra1t9uvn05g0hdlx2nnqug3lt3pkla4sfdj0n0xnd66kmwvyt25y65sk37cej/uLP",
+      "pool_address": "terra1t9uvn05g0hdlx2nnqug3lt3pkla4sfdj0n0xnd66kmwvyt25y65sk37cej",
       "name": "USDC-EURe",
       "dex": "Skeleton Swap",
       "bucket": "bluechip",
-      "pool_address": "terra1t9uvn05g0hdlx2nnqug3lt3pkla4sfdj0n0xnd66kmwvyt25y65sk37cej",
+      "dex_subtype": null,
+      "legacy_name_dex_key": "USDC-EURe|Skeleton Swap",
       "epochs": {
         "184": {
           "vp_human": 0.000002,
@@ -3698,9 +4511,12 @@
           "a0_sym": "USDC",
           "a0_amt": 1973.681913,
           "a0_px": 1,
+          "a0_price_source": "direct",
           "a1_sym": "EURE",
           "a1_amt": 1691.713573,
           "a1_px": 1.17,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-13T23:40:18.882Z"
         },
         "185": {
@@ -3713,9 +4529,12 @@
           "a0_sym": "USDC",
           "a0_amt": 1963.383684,
           "a0_px": 0.999971,
+          "a0_price_source": "direct",
           "a1_sym": "EURE",
           "a1_amt": 1700.638671,
           "a1_px": 1.16,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-17T23:40:23.409Z"
         },
         "186": {
@@ -3728,33 +4547,42 @@
           "a0_sym": "USDC",
           "a0_amt": 1970.727267,
           "a0_px": 0.99974,
+          "a0_price_source": "direct",
           "a1_sym": "EURE",
           "a1_amt": 1694.352174,
           "a1_px": 1.16,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-24T23:40:25.917Z"
         },
         "187": {
           "vp_human": 0.000002,
-          "bucket_pct": 8.491629647778616e-12,
+          "bucket_pct": 8.473045894359987e-12,
           "status": "voted_but_below_threshold",
           "active": false,
-          "depth_usd": 3935.56,
-          "staked_usd": 2231.806105771581,
+          "depth_usd": 3901.77,
+          "staked_usd": 2240.2559422673603,
           "a0_sym": "USDC",
-          "a0_amt": 1985.336738,
-          "a0_px": 0.99955,
+          "a0_amt": 1976.525347,
+          "a0_px": 0.999683,
+          "a0_price_source": "direct",
           "a1_sym": "EURE",
-          "a1_amt": 1681.967525,
-          "a1_px": 1.16,
-          "capturedAt": "2026-05-28T23:40:19.166Z"
+          "a1_amt": 1689.480836,
+          "a1_px": 1.17,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
+          "capturedAt": "2026-05-30T23:40:29.160Z"
         }
       }
     },
     {
+      "gauge_pool_id": "cw20:terra12usr3jlgvuzq70kpt6u03stxrgzwpjxnej6herpuw9t7echj8z3q44dyyk",
+      "pool_address": "terra1fwjxdjpl98shj20l4swlen9hyu4lhvekrvqkqn393lzzghmsn2wqjdnvpu",
       "name": "USDC-SOLID",
       "dex": "Astroport",
       "bucket": "project",
-      "pool_address": "terra1fwjxdjpl98shj20l4swlen9hyu4lhvekrvqkqn393lzzghmsn2wqjdnvpu",
+      "dex_subtype": "xyk",
+      "legacy_name_dex_key": "USDC-SOLID|Astroport",
       "epochs": {
         "184": {
           "vp_human": 4883285.916062,
@@ -3766,9 +4594,12 @@
           "a0_sym": "USDC",
           "a0_amt": 59004.803488,
           "a0_px": 1,
+          "a0_price_source": "direct",
           "a1_sym": "SOLID",
           "a1_amt": 57276.637462,
           "a1_px": 1.0293377186587689,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-13T23:40:18.882Z"
         },
         "185": {
@@ -3781,9 +4612,12 @@
           "a0_sym": "USDC",
           "a0_amt": 59033.461792,
           "a0_px": 0.999971,
+          "a0_price_source": "direct",
           "a1_sym": "SOLID",
           "a1_amt": 57414.335831,
           "a1_px": 1.0273521389416966,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-17T23:40:23.409Z"
         },
         "186": {
@@ -3796,33 +4630,42 @@
           "a0_sym": "USDC",
           "a0_amt": 61170.746598,
           "a0_px": 0.99974,
+          "a0_price_source": "direct",
           "a1_sym": "SOLID",
           "a1_amt": 58167.331782,
           "a1_px": 1.050901631887729,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-24T23:40:25.917Z"
         },
         "187": {
-          "vp_human": 5015159.888297,
-          "bucket_pct": 21.24519089321984,
+          "vp_human": 5039957.544752,
+          "bucket_pct": 21.303619673639815,
           "status": "active",
           "active": true,
-          "depth_usd": 130319,
-          "staked_usd": 117038.00318253772,
+          "depth_usd": 131861,
+          "staked_usd": 118857.64129763296,
           "a0_sym": "USDC",
-          "a0_amt": 65078.075632,
-          "a0_px": 0.99955,
+          "a0_amt": 66080.521935,
+          "a0_px": 0.999683,
+          "a0_price_source": "direct",
           "a1_sym": "SOLID",
-          "a1_amt": 60897.654571,
-          "a1_px": 1.068480143688576,
-          "capturedAt": "2026-05-28T23:40:19.166Z"
+          "a1_amt": 61177.35412,
+          "a1_px": 1.07894132023545,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
+          "capturedAt": "2026-05-30T23:40:29.160Z"
         }
       }
     },
     {
+      "gauge_pool_id": "native:factory/terra1wje8lj3372njwuw8t4scmyp94t5pyxxh89tsnkrfyxghqh6aunzqz4a9k3/uLP",
+      "pool_address": "terra1wje8lj3372njwuw8t4scmyp94t5pyxxh89tsnkrfyxghqh6aunzqz4a9k3",
       "name": "USDC-SOLID",
       "dex": "Skeleton Swap",
       "bucket": "project",
-      "pool_address": "terra1wje8lj3372njwuw8t4scmyp94t5pyxxh89tsnkrfyxghqh6aunzqz4a9k3",
+      "dex_subtype": null,
+      "legacy_name_dex_key": "USDC-SOLID|Skeleton Swap",
       "epochs": {
         "184": {
           "vp_human": 19867.533098,
@@ -3834,9 +4677,12 @@
           "a0_sym": "USDC",
           "a0_amt": 213.024852,
           "a0_px": 1,
+          "a0_price_source": "direct",
           "a1_sym": "SOLID",
           "a1_amt": 207.08045,
           "a1_px": 1.0293377186587689,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-13T23:40:18.882Z"
         },
         "185": {
@@ -3849,9 +4695,12 @@
           "a0_sym": "USDC",
           "a0_amt": 212.806733,
           "a0_px": 0.999971,
+          "a0_price_source": "direct",
           "a1_sym": "SOLID",
           "a1_amt": 207.299449,
           "a1_px": 1.0273521389416966,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-17T23:40:23.409Z"
         },
         "186": {
@@ -3864,33 +4713,42 @@
           "a0_sym": "USDC",
           "a0_amt": 215.133712,
           "a0_px": 0.99974,
+          "a0_price_source": "direct",
           "a1_sym": "SOLID",
           "a1_amt": 205.061681,
           "a1_px": 1.050901631887729,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-24T23:40:25.917Z"
         },
         "187": {
           "vp_human": 19769.577324,
-          "bucket_pct": 0.08374776746535048,
+          "bucket_pct": 0.08356490162455012,
           "status": "voted_but_below_threshold",
           "active": false,
-          "depth_usd": 425.68,
-          "staked_usd": 0.0014841259895698458,
+          "depth_usd": 430.75,
+          "staked_usd": 0.0014914730126223334,
           "a0_sym": "USDC",
-          "a0_amt": 217.669436,
-          "a0_px": 0.99955,
+          "a0_amt": 218.276806,
+          "a0_px": 0.999683,
+          "a0_price_source": "direct",
           "a1_sym": "SOLID",
-          "a1_amt": 202.67996,
-          "a1_px": 1.068480143688576,
-          "capturedAt": "2026-05-28T23:40:19.166Z"
+          "a1_amt": 202.117117,
+          "a1_px": 1.07894132023545,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
+          "capturedAt": "2026-05-30T23:40:29.160Z"
         }
       }
     },
     {
+      "gauge_pool_id": "native:factory/terra178ca7z2w6346wlkmxwpw80s2a5fmas9q28xlzegkt4c4rdam67aql5fgxj/uLP",
+      "pool_address": "terra178ca7z2w6346wlkmxwpw80s2a5fmas9q28xlzegkt4c4rdam67aql5fgxj",
       "name": "USDC-USDt",
       "dex": "Skeleton Swap",
       "bucket": "bluechip",
-      "pool_address": "terra178ca7z2w6346wlkmxwpw80s2a5fmas9q28xlzegkt4c4rdam67aql5fgxj",
+      "dex_subtype": null,
+      "legacy_name_dex_key": "USDC-USDt|Skeleton Swap",
       "epochs": {
         "184": {
           "vp_human": 221.206023,
@@ -3902,9 +4760,12 @@
           "a0_sym": "USDC",
           "a0_amt": 43980.299081,
           "a0_px": 1,
+          "a0_price_source": "direct",
           "a1_sym": "USDT",
           "a1_amt": 44363.218783,
           "a1_px": 0.999523,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-13T23:40:18.882Z"
         },
         "185": {
@@ -3917,9 +4778,12 @@
           "a0_sym": "USDC",
           "a0_amt": 44026.655247,
           "a0_px": 0.999971,
+          "a0_price_source": "direct",
           "a1_sym": "USDT",
           "a1_amt": 44441.693283,
           "a1_px": 0.99944,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-17T23:40:23.409Z"
         },
         "186": {
@@ -3932,33 +4796,42 @@
           "a0_sym": "USDC",
           "a0_amt": 42939.912382,
           "a0_px": 0.99974,
+          "a0_price_source": "direct",
           "a1_sym": "USDT",
           "a1_amt": 45735.53433,
           "a1_px": 0.998753,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-24T23:40:25.917Z"
         },
         "187": {
           "vp_human": 210.917383,
-          "bucket_pct": 0.0008955161513573388,
+          "bucket_pct": 0.0008935563330386514,
           "status": "voted_but_below_threshold",
           "active": false,
-          "depth_usd": 88530.12,
-          "staked_usd": 82069.91038682243,
+          "depth_usd": 88575.57,
+          "staked_usd": 82087.00187133513,
           "a0_sym": "USDC",
-          "a0_amt": 42171.988363,
-          "a0_px": 0.99955,
+          "a0_amt": 42068.32465,
+          "a0_px": 0.999683,
+          "a0_price_source": "direct",
           "a1_sym": "USDT",
-          "a1_amt": 46618.81677,
-          "a1_px": 0.998577,
-          "capturedAt": "2026-05-28T23:40:19.166Z"
+          "a1_amt": 46778.525466,
+          "a1_px": 0.998601,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
+          "capturedAt": "2026-05-30T23:40:29.160Z"
         }
       }
     },
     {
+      "gauge_pool_id": "native:factory/terra178ca7z2w6346wlkmxwpw80s2a5fmas9q28xlzegkt4c4rdam67aql5fgxj/uLP",
+      "pool_address": "terra178ca7z2w6346wlkmxwpw80s2a5fmas9q28xlzegkt4c4rdam67aql5fgxj",
       "name": "USDC-USDt",
       "dex": "Skeleton Swap",
       "bucket": "single",
-      "pool_address": "terra178ca7z2w6346wlkmxwpw80s2a5fmas9q28xlzegkt4c4rdam67aql5fgxj",
+      "dex_subtype": null,
+      "legacy_name_dex_key": "USDC-USDt|Skeleton Swap",
       "epochs": {
         "184": {
           "vp_human": 1027167.617857,
@@ -3970,9 +4843,12 @@
           "a0_sym": "USDC",
           "a0_amt": 43980.299081,
           "a0_px": 1,
+          "a0_price_source": "direct",
           "a1_sym": "USDT",
           "a1_amt": 44363.218783,
           "a1_px": 0.999523,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-13T23:40:18.882Z"
         },
         "185": {
@@ -3985,9 +4861,12 @@
           "a0_sym": "USDC",
           "a0_amt": 44026.655247,
           "a0_px": 0.999971,
+          "a0_price_source": "direct",
           "a1_sym": "USDT",
           "a1_amt": 44441.693283,
           "a1_px": 0.99944,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-17T23:40:23.409Z"
         },
         "186": {
@@ -4000,33 +4879,42 @@
           "a0_sym": "USDC",
           "a0_amt": 42939.912382,
           "a0_px": 0.99974,
+          "a0_price_source": "direct",
           "a1_sym": "USDT",
           "a1_amt": 45735.53433,
           "a1_px": 0.998753,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-24T23:40:25.917Z"
         },
         "187": {
           "vp_human": 1027167.609491,
-          "bucket_pct": 4.348764524687048,
+          "bucket_pct": 4.339274343340634,
           "status": "active",
           "active": true,
-          "depth_usd": 88530.12,
-          "staked_usd": 82069.91038682243,
+          "depth_usd": 88575.57,
+          "staked_usd": 82087.00187133513,
           "a0_sym": "USDC",
-          "a0_amt": 42171.988363,
-          "a0_px": 0.99955,
+          "a0_amt": 42068.32465,
+          "a0_px": 0.999683,
+          "a0_price_source": "direct",
           "a1_sym": "USDT",
-          "a1_amt": 46618.81677,
-          "a1_px": 0.998577,
-          "capturedAt": "2026-05-28T23:40:19.166Z"
+          "a1_amt": 46778.525466,
+          "a1_px": 0.998601,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
+          "capturedAt": "2026-05-30T23:40:29.160Z"
         }
       }
     },
     {
+      "gauge_pool_id": "cw20:terra1huw82c9grj9xz9umkc8hqcjqgndadlkrp8rn9u6eh5jh5j2s2t7qs33vry",
+      "pool_address": "terra1dnssvse0fqw4d4gqc8kvchfud5r6e8cr7w9cdpervhl2pgr2eecquujpg6",
       "name": "USDC-USDT",
       "dex": "Astroport",
       "bucket": "bluechip",
-      "pool_address": "terra1dnssvse0fqw4d4gqc8kvchfud5r6e8cr7w9cdpervhl2pgr2eecquujpg6",
+      "dex_subtype": "stable",
+      "legacy_name_dex_key": "USDC-USDT|Astroport",
       "epochs": {
         "184": {
           "vp_human": 281717.098525,
@@ -4038,9 +4926,12 @@
           "a0_sym": "USDC",
           "a0_amt": 155068.856678,
           "a0_px": 1,
+          "a0_price_source": "direct",
           "a1_sym": "USDT",
           "a1_amt": 156767.61165,
           "a1_px": 0.999523,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-13T23:40:18.882Z"
         },
         "185": {
@@ -4053,9 +4944,12 @@
           "a0_sym": "USDC",
           "a0_amt": 155287.994634,
           "a0_px": 0.999971,
+          "a0_price_source": "direct",
           "a1_sym": "USDT",
           "a1_amt": 156984.853378,
           "a1_px": 0.99944,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-17T23:40:23.409Z"
         },
         "186": {
@@ -4068,33 +4962,42 @@
           "a0_sym": "USDC",
           "a0_amt": 103599.313081,
           "a0_px": 0.99974,
+          "a0_price_source": "direct",
           "a1_sym": "USDT",
           "a1_amt": 128223.496823,
           "a1_px": 0.998753,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-24T23:40:25.917Z"
         },
         "187": {
           "vp_human": 281717.098525,
-          "bucket_pct": 1.1961186330605298,
+          "bucket_pct": 1.1935009525141296,
           "status": "active",
           "active": true,
-          "depth_usd": 231803,
-          "staked_usd": 183821.26272681585,
+          "depth_usd": 231928,
+          "staked_usd": 183856.4696737314,
           "a0_sym": "USDC",
-          "a0_amt": 106783.770287,
-          "a0_px": 0.99955,
+          "a0_amt": 106523.313021,
+          "a0_px": 0.999683,
+          "a0_price_source": "direct",
           "a1_sym": "USDT",
-          "a1_amt": 125287.111453,
-          "a1_px": 0.998577,
-          "capturedAt": "2026-05-28T23:40:19.166Z"
+          "a1_amt": 125670.652197,
+          "a1_px": 0.998601,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
+          "capturedAt": "2026-05-30T23:40:29.160Z"
         }
       }
     },
     {
+      "gauge_pool_id": "cw20:terra1huw82c9grj9xz9umkc8hqcjqgndadlkrp8rn9u6eh5jh5j2s2t7qs33vry",
+      "pool_address": "terra1dnssvse0fqw4d4gqc8kvchfud5r6e8cr7w9cdpervhl2pgr2eecquujpg6",
       "name": "USDC-USDT",
       "dex": "Astroport",
       "bucket": "single",
-      "pool_address": "terra1dnssvse0fqw4d4gqc8kvchfud5r6e8cr7w9cdpervhl2pgr2eecquujpg6",
+      "dex_subtype": "stable",
+      "legacy_name_dex_key": "USDC-USDT|Astroport",
       "epochs": {
         "184": {
           "vp_human": 3244202.602507,
@@ -4106,9 +5009,12 @@
           "a0_sym": "USDC",
           "a0_amt": 155068.856678,
           "a0_px": 1,
+          "a0_price_source": "direct",
           "a1_sym": "USDT",
           "a1_amt": 156767.61165,
           "a1_px": 0.999523,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-13T23:40:18.882Z"
         },
         "185": {
@@ -4121,9 +5027,12 @@
           "a0_sym": "USDC",
           "a0_amt": 155287.994634,
           "a0_px": 0.999971,
+          "a0_price_source": "direct",
           "a1_sym": "USDT",
           "a1_amt": 156984.853378,
           "a1_px": 0.99944,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-17T23:40:23.409Z"
         },
         "186": {
@@ -4136,33 +5045,42 @@
           "a0_sym": "USDC",
           "a0_amt": 103599.313081,
           "a0_px": 0.99974,
+          "a0_price_source": "direct",
           "a1_sym": "USDT",
           "a1_amt": 128223.496823,
           "a1_px": 0.998753,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-24T23:40:25.917Z"
         },
         "187": {
-          "vp_human": 1997460.474328,
-          "bucket_pct": 8.45673595035444,
+          "vp_human": 2044577.504871,
+          "bucket_pct": 8.637327178039172,
           "status": "active",
           "active": true,
-          "depth_usd": 231803,
-          "staked_usd": 183821.26272681585,
+          "depth_usd": 231928,
+          "staked_usd": 183856.4696737314,
           "a0_sym": "USDC",
-          "a0_amt": 106783.770287,
-          "a0_px": 0.99955,
+          "a0_amt": 106523.313021,
+          "a0_px": 0.999683,
+          "a0_price_source": "direct",
           "a1_sym": "USDT",
-          "a1_amt": 125287.111453,
-          "a1_px": 0.998577,
-          "capturedAt": "2026-05-28T23:40:19.166Z"
+          "a1_amt": 125670.652197,
+          "a1_px": 0.998601,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
+          "capturedAt": "2026-05-30T23:40:29.160Z"
         }
       }
     },
     {
+      "gauge_pool_id": "cw20:terra10e2rz5etaped4nh0vk502hf7uwtz5lqvxqatxl4qyr0chcynxf2swhfwww",
+      "pool_address": "terra1mps5z5gt2c2akwcp86mq0zhw66kdugtc3selcyradtje0vp0z49sfrk8jx",
       "name": "WBTC.axl-WBTC.osmo",
       "dex": "Astroport",
       "bucket": "single",
-      "pool_address": "terra1mps5z5gt2c2akwcp86mq0zhw66kdugtc3selcyradtje0vp0z49sfrk8jx",
+      "dex_subtype": "stable",
+      "legacy_name_dex_key": "WBTC.axl-WBTC.osmo|Astroport",
       "epochs": {
         "184": {
           "vp_human": 157839.966882,
@@ -4174,9 +5092,12 @@
           "a0_sym": "WBTC",
           "a0_amt": 0.00312527,
           "a0_px": 79124,
+          "a0_price_source": "direct",
           "a1_sym": "WBTC",
           "a1_amt": 0.00205387,
           "a1_px": 79124,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-13T23:40:18.882Z"
         },
         "185": {
@@ -4189,9 +5110,12 @@
           "a0_sym": "WBTC",
           "a0_amt": 0.00293634,
           "a0_px": 77516,
+          "a0_price_source": "direct",
           "a1_sym": "WBTC",
           "a1_amt": 0.00224212,
           "a1_px": 77516,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-17T23:40:23.409Z"
         },
         "186": {
@@ -4204,33 +5128,42 @@
           "a0_sym": "WBTC",
           "a0_amt": 0.00274277,
           "a0_px": 76664,
+          "a0_price_source": "direct",
           "a1_sym": "WBTC",
           "a1_amt": 0.00229613,
           "a1_px": 76664,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-24T23:40:25.917Z"
         },
         "187": {
           "vp_human": 169259.707277,
-          "bucket_pct": 0.7166022406312855,
+          "bucket_pct": 0.7150384205673957,
           "status": "voted_but_below_threshold",
           "active": false,
-          "depth_usd": 387.433,
-          "staked_usd": 260.3809853628509,
+          "depth_usd": 386.768,
+          "staked_usd": 260.9502756532749,
           "a0_sym": "WBTC",
-          "a0_amt": 0.0025884,
-          "a0_px": 73430,
+          "a0_amt": 0.00265196,
+          "a0_px": 73630,
+          "a0_price_source": "direct",
           "a1_sym": "WBTC",
-          "a1_amt": 0.00245017,
-          "a1_px": 73430,
-          "capturedAt": "2026-05-28T23:40:19.166Z"
+          "a1_amt": 0.00238667,
+          "a1_px": 73630,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
+          "capturedAt": "2026-05-30T23:40:29.160Z"
         }
       }
     },
     {
+      "gauge_pool_id": "native:factory/terra1aysexulsnuxna62m5rlnuzfcvct3df93gd4q0kkjtjcqsvv93s5sd0fyd2/uLP",
+      "pool_address": "terra1aysexulsnuxna62m5rlnuzfcvct3df93gd4q0kkjtjcqsvv93s5sd0fyd2",
       "name": "wBTC.osmo-LUNA",
       "dex": "Skeleton Swap",
       "bucket": "bluechip",
-      "pool_address": "terra1aysexulsnuxna62m5rlnuzfcvct3df93gd4q0kkjtjcqsvv93s5sd0fyd2",
+      "dex_subtype": null,
+      "legacy_name_dex_key": "wBTC.osmo-LUNA|Skeleton Swap",
       "epochs": {
         "184": {
           "vp_human": 1427002.753324,
@@ -4242,9 +5175,12 @@
           "a0_sym": "WBTC",
           "a0_amt": 0.03568506,
           "a0_px": 79124,
+          "a0_price_source": "direct",
           "a1_sym": "LUNA",
           "a1_amt": 42031.979243,
           "a1_px": 0.066856,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-13T23:40:18.882Z"
         },
         "185": {
@@ -4257,9 +5193,12 @@
           "a0_sym": "WBTC",
           "a0_amt": 0.03540879,
           "a0_px": 77516,
+          "a0_price_source": "direct",
           "a1_sym": "LUNA",
           "a1_amt": 42375.933009,
           "a1_px": 0.064584,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-17T23:40:23.409Z"
         },
         "186": {
@@ -4272,33 +5211,42 @@
           "a0_sym": "WBTC",
           "a0_amt": 0.03471043,
           "a0_px": 76664,
+          "a0_price_source": "direct",
           "a1_sym": "LUNA",
           "a1_amt": 43238.709892,
           "a1_px": 0.060938,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-24T23:40:25.917Z"
         },
         "187": {
           "vp_human": 1427002.753324,
-          "bucket_pct": 6.058789443793897,
+          "bucket_pct": 6.045529910146157,
           "status": "active",
           "active": true,
-          "depth_usd": 5472.95,
-          "staked_usd": 563.1804084868387,
+          "depth_usd": 5381.16,
+          "staked_usd": 567.0370455829528,
           "a0_sym": "WBTC",
-          "a0_amt": 0.03320117,
-          "a0_px": 73430,
+          "a0_amt": 0.03350085,
+          "a0_px": 73630,
+          "a0_price_source": "direct",
           "a1_sym": "LUNA",
-          "a1_amt": 41126.514195,
-          "a1_px": 0.059366,
-          "capturedAt": "2026-05-28T23:40:19.166Z"
+          "a1_amt": 40761.692658,
+          "a1_px": 0.060079,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
+          "capturedAt": "2026-05-30T23:40:29.160Z"
         }
       }
     },
     {
+      "gauge_pool_id": "native:factory/terra13ywdferm4jtcperal9png3cvhtmar5se9nu4r49k7vujrakwy9zqa3rhwe/uLP",
+      "pool_address": "terra13ywdferm4jtcperal9png3cvhtmar5se9nu4r49k7vujrakwy9zqa3rhwe",
       "name": "wBTC.osmo-wBTC.axl",
       "dex": "Skeleton Swap",
       "bucket": "single",
-      "pool_address": "terra13ywdferm4jtcperal9png3cvhtmar5se9nu4r49k7vujrakwy9zqa3rhwe",
+      "dex_subtype": null,
+      "legacy_name_dex_key": "wBTC.osmo-wBTC.axl|Skeleton Swap",
       "epochs": {
         "184": {
           "vp_human": 1045048.077918,
@@ -4310,9 +5258,12 @@
           "a0_sym": "WBTC",
           "a0_amt": 0.10688748,
           "a0_px": 79124,
+          "a0_price_source": "direct",
           "a1_sym": "WBTC",
           "a1_amt": 0.12204772,
           "a1_px": 79124,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-13T23:40:18.882Z"
         },
         "185": {
@@ -4325,9 +5276,12 @@
           "a0_sym": "WBTC",
           "a0_amt": 0.10697567,
           "a0_px": 77516,
+          "a0_price_source": "direct",
           "a1_sym": "WBTC",
           "a1_amt": 0.12195932,
           "a1_px": 77516,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-17T23:40:23.409Z"
         },
         "186": {
@@ -4340,33 +5294,42 @@
           "a0_sym": "WBTC",
           "a0_amt": 0.10722058,
           "a0_px": 76664,
+          "a0_price_source": "direct",
           "a1_sym": "WBTC",
           "a1_amt": 0.12171357,
           "a1_px": 76664,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-24T23:40:25.917Z"
         },
         "187": {
           "vp_human": 1044417.861986,
-          "bucket_pct": 4.421797674680285,
+          "bucket_pct": 4.412148115231469,
           "status": "active",
           "active": true,
-          "depth_usd": 17731.2,
-          "staked_usd": 126.16781935374826,
+          "depth_usd": 17483.25,
+          "staked_usd": 126.4420001390121,
           "a0_sym": "WBTC",
-          "a0_amt": 0.10196724,
-          "a0_px": 73430,
+          "a0_amt": 0.10200275,
+          "a0_px": 73630,
+          "a0_price_source": "direct",
           "a1_sym": "WBTC",
-          "a1_amt": 0.11530799,
-          "a1_px": 73430,
-          "capturedAt": "2026-05-28T23:40:19.166Z"
+          "a1_amt": 0.11527234,
+          "a1_px": 73630,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
+          "capturedAt": "2026-05-30T23:40:29.160Z"
         }
       }
     },
     {
+      "gauge_pool_id": "native:factory/terra12252e02w0k5yv9mryctth4j3y2sdas0xremw0jznzwal5v3xeqjst7q537/uLP",
+      "pool_address": "terra12252e02w0k5yv9mryctth4j3y2sdas0xremw0jznzwal5v3xeqjst7q537",
       "name": "wETH-wstETH",
       "dex": "Skeleton Swap",
       "bucket": "single",
-      "pool_address": "terra12252e02w0k5yv9mryctth4j3y2sdas0xremw0jznzwal5v3xeqjst7q537",
+      "dex_subtype": null,
+      "legacy_name_dex_key": "wETH-wstETH|Skeleton Swap",
       "epochs": {
         "184": {
           "vp_human": 20816.232511,
@@ -4378,9 +5341,12 @@
           "a0_sym": "WETH",
           "a0_amt": 0.02158772,
           "a0_px": 2253.0726193588225,
+          "a0_price_source": "direct",
           "a1_sym": "WSTETH",
           "a1_amt": 0.014852276437534603,
           "a1_px": 2780.29,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-13T23:40:18.882Z"
         },
         "185": {
@@ -4393,9 +5359,12 @@
           "a0_sym": "WETH",
           "a0_amt": 0.02158772,
           "a0_px": 2168.2164344617654,
+          "a0_price_source": "direct",
           "a1_sym": "WSTETH",
           "a1_amt": 0.014852276437534603,
           "a1_px": 2674.73,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-17T23:40:23.409Z"
         },
         "186": {
@@ -4408,33 +5377,42 @@
           "a0_sym": "WETH",
           "a0_amt": 0.02158772,
           "a0_px": 2096.1142139145218,
+          "a0_price_source": "direct",
           "a1_sym": "WSTETH",
           "a1_amt": 0.014852276437534603,
           "a1_px": 2588.48,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-24T23:40:25.917Z"
         },
         "187": {
           "vp_human": 20807.493249,
-          "bucket_pct": 0.08809359607216985,
+          "bucket_pct": 0.08790135199975876,
           "status": "voted_but_below_threshold",
           "active": false,
-          "depth_usd": 85.27,
-          "staked_usd": 1.796024398136576e-9,
+          "depth_usd": 84.56,
+          "staked_usd": 1.8102703159724466e-9,
           "a0_sym": "WETH",
           "a0_amt": 0.02158772,
-          "a0_px": 2005.676226823891,
+          "a0_px": 2020.2936561458105,
+          "a0_price_source": "direct",
           "a1_sym": "WSTETH",
           "a1_amt": 0.014852276437534603,
-          "a1_px": 2477.7,
-          "capturedAt": "2026-05-28T23:40:19.166Z"
+          "a1_px": 2499.23,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
+          "capturedAt": "2026-05-30T23:40:29.160Z"
         }
       }
     },
     {
+      "gauge_pool_id": "cw20:terra18336lhc2vt9s9tw4pqetvdwywg9555rduzv527r9q47smw89epcsxgxuny",
+      "pool_address": "terra1yga5eepqnpg77gaj59uqfkm2qtllvpq642cmx5gj5lzjf5v88wzs2srzp7",
       "name": "wstETH-WETH.axl",
       "dex": "Astroport",
       "bucket": "single",
-      "pool_address": "terra1yga5eepqnpg77gaj59uqfkm2qtllvpq642cmx5gj5lzjf5v88wzs2srzp7",
+      "dex_subtype": "xyk",
+      "legacy_name_dex_key": "wstETH-WETH.axl|Astroport",
       "epochs": {
         "184": {
           "vp_human": 393887.857984,
@@ -4446,9 +5424,12 @@
           "a0_sym": "WSTETH",
           "a0_amt": 0.3722849537443449,
           "a0_px": 2780.29,
+          "a0_price_source": "direct",
           "a1_sym": "WETH",
           "a1_amt": 0.44799516395058137,
           "a1_px": 2253.0726193588225,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-13T23:40:18.882Z"
         },
         "185": {
@@ -4461,9 +5442,12 @@
           "a0_sym": "WSTETH",
           "a0_amt": 0.3717142859523162,
           "a0_px": 2674.73,
+          "a0_price_source": "direct",
           "a1_sym": "WETH",
           "a1_amt": 0.44868556425520395,
           "a1_px": 2168.2164344617654,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-17T23:40:23.409Z"
         },
         "186": {
@@ -4476,33 +5460,42 @@
           "a0_sym": "WSTETH",
           "a0_amt": 0.3727724347082826,
           "a0_px": 2588.48,
+          "a0_price_source": "direct",
           "a1_sym": "WETH",
           "a1_amt": 0.4474485719056369,
           "a1_px": 2096.1142139145218,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-24T23:40:25.917Z"
         },
         "187": {
           "vp_human": 399745.702546,
-          "bucket_pct": 1.692420900021943,
+          "bucket_pct": 1.6887275795019439,
           "status": "active",
           "active": true,
-          "depth_usd": 851.404,
-          "staked_usd": 1628.2538355800625,
+          "depth_usd": 844.405,
+          "staked_usd": 1640.3645654559857,
           "a0_sym": "WSTETH",
           "a0_amt": 0.34009517180520465,
-          "a0_px": 2477.7,
+          "a0_px": 2499.23,
+          "a0_price_source": "direct",
           "a1_sym": "WETH",
           "a1_amt": 0.4177718634002181,
-          "a1_px": 2005.676226823891,
-          "capturedAt": "2026-05-28T23:40:19.166Z"
+          "a1_px": 2020.2936561458105,
+          "a1_price_source": "direct",
+          "is_migration_corpse": false,
+          "capturedAt": "2026-05-30T23:40:29.160Z"
         }
       }
     },
     {
+      "gauge_pool_id": "native:ibc/65B3EB6263482979FD7A80E3FFB9D0C85CFBF6DB63EB8DDE918B2984A40CEAB6",
+      "pool_address": null,
       "name": "xASTRO",
       "dex": "Single",
       "bucket": "single",
-      "pool_address": null,
+      "dex_subtype": "single",
+      "legacy_name_dex_key": "xASTRO|Single",
       "epochs": {
         "184": {
           "vp_human": 820802.887807,
@@ -4514,9 +5507,12 @@
           "a0_sym": null,
           "a0_amt": 0,
           "a0_px": 0,
+          "a0_price_source": null,
           "a1_sym": null,
           "a1_amt": 0,
           "a1_px": 0,
+          "a1_price_source": null,
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-13T23:40:18.882Z"
         },
         "185": {
@@ -4529,9 +5525,12 @@
           "a0_sym": null,
           "a0_amt": 0,
           "a0_px": 0,
+          "a0_price_source": null,
           "a1_sym": null,
           "a1_amt": 0,
           "a1_px": 0,
+          "a1_price_source": null,
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-17T23:40:23.409Z"
         },
         "186": {
@@ -4544,27 +5543,459 @@
           "a0_sym": null,
           "a0_amt": 0,
           "a0_px": 0,
+          "a0_price_source": null,
           "a1_sym": null,
           "a1_amt": 0,
           "a1_px": 0,
+          "a1_price_source": null,
+          "is_migration_corpse": false,
           "capturedAt": "2026-05-24T23:40:25.917Z"
         },
         "187": {
           "vp_human": 809266.647195,
-          "bucket_pct": 3.426227670942618,
+          "bucket_pct": 3.4187507147297063,
           "status": "active",
           "active": true,
           "depth_usd": 0,
-          "staked_usd": 25694.804875177007,
+          "staked_usd": 25912.36137039694,
           "a0_sym": null,
           "a0_amt": 0,
           "a0_px": 0,
+          "a0_price_source": null,
           "a1_sym": null,
           "a1_amt": 0,
           "a1_px": 0,
-          "capturedAt": "2026-05-28T23:40:19.166Z"
+          "a1_price_source": null,
+          "is_migration_corpse": false,
+          "capturedAt": "2026-05-30T23:40:29.160Z"
         }
       }
     }
-  ]
+  ],
+  "_invariants": {
+    "184": [
+      {
+        "kind": "staked_exceeds_depth",
+        "name_dex_bucket": "USDC-USDt|Skeleton Swap|bluechip",
+        "gauge_pool_id": "native:factory/terra178ca7z2w6346wlkmxwpw80s2a5fmas9q28xlzegkt4c4rdam67aql5fgxj/uLP",
+        "depth_usd": 68193.22,
+        "staked_usd": 82019.47290587674,
+        "ratio": 1.202751137222685
+      },
+      {
+        "kind": "staked_exceeds_depth",
+        "name_dex_bucket": "USDC-EURe|Skeleton Swap|bluechip",
+        "gauge_pool_id": "native:factory/terra1t9uvn05g0hdlx2nnqug3lt3pkla4sfdj0n0xnd66kmwvyt25y65sk37cej/uLP",
+        "depth_usd": 2121.36,
+        "staked_usd": 2250.9397099749635,
+        "ratio": 1.06108331917966
+      },
+      {
+        "kind": "staked_exceeds_depth",
+        "name_dex_bucket": "wstETH-WETH.axl|Astroport|single",
+        "gauge_pool_id": "cw20:terra18336lhc2vt9s9tw4pqetvdwywg9555rduzv527r9q47smw89epcsxgxuny",
+        "depth_usd": 1047.99,
+        "staked_usd": 1993.7715599720054,
+        "ratio": 1.902471931957371
+      },
+      {
+        "kind": "staked_exceeds_depth",
+        "name_dex_bucket": "LUNA-arbLUNA|Astroport|single",
+        "gauge_pool_id": "cw20:terra1phz6qdzszgwj303rp5cfpfgcgfq0wwg0na2he980t58mryz69hyqsjkfc0",
+        "depth_usd": 94165.1,
+        "staked_usd": 105070.19981654102,
+        "ratio": 1.1158082964552791
+      },
+      {
+        "kind": "staked_exceeds_depth",
+        "name_dex_bucket": "USDC-USDt|Skeleton Swap|single",
+        "gauge_pool_id": "native:factory/terra178ca7z2w6346wlkmxwpw80s2a5fmas9q28xlzegkt4c4rdam67aql5fgxj/uLP",
+        "depth_usd": 68193.22,
+        "staked_usd": 82019.47290587674,
+        "ratio": 1.202751137222685
+      },
+      {
+        "kind": "value_split_off_for_xyk_or_stable",
+        "name_dex_bucket": "LUNA-stLUNA|Astroport|project",
+        "gauge_pool_id": "cw20:terra14n22zd24nath0tf8fwn468nz7753rjuks67ppddrcqwq37x2xsxsddqxqc",
+        "subtype": "stable",
+        "split_pct": [
+          17.689509185924585,
+          82.31049081407542
+        ],
+        "symbols": [
+          "stLUNA",
+          "LUNA"
+        ]
+      },
+      {
+        "kind": "value_split_off_for_xyk_or_stable",
+        "name_dex_bucket": "LUNA-bLUNA|Astroport|project",
+        "gauge_pool_id": "cw20:terra1h3z2zv6aw94fx5263dy6tgz6699kxmewlx3vrcu4jjrudg6xmtyqk6vt0u",
+        "subtype": "stable",
+        "split_pct": [
+          18.171873270924664,
+          81.82812672907534
+        ],
+        "symbols": [
+          "bLUNA",
+          "LUNA"
+        ]
+      },
+      {
+        "kind": "value_split_off_for_xyk_or_stable",
+        "name_dex_bucket": "WBTC.axl-WBTC.osmo|Astroport|single",
+        "gauge_pool_id": "cw20:terra10e2rz5etaped4nh0vk502hf7uwtz5lqvxqatxl4qyr0chcynxf2swhfwww",
+        "subtype": "stable",
+        "split_pct": [
+          60.34341608838532,
+          39.65658391161468
+        ],
+        "symbols": [
+          "WBTC",
+          "WBTC"
+        ]
+      },
+      {
+        "kind": "value_split_off_for_xyk_or_stable",
+        "name_dex_bucket": "LUNA-arbLUNA|Astroport|single",
+        "gauge_pool_id": "cw20:terra19z7g4fnu529250sdkdmgm9kw4qgwmmqrjas9t24ll84mpd94lxnshf0z2h",
+        "subtype": "stable",
+        "split_pct": [
+          16.51585923343739,
+          83.4841407665626
+        ],
+        "symbols": [
+          "arbLUNA",
+          "LUNA"
+        ]
+      },
+      {
+        "kind": "migration_corpse_candidate",
+        "name_dex_bucket": "LUNA-WBTC|Astroport|bluechip",
+        "dominant_gauge": "cw20:terra1wdzdltygkgqyuvggnqnxsny9vhfyex92kzaz6zkued2wvp7nvxpsv739js",
+        "dominant_subtype": "concentrated",
+        "dominant_vp": 5989090.054682,
+        "corpse_gauge": "cw20:terra1tfr4ghftlsf2l9nxr3clewk52g5q8wj7m2rglw67dkql9x6u7w6q53gwrn",
+        "corpse_subtype": "concentrated",
+        "corpse_vp": 18588.506837
+      },
+      {
+        "kind": "migration_corpse_candidate",
+        "name_dex_bucket": "LUNA-arbLUNA|Astroport|single",
+        "dominant_gauge": "cw20:terra1phz6qdzszgwj303rp5cfpfgcgfq0wwg0na2he980t58mryz69hyqsjkfc0",
+        "dominant_subtype": "concentrated",
+        "dominant_vp": 3258409.090101,
+        "corpse_gauge": "cw20:terra19z7g4fnu529250sdkdmgm9kw4qgwmmqrjas9t24ll84mpd94lxnshf0z2h",
+        "corpse_subtype": "stable",
+        "corpse_vp": 29752.158632
+      }
+    ],
+    "185": [
+      {
+        "kind": "staked_exceeds_depth",
+        "name_dex_bucket": "USDC-USDt|Skeleton Swap|bluechip",
+        "gauge_pool_id": "native:factory/terra178ca7z2w6346wlkmxwpw80s2a5fmas9q28xlzegkt4c4rdam67aql5fgxj/uLP",
+        "depth_usd": 68193.22,
+        "staked_usd": 82049.73851231088,
+        "ratio": 1.2031949585649553
+      },
+      {
+        "kind": "staked_exceeds_depth",
+        "name_dex_bucket": "USDC-EURe|Skeleton Swap|bluechip",
+        "gauge_pool_id": "native:factory/terra1t9uvn05g0hdlx2nnqug3lt3pkla4sfdj0n0xnd66kmwvyt25y65sk37cej/uLP",
+        "depth_usd": 2121.36,
+        "staked_usd": 2238.8505322511255,
+        "ratio": 1.055384532682395
+      },
+      {
+        "kind": "staked_exceeds_depth",
+        "name_dex_bucket": "wstETH-WETH.axl|Astroport|single",
+        "gauge_pool_id": "cw20:terra18336lhc2vt9s9tw4pqetvdwywg9555rduzv527r9q47smw89epcsxgxuny",
+        "depth_usd": 1001.47,
+        "staked_usd": 1916.228654228244,
+        "ratio": 1.9134159328070177
+      },
+      {
+        "kind": "staked_exceeds_depth",
+        "name_dex_bucket": "USDC-USDt|Skeleton Swap|single",
+        "gauge_pool_id": "native:factory/terra178ca7z2w6346wlkmxwpw80s2a5fmas9q28xlzegkt4c4rdam67aql5fgxj/uLP",
+        "depth_usd": 68193.22,
+        "staked_usd": 82049.73851231088,
+        "ratio": 1.2031949585649553
+      },
+      {
+        "kind": "value_split_off_for_xyk_or_stable",
+        "name_dex_bucket": "LUNA-stLUNA|Astroport|project",
+        "gauge_pool_id": "cw20:terra14n22zd24nath0tf8fwn468nz7753rjuks67ppddrcqwq37x2xsxsddqxqc",
+        "subtype": "stable",
+        "split_pct": [
+          17.965589660608806,
+          82.0344103393912
+        ],
+        "symbols": [
+          "stLUNA",
+          "LUNA"
+        ]
+      },
+      {
+        "kind": "value_split_off_for_xyk_or_stable",
+        "name_dex_bucket": "LUNA-bLUNA|Astroport|project",
+        "gauge_pool_id": "cw20:terra1h3z2zv6aw94fx5263dy6tgz6699kxmewlx3vrcu4jjrudg6xmtyqk6vt0u",
+        "subtype": "stable",
+        "split_pct": [
+          18.07622921010692,
+          81.92377078989308
+        ],
+        "symbols": [
+          "bLUNA",
+          "LUNA"
+        ]
+      },
+      {
+        "kind": "value_split_off_for_xyk_or_stable",
+        "name_dex_bucket": "WBTC.axl-WBTC.osmo|Astroport|single",
+        "gauge_pool_id": "cw20:terra10e2rz5etaped4nh0vk502hf7uwtz5lqvxqatxl4qyr0chcynxf2swhfwww",
+        "subtype": "stable",
+        "split_pct": [
+          56.702958022269165,
+          43.297041977730835
+        ],
+        "symbols": [
+          "WBTC",
+          "WBTC"
+        ]
+      },
+      {
+        "kind": "value_split_off_for_xyk_or_stable",
+        "name_dex_bucket": "LUNA-arbLUNA|Astroport|single",
+        "gauge_pool_id": "cw20:terra19z7g4fnu529250sdkdmgm9kw4qgwmmqrjas9t24ll84mpd94lxnshf0z2h",
+        "subtype": "stable",
+        "split_pct": [
+          16.46959468128545,
+          83.53040531871454
+        ],
+        "symbols": [
+          "arbLUNA",
+          "LUNA"
+        ]
+      },
+      {
+        "kind": "migration_corpse_candidate",
+        "name_dex_bucket": "LUNA-WBTC|Astroport|bluechip",
+        "dominant_gauge": "cw20:terra1wdzdltygkgqyuvggnqnxsny9vhfyex92kzaz6zkued2wvp7nvxpsv739js",
+        "dominant_subtype": "concentrated",
+        "dominant_vp": 7517797.374838,
+        "corpse_gauge": "cw20:terra1tfr4ghftlsf2l9nxr3clewk52g5q8wj7m2rglw67dkql9x6u7w6q53gwrn",
+        "corpse_subtype": "concentrated",
+        "corpse_vp": 18588.506837
+      },
+      {
+        "kind": "migration_corpse_candidate",
+        "name_dex_bucket": "LUNA-arbLUNA|Astroport|single",
+        "dominant_gauge": "cw20:terra1phz6qdzszgwj303rp5cfpfgcgfq0wwg0na2he980t58mryz69hyqsjkfc0",
+        "dominant_subtype": "concentrated",
+        "dominant_vp": 2011339.953661,
+        "corpse_gauge": "cw20:terra19z7g4fnu529250sdkdmgm9kw4qgwmmqrjas9t24ll84mpd94lxnshf0z2h",
+        "corpse_subtype": "stable",
+        "corpse_vp": 29752.158632
+      }
+    ],
+    "186": [
+      {
+        "kind": "staked_exceeds_depth",
+        "name_dex_bucket": "USDC-USDt|Skeleton Swap|bluechip",
+        "gauge_pool_id": "native:factory/terra178ca7z2w6346wlkmxwpw80s2a5fmas9q28xlzegkt4c4rdam67aql5fgxj/uLP",
+        "depth_usd": 68193.22,
+        "staked_usd": 82060.42151581483,
+        "ratio": 1.2033516164189757
+      },
+      {
+        "kind": "staked_exceeds_depth",
+        "name_dex_bucket": "USDC-EURe|Skeleton Swap|bluechip",
+        "gauge_pool_id": "native:factory/terra1t9uvn05g0hdlx2nnqug3lt3pkla4sfdj0n0xnd66kmwvyt25y65sk37cej/uLP",
+        "depth_usd": 2121.36,
+        "staked_usd": 2234.3314045948136,
+        "ratio": 1.053254235299437
+      },
+      {
+        "kind": "staked_exceeds_depth",
+        "name_dex_bucket": "wstETH-WETH.axl|Astroport|single",
+        "gauge_pool_id": "cw20:terra18336lhc2vt9s9tw4pqetvdwywg9555rduzv527r9q47smw89epcsxgxuny",
+        "depth_usd": 972.891,
+        "staked_usd": 1850.0422405236386,
+        "ratio": 1.9015925119295365
+      },
+      {
+        "kind": "staked_exceeds_depth",
+        "name_dex_bucket": "USDC-USDt|Skeleton Swap|single",
+        "gauge_pool_id": "native:factory/terra178ca7z2w6346wlkmxwpw80s2a5fmas9q28xlzegkt4c4rdam67aql5fgxj/uLP",
+        "depth_usd": 68193.22,
+        "staked_usd": 82060.42151581483,
+        "ratio": 1.2033516164189757
+      },
+      {
+        "kind": "value_split_off_for_xyk_or_stable",
+        "name_dex_bucket": "LUNA-stLUNA|Astroport|project",
+        "gauge_pool_id": "cw20:terra14n22zd24nath0tf8fwn468nz7753rjuks67ppddrcqwq37x2xsxsddqxqc",
+        "subtype": "stable",
+        "split_pct": [
+          17.893348042855067,
+          82.10665195714493
+        ],
+        "symbols": [
+          "stLUNA",
+          "LUNA"
+        ]
+      },
+      {
+        "kind": "value_split_off_for_xyk_or_stable",
+        "name_dex_bucket": "LUNA-bLUNA|Astroport|project",
+        "gauge_pool_id": "cw20:terra1h3z2zv6aw94fx5263dy6tgz6699kxmewlx3vrcu4jjrudg6xmtyqk6vt0u",
+        "subtype": "stable",
+        "split_pct": [
+          18.202941842493072,
+          81.79705815750692
+        ],
+        "symbols": [
+          "bLUNA",
+          "LUNA"
+        ]
+      },
+      {
+        "kind": "value_split_off_for_xyk_or_stable",
+        "name_dex_bucket": "USDC-USDT|Astroport|bluechip",
+        "gauge_pool_id": "cw20:terra1huw82c9grj9xz9umkc8hqcjqgndadlkrp8rn9u6eh5jh5j2s2t7qs33vry",
+        "subtype": "stable",
+        "split_pct": [
+          44.7134238540579,
+          55.2865761459421
+        ],
+        "symbols": [
+          "USDC",
+          "USDT"
+        ]
+      },
+      {
+        "kind": "value_split_off_for_xyk_or_stable",
+        "name_dex_bucket": "LUNA-arbLUNA|Astroport|single",
+        "gauge_pool_id": "cw20:terra19z7g4fnu529250sdkdmgm9kw4qgwmmqrjas9t24ll84mpd94lxnshf0z2h",
+        "subtype": "stable",
+        "split_pct": [
+          16.495436332620848,
+          83.50456366737916
+        ],
+        "symbols": [
+          "arbLUNA",
+          "LUNA"
+        ]
+      },
+      {
+        "kind": "value_split_off_for_xyk_or_stable",
+        "name_dex_bucket": "USDC-USDT|Astroport|single",
+        "gauge_pool_id": "cw20:terra1huw82c9grj9xz9umkc8hqcjqgndadlkrp8rn9u6eh5jh5j2s2t7qs33vry",
+        "subtype": "stable",
+        "split_pct": [
+          44.7134238540579,
+          55.2865761459421
+        ],
+        "symbols": [
+          "USDC",
+          "USDT"
+        ]
+      },
+      {
+        "kind": "migration_corpse_candidate",
+        "name_dex_bucket": "LUNA-WBTC|Astroport|bluechip",
+        "dominant_gauge": "cw20:terra1wdzdltygkgqyuvggnqnxsny9vhfyex92kzaz6zkued2wvp7nvxpsv739js",
+        "dominant_subtype": "concentrated",
+        "dominant_vp": 7694943.562047,
+        "corpse_gauge": "cw20:terra1tfr4ghftlsf2l9nxr3clewk52g5q8wj7m2rglw67dkql9x6u7w6q53gwrn",
+        "corpse_subtype": "concentrated",
+        "corpse_vp": 18588.506837
+      },
+      {
+        "kind": "migration_corpse_candidate",
+        "name_dex_bucket": "LUNA-arbLUNA|Astroport|single",
+        "dominant_gauge": "cw20:terra1phz6qdzszgwj303rp5cfpfgcgfq0wwg0na2he980t58mryz69hyqsjkfc0",
+        "dominant_subtype": "concentrated",
+        "dominant_vp": 1992064.277221,
+        "corpse_gauge": "cw20:terra19z7g4fnu529250sdkdmgm9kw4qgwmmqrjas9t24ll84mpd94lxnshf0z2h",
+        "corpse_subtype": "stable",
+        "corpse_vp": 29549.439987
+      }
+    ],
+    "187": [
+      {
+        "kind": "staked_exceeds_depth",
+        "name_dex_bucket": "wstETH-WETH.axl|Astroport|single",
+        "gauge_pool_id": "cw20:terra18336lhc2vt9s9tw4pqetvdwywg9555rduzv527r9q47smw89epcsxgxuny",
+        "depth_usd": 844.405,
+        "staked_usd": 1640.3645654559857,
+        "ratio": 1.942627726571948
+      },
+      {
+        "kind": "value_split_off_for_xyk_or_stable",
+        "name_dex_bucket": "LUNA-stLUNA|Astroport|project",
+        "gauge_pool_id": "cw20:terra14n22zd24nath0tf8fwn468nz7753rjuks67ppddrcqwq37x2xsxsddqxqc",
+        "subtype": "stable",
+        "split_pct": [
+          17.22949045171908,
+          82.77050954828093
+        ],
+        "symbols": [
+          "stLUNA",
+          "LUNA"
+        ]
+      },
+      {
+        "kind": "value_split_off_for_xyk_or_stable",
+        "name_dex_bucket": "LUNA-bLUNA|Astroport|project",
+        "gauge_pool_id": "cw20:terra1h3z2zv6aw94fx5263dy6tgz6699kxmewlx3vrcu4jjrudg6xmtyqk6vt0u",
+        "subtype": "stable",
+        "split_pct": [
+          17.986660388649998,
+          82.01333961135
+        ],
+        "symbols": [
+          "bLUNA",
+          "LUNA"
+        ]
+      },
+      {
+        "kind": "value_split_off_for_xyk_or_stable",
+        "name_dex_bucket": "LUNA-arbLUNA|Astroport|single",
+        "gauge_pool_id": "cw20:terra19z7g4fnu529250sdkdmgm9kw4qgwmmqrjas9t24ll84mpd94lxnshf0z2h",
+        "subtype": "stable",
+        "split_pct": [
+          16.549384511526892,
+          83.4506154884731
+        ],
+        "symbols": [
+          "arbLUNA",
+          "LUNA"
+        ]
+      },
+      {
+        "kind": "migration_corpse_candidate",
+        "name_dex_bucket": "LUNA-WBTC|Astroport|bluechip",
+        "dominant_gauge": "cw20:terra1wdzdltygkgqyuvggnqnxsny9vhfyex92kzaz6zkued2wvp7nvxpsv739js",
+        "dominant_subtype": "concentrated",
+        "dominant_vp": 7804119.898012,
+        "corpse_gauge": "cw20:terra1tfr4ghftlsf2l9nxr3clewk52g5q8wj7m2rglw67dkql9x6u7w6q53gwrn",
+        "corpse_subtype": "concentrated",
+        "corpse_vp": 18588.506837
+      },
+      {
+        "kind": "migration_corpse_candidate",
+        "name_dex_bucket": "LUNA-arbLUNA|Astroport|single",
+        "dominant_gauge": "cw20:terra1phz6qdzszgwj303rp5cfpfgcgfq0wwg0na2he980t58mryz69hyqsjkfc0",
+        "dominant_subtype": "concentrated",
+        "dominant_vp": 2001149.14438,
+        "corpse_gauge": "cw20:terra19z7g4fnu529250sdkdmgm9kw4qgwmmqrjas9t24ll84mpd94lxnshf0z2h",
+        "corpse_subtype": "stable",
+        "corpse_vp": 29346.721342
+      }
+    ]
+  }
 }
