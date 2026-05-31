@@ -1,0 +1,1488 @@
+{
+  "schemaVersion": 1,
+  "cron": "vp-attribution-history",
+  "generatedAt": "2026-05-31T00:58:02.403Z",
+  "sourceDailyFiles": 18,
+  "adaoCapturedAt": "2026-05-30T01:00:38.431Z",
+  "boundaryEpoch": 187,
+  "boundarySnapshotAt": "2026-05-30T23:40:29.160Z",
+  "epochs": [
+    187
+  ],
+  "pools": [
+    {
+      "gauge_pool_id": "native:factory/terra186rpfczl7l2kugdsqqedegl4es4hp624phfc7ddy8my02a4e8lgq5rlx7y/ampCAPA",
+      "pool_address": null,
+      "name": "ampCAPA",
+      "dex": "Single",
+      "bucket": "single",
+      "dex_subtype": "single",
+      "epochs": {
+        "187": {
+          "total_vp": 6974505.67822,
+          "adao_vp": 0,
+          "member_vp": 1717594.3692914,
+          "other_vp": 5256911.3089286,
+          "adao_pct": 0,
+          "member_pct": 24.626754189262577,
+          "other_pct": 75.37324581073742,
+          "adao_source": "adao-positions current.json",
+          "captured_against_snapshot_at": "2026-05-30T23:40:29.160Z",
+          "captured_at": "2026-05-31T00:58:02.403Z"
+        }
+      }
+    },
+    {
+      "gauge_pool_id": "cw20:terra10un5hr6asmn7g0ggh9sz0x3v8f9evh5cvawk8xs65rghundc25mq7g5par",
+      "pool_address": "terra1tsx0dmasjvd45k6tdywzv77d5t9k3lpzyuleavuah77pg3lwm9cq4469pm",
+      "name": "ampLUNA-LUNA",
+      "dex": "Skeleton Swap",
+      "bucket": "project",
+      "dex_subtype": null,
+      "epochs": {
+        "187": {
+          "total_vp": 4183.703595,
+          "adao_vp": 0,
+          "member_vp": 0,
+          "other_vp": 4183.703595,
+          "adao_pct": 0,
+          "member_pct": 0,
+          "other_pct": 100,
+          "adao_source": "adao-positions current.json",
+          "captured_against_snapshot_at": "2026-05-30T23:40:29.160Z",
+          "captured_at": "2026-05-31T00:58:02.403Z"
+        }
+      }
+    },
+    {
+      "gauge_pool_id": "native:factory/terra1d8ap3zyd6tfnruuuwvs0t927lr4zwptruhulfwnxjpqzudvyn8usfgl8ze/uLP",
+      "pool_address": "terra1d8ap3zyd6tfnruuuwvs0t927lr4zwptruhulfwnxjpqzudvyn8usfgl8ze",
+      "name": "ampROAR-ROAR",
+      "dex": "Skeleton Swap",
+      "bucket": "single",
+      "dex_subtype": null,
+      "epochs": {
+        "187": {
+          "total_vp": 1446649.002929,
+          "adao_vp": 0,
+          "member_vp": 7227.156978,
+          "other_vp": 1439421.845951,
+          "adao_pct": 0,
+          "member_pct": 0.49957916283544423,
+          "other_pct": 99.50042083716455,
+          "adao_source": "adao-positions current.json",
+          "captured_against_snapshot_at": "2026-05-30T23:40:29.160Z",
+          "captured_at": "2026-05-31T00:58:02.403Z"
+        }
+      }
+    },
+    {
+      "gauge_pool_id": "cw20:terra12mvtdvn4fgtsqs4fwxr56vcwjw0xe23lhdfyjq5ghk7vmfeuxn0srau9q2",
+      "pool_address": "terra1a0h6vrzkztjystg8sd949qyrc6mw9gzxk2870cr2mukg53uzgvqs46qul9",
+      "name": "ATOM-dATOM",
+      "dex": "Astroport",
+      "bucket": "single",
+      "dex_subtype": "concentrated",
+      "epochs": {
+        "187": {
+          "total_vp": 631953.706788,
+          "adao_vp": 313669.6029901107,
+          "member_vp": 0,
+          "other_vp": 318284.10379788926,
+          "adao_pct": 49.63490199058785,
+          "member_pct": 0,
+          "other_pct": 50.365098009412144,
+          "adao_source": "adao-positions current.json",
+          "captured_against_snapshot_at": "2026-05-30T23:40:29.160Z",
+          "captured_at": "2026-05-31T00:58:02.403Z"
+        }
+      }
+    },
+    {
+      "gauge_pool_id": "native:factory/terra1aa8nurhuk7rwedhjyzptggypuxd3y66qp4nsx6ph240g37esdm7qyheqkd/uLP",
+      "pool_address": "terra1aa8nurhuk7rwedhjyzptggypuxd3y66qp4nsx6ph240g37esdm7qyheqkd",
+      "name": "ATOM-dATOM",
+      "dex": "Skeleton Swap",
+      "bucket": "single",
+      "dex_subtype": null,
+      "epochs": {
+        "187": {
+          "total_vp": 7896.793162,
+          "adao_vp": 0,
+          "member_vp": 0,
+          "other_vp": 7896.793162,
+          "adao_pct": 0,
+          "member_pct": 0,
+          "other_pct": 100,
+          "adao_source": "adao-positions current.json",
+          "captured_against_snapshot_at": "2026-05-30T23:40:29.160Z",
+          "captured_at": "2026-05-31T00:58:02.403Z"
+        }
+      }
+    },
+    {
+      "gauge_pool_id": "cw20:terra1adp223mw8937arxcfl36acjjyn2dcf7wzp8h09jek5k0gw3vch8sqlq6su",
+      "pool_address": "terra1frfcj4xhvx0emkup4vel5jun9zun0797j5yhn7ant3r4jzy9mkxqzcwev6",
+      "name": "ATOM-LUNA",
+      "dex": "Skeleton Swap",
+      "bucket": "bluechip",
+      "dex_subtype": null,
+      "epochs": {
+        "187": {
+          "total_vp": 453321.100465,
+          "adao_vp": 0,
+          "member_vp": 1023.609442,
+          "other_vp": 452297.49102300004,
+          "adao_pct": 0,
+          "member_pct": 0.22580229355086698,
+          "other_pct": 99.77419770644914,
+          "adao_source": "adao-positions current.json",
+          "captured_against_snapshot_at": "2026-05-30T23:40:29.160Z",
+          "captured_at": "2026-05-31T00:58:02.403Z"
+        }
+      }
+    },
+    {
+      "gauge_pool_id": "cw20:terra1pz99udaf85erk8lumjylczz0cuf70mmq9gns3ejxt7s3mk266mqq6gkqkn",
+      "pool_address": "terra1f9vmtntpjmkyhkxtlc49jcq6cv8rfz0kr06zv6efdtdgae4m9y9qlzm36t",
+      "name": "ATOM-stATOM",
+      "dex": "Astroport",
+      "bucket": "single",
+      "dex_subtype": "concentrated",
+      "epochs": {
+        "187": {
+          "total_vp": 0.000015,
+          "adao_vp": 0,
+          "member_vp": 0,
+          "other_vp": 0.000015,
+          "adao_pct": 0,
+          "member_pct": 0,
+          "other_pct": 100,
+          "adao_source": "adao-positions current.json",
+          "captured_against_snapshot_at": "2026-05-30T23:40:29.160Z",
+          "captured_at": "2026-05-31T00:58:02.403Z"
+        }
+      }
+    },
+    {
+      "gauge_pool_id": "cw20:terra1q475uvk9te5nxq2lzu0h96t0devmx4v8ctxqtm253ut05wrpugsq0m4e3k",
+      "pool_address": "terra1j5znhs9jeyty9u9jcagl3vefkvzwqp6u9tq9a3e5qrz4gmj2udyqp0z0xc",
+      "name": "bLUNA-LUNA",
+      "dex": "Skeleton Swap",
+      "bucket": "project",
+      "dex_subtype": null,
+      "epochs": {
+        "187": {
+          "total_vp": 2485225.103944,
+          "adao_vp": 0,
+          "member_vp": 3030.7526914000005,
+          "other_vp": 2482194.3512526,
+          "adao_pct": 0,
+          "member_pct": 0.12195083200271316,
+          "other_pct": 99.87804916799729,
+          "adao_source": "adao-positions current.json",
+          "captured_against_snapshot_at": "2026-05-30T23:40:29.160Z",
+          "captured_at": "2026-05-31T00:58:02.403Z"
+        }
+      }
+    },
+    {
+      "gauge_pool_id": "native:factory/terra15rzp38yq2cqy2jnewc9vgzqguf3t2q0gqpv9evg8tckrtqp8x44qezhthc/uLP",
+      "pool_address": "terra15rzp38yq2cqy2jnewc9vgzqguf3t2q0gqpv9evg8tckrtqp8x44qezhthc",
+      "name": "CAPA-LUNA",
+      "dex": "Skeleton Swap",
+      "bucket": "project",
+      "dex_subtype": null,
+      "epochs": {
+        "187": {
+          "total_vp": 18131.238853,
+          "adao_vp": 0,
+          "member_vp": 0,
+          "other_vp": 18131.238853,
+          "adao_pct": 0,
+          "member_pct": 0,
+          "other_pct": 100,
+          "adao_source": "adao-positions current.json",
+          "captured_against_snapshot_at": "2026-05-30T23:40:29.160Z",
+          "captured_at": "2026-05-31T00:58:02.403Z"
+        }
+      }
+    },
+    {
+      "gauge_pool_id": "cw20:terra10xwhrfj2hqtwr4jwam3e24w92ypgl85lqz35lqzqhuay5r2h7pgqv4596s",
+      "pool_address": "terra1sjujvcvkszrt84280agzv0du7tsrf44y4n7hcd9n8y0q7snfgersd68ens",
+      "name": "cw20:terra10xwhrfj2hqtwr4jwam3e24w92ypgl85lqz35lqz",
+      "dex": null,
+      "bucket": "single",
+      "dex_subtype": null,
+      "epochs": {
+        "187": {
+          "total_vp": 0,
+          "adao_vp": 0,
+          "member_vp": 0,
+          "other_vp": 0,
+          "adao_pct": 0,
+          "member_pct": 0,
+          "other_pct": 0,
+          "adao_source": "adao-positions current.json",
+          "captured_against_snapshot_at": "2026-05-30T23:40:29.160Z",
+          "captured_at": "2026-05-31T00:58:02.403Z"
+        }
+      }
+    },
+    {
+      "gauge_pool_id": "cw20:terra16z3ksy6aqjkug8l3u48q0kvdaqk3dgaytl7ykt6vg2he9d6z9rgslr4k7l",
+      "pool_address": "terra1ntx595elf3ukxcd0wy76h24rzztcv2p6n3wmfd358ks95prv42fs9mn63n",
+      "name": "cw20:terra16z3ksy6aqjkug8l3u48q0kvdaqk3dgaytl7ykt6",
+      "dex": null,
+      "bucket": "single",
+      "dex_subtype": null,
+      "epochs": {
+        "187": {
+          "total_vp": 27960.012343,
+          "adao_vp": 0,
+          "member_vp": 0,
+          "other_vp": 27960.012343,
+          "adao_pct": 0,
+          "member_pct": 0,
+          "other_pct": 100,
+          "adao_source": "adao-positions current.json",
+          "captured_against_snapshot_at": "2026-05-30T23:40:29.160Z",
+          "captured_at": "2026-05-31T00:58:02.403Z"
+        }
+      }
+    },
+    {
+      "gauge_pool_id": "cw20:terra1hqq6pnx74q0wae7eqqu2wgddzr2xn8l9gvd33sfwqfew50qawj0sfn69fh",
+      "pool_address": "terra1tkj3j48d0xrh932szzsap3w8htfv3gmj2zld06an2kp90xzq5kzqvtjwfl",
+      "name": "cw20:terra1hqq6pnx74q0wae7eqqu2wgddzr2xn8l9gvd33sf",
+      "dex": null,
+      "bucket": "single",
+      "dex_subtype": null,
+      "epochs": {
+        "187": {
+          "total_vp": 429934.689662,
+          "adao_vp": 0,
+          "member_vp": 0,
+          "other_vp": 429934.689662,
+          "adao_pct": 0,
+          "member_pct": 0,
+          "other_pct": 100,
+          "adao_source": "adao-positions current.json",
+          "captured_against_snapshot_at": "2026-05-30T23:40:29.160Z",
+          "captured_at": "2026-05-31T00:58:02.403Z"
+        }
+      }
+    },
+    {
+      "gauge_pool_id": "cw20:terra1le46uu9qjk53aktjs8dev96sl9sd2ujvcpspk75pdeg0txfvhyuswm6653",
+      "pool_address": "terra1j9jmsplecj9ay2py27953p84nfmv7f6ce75ms5fleyhd0aecpc7q0hgmsa",
+      "name": "cw20:terra1le46uu9qjk53aktjs8dev96sl9sd2ujvcpspk75",
+      "dex": null,
+      "bucket": "single",
+      "dex_subtype": null,
+      "epochs": {
+        "187": {
+          "total_vp": 65181.442677,
+          "adao_vp": 0,
+          "member_vp": 0,
+          "other_vp": 65181.442677,
+          "adao_pct": 0,
+          "member_pct": 0,
+          "other_pct": 100,
+          "adao_source": "adao-positions current.json",
+          "captured_against_snapshot_at": "2026-05-30T23:40:29.160Z",
+          "captured_at": "2026-05-31T00:58:02.403Z"
+        }
+      }
+    },
+    {
+      "gauge_pool_id": "cw20:terra1my4tml2ae4zewq0u5fpq2qzq4rdpfh5pq7y3eekxxhwxdwdmce4shw9mt4",
+      "pool_address": "terra1cupwgntu082ypw2ztgtxfzcenexcu6ggp5zzunn3yzfwgrvdcclqgjrjqg",
+      "name": "LUNA-ampLUNA",
+      "dex": "Astroport",
+      "bucket": "project",
+      "dex_subtype": "concentrated",
+      "epochs": {
+        "187": {
+          "total_vp": 4305148.181672,
+          "adao_vp": 384524.4673297773,
+          "member_vp": 0,
+          "other_vp": 3920623.714342223,
+          "adao_pct": 8.931735938074928,
+          "member_pct": 0,
+          "other_pct": 91.06826406192508,
+          "adao_source": "adao-positions current.json",
+          "captured_against_snapshot_at": "2026-05-30T23:40:29.160Z",
+          "captured_at": "2026-05-31T00:58:02.403Z"
+        }
+      }
+    },
+    {
+      "gauge_pool_id": "cw20:terra19z7g4fnu529250sdkdmgm9kw4qgwmmqrjas9t24ll84mpd94lxnshf0z2h",
+      "pool_address": "terra16nfwldn9j5xhry2y78gvm3x4vte8vu77zr3ctlan79w5f5aheawqnz7a4f",
+      "name": "LUNA-arbLUNA",
+      "dex": "Astroport",
+      "bucket": "single",
+      "dex_subtype": "stable",
+      "epochs": {
+        "187": {
+          "total_vp": 29346.721342,
+          "adao_vp": 0,
+          "member_vp": 0,
+          "other_vp": 29346.721342,
+          "adao_pct": 0,
+          "member_pct": 0,
+          "other_pct": 100,
+          "adao_source": "adao-positions current.json",
+          "captured_against_snapshot_at": "2026-05-30T23:40:29.160Z",
+          "captured_at": "2026-05-31T00:58:02.403Z"
+        }
+      }
+    },
+    {
+      "gauge_pool_id": "cw20:terra1phz6qdzszgwj303rp5cfpfgcgfq0wwg0na2he980t58mryz69hyqsjkfc0",
+      "pool_address": "terra1p9lcjw8knxhtv2pyr9wa8e2ushjnjllljvsuu9cugv7trqynjzasz4x52j",
+      "name": "LUNA-arbLUNA",
+      "dex": "Astroport",
+      "bucket": "single",
+      "dex_subtype": "concentrated",
+      "epochs": {
+        "187": {
+          "total_vp": 2001149.14438,
+          "adao_vp": 0,
+          "member_vp": 0,
+          "other_vp": 2001149.14438,
+          "adao_pct": 0,
+          "member_pct": 0,
+          "other_pct": 100,
+          "adao_source": "adao-positions current.json",
+          "captured_against_snapshot_at": "2026-05-30T23:40:29.160Z",
+          "captured_at": "2026-05-31T00:58:02.403Z"
+        }
+      }
+    },
+    {
+      "gauge_pool_id": "native:factory/terra1wttdzwa6pdegtrdjdw49y0pd3dd8qd3cqn89j6t9v978lx05rr8sew5jyq/uLP",
+      "pool_address": "terra1wttdzwa6pdegtrdjdw49y0pd3dd8qd3cqn89j6t9v978lx05rr8sew5jyq",
+      "name": "LUNA-arbLUNA",
+      "dex": "Skeleton Swap",
+      "bucket": "single",
+      "dex_subtype": null,
+      "epochs": {
+        "187": {
+          "total_vp": 15878.66188,
+          "adao_vp": 0,
+          "member_vp": 0,
+          "other_vp": 15878.66188,
+          "adao_pct": 0,
+          "member_pct": 0,
+          "other_pct": 100,
+          "adao_source": "adao-positions current.json",
+          "captured_against_snapshot_at": "2026-05-30T23:40:29.160Z",
+          "captured_at": "2026-05-31T00:58:02.403Z"
+        }
+      }
+    },
+    {
+      "gauge_pool_id": "cw20:terra14lul8rjcad0jeuu680n4q7dwgxjkr6mqzx8umyewj8c6xn93squqllleht",
+      "pool_address": "terra1nwepezm3mghyxm7fjfhfr2d4jwqzndtncf9tclgunqfcwhe52mpq4sxaqr",
+      "name": "LUNA-ASTRO",
+      "dex": "Astroport",
+      "bucket": "project",
+      "dex_subtype": "concentrated",
+      "epochs": {
+        "187": {
+          "total_vp": 669342.234989,
+          "adao_vp": 176027.74230522598,
+          "member_vp": 0,
+          "other_vp": 493314.49268377403,
+          "adao_pct": 26.29861573102717,
+          "member_pct": 0,
+          "other_pct": 73.70138426897283,
+          "adao_source": "adao-positions current.json",
+          "captured_against_snapshot_at": "2026-05-30T23:40:29.160Z",
+          "captured_at": "2026-05-31T00:58:02.403Z"
+        }
+      }
+    },
+    {
+      "gauge_pool_id": "native:factory/terra1hvntefafgn05llkqyl6uxx6j0jjwmqjtxqdrwdm43s9tkzx7xkfqkcl7h6/uLP",
+      "pool_address": "terra1hvntefafgn05llkqyl6uxx6j0jjwmqjtxqdrwdm43s9tkzx7xkfqkcl7h6",
+      "name": "LUNA-ASTRO",
+      "dex": "Skeleton Swap",
+      "bucket": "project",
+      "dex_subtype": null,
+      "epochs": {
+        "187": {
+          "total_vp": 0.675035,
+          "adao_vp": 0,
+          "member_vp": 0,
+          "other_vp": 0.675035,
+          "adao_pct": 0,
+          "member_pct": 0,
+          "other_pct": 100,
+          "adao_source": "adao-positions current.json",
+          "captured_against_snapshot_at": "2026-05-30T23:40:29.160Z",
+          "captured_at": "2026-05-31T00:58:02.403Z"
+        }
+      }
+    },
+    {
+      "gauge_pool_id": "cw20:terra19xrvvkq5607xudcxvw444yycjz6e3vk3l8p633z68k0vv5q09wnsa9q2qt",
+      "pool_address": "terra1j3d29y506cvtavdpakdzl6e0g2xcskvmmulsetcd0jfwrpr8eu9qfe0dmf",
+      "name": "LUNA-ATOM",
+      "dex": "Astroport",
+      "bucket": "bluechip",
+      "dex_subtype": "xyk",
+      "epochs": {
+        "187": {
+          "total_vp": 873933.964467,
+          "adao_vp": 92081.7391470615,
+          "member_vp": 63766.175102400004,
+          "other_vp": 718086.0502175385,
+          "adao_pct": 10.536464182762465,
+          "member_pct": 7.296452328785516,
+          "other_pct": 82.16708348845202,
+          "adao_source": "adao-positions current.json",
+          "captured_against_snapshot_at": "2026-05-30T23:40:29.160Z",
+          "captured_at": "2026-05-31T00:58:02.403Z"
+        }
+      }
+    },
+    {
+      "gauge_pool_id": "cw20:terra1h3z2zv6aw94fx5263dy6tgz6699kxmewlx3vrcu4jjrudg6xmtyqk6vt0u",
+      "pool_address": "terra1h32epkd72x7st0wk49z35qlpsxf26pw4ydacs8acq6uka7hgshmq7z7vl9",
+      "name": "LUNA-bLUNA",
+      "dex": "Astroport",
+      "bucket": "project",
+      "dex_subtype": "stable",
+      "epochs": {
+        "187": {
+          "total_vp": 63834.663754,
+          "adao_vp": 40530.7574719596,
+          "member_vp": 20297.024469,
+          "other_vp": 3006.8818130404034,
+          "adao_pct": 63.49333589059576,
+          "member_pct": 31.796242472927805,
+          "other_pct": 4.710421636476446,
+          "adao_source": "adao-positions current.json",
+          "captured_against_snapshot_at": "2026-05-30T23:40:29.160Z",
+          "captured_at": "2026-05-31T00:58:02.403Z"
+        }
+      }
+    },
+    {
+      "gauge_pool_id": "cw20:terra1cg9t08mqa88us074mpwpuu8lp5w4jwtye3vaazll45w27at52cpsq7c564",
+      "pool_address": "terra183wqgrwa2k0uvlz99j57c496gfuwgtaccrhv4stcjzv3ydacl9zq0hmf25",
+      "name": "LUNA-CAPA",
+      "dex": "Astroport",
+      "bucket": "project",
+      "dex_subtype": "concentrated",
+      "epochs": {
+        "187": {
+          "total_vp": 5004542.410357,
+          "adao_vp": 0,
+          "member_vp": 1539439.6211221998,
+          "other_vp": 3465102.7892348003,
+          "adao_pct": 0,
+          "member_pct": 30.760846744675373,
+          "other_pct": 69.23915325532462,
+          "adao_source": "adao-positions current.json",
+          "captured_against_snapshot_at": "2026-05-30T23:40:29.160Z",
+          "captured_at": "2026-05-31T00:58:02.403Z"
+        }
+      }
+    },
+    {
+      "gauge_pool_id": "cw20:terra1xkt5etsaptddec6achnjlqnx884fwxwuk795fs885v6eyygu6eus7uauhc",
+      "pool_address": "terra1vhxl8ggscmhae3muvwvs2vs8ppprzqf07xngcdp798fwnrcksjxszqfa8n",
+      "name": "LUNA-EURe",
+      "dex": "Astroport",
+      "bucket": "stable",
+      "dex_subtype": "concentrated",
+      "epochs": {
+        "187": {
+          "total_vp": 1160900.511378,
+          "adao_vp": 14422.4410712265,
+          "member_vp": 368.012043,
+          "other_vp": 1146110.0582637736,
+          "adao_pct": 1.242349445957856,
+          "member_pct": 0.03170056687830779,
+          "other_pct": 98.72594998716384,
+          "adao_source": "adao-positions current.json",
+          "captured_against_snapshot_at": "2026-05-30T23:40:29.160Z",
+          "captured_at": "2026-05-31T00:58:02.402Z"
+        }
+      }
+    },
+    {
+      "gauge_pool_id": "native:factory/terra1gny66hmejvrkra39cn7r8f7y7yg06hy3cv2xehpxraqfgjtdtpnqjtmu53/uLP",
+      "pool_address": "terra1gny66hmejvrkra39cn7r8f7y7yg06hy3cv2xehpxraqfgjtdtpnqjtmu53",
+      "name": "LUNA-EURe",
+      "dex": "Skeleton Swap",
+      "bucket": "stable",
+      "dex_subtype": null,
+      "epochs": {
+        "187": {
+          "total_vp": 26022.583506,
+          "adao_vp": 0,
+          "member_vp": 409.7828016000001,
+          "other_vp": 25612.8007044,
+          "adao_pct": 0,
+          "member_pct": 1.5747199024474912,
+          "other_pct": 98.42528009755252,
+          "adao_source": "adao-positions current.json",
+          "captured_against_snapshot_at": "2026-05-30T23:40:29.160Z",
+          "captured_at": "2026-05-31T00:58:02.403Z"
+        }
+      }
+    },
+    {
+      "gauge_pool_id": "cw20:terra1e6k3u9uwysataqnysfdn7y5v254pawm0gcuflumugtd7l4w74slq0qww44",
+      "pool_address": "terra10yfnsqn20rzlnlzkeva5255q27zp6ws9te9uuql9e0lacfcze7zsffjct5",
+      "name": "LUNA-FUEL",
+      "dex": "Astroport",
+      "bucket": "project",
+      "dex_subtype": "concentrated",
+      "epochs": {
+        "187": {
+          "total_vp": 4007687.398191,
+          "adao_vp": 0,
+          "member_vp": 0,
+          "other_vp": 4007687.398191,
+          "adao_pct": 0,
+          "member_pct": 0,
+          "other_pct": 100,
+          "adao_source": "adao-positions current.json",
+          "captured_against_snapshot_at": "2026-05-30T23:40:29.160Z",
+          "captured_at": "2026-05-31T00:58:02.403Z"
+        }
+      }
+    },
+    {
+      "gauge_pool_id": "cw20:terra1euf8klqukk4wlly90nve0n6drqvq9pst73wc34pruuvx09nptxyse68hgl",
+      "pool_address": "terra10m23jmgtx0lvc6v5gffdmcutlmrgy9pnf8wun4mxft2xd3dnqdvsv392j5",
+      "name": "LUNA-INJ",
+      "dex": "Astroport",
+      "bucket": "bluechip",
+      "dex_subtype": "xyk",
+      "epochs": {
+        "187": {
+          "total_vp": 3048277.89871,
+          "adao_vp": 0,
+          "member_vp": 8971.4333727,
+          "other_vp": 3039306.4653372997,
+          "adao_pct": 0,
+          "member_pct": 0.29431153165190804,
+          "other_pct": 99.70568846834809,
+          "adao_source": "adao-positions current.json",
+          "captured_against_snapshot_at": "2026-05-30T23:40:29.160Z",
+          "captured_at": "2026-05-31T00:58:02.403Z"
+        }
+      }
+    },
+    {
+      "gauge_pool_id": "native:factory/terra1q2gd6kc7nt8xct94chrlsqtpxfs9rve0j76lquce624y5zp85cdseshh85/uLP",
+      "pool_address": "terra1q2gd6kc7nt8xct94chrlsqtpxfs9rve0j76lquce624y5zp85cdseshh85",
+      "name": "LUNA-INJ",
+      "dex": "Skeleton Swap",
+      "bucket": "bluechip",
+      "dex_subtype": null,
+      "epochs": {
+        "187": {
+          "total_vp": 11810.575749,
+          "adao_vp": 0,
+          "member_vp": 777.7948446,
+          "other_vp": 11032.780904399999,
+          "adao_pct": 0,
+          "member_pct": 6.585579408911169,
+          "other_pct": 93.41442059108883,
+          "adao_source": "adao-positions current.json",
+          "captured_against_snapshot_at": "2026-05-30T23:40:29.160Z",
+          "captured_at": "2026-05-31T00:58:02.403Z"
+        }
+      }
+    },
+    {
+      "gauge_pool_id": "cw20:terra1sxmrwp48wt3h4whatla7xwl9g6t5y95u589az2cdu0myuzjpkkrs4ztprc",
+      "pool_address": "terra1xgdyzzhs2v2ne3us2kyj5ry47fwc7uk44k035dyyygq42xechwwqlddmcr",
+      "name": "LUNA-PAXG",
+      "dex": "Astroport",
+      "bucket": "bluechip",
+      "dex_subtype": "concentrated",
+      "epochs": {
+        "187": {
+          "total_vp": 2975913.117784,
+          "adao_vp": 0,
+          "member_vp": 8118.8097876,
+          "other_vp": 2967794.3079964,
+          "adao_pct": 0,
+          "member_pct": 0.27281743338144343,
+          "other_pct": 99.72718256661857,
+          "adao_source": "adao-positions current.json",
+          "captured_against_snapshot_at": "2026-05-30T23:40:29.160Z",
+          "captured_at": "2026-05-31T00:58:02.403Z"
+        }
+      }
+    },
+    {
+      "gauge_pool_id": "cw20:terra1vczn40ch624g2kserhzqu2n69j3h7h7c5nfeznw96pnxjuly5h5s25u9dm",
+      "pool_address": "terra189v2ewgfx5wdhje6geefdtxefeemujplk8qw2wx3x5hdswn95l8qf4n2r0",
+      "name": "LUNA-ROAR",
+      "dex": "Astroport",
+      "bucket": "project",
+      "dex_subtype": "concentrated",
+      "epochs": {
+        "187": {
+          "total_vp": 1146280.486122,
+          "adao_vp": 25516.6265106315,
+          "member_vp": 6202.699974,
+          "other_vp": 1114561.1596373685,
+          "adao_pct": 2.226036892327916,
+          "member_pct": 0.5411153770037954,
+          "other_pct": 97.2328477306683,
+          "adao_source": "adao-positions current.json",
+          "captured_against_snapshot_at": "2026-05-30T23:40:29.160Z",
+          "captured_at": "2026-05-31T00:58:02.403Z"
+        }
+      }
+    },
+    {
+      "gauge_pool_id": "native:factory/terra126w5m24usxydxn0tjqd73k8uw06r42wttahf9t0cjyhmljlqhrdsjucx45/uLP",
+      "pool_address": "terra126w5m24usxydxn0tjqd73k8uw06r42wttahf9t0cjyhmljlqhrdsjucx45",
+      "name": "LUNA-ROAR",
+      "dex": "Skeleton Swap",
+      "bucket": "project",
+      "dex_subtype": null,
+      "epochs": {
+        "187": {
+          "total_vp": 6823.599078,
+          "adao_vp": 0,
+          "member_vp": 409.7828016000001,
+          "other_vp": 6413.8162764,
+          "adao_pct": 0,
+          "member_pct": 6.005376296523383,
+          "other_pct": 93.9946237034766,
+          "adao_source": "adao-positions current.json",
+          "captured_against_snapshot_at": "2026-05-30T23:40:29.160Z",
+          "captured_at": "2026-05-31T00:58:02.403Z"
+        }
+      }
+    },
+    {
+      "gauge_pool_id": "cw20:terra14arerdfc88cdv6m6frc03a0963z877756kqac4h4xvd9vftn0hqqhquca8",
+      "pool_address": "terra1e45ctmel6t5m9vdgxv3zxh3ecflkfcd6mr42sluzrqnhveqmy3fss338s7",
+      "name": "LUNA-SOLID",
+      "dex": "Astroport",
+      "bucket": "project",
+      "dex_subtype": "xyk",
+      "epochs": {
+        "187": {
+          "total_vp": 546805.987783,
+          "adao_vp": 49923.8344773225,
+          "member_vp": 0,
+          "other_vp": 496882.15330567746,
+          "adao_pct": 9.130081892434356,
+          "member_pct": 0,
+          "other_pct": 90.86991810756564,
+          "adao_source": "adao-positions current.json",
+          "captured_against_snapshot_at": "2026-05-30T23:40:29.160Z",
+          "captured_at": "2026-05-31T00:58:02.403Z"
+        }
+      }
+    },
+    {
+      "gauge_pool_id": "native:factory/terra18fved7svlqq9q9h23cg4uw97lllmg7fa03psevczy20ayhdwrm3sznjeh5/uLP",
+      "pool_address": "terra18fved7svlqq9q9h23cg4uw97lllmg7fa03psevczy20ayhdwrm3sznjeh5",
+      "name": "LUNA-SOLID",
+      "dex": "Skeleton Swap",
+      "bucket": "project",
+      "dex_subtype": null,
+      "epochs": {
+        "187": {
+          "total_vp": 6032.703384,
+          "adao_vp": 0,
+          "member_vp": 0,
+          "other_vp": 6032.703384,
+          "adao_pct": 0,
+          "member_pct": 0,
+          "other_pct": 100,
+          "adao_source": "adao-positions current.json",
+          "captured_against_snapshot_at": "2026-05-30T23:40:29.160Z",
+          "captured_at": "2026-05-31T00:58:02.403Z"
+        }
+      }
+    },
+    {
+      "gauge_pool_id": "cw20:terra14n22zd24nath0tf8fwn468nz7753rjuks67ppddrcqwq37x2xsxsddqxqc",
+      "pool_address": "terra1re0yj0j6e9v2szg7kp02ut6u8jjea586t6pnpq6628wl36fphtpqwt6l7p",
+      "name": "LUNA-stLUNA",
+      "dex": "Astroport",
+      "bucket": "project",
+      "dex_subtype": "stable",
+      "epochs": {
+        "187": {
+          "total_vp": 227581.606798,
+          "adao_vp": 0,
+          "member_vp": 0,
+          "other_vp": 227581.606798,
+          "adao_pct": 0,
+          "member_pct": 0,
+          "other_pct": 100,
+          "adao_source": "adao-positions current.json",
+          "captured_against_snapshot_at": "2026-05-30T23:40:29.160Z",
+          "captured_at": "2026-05-31T00:58:02.403Z"
+        }
+      }
+    },
+    {
+      "gauge_pool_id": "cw20:terra1wwy8xjk4mff7qp2g7qzmgfu9agd6wjdmz99crj94zv9tmh7dvhmq0jsf6a",
+      "pool_address": "terra1crlsemxx6yjpeq3am9dzccln0dykusm685ecxscuyny7u596elqqj6xd9z",
+      "name": "LUNA-SWTH",
+      "dex": "Astroport",
+      "bucket": "project",
+      "dex_subtype": "xyk",
+      "epochs": {
+        "187": {
+          "total_vp": 48639.95074,
+          "adao_vp": 29436.5720325546,
+          "member_vp": 0,
+          "other_vp": 19203.3787074454,
+          "adao_pct": 60.519329449786774,
+          "member_pct": 0,
+          "other_pct": 39.480670550213226,
+          "adao_source": "adao-positions current.json",
+          "captured_against_snapshot_at": "2026-05-30T23:40:29.160Z",
+          "captured_at": "2026-05-31T00:58:02.403Z"
+        }
+      }
+    },
+    {
+      "gauge_pool_id": "cw20:terra1s275y73lfupag0g03nglxaedfnsw5z4m5zc9wk66guy503zuw5ss889tlx",
+      "pool_address": "terra1v3lqxl0eyte9x3nhdgcj8hwvjq76aupnnzz0yll8mxs5cckc29pqvg2scu",
+      "name": "LUNA-USDC",
+      "dex": "Astroport",
+      "bucket": "stable",
+      "dex_subtype": "concentrated",
+      "epochs": {
+        "187": {
+          "total_vp": 20093461.913876,
+          "adao_vp": 637545.856584474,
+          "member_vp": 1816123.5242320003,
+          "other_vp": 17639792.533059526,
+          "adao_pct": 3.17290200821095,
+          "member_pct": 9.038380404612282,
+          "other_pct": 87.78871758717676,
+          "adao_source": "adao-positions current.json",
+          "captured_against_snapshot_at": "2026-05-30T23:40:29.160Z",
+          "captured_at": "2026-05-31T00:58:02.402Z"
+        }
+      }
+    },
+    {
+      "gauge_pool_id": "native:factory/terra16a45v4k74w3yy30utfxdsekdlnks27sv48sn2suaf4wt7u6meq8scz75mx/uLP",
+      "pool_address": "terra16a45v4k74w3yy30utfxdsekdlnks27sv48sn2suaf4wt7u6meq8scz75mx",
+      "name": "LUNA-USDC",
+      "dex": "Skeleton Swap",
+      "bucket": "stable",
+      "dex_subtype": null,
+      "epochs": {
+        "187": {
+          "total_vp": 2477929.974427,
+          "adao_vp": 0,
+          "member_vp": 1843.1750452,
+          "other_vp": 2476086.7993818,
+          "adao_pct": 0,
+          "member_pct": 0.07438366153289777,
+          "other_pct": 99.9256163384671,
+          "adao_source": "adao-positions current.json",
+          "captured_against_snapshot_at": "2026-05-30T23:40:29.160Z",
+          "captured_at": "2026-05-31T00:58:02.403Z"
+        }
+      }
+    },
+    {
+      "gauge_pool_id": "native:factory/terra1wymgwg90ry2w04avy899ucmuuak7w8n3xw2msmw2jf9rfugre0ssenx4hn/uLP",
+      "pool_address": "terra1wymgwg90ry2w04avy899ucmuuak7w8n3xw2msmw2jf9rfugre0ssenx4hn",
+      "name": "LUNA-USDt",
+      "dex": "Skeleton Swap",
+      "bucket": "stable",
+      "dex_subtype": null,
+      "epochs": {
+        "187": {
+          "total_vp": 49163.995645,
+          "adao_vp": 0,
+          "member_vp": 819.5656032000002,
+          "other_vp": 48344.430041800006,
+          "adao_pct": 0,
+          "member_pct": 1.667003652668638,
+          "other_pct": 98.33299634733137,
+          "adao_source": "adao-positions current.json",
+          "captured_against_snapshot_at": "2026-05-30T23:40:29.160Z",
+          "captured_at": "2026-05-31T00:58:02.403Z"
+        }
+      }
+    },
+    {
+      "gauge_pool_id": "cw20:terra14h48hukanmfv6wrrs50m4w2f9hf09lakwl5d5pkpt4rpl3gtg7ks4ye6d4",
+      "pool_address": "terra1aategw0787y4fyunmwdvdqraxfc8jtxykyed2skx3p5fd3lkgkmsqry7pz",
+      "name": "LUNA-USDT",
+      "dex": "Astroport",
+      "bucket": "stable",
+      "dex_subtype": "concentrated",
+      "epochs": {
+        "187": {
+          "total_vp": 785205.30765,
+          "adao_vp": 87644.0649712995,
+          "member_vp": 0,
+          "other_vp": 697561.2426787005,
+          "adao_pct": 11.16192976759223,
+          "member_pct": 0,
+          "other_pct": 88.83807023240777,
+          "adao_source": "adao-positions current.json",
+          "captured_against_snapshot_at": "2026-05-30T23:40:29.160Z",
+          "captured_at": "2026-05-31T00:58:02.402Z"
+        }
+      }
+    },
+    {
+      "gauge_pool_id": "native:factory/terra1m5juz238n27dd24d9e3kacmqax8gu7j5ee9hhfczpl52f3n7adaqudk2c9/uLP",
+      "pool_address": "terra1m5juz238n27dd24d9e3kacmqax8gu7j5ee9hhfczpl52f3n7adaqudk2c9",
+      "name": "LUNA-wBNB",
+      "dex": "Skeleton Swap",
+      "bucket": "bluechip",
+      "dex_subtype": null,
+      "epochs": {
+        "187": {
+          "total_vp": 68.145069,
+          "adao_vp": 0,
+          "member_vp": 0,
+          "other_vp": 68.145069,
+          "adao_pct": 0,
+          "member_pct": 0,
+          "other_pct": 100,
+          "adao_source": "adao-positions current.json",
+          "captured_against_snapshot_at": "2026-05-30T23:40:29.160Z",
+          "captured_at": "2026-05-31T00:58:02.403Z"
+        }
+      }
+    },
+    {
+      "gauge_pool_id": "cw20:terra10ca0xhyjrzl3zk9g26yjxlw5rjplu5ts4jgcvvrgr62ml8jf57hqs3nck5",
+      "pool_address": "terra10clh64cpvjjen8f24qz2046d24s79w2ev2dyd9ke29wmqdqp4yjs3cyk0y",
+      "name": "LUNA-wBNB.axl",
+      "dex": "Astroport",
+      "bucket": "bluechip",
+      "dex_subtype": "concentrated",
+      "epochs": {
+        "187": {
+          "total_vp": 12145.164661,
+          "adao_vp": 0,
+          "member_vp": 0,
+          "other_vp": 12145.164661,
+          "adao_pct": 0,
+          "member_pct": 0,
+          "other_pct": 100,
+          "adao_source": "adao-positions current.json",
+          "captured_against_snapshot_at": "2026-05-30T23:40:29.160Z",
+          "captured_at": "2026-05-31T00:58:02.403Z"
+        }
+      }
+    },
+    {
+      "gauge_pool_id": "cw20:terra12eu8jk4w7lgn2rk7xs46nz7c7r9fw8q98afy9adlwtkghazj40asjf65zu",
+      "pool_address": "terra1v3xmc8nn8h8e7z55d80a72g4rgz6mrxyasxq089k8n6m40xldlksf2w5x8",
+      "name": "LUNA-wBNB.wh",
+      "dex": "Astroport",
+      "bucket": "bluechip",
+      "dex_subtype": "concentrated",
+      "epochs": {
+        "187": {
+          "total_vp": 14.094726,
+          "adao_vp": 0,
+          "member_vp": 0,
+          "other_vp": 14.094726,
+          "adao_pct": 0,
+          "member_pct": 0,
+          "other_pct": 100,
+          "adao_source": "adao-positions current.json",
+          "captured_against_snapshot_at": "2026-05-30T23:40:29.160Z",
+          "captured_at": "2026-05-31T00:58:02.403Z"
+        }
+      }
+    },
+    {
+      "gauge_pool_id": "cw20:terra1tfr4ghftlsf2l9nxr3clewk52g5q8wj7m2rglw67dkql9x6u7w6q53gwrn",
+      "pool_address": "terra1p996av7ftzj973swd4yt2er2sn3v9y5j9qfxz67gatnrpf8lfgwsel8hcg",
+      "name": "LUNA-WBTC",
+      "dex": "Astroport",
+      "bucket": "bluechip",
+      "dex_subtype": "concentrated",
+      "epochs": {
+        "187": {
+          "total_vp": 18588.506837,
+          "adao_vp": 0,
+          "member_vp": 0,
+          "other_vp": 18588.506837,
+          "adao_pct": 0,
+          "member_pct": 0,
+          "other_pct": 100,
+          "adao_source": "adao-positions current.json",
+          "captured_against_snapshot_at": "2026-05-30T23:40:29.160Z",
+          "captured_at": "2026-05-31T00:58:02.403Z"
+        }
+      }
+    },
+    {
+      "gauge_pool_id": "cw20:terra1wdzdltygkgqyuvggnqnxsny9vhfyex92kzaz6zkued2wvp7nvxpsv739js",
+      "pool_address": "terra1mea829xtsnxwv4l9lhzs0tzpnyamjpz5y45a9tpp06jgdhjd48yqc4ales",
+      "name": "LUNA-WBTC",
+      "dex": "Astroport",
+      "bucket": "bluechip",
+      "dex_subtype": "concentrated",
+      "epochs": {
+        "187": {
+          "total_vp": 7804119.898012,
+          "adao_vp": 174622.47881623468,
+          "member_vp": 1030319.0593976001,
+          "other_vp": 6599178.359798165,
+          "adao_pct": 2.2375678628504607,
+          "member_pct": 13.202245389131717,
+          "other_pct": 84.56018674801781,
+          "adao_source": "adao-positions current.json",
+          "captured_against_snapshot_at": "2026-05-30T23:40:29.160Z",
+          "captured_at": "2026-05-31T00:58:02.403Z"
+        }
+      }
+    },
+    {
+      "gauge_pool_id": "cw20:terra1a5apghncafx0nem740fsrmd6demaywvp332a4uat63u2jtwn8mgsz7khkw",
+      "pool_address": "terra1afkvgc0mxfqakqlaqpxdgy58n79x4r239q3tucxmrsqvqk7ce3ksnctxfu",
+      "name": "LUNA-WBTC.axl",
+      "dex": "Astroport",
+      "bucket": "bluechip",
+      "dex_subtype": "concentrated",
+      "epochs": {
+        "187": {
+          "total_vp": 418093.598248,
+          "adao_vp": 239856.28919993606,
+          "member_vp": 11145.5814272,
+          "other_vp": 167091.72762086397,
+          "adao_pct": 57.36904133549082,
+          "member_pct": 2.6658101137891115,
+          "other_pct": 39.96514855072007,
+          "adao_source": "adao-positions current.json",
+          "captured_against_snapshot_at": "2026-05-30T23:40:29.160Z",
+          "captured_at": "2026-05-31T00:58:02.403Z"
+        }
+      }
+    },
+    {
+      "gauge_pool_id": "cw20:terra1stavsz7hhsw56tngxt6p5xmkm86a9nvgztgvv56wj7q6yceutmwsvrwjdz",
+      "pool_address": "terra1a6d0lcvfzyllulaaazzg5j70yn4m3e2t90shtlxsr3fwhcg34g2sgwfr75",
+      "name": "LUNA-WHALE",
+      "dex": "Astroport",
+      "bucket": "project",
+      "dex_subtype": "concentrated",
+      "epochs": {
+        "187": {
+          "total_vp": 501.334722,
+          "adao_vp": 0,
+          "member_vp": 0,
+          "other_vp": 501.334722,
+          "adao_pct": 0,
+          "member_pct": 0,
+          "other_pct": 100,
+          "adao_source": "adao-positions current.json",
+          "captured_against_snapshot_at": "2026-05-30T23:40:29.160Z",
+          "captured_at": "2026-05-31T00:58:02.403Z"
+        }
+      }
+    },
+    {
+      "gauge_pool_id": "native:factory/terra12u7a9wkjqrkhxjcxx70uhfx8y49j4lclfnet2smw9agpnrv9chps27n9mh/uLP",
+      "pool_address": "terra12u7a9wkjqrkhxjcxx70uhfx8y49j4lclfnet2smw9agpnrv9chps27n9mh",
+      "name": "LUNA-wSOL",
+      "dex": "Skeleton Swap",
+      "bucket": "bluechip",
+      "dex_subtype": null,
+      "epochs": {
+        "187": {
+          "total_vp": 33231.875439,
+          "adao_vp": 0,
+          "member_vp": 0,
+          "other_vp": 33231.875439,
+          "adao_pct": 0,
+          "member_pct": 0,
+          "other_pct": 100,
+          "adao_source": "adao-positions current.json",
+          "captured_against_snapshot_at": "2026-05-30T23:40:29.160Z",
+          "captured_at": "2026-05-31T00:58:02.403Z"
+        }
+      }
+    },
+    {
+      "gauge_pool_id": "cw20:terra1vc66wpr2ghcesnf203em6yefpze3vrmq99n8yz0me3jzs6g4e8rs2kec75",
+      "pool_address": "terra16zzqwekwsqn4zlsyu4vhjr52ee2hdvppjcr8h22qznjadaazzdgsvd905d",
+      "name": "LUNA-wSOL.wh",
+      "dex": "Astroport",
+      "bucket": "bluechip",
+      "dex_subtype": "concentrated",
+      "epochs": {
+        "187": {
+          "total_vp": 391.204858,
+          "adao_vp": 0,
+          "member_vp": 0,
+          "other_vp": 391.204858,
+          "adao_pct": 0,
+          "member_pct": 0,
+          "other_pct": 100,
+          "adao_source": "adao-positions current.json",
+          "captured_against_snapshot_at": "2026-05-30T23:40:29.160Z",
+          "captured_at": "2026-05-31T00:58:02.403Z"
+        }
+      }
+    },
+    {
+      "gauge_pool_id": "cw20:terra19d8tttv0lvhwpj828qqrcmm6yaqdfhrchfheuufcw4kywtmk9u3q98ask3",
+      "pool_address": "terra1u0sp5gaw9amfa8vsaaqvvjpqqdyz4eeslzdjsgaq40afctpx7f6s6augj2",
+      "name": "LUNA-wstETH",
+      "dex": "Astroport",
+      "bucket": "bluechip",
+      "dex_subtype": "concentrated",
+      "epochs": {
+        "187": {
+          "total_vp": 59036.970887,
+          "adao_vp": 43785.0518675184,
+          "member_vp": 0,
+          "other_vp": 15251.919019481604,
+          "adao_pct": 74.16547835986603,
+          "member_pct": 0,
+          "other_pct": 25.83452164013396,
+          "adao_source": "adao-positions current.json",
+          "captured_against_snapshot_at": "2026-05-30T23:40:29.160Z",
+          "captured_at": "2026-05-31T00:58:02.403Z"
+        }
+      }
+    },
+    {
+      "gauge_pool_id": "native:factory/terra12hs75vlyd38zjvhegsqzr8uvz2r764fdy8mhqw0qg0s2mv858yvstwmsf8/uLP",
+      "pool_address": "terra12hs75vlyd38zjvhegsqzr8uvz2r764fdy8mhqw0qg0s2mv858yvstwmsf8",
+      "name": "LUNA-wstETH",
+      "dex": "Skeleton Swap",
+      "bucket": "bluechip",
+      "dex_subtype": null,
+      "epochs": {
+        "187": {
+          "total_vp": 1555080.868361,
+          "adao_vp": 0,
+          "member_vp": 0,
+          "other_vp": 1555080.868361,
+          "adao_pct": 0,
+          "member_pct": 0,
+          "other_pct": 100,
+          "adao_source": "adao-positions current.json",
+          "captured_against_snapshot_at": "2026-05-30T23:40:29.160Z",
+          "captured_at": "2026-05-31T00:58:02.403Z"
+        }
+      }
+    },
+    {
+      "gauge_pool_id": "native:factory/terra17vas9rhxhc6j6f5wrup9cqapxn74jvpft069py7l7l9kr7wx3tnsxrazux/uLP",
+      "pool_address": "terra17vas9rhxhc6j6f5wrup9cqapxn74jvpft069py7l7l9kr7wx3tnsxrazux",
+      "name": "native:factory/terra17vas9rhxhc6j6f5wrup9cqapxn74j",
+      "dex": null,
+      "bucket": "bluechip",
+      "dex_subtype": null,
+      "epochs": {
+        "187": {
+          "total_vp": 31200.940189,
+          "adao_vp": 0,
+          "member_vp": 0,
+          "other_vp": 31200.940189,
+          "adao_pct": 0,
+          "member_pct": 0,
+          "other_pct": 100,
+          "adao_source": "adao-positions current.json",
+          "captured_against_snapshot_at": "2026-05-30T23:40:29.160Z",
+          "captured_at": "2026-05-31T00:58:02.403Z"
+        }
+      }
+    },
+    {
+      "gauge_pool_id": "native:factory/terra1zushwxgqdkg22mtv9p946yp53r6den6lv427esjaadua3ftzyjpsqgtl5z/uLP",
+      "pool_address": "terra1zushwxgqdkg22mtv9p946yp53r6den6lv427esjaadua3ftzyjpsqgtl5z",
+      "name": "native:factory/terra1zushwxgqdkg22mtv9p946yp53r6de",
+      "dex": null,
+      "bucket": "project",
+      "dex_subtype": null,
+      "epochs": {
+        "187": {
+          "total_vp": 57263.76479,
+          "adao_vp": 0,
+          "member_vp": 0,
+          "other_vp": 57263.76479,
+          "adao_pct": 0,
+          "member_pct": 0,
+          "other_pct": 100,
+          "adao_source": "adao-positions current.json",
+          "captured_against_snapshot_at": "2026-05-30T23:40:29.160Z",
+          "captured_at": "2026-05-31T00:58:02.403Z"
+        }
+      }
+    },
+    {
+      "gauge_pool_id": "cw20:terra1h840qkh5pqmrvnt6d3m97slcl3q8k6czv67rrmnydp96xwda2afsghwnjr",
+      "pool_address": "terra1g55qjcptzqgdyqfgzu5mj8x82955rvlxy4c37z5t6ldgz7cz033q0xr2lx",
+      "name": "PAXG-WBTC",
+      "dex": "Astroport",
+      "bucket": "single",
+      "dex_subtype": "concentrated",
+      "epochs": {
+        "187": {
+          "total_vp": 6496824.097755,
+          "adao_vp": 0,
+          "member_vp": 0,
+          "other_vp": 6496824.097755,
+          "adao_pct": 0,
+          "member_pct": 0,
+          "other_pct": 100,
+          "adao_source": "adao-positions current.json",
+          "captured_against_snapshot_at": "2026-05-30T23:40:29.160Z",
+          "captured_at": "2026-05-31T00:58:02.403Z"
+        }
+      }
+    },
+    {
+      "gauge_pool_id": "cw20:terra1mnucaeckccseq66kglv299wasp02akyh535jcpcdu37tdakr92esf9mjm5",
+      "pool_address": "terra1rzw2egugtjhxz2x58z55kwldm96fzck8qsf9srf5v0uehf64a2asjsak68",
+      "name": "SWTH-rSWTH",
+      "dex": "Astroport",
+      "bucket": "single",
+      "dex_subtype": "xyk",
+      "epochs": {
+        "187": {
+          "total_vp": 28891.869826,
+          "adao_vp": 0,
+          "member_vp": 0,
+          "other_vp": 28891.869826,
+          "adao_pct": 0,
+          "member_pct": 0,
+          "other_pct": 100,
+          "adao_source": "adao-positions current.json",
+          "captured_against_snapshot_at": "2026-05-30T23:40:29.160Z",
+          "captured_at": "2026-05-31T00:58:02.403Z"
+        }
+      }
+    },
+    {
+      "gauge_pool_id": "cw20:terra17thxg96vtxv39kcltc0dvrltqgkumu8fv93rpz3xz98675cgxdjq3y4ddn",
+      "pool_address": "terra1ys7edvw89krf47n4zsz4c4m9das7ppltjtfv2epw85thqpvl6hhqn55m6y",
+      "name": "USDC-EURe",
+      "dex": "Astroport",
+      "bucket": "bluechip",
+      "dex_subtype": "concentrated",
+      "epochs": {
+        "187": {
+          "total_vp": 4600103.869443,
+          "adao_vp": 189266.80359624932,
+          "member_vp": 696684.7911765,
+          "other_vp": 3714152.2746702507,
+          "adao_pct": 4.114402825846768,
+          "member_pct": 15.144979568925637,
+          "other_pct": 80.7406176052276,
+          "adao_source": "adao-positions current.json",
+          "captured_against_snapshot_at": "2026-05-30T23:40:29.160Z",
+          "captured_at": "2026-05-31T00:58:02.403Z"
+        }
+      }
+    },
+    {
+      "gauge_pool_id": "native:factory/terra1t9uvn05g0hdlx2nnqug3lt3pkla4sfdj0n0xnd66kmwvyt25y65sk37cej/uLP",
+      "pool_address": "terra1t9uvn05g0hdlx2nnqug3lt3pkla4sfdj0n0xnd66kmwvyt25y65sk37cej",
+      "name": "USDC-EURe",
+      "dex": "Skeleton Swap",
+      "bucket": "bluechip",
+      "dex_subtype": null,
+      "epochs": {
+        "187": {
+          "total_vp": 0.000002,
+          "adao_vp": 0,
+          "member_vp": 0,
+          "other_vp": 0.000002,
+          "adao_pct": 0,
+          "member_pct": 0,
+          "other_pct": 100,
+          "adao_source": "adao-positions current.json",
+          "captured_against_snapshot_at": "2026-05-30T23:40:29.160Z",
+          "captured_at": "2026-05-31T00:58:02.403Z"
+        }
+      }
+    },
+    {
+      "gauge_pool_id": "cw20:terra12usr3jlgvuzq70kpt6u03stxrgzwpjxnej6herpuw9t7echj8z3q44dyyk",
+      "pool_address": "terra1fwjxdjpl98shj20l4swlen9hyu4lhvekrvqkqn393lzzghmsn2wqjdnvpu",
+      "name": "USDC-SOLID",
+      "dex": "Astroport",
+      "bucket": "project",
+      "dex_subtype": "xyk",
+      "epochs": {
+        "187": {
+          "total_vp": 5039957.544752,
+          "adao_vp": 33652.3624995285,
+          "member_vp": 253066.50469879998,
+          "other_vp": 4753238.677553671,
+          "adao_pct": 0.6677112297219644,
+          "member_pct": 5.02120310442521,
+          "other_pct": 94.31108566585283,
+          "adao_source": "adao-positions current.json",
+          "captured_against_snapshot_at": "2026-05-30T23:40:29.160Z",
+          "captured_at": "2026-05-31T00:58:02.403Z"
+        }
+      }
+    },
+    {
+      "gauge_pool_id": "native:factory/terra1wje8lj3372njwuw8t4scmyp94t5pyxxh89tsnkrfyxghqh6aunzqz4a9k3/uLP",
+      "pool_address": "terra1wje8lj3372njwuw8t4scmyp94t5pyxxh89tsnkrfyxghqh6aunzqz4a9k3",
+      "name": "USDC-SOLID",
+      "dex": "Skeleton Swap",
+      "bucket": "project",
+      "dex_subtype": null,
+      "epochs": {
+        "187": {
+          "total_vp": 19769.577324,
+          "adao_vp": 0,
+          "member_vp": 0,
+          "other_vp": 19769.577324,
+          "adao_pct": 0,
+          "member_pct": 0,
+          "other_pct": 100,
+          "adao_source": "adao-positions current.json",
+          "captured_against_snapshot_at": "2026-05-30T23:40:29.160Z",
+          "captured_at": "2026-05-31T00:58:02.403Z"
+        }
+      }
+    },
+    {
+      "gauge_pool_id": "native:factory/terra178ca7z2w6346wlkmxwpw80s2a5fmas9q28xlzegkt4c4rdam67aql5fgxj/uLP",
+      "pool_address": "terra178ca7z2w6346wlkmxwpw80s2a5fmas9q28xlzegkt4c4rdam67aql5fgxj",
+      "name": "USDC-USDt",
+      "dex": "Skeleton Swap",
+      "bucket": "bluechip",
+      "dex_subtype": null,
+      "epochs": {
+        "187": {
+          "total_vp": 210.917383,
+          "adao_vp": 0,
+          "member_vp": 0,
+          "other_vp": 210.917383,
+          "adao_pct": 0,
+          "member_pct": 0,
+          "other_pct": 100,
+          "adao_source": "adao-positions current.json",
+          "captured_against_snapshot_at": "2026-05-30T23:40:29.160Z",
+          "captured_at": "2026-05-31T00:58:02.403Z"
+        }
+      }
+    },
+    {
+      "gauge_pool_id": "native:factory/terra178ca7z2w6346wlkmxwpw80s2a5fmas9q28xlzegkt4c4rdam67aql5fgxj/uLP",
+      "pool_address": "terra178ca7z2w6346wlkmxwpw80s2a5fmas9q28xlzegkt4c4rdam67aql5fgxj",
+      "name": "USDC-USDt",
+      "dex": "Skeleton Swap",
+      "bucket": "single",
+      "dex_subtype": null,
+      "epochs": {
+        "187": {
+          "total_vp": 1027167.609491,
+          "adao_vp": 0,
+          "member_vp": 0,
+          "other_vp": 1027167.609491,
+          "adao_pct": 0,
+          "member_pct": 0,
+          "other_pct": 100,
+          "adao_source": "adao-positions current.json",
+          "captured_against_snapshot_at": "2026-05-30T23:40:29.160Z",
+          "captured_at": "2026-05-31T00:58:02.403Z"
+        }
+      }
+    },
+    {
+      "gauge_pool_id": "cw20:terra1huw82c9grj9xz9umkc8hqcjqgndadlkrp8rn9u6eh5jh5j2s2t7qs33vry",
+      "pool_address": "terra1dnssvse0fqw4d4gqc8kvchfud5r6e8cr7w9cdpervhl2pgr2eecquujpg6",
+      "name": "USDC-USDT",
+      "dex": "Astroport",
+      "bucket": "bluechip",
+      "dex_subtype": "stable",
+      "epochs": {
+        "187": {
+          "total_vp": 281717.098525,
+          "adao_vp": 0,
+          "member_vp": 0,
+          "other_vp": 281717.098525,
+          "adao_pct": 0,
+          "member_pct": 0,
+          "other_pct": 100,
+          "adao_source": "adao-positions current.json",
+          "captured_against_snapshot_at": "2026-05-30T23:40:29.160Z",
+          "captured_at": "2026-05-31T00:58:02.403Z"
+        }
+      }
+    },
+    {
+      "gauge_pool_id": "cw20:terra1huw82c9grj9xz9umkc8hqcjqgndadlkrp8rn9u6eh5jh5j2s2t7qs33vry",
+      "pool_address": "terra1dnssvse0fqw4d4gqc8kvchfud5r6e8cr7w9cdpervhl2pgr2eecquujpg6",
+      "name": "USDC-USDT",
+      "dex": "Astroport",
+      "bucket": "single",
+      "dex_subtype": "stable",
+      "epochs": {
+        "187": {
+          "total_vp": 2044577.504871,
+          "adao_vp": 93117.1964547393,
+          "member_vp": 0,
+          "other_vp": 1951460.3084162609,
+          "adao_pct": 4.554349063945825,
+          "member_pct": 0,
+          "other_pct": 95.44565093605418,
+          "adao_source": "adao-positions current.json",
+          "captured_against_snapshot_at": "2026-05-30T23:40:29.160Z",
+          "captured_at": "2026-05-31T00:58:02.403Z"
+        }
+      }
+    },
+    {
+      "gauge_pool_id": "cw20:terra10e2rz5etaped4nh0vk502hf7uwtz5lqvxqatxl4qyr0chcynxf2swhfwww",
+      "pool_address": "terra1mps5z5gt2c2akwcp86mq0zhw66kdugtc3selcyradtje0vp0z49sfrk8jx",
+      "name": "WBTC.axl-WBTC.osmo",
+      "dex": "Astroport",
+      "bucket": "single",
+      "dex_subtype": "stable",
+      "epochs": {
+        "187": {
+          "total_vp": 169259.707277,
+          "adao_vp": 144890.06183862928,
+          "member_vp": 368.012043,
+          "other_vp": 24001.633395370736,
+          "adao_pct": 85.60221695380291,
+          "member_pct": 0.21742448271976164,
+          "other_pct": 14.180358563477332,
+          "adao_source": "adao-positions current.json",
+          "captured_against_snapshot_at": "2026-05-30T23:40:29.160Z",
+          "captured_at": "2026-05-31T00:58:02.403Z"
+        }
+      }
+    },
+    {
+      "gauge_pool_id": "native:factory/terra1aysexulsnuxna62m5rlnuzfcvct3df93gd4q0kkjtjcqsvv93s5sd0fyd2/uLP",
+      "pool_address": "terra1aysexulsnuxna62m5rlnuzfcvct3df93gd4q0kkjtjcqsvv93s5sd0fyd2",
+      "name": "wBTC.osmo-LUNA",
+      "dex": "Skeleton Swap",
+      "bucket": "bluechip",
+      "dex_subtype": null,
+      "epochs": {
+        "187": {
+          "total_vp": 1427002.753324,
+          "adao_vp": 0,
+          "member_vp": 1639.1312064000003,
+          "other_vp": 1425363.6221176,
+          "adao_pct": 0,
+          "member_pct": 0.11486531491140274,
+          "other_pct": 99.88513468508859,
+          "adao_source": "adao-positions current.json",
+          "captured_against_snapshot_at": "2026-05-30T23:40:29.160Z",
+          "captured_at": "2026-05-31T00:58:02.403Z"
+        }
+      }
+    },
+    {
+      "gauge_pool_id": "native:factory/terra13ywdferm4jtcperal9png3cvhtmar5se9nu4r49k7vujrakwy9zqa3rhwe/uLP",
+      "pool_address": "terra13ywdferm4jtcperal9png3cvhtmar5se9nu4r49k7vujrakwy9zqa3rhwe",
+      "name": "wBTC.osmo-wBTC.axl",
+      "dex": "Skeleton Swap",
+      "bucket": "single",
+      "dex_subtype": null,
+      "epochs": {
+        "187": {
+          "total_vp": 1044417.861986,
+          "adao_vp": 0,
+          "member_vp": 1024.457004,
+          "other_vp": 1043393.404982,
+          "adao_pct": 0,
+          "member_pct": 0.09808880538024851,
+          "other_pct": 99.90191119461976,
+          "adao_source": "adao-positions current.json",
+          "captured_against_snapshot_at": "2026-05-30T23:40:29.160Z",
+          "captured_at": "2026-05-31T00:58:02.403Z"
+        }
+      }
+    },
+    {
+      "gauge_pool_id": "native:factory/terra12252e02w0k5yv9mryctth4j3y2sdas0xremw0jznzwal5v3xeqjst7q537/uLP",
+      "pool_address": "terra12252e02w0k5yv9mryctth4j3y2sdas0xremw0jznzwal5v3xeqjst7q537",
+      "name": "wETH-wstETH",
+      "dex": "Skeleton Swap",
+      "bucket": "single",
+      "dex_subtype": null,
+      "epochs": {
+        "187": {
+          "total_vp": 20807.493249,
+          "adao_vp": 0,
+          "member_vp": 0,
+          "other_vp": 20807.493249,
+          "adao_pct": 0,
+          "member_pct": 0,
+          "other_pct": 100,
+          "adao_source": "adao-positions current.json",
+          "captured_against_snapshot_at": "2026-05-30T23:40:29.160Z",
+          "captured_at": "2026-05-31T00:58:02.403Z"
+        }
+      }
+    },
+    {
+      "gauge_pool_id": "cw20:terra18336lhc2vt9s9tw4pqetvdwywg9555rduzv527r9q47smw89epcsxgxuny",
+      "pool_address": "terra1yga5eepqnpg77gaj59uqfkm2qtllvpq642cmx5gj5lzjf5v88wzs2srzp7",
+      "name": "wstETH-WETH.axl",
+      "dex": "Astroport",
+      "bucket": "single",
+      "dex_subtype": "xyk",
+      "epochs": {
+        "187": {
+          "total_vp": 399745.702546,
+          "adao_vp": 187935.50134352068,
+          "member_vp": 0,
+          "other_vp": 211810.20120247934,
+          "adao_pct": 47.01376403712416,
+          "member_pct": 0,
+          "other_pct": 52.98623596287584,
+          "adao_source": "adao-positions current.json",
+          "captured_against_snapshot_at": "2026-05-30T23:40:29.160Z",
+          "captured_at": "2026-05-31T00:58:02.403Z"
+        }
+      }
+    },
+    {
+      "gauge_pool_id": "native:ibc/65B3EB6263482979FD7A80E3FFB9D0C85CFBF6DB63EB8DDE918B2984A40CEAB6",
+      "pool_address": null,
+      "name": "xASTRO",
+      "dex": "Single",
+      "bucket": "single",
+      "dex_subtype": "single",
+      "epochs": {
+        "187": {
+          "total_vp": 809266.647195,
+          "adao_vp": 0,
+          "member_vp": 74911.75652960001,
+          "other_vp": 734354.8906654,
+          "adao_pct": 0,
+          "member_pct": 9.256745819100756,
+          "other_pct": 90.74325418089924,
+          "adao_source": "adao-positions current.json",
+          "captured_against_snapshot_at": "2026-05-30T23:40:29.160Z",
+          "captured_at": "2026-05-31T00:58:02.403Z"
+        }
+      }
+    }
+  ]
+}
