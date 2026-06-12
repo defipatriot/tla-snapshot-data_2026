@@ -1,0 +1,194 @@
+{
+  "meta": {
+    "version": "dao-dashboard-1.0",
+    "epoch": 189,
+    "phase": "live",
+    "generated_at": "2026-06-12T20:01:26.148Z",
+    "source": "dao-dashboard cron (cron-scripts/dao-dashboard)",
+    "status": "ok",
+    "errors": []
+  },
+  "dashboard": {
+    "unclaimed_rewards": {
+      "ampLUNA": 814.1687238668749,
+      "zAssets": 1174.276915,
+      "deposit_rewards_usd": 91.33373645856705,
+      "deposit_luna_equivalent": 1760.039628824062
+    },
+    "vote_rewards": {
+      "by_token": {
+        "ASTRO": {
+          "amount": 6110.382853,
+          "price": 0.000498296022110919,
+          "usd": 3.0447794692246677
+        },
+        "LUNA": {
+          "amount": 1085.0453020000002,
+          "price": 0.051893,
+          "usd": 56.306255856686
+        },
+        "CAPA": {
+          "amount": 2023.762188,
+          "price": 0.001209804324621086,
+          "usd": 2.4483562470470313
+        },
+        "USDC": {
+          "amount": 1.296896,
+          "price": 0.999805,
+          "usd": 1.2966431052800003
+        }
+      },
+      "periods": [],
+      "total_usd": 63.09603467823769
+    },
+    "rebase": {
+      "ampLUNA": 0,
+      "usd": 0
+    },
+    "tla_deposits": {
+      "total_usd": 8312.323573685773,
+      "lp_usd": 8168.508434218894,
+      "zluna_usd": 143.815139466879,
+      "tokens": [
+        {
+          "symbol": "LUNA",
+          "amount": 80486.8973625061,
+          "price": 0.051892999999999995,
+          "usd": 4176.706564832529
+        },
+        {
+          "symbol": "ampLUNA",
+          "amount": 15198.596698585217,
+          "price": 0.11218035498192519,
+          "usd": 1704.983972874406
+        },
+        {
+          "symbol": "ampCAPA",
+          "amount": 387339.243923,
+          "price": 0.0013374843419836592,
+          "usd": 518.0601737828017
+        },
+        {
+          "symbol": "ROAR",
+          "amount": 1924846269.0232105,
+          "price": 2.15443781077e-7,
+          "usd": 414.69615819031685
+        },
+        {
+          "symbol": "CAPA",
+          "amount": 250345.046130356,
+          "price": 0.001209804324621086,
+          "usd": 302.86851945596993
+        },
+        {
+          "symbol": "FUEL",
+          "amount": 103733.13935380832,
+          "price": 0.002916728397905901,
+          "usd": 302.5613933571829
+        },
+        {
+          "symbol": "WBTC",
+          "amount": 0.00248221927328637,
+          "price": 63584.00000000001,
+          "usd": 157.82943027264056
+        },
+        {
+          "symbol": "bLUNA",
+          "amount": 1671.115905702473,
+          "price": 0.0916133934874226,
+          "usd": 153.09659903221126
+        },
+        {
+          "symbol": "zLUNA",
+          "amount": 2771.378403,
+          "price": 0.051892999999999995,
+          "usd": 143.815139466879
+        },
+        {
+          "symbol": "ampROAR",
+          "amount": 534084469.38166785,
+          "price": 2.523743339548483e-7,
+          "usd": 134.789212235827
+        },
+        {
+          "symbol": "ATOM",
+          "amount": 47.6782057166512,
+          "price": 1.9600000000000002,
+          "usd": 93.44928320463636
+        },
+        {
+          "symbol": "PAXG",
+          "amount": 0.021382896760807332,
+          "price": 4200.45,
+          "usd": 89.81778869893316
+        },
+        {
+          "symbol": "USDC",
+          "amount": 53.47407911221969,
+          "price": 0.9998050000000003,
+          "usd": 53.46365166679282
+        },
+        {
+          "symbol": "SOLID",
+          "amount": 51.831906484119884,
+          "price": 1.0313060300688424,
+          "usd": 53.45455770703716
+        },
+        {
+          "symbol": "xASTRO",
+          "amount": 19594.628394281193,
+          "price": 0.00064972545798953,
+          "usd": 12.731128907608996
+        }
+      ],
+      "composition": "lp_underlying+zluna"
+    },
+    "alliances": {
+      "lion_dao": {
+        "description": "Alliance with Lion DAO ecosystem",
+        "established": "2025-08-01",
+        "chain_staking": {
+          "validators": [
+            {
+              "name": "Lion DAO",
+              "address": "terravaloper1dcegyrekltswvyy0xy69ydgxn9x8x32zdtapd8",
+              "staked_luna": 0,
+              "unclaimed_rewards_luna": 0
+            }
+          ],
+          "staking_apr_pct": 24.661,
+          "staking_apr_date": "2026-05-17"
+        }
+      }
+    }
+  },
+  "token_prices": {
+    "LUNA": 0.051893,
+    "USDC": 0.999805,
+    "USDT": 0.999385,
+    "WBTC": 63584,
+    "PAXG": 4200.45,
+    "EURE": 1.16,
+    "INJ": 5.147572250477834,
+    "ATOM": 1.96,
+    "ETH": 1666.78,
+    "WETH": 1668.672421625932,
+    "WSTETH": 2064.97,
+    "BNB": 605.02,
+    "WBNB": 605.4130730355049,
+    "OSMO": 0.047494812458313856,
+    "STLUNA": 0.0955217876946135,
+    "STATOM": 3.7038129710361853,
+    "SOLID": 1.0313060300688424,
+    "SWTH": 0.00028201695457004,
+    "ROAR": 2.15443781077e-7,
+    "CAPA": 0.001209804324621086,
+    "ASTRO": 0.000498296022110919,
+    "xASTRO": 0.00064972545798953,
+    "ampLUNA": 0.11218035498192519,
+    "arbLUNA": 0.15309082132400495,
+    "bLUNA": 0.0916133934874226,
+    "ampCAPA": 0.0013374843419836592,
+    "ampROAR": 2.523743339548483e-7
+  }
+}
