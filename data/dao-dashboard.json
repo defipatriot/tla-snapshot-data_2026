@@ -3,7 +3,7 @@
     "version": "dao-dashboard-1.3-lion-scan",
     "epoch": 193,
     "phase": "live",
-    "generated_at": "2026-07-09T06:40:30.167Z",
+    "generated_at": "2026-07-09T07:40:33.172Z",
     "source": "dao-dashboard cron (cron-scripts/dao-dashboard)",
     "status": "ok",
     "errors": []
@@ -69,10 +69,10 @@
       "total_usd": 11896.261411914846
     },
     "unclaimed_rewards": {
-      "ampLUNA": 59.232121635966955,
+      "ampLUNA": 59.232121635554904,
       "zAssets": 85.441935,
-      "deposit_rewards_usd": 6.259659572268204,
-      "deposit_luna_equivalent": 130.60030528476386
+      "deposit_rewards_usd": 6.259659572224657,
+      "deposit_luna_equivalent": 130.60030528385533
     },
     "vote_rewards": {
       "by_token": {},
@@ -84,58 +84,58 @@
       "usd": 0
     },
     "tla_deposits": {
-      "total_usd": 7876.91598965897,
-      "lp_usd": 7734.557856077778,
+      "total_usd": 7876.845908259408,
+      "lp_usd": 7734.487774678216,
       "zluna_usd": 142.358133581192,
-      "est_apr_pct": 40.92014353163444,
+      "est_apr_pct": 40.920373980243404,
       "tokens": [
         {
           "symbol": "LUNA",
-          "amount": 82606.76198608958,
-          "price": 0.0479299,
-          "usd": 3959.333841317075
+          "amount": 82576.62622084828,
+          "price": 0.04792990000000001,
+          "usd": 3957.889437102637
         },
         {
           "symbol": "ampLUNA",
-          "amount": 15143.559330198506,
+          "amount": 15155.15649230482,
           "price": 0.10568015123178046,
-          "usd": 1600.373640202818
+          "usd": 1601.599230048073
         },
         {
           "symbol": "ampCAPA",
-          "amount": 393880.87903,
+          "amount": 393876.37767,
           "price": 0.001197321166937595,
-          "usd": 471.6019137146053
+          "usd": 471.5965241409973
         },
         {
           "symbol": "ROAR",
-          "amount": 1996119124.4500275,
-          "price": 1.9993776003799997e-7,
-          "usd": 399.09958651155216
+          "amount": 1996063186.026915,
+          "price": 1.99937760038e-7,
+          "usd": 399.0884023085351
         },
         {
           "symbol": "FUEL",
-          "amount": 111717.31536141782,
+          "amount": 111716.03863407501,
           "price": 0.0025958979385494224,
-          "usd": 290.0067486469802
+          "usd": 290.00343439310296
         },
         {
           "symbol": "CAPA",
-          "amount": 260362.94344778988,
-          "price": 0.0010830215205155911,
-          "usd": 281.97867089874023
+          "amount": 260359.96796162098,
+          "price": 0.001083021520515591,
+          "usd": 281.97544838318527
         },
         {
           "symbol": "WBTC",
-          "amount": 0.0024986123773056666,
-          "price": 62346,
-          "usd": 155.7784872754991
+          "amount": 0.00249955753873436,
+          "price": 62346.00000000001,
+          "usd": 155.83741430993243
         },
         {
           "symbol": "bLUNA",
-          "amount": 1800.0124221474275,
-          "price": 0.08483010211887443,
-          "usd": 152.69523758600877
+          "amount": 1799.9918514237131,
+          "price": 0.08483010211887441,
+          "usd": 152.6934925694154
         },
         {
           "symbol": "zLUNA",
@@ -145,39 +145,39 @@
         },
         {
           "symbol": "ampROAR",
-          "amount": 570910536.4682732,
-          "price": 2.3546628989010176e-7,
-          "usd": 134.43018588135192
+          "amount": 570904011.9726701,
+          "price": 2.354662898901018e-7,
+          "usd": 134.42864958257888
         },
         {
           "symbol": "PAXG",
-          "amount": 0.021831911120536236,
-          "price": 4064.42,
-          "usd": 88.73405619652989
+          "amount": 0.021829696542466626,
+          "price": 4064.420000000001,
+          "usd": 88.72505522113222
         },
         {
           "symbol": "ATOM",
-          "amount": 53.23777339169377,
+          "amount": 53.31835562669369,
           "price": 1.57,
-          "usd": 83.58330422495922
+          "usd": 83.7098183339091
         },
         {
           "symbol": "USDC",
-          "amount": 54.59858678687026,
+          "amount": 54.6080126236563,
           "price": 0.999851,
-          "usd": 54.590451597439014
+          "usd": 54.59987602977538
         },
         {
           "symbol": "SOLID",
-          "amount": 53.65680249616137,
-          "price": 1.017296388453832,
-          "usd": 54.58487139532552
+          "amount": 53.64633258258779,
+          "price": 1.0172963884538317,
+          "usd": 54.57422039005968
         },
         {
           "symbol": "xASTRO",
-          "amount": 19453.177442380373,
+          "amount": 19452.955120630413,
           "price": 0.000399259229084713,
-          "usd": 7.766860628892917
+          "usd": 7.766771864882419
         }
       ],
       "positions": [
@@ -186,144 +186,144 @@
           "pool_name": "LUNA-CAPA",
           "dex": "Astroport",
           "is_amplified": false,
-          "position_usd": 272.51917370266483,
-          "pool_staked_usd": 47147.559356282705,
-          "apr_pct": 72.20953333871638
+          "position_usd": 272.5160592914653,
+          "pool_staked_usd": 47147.02054323372,
+          "apr_pct": 72.21035857514438
         },
         {
           "bucket": "project",
           "pool_name": "LUNA-ampLUNA",
           "dex": "Astroport",
           "is_amplified": false,
-          "position_usd": 2324.2184104660346,
-          "pool_staked_usd": 108851.87764317362,
-          "apr_pct": 29.98558987470784
+          "position_usd": 2324.2018782921314,
+          "pool_staked_usd": 108851.10337937689,
+          "apr_pct": 29.98580316383347
         },
         {
           "bucket": "project",
           "pool_name": "LUNA-ROAR",
           "dex": "Astroport",
           "is_amplified": false,
-          "position_usd": 208.0891495823605,
-          "pool_staked_usd": 26409.136099750864,
-          "apr_pct": 47.94491580998066
+          "position_usd": 208.0868075657844,
+          "pool_staked_usd": 26408.83886832563,
+          "apr_pct": 47.94545542990601
         },
         {
           "bucket": "single",
           "pool_name": "ampROAR-ROAR",
           "dex": "Skeleton Swap",
           "is_amplified": false,
-          "position_usd": 92.67861694138638,
-          "pool_staked_usd": 30145.28868206871,
-          "apr_pct": 51.92657644743962
+          "position_usd": 92.67755778906306,
+          "pool_staked_usd": 30144.944174850123,
+          "apr_pct": 51.92716988295301
         },
         {
           "bucket": "single",
           "pool_name": "xASTRO",
           "dex": "Single",
           "is_amplified": false,
-          "position_usd": 7.766860628892917,
-          "pool_staked_usd": 8278.373828359314,
-          "apr_pct": 72.44429781661394
+          "position_usd": 7.766771864882419,
+          "pool_staked_usd": 8278.279218490989,
+          "apr_pct": 72.44512575987322
         },
         {
           "bucket": "bluechip",
           "pool_name": "LUNA-ATOM",
           "dex": "Astroport",
           "is_amplified": true,
-          "position_usd": 167.54603877084503,
-          "pool_staked_usd": 46144.478438135266,
-          "apr_pct": 69.3503676509959
+          "position_usd": 167.5439962266162,
+          "pool_staked_usd": 46143.915849320336,
+          "apr_pct": 69.35121317397403
         },
         {
           "bucket": "bluechip",
           "pool_name": "LUNA-PAXG",
           "dex": "Astroport",
           "is_amplified": true,
-          "position_usd": 179.51778868293042,
-          "pool_staked_usd": 33775.232489468224,
-          "apr_pct": 63.164839755376754
+          "position_usd": 179.51581501982926,
+          "pool_staked_usd": 33778.10484188962,
+          "apr_pct": 63.15946847474194
         },
         {
           "bucket": "bluechip",
           "pool_name": "LUNA-WBTC",
           "dex": "Astroport",
           "is_amplified": true,
-          "position_usd": 315.4819037098319,
-          "pool_staked_usd": 79816.51221560584,
-          "apr_pct": 46.62370478425616
+          "position_usd": 315.47829125126657,
+          "pool_staked_usd": 79815.57864138574,
+          "apr_pct": 46.62425012502262
         },
         {
           "bucket": "project",
           "pool_name": "USDC-SOLID",
           "dex": "Astroport",
           "is_amplified": true,
-          "position_usd": 109.17532299276452,
-          "pool_staked_usd": 80787.15026590729,
-          "apr_pct": 39.89997959906159
+          "position_usd": 109.17409641983508,
+          "pool_staked_usd": 80786.24400713039,
+          "apr_pct": 39.90042719638653
         },
         {
           "bucket": "project",
           "pool_name": "LUNA-CAPA",
           "dex": "Astroport",
           "is_amplified": true,
-          "position_usd": 294.6093709016366,
-          "pool_staked_usd": 47147.559356282705,
-          "apr_pct": 72.20953333871638
+          "position_usd": 294.6060040405087,
+          "pool_staked_usd": 47147.02054323372,
+          "apr_pct": 72.21035857514438
         },
         {
           "bucket": "project",
           "pool_name": "LUNA-FUEL",
           "dex": "Astroport",
           "is_amplified": true,
-          "position_usd": 580.0134972939604,
-          "pool_staked_usd": 39575.56974216085,
-          "apr_pct": 66.68200779353687
+          "position_usd": 580.0068687862059,
+          "pool_staked_usd": 39575.11746353262,
+          "apr_pct": 66.68276985942437
         },
         {
           "bucket": "project",
           "pool_name": "LUNA-ampLUNA",
           "dex": "Astroport",
           "is_amplified": true,
-          "position_usd": 1905.9223873214864,
-          "pool_staked_usd": 108851.87764317362,
-          "apr_pct": 29.98558987470784
+          "position_usd": 1905.9088304871375,
+          "pool_staked_usd": 108851.10337937689,
+          "apr_pct": 29.98580316383347
         },
         {
           "bucket": "project",
           "pool_name": "bLUNA-LUNA",
           "dex": "Skeleton Swap",
           "is_amplified": true,
-          "position_usd": 302.3776913361886,
-          "pool_staked_usd": 37507.88679914965,
-          "apr_pct": 45.442343825391
+          "position_usd": 302.3742357333998,
+          "pool_staked_usd": 37507.45815046522,
+          "apr_pct": 45.44286315679491
         },
         {
           "bucket": "project",
           "pool_name": "LUNA-ROAR",
           "dex": "Astroport",
           "is_amplified": true,
-          "position_usd": 326.4352992357568,
-          "pool_staked_usd": 26409.136099750864,
-          "apr_pct": 47.94491580998066
+          "position_usd": 326.43162524832036,
+          "pool_staked_usd": 26408.83886832563,
+          "apr_pct": 47.94545542990601
         },
         {
           "bucket": "single",
           "pool_name": "ampCAPA",
           "dex": "Single",
           "is_amplified": true,
-          "position_usd": 471.6019137146053,
-          "pool_staked_usd": 142143.44279963462,
-          "apr_pct": 29.87622771954399
+          "position_usd": 471.5965241409973,
+          "pool_staked_usd": 142141.81835202576,
+          "apr_pct": 29.876569155774675
         },
         {
           "bucket": "single",
           "pool_name": "ampROAR-ROAR",
           "dex": "Skeleton Swap",
           "is_amplified": true,
-          "position_usd": 176.60443079643198,
-          "pool_staked_usd": 30145.28868206871,
-          "apr_pct": 51.92657644743962
+          "position_usd": 176.6024125207719,
+          "pool_staked_usd": 30144.944174850123,
+          "apr_pct": 51.92716988295301
         }
       ],
       "composition": "lp_underlying+zluna",
@@ -339,7 +339,7 @@
               "name": "🦁 The Lion DAO",
               "address": "terravaloper1pet430t7ykswxuyhh56d4gk6rt7qgu9as6a5r0",
               "staked_luna": 10000,
-              "unclaimed_rewards_luna": 443.9171159026028,
+              "unclaimed_rewards_luna": 444.2773832902815,
               "delegator_wallet": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm"
             }
           ],
