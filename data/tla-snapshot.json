@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "capturedAt": "2026-08-05T09:40:35.137Z",
-  "capturedAtUnix": 1785922835137,
+  "capturedAt": "2026-08-05T10:40:34.635Z",
+  "capturedAtUnix": 1785926434635,
   "refreshIntervalMs": 3600000,
   "refreshIntervalHours": 1,
-  "nextRefreshExpectedAt": "2026-08-05T10:40:35.137Z",
+  "nextRefreshExpectedAt": "2026-08-05T11:40:34.635Z",
   "epoch": {
     "currentEpoch": 197,
     "nextEpoch": 198,
     "epochStartedAt": "2026-08-03T00:00:00.000Z",
     "epochEndsAt": "2026-08-10T00:00:00.000Z",
-    "epochProgressPct": 34.33120667989418
+    "epochProgressPct": 34.92636160714286
   },
   "sources": {
     "network_and_prices": true,
@@ -21,7 +21,7 @@
     "skeleton_swap": true
   },
   "totals": {
-    "tla_tvl_usd": 1778519.7991272255,
+    "tla_tvl_usd": 1775076.7005884745,
     "depth_usd_total": 3027888.1286500013,
     "active_pools_count": 32,
     "voted_pools_count": 34,
@@ -30,9 +30,9 @@
     "total_pool_count": 67,
     "rewards": {
       "annual_emissions_luna": 17672478,
-      "annual_emissions_usd": 723429.24902208,
-      "weekly_emissions_usd": 13864.489372086406,
-      "luna_price_used": 0.04093536,
+      "annual_emissions_usd": 720471.583104,
+      "weekly_emissions_usd": 13807.805836353182,
+      "luna_price_used": 0.040768,
       "pools_with_rewards": 66,
       "pools_from_chain_dist": 29,
       "pools_from_gauge_infos_fallback": 37,
@@ -58,59 +58,59 @@
   },
   "buckets": {
     "stable": {
-      "bucket_vp": 27366502585528,
-      "bucket_vp_human": 27366502.585528,
+      "bucket_vp": 27367579037710,
+      "bucket_vp_human": 27367579.03771,
       "pool_count": 6,
       "active_count": 4,
-      "tla_tvl_usd": 480535.4438089636,
+      "tla_tvl_usd": 479428.1732826127,
       "depth_usd": 651408.43,
       "rewards": {
         "bucket_weight_of_tla": 0.4,
         "bucket_weight_of_alliance": 0.1,
-        "annual_rewards_usd": 289371.699608832,
-        "weekly_rewards_usd": 5545.795748834563
+        "annual_rewards_usd": 288188.6332416,
+        "weekly_rewards_usd": 5523.122334541273
       }
     },
     "project": {
-      "bucket_vp": 19918103171601,
-      "bucket_vp_human": 19918103.171601,
+      "bucket_vp": 19919179623782,
+      "bucket_vp_human": 19919179.623782,
       "pool_count": 19,
       "active_count": 9,
-      "tla_tvl_usd": 341176.8448692677,
+      "tla_tvl_usd": 340112.47355872724,
       "depth_usd": 1240904.27415,
       "rewards": {
         "bucket_weight_of_tla": 0.2,
         "bucket_weight_of_alliance": 0.05,
-        "annual_rewards_usd": 144685.849804416,
-        "weekly_rewards_usd": 2772.8978744172814
+        "annual_rewards_usd": 144094.3166208,
+        "weekly_rewards_usd": 2761.5611672706364
       }
     },
     "bluechip": {
-      "bucket_vp": 19890646157913,
-      "bucket_vp_human": 19890646.157913,
+      "bucket_vp": 19891722610095,
+      "bucket_vp_human": 19891722.610095,
       "pool_count": 21,
       "active_count": 9,
-      "tla_tvl_usd": 532411.450856853,
+      "tla_tvl_usd": 532019.4554201774,
       "depth_usd": 718435.2105,
       "rewards": {
         "bucket_weight_of_tla": 0.2,
         "bucket_weight_of_alliance": 0.05,
-        "annual_rewards_usd": 144685.849804416,
-        "weekly_rewards_usd": 2772.8978744172814
+        "annual_rewards_usd": 144094.3166208,
+        "weekly_rewards_usd": 2761.5611672706364
       }
     },
     "single": {
-      "bucket_vp": 20149256698752,
-      "bucket_vp_human": 20149256.698752,
+      "bucket_vp": 20150333150935,
+      "bucket_vp_human": 20150333.150935,
       "pool_count": 21,
       "active_count": 10,
-      "tla_tvl_usd": 424396.059592141,
+      "tla_tvl_usd": 423516.5983269574,
       "depth_usd": 417140.214,
       "rewards": {
         "bucket_weight_of_tla": 0.2,
         "bucket_weight_of_alliance": 0.05,
-        "annual_rewards_usd": 144685.849804416,
-        "weekly_rewards_usd": 2772.8978744172814
+        "annual_rewards_usd": 144094.3166208,
+        "weekly_rewards_usd": 2761.5611672706364
       }
     }
   },
@@ -129,18 +129,18 @@
       "voting_power": {
         "vp": 396702482139,
         "vp_human": 396702.482139,
-        "pct_of_bucket": 1.449591451809355
+        "pct_of_bucket": 1.4495344348595123
       },
       "depth_usd": 11168.4,
-      "staked_in_tla_usd": 8246.796458264009,
+      "staked_in_tla_usd": 8229.840824791852,
       "lp_health": {
         "asset_0": {
           "symbol": "USDT",
           "amount_raw": 5550402607,
           "amount_human": 5550.402607,
           "decimals": 6,
-          "usd_value": 5546.278657862998,
-          "price_usd": 0.999257,
+          "usd_value": 5546.417417928174,
+          "price_usd": 0.999282,
           "price_source": "direct"
         },
         "asset_1": {
@@ -148,21 +148,21 @@
           "amount_raw": 137205058801,
           "amount_human": 137205.058801,
           "decimals": 6,
-          "usd_value": 5616.538475840103,
-          "price_usd": 0.04093536,
+          "usd_value": 5593.575837199168,
+          "price_usd": 0.040768,
           "price_source": "direct"
         },
         "balance_ratio_pct": [
-          49.68529531060321,
-          50.31470468939679
+          49.78833730779285,
+          50.21166269220715
         ],
-        "total_pool_usd": 11162.817133703102,
+        "total_pool_usd": 11139.993255127341,
         "total_share": "26610207191"
       },
       "amp_lp": {
-        "underlying_lp_amount": 19658922993,
+        "underlying_lp_amount": 19658698572,
         "shares": 23864435440,
-        "ratio": 0.8237749031367825,
+        "ratio": 0.8237654991431048,
         "ratio_type": "non-amplified",
         "stake_mechanism": "astroport-incentives",
         "yearly_take_rate": 0.1
@@ -180,9 +180,9 @@
       },
       "rewards": {
         "annual_emissions_luna": 110016.23117730068,
-        "annual_emissions_usd": 4503.554029086027,
-        "weekly_emissions_usd": 86.31041260397588,
-        "approx_apr_pct": 54.60973908932934,
+        "annual_emissions_usd": 4485.141712636194,
+        "weekly_emissions_usd": 85.95754137838017,
+        "approx_apr_pct": 54.49852321718058,
         "distribution_share_of_bucket": 0.015563215183702687,
         "bucket_weight_of_tla": 0.4,
         "source": "chain_distributions_current"
@@ -200,9 +200,9 @@
       "source_type": "cw20",
       "status": "active",
       "voting_power": {
-        "vp": 14464556503936,
-        "vp_human": 14464556.503936,
-        "pct_of_bucket": 52.85496916798266,
+        "vp": 14464634597983,
+        "vp_human": 14464634.597983,
+        "pct_of_bucket": 52.853175569720904,
         "lockup_contributions": [
           {
             "type": "arbLUNA",
@@ -218,37 +218,37 @@
         "votion_optimized_vp": 1360454
       },
       "depth_usd": 341686,
-      "staked_in_tla_usd": 269934.48551764246,
+      "staked_in_tla_usd": 269378.22716095526,
       "lp_health": {
         "asset_0": {
           "symbol": "LUNA",
-          "amount_raw": 4213720125795,
-          "amount_human": 4213720.125795,
+          "amount_raw": 4217950376942,
+          "amount_human": 4217950.376942,
           "decimals": 6,
-          "usd_value": 172490.1502886636,
-          "price_usd": 0.04093536,
+          "usd_value": 171957.40096717147,
+          "price_usd": 0.040768,
           "price_source": "direct"
         },
         "asset_1": {
           "symbol": "USDC",
-          "amount_raw": 169134285686,
-          "amount_human": 169134.285686,
+          "amount_raw": 168962096191,
+          "amount_human": 168962.096191,
           "decimals": 6,
-          "usd_value": 169075.93435743832,
-          "price_usd": 0.999655,
+          "usd_value": 168908.70416860364,
+          "price_usd": 0.999684,
           "price_source": "direct"
         },
         "balance_ratio_pct": [
-          50.49978848672326,
-          49.500211513276746
+          50.44719858510916,
+          49.55280141489083
         ],
-        "total_pool_usd": 341566.0846461019,
+        "total_pool_usd": 340866.1051357751,
         "total_share": "784443555233"
       },
       "amp_lp": {
-        "underlying_lp_amount": 619933819597,
+        "underlying_lp_amount": 619926742591,
         "shares": 751481727893,
-        "ratio": 0.8249486269415582,
+        "ratio": 0.8249392095389291,
         "ratio_type": "non-amplified",
         "stake_mechanism": "astroport-incentives",
         "yearly_take_rate": 0.1
@@ -281,9 +281,9 @@
       },
       "rewards": {
         "annual_emissions_luna": 3570892.535106735,
-        "annual_emissions_usd": 146175.7714459068,
-        "weekly_emissions_usd": 2801.4521563897265,
-        "approx_apr_pct": 54.152314464597374,
+        "annual_emissions_usd": 145578.14687123135,
+        "weekly_emissions_usd": 2789.998708004434,
+        "approx_apr_pct": 54.04228411684046,
         "distribution_share_of_bucket": 0.5051488160158885,
         "bucket_weight_of_tla": 0.4,
         "source": "chain_distributions_current"
@@ -301,9 +301,9 @@
       "source_type": "cw20",
       "status": "active",
       "voting_power": {
-        "vp": 9950387217213,
-        "vp_human": 9950387.217213,
-        "pct_of_bucket": 36.35973280149792,
+        "vp": 9951385575348,
+        "vp_human": 9951385.575348,
+        "pct_of_bucket": 36.361950619146505,
         "lockup_contributions": [
           {
             "type": "arbLUNA",
@@ -355,15 +355,15 @@
         "votion_optimized_vp": 6223320
       },
       "depth_usd": 212963,
-      "staked_in_tla_usd": 148340.2641182428,
+      "staked_in_tla_usd": 147916.98530980147,
       "lp_health": {
         "asset_0": {
           "symbol": "LUNA",
           "amount_raw": 2621913211790,
           "amount_human": 2621913.21179,
           "decimals": 6,
-          "usd_value": 107328.9612133799,
-          "price_usd": 0.04093536,
+          "usd_value": 106890.15781825472,
+          "price_usd": 0.040768,
           "price_source": "direct"
         },
         "asset_1": {
@@ -376,16 +376,16 @@
           "price_source": "direct"
         },
         "balance_ratio_pct": [
-          69.51498177708115,
-          30.485018222918857
+          69.42809494389564,
+          30.57190505610435
         ],
-        "total_pool_usd": 154396.87743508248,
+        "total_pool_usd": 153958.0740399573,
         "total_share": "482645861588"
       },
       "amp_lp": {
-        "underlying_lp_amount": 463712840395,
+        "underlying_lp_amount": 463707546769,
         "shares": 539960929530,
-        "ratio": 0.8587896179796399,
+        "ratio": 0.858779814259203,
         "ratio_type": "non-amplified",
         "stake_mechanism": "astroport-incentives",
         "yearly_take_rate": 0.1
@@ -418,9 +418,9 @@
       },
       "rewards": {
         "annual_emissions_luna": 2745768.6522413087,
-        "annual_emissions_usd": 112399.02825621277,
-        "weekly_emissions_usd": 2154.122375889088,
-        "approx_apr_pct": 75.7710854327581,
+        "annual_emissions_usd": 111939.49641457367,
+        "weekly_emissions_usd": 2145.3154685886807,
+        "approx_apr_pct": 75.67724300229919,
         "distribution_share_of_bucket": 0.38842439812929863,
         "bucket_weight_of_tla": 0.4,
         "source": "chain_distributions_current"
@@ -440,18 +440,18 @@
       "voting_power": {
         "vp": 2477435264877,
         "vp_human": 2477435.264877,
-        "pct_of_bucket": 9.052801895800604
+        "pct_of_bucket": 9.052445820886541
       },
       "depth_usd": 78616.28,
-      "staked_in_tla_usd": 53584.09721637937,
+      "staked_in_tla_usd": 53474.532342609826,
       "lp_health": {
         "asset_0": {
           "symbol": "LUNA",
           "amount_raw": 937317866624,
           "amount_human": 937317.866624,
           "decimals": 6,
-          "usd_value": 38369.44430468542,
-          "price_usd": 0.04093536,
+          "usd_value": 38212.57478652723,
+          "price_usd": 0.040768,
           "price_source": "direct"
         },
         "asset_1": {
@@ -459,21 +459,21 @@
           "amount_raw": 38247143283,
           "amount_human": 38247.143283,
           "decimals": 6,
-          "usd_value": 38233.94801856736,
-          "price_usd": 0.999655,
+          "usd_value": 38235.05718572257,
+          "price_usd": 0.999684,
           "price_source": "direct"
         },
         "balance_ratio_pct": [
-          50.08844013431305,
-          49.91155986568697
+          49.98529555552256,
+          50.01470444447743
         ],
-        "total_pool_usd": 76603.39232325277,
+        "total_pool_usd": 76447.6319722498,
         "total_share": "162033942363"
       },
       "amp_lp": {
-        "underlying_lp_amount": 113342794054,
+        "underlying_lp_amount": 113341500161,
         "shares": 137592680856,
-        "ratio": 0.8237559828681648,
+        "ratio": 0.8237465790758123,
         "ratio_type": "non-amplified",
         "stake_mechanism": "custody",
         "yearly_take_rate": 0.1
@@ -491,9 +491,9 @@
       },
       "rewards": {
         "annual_emissions_luna": 642313.7814746561,
-        "annual_emissions_usd": 26293.345877626376,
-        "weekly_emissions_usd": 503.91080395177175,
-        "approx_apr_pct": 49.069308327525825,
+        "annual_emissions_usd": 26185.848243158776,
+        "weekly_emissions_usd": 501.850616569778,
+        "approx_apr_pct": 48.96882141088543,
         "distribution_share_of_bucket": 0.0908635706711102,
         "bucket_weight_of_tla": 0.4,
         "source": "chain_distributions_current"
@@ -513,18 +513,18 @@
       "voting_power": {
         "vp": 28981655048,
         "vp_human": 28981.655048,
-        "pct_of_bucket": 0.10590193232556551
+        "pct_of_bucket": 0.10589776687249519
       },
       "depth_usd": 1797.96,
-      "staked_in_tla_usd": 418.8556791847212,
+      "staked_in_tla_usd": 417.6652122497801,
       "lp_health": {
         "asset_0": {
           "symbol": "LUNA",
           "amount_raw": 30634273163,
           "amount_human": 30634.273163,
           "decimals": 6,
-          "usd_value": 1254.0250002657438,
-          "price_usd": 0.04093536,
+          "usd_value": 1248.898048309184,
+          "price_usd": 0.040768,
           "price_source": "direct"
         },
         "asset_1": {
@@ -537,16 +537,16 @@
           "price_source": "direct"
         },
         "balance_ratio_pct": [
-          69.23998834294103,
-          30.760011657058982
+          69.15266553718159,
+          30.847334462818406
         ],
-        "total_pool_usd": 1811.1282660168022,
+        "total_pool_usd": 1806.0013140602427,
         "total_share": "5494951261"
       },
       "amp_lp": {
-        "underlying_lp_amount": 1270805379,
+        "underlying_lp_amount": 1270790872,
         "shares": 1476872002,
-        "ratio": 0.8604708988179465,
+        "ratio": 0.8604610760303384,
         "ratio_type": "non-amplified",
         "stake_mechanism": "custody",
         "yearly_take_rate": 0.1
@@ -563,11 +563,11 @@
         "pd_historical_count": 0
       },
       "rewards": {
-        "annual_emissions_luna": 7486.198276724182,
-        "annual_emissions_usd": 306.45022148908396,
-        "weekly_emissions_usd": 5.873104860844867,
-        "approx_apr_pct": 73.16367825919703,
-        "distribution_share_of_bucket": 0.0010590193232556551,
+        "annual_emissions_luna": 7485.903821213201,
+        "annual_emissions_usd": 305.18532698321974,
+        "weekly_emissions_usd": 5.848863213915231,
+        "approx_apr_pct": 73.06936705102147,
+        "distribution_share_of_bucket": 0.001058977668724952,
         "bucket_weight_of_tla": 0.4,
         "source": "gauge_infos_next_fallback"
       }
@@ -586,18 +586,18 @@
       "voting_power": {
         "vp": 48439462315,
         "vp_human": 48439.462315,
-        "pct_of_bucket": 0.17700275058390486
+        "pct_of_bucket": 0.17699578851404754
       },
       "depth_usd": 5176.79,
-      "staked_in_tla_usd": 10.944819250240487,
+      "staked_in_tla_usd": 10.92243220449474,
       "lp_health": {
         "asset_0": {
           "symbol": "LUNA",
           "amount_raw": 63781440166,
           "amount_human": 63781.440166,
           "decimals": 6,
-          "usd_value": 2610.9162145136697,
-          "price_usd": 0.04093536,
+          "usd_value": 2600.241752687488,
+          "price_usd": 0.040768,
           "price_source": "direct"
         },
         "asset_1": {
@@ -605,21 +605,21 @@
           "amount_raw": 2606877023,
           "amount_human": 2606.877023,
           "decimals": 6,
-          "usd_value": 2604.9401133719107,
-          "price_usd": 0.999257,
+          "usd_value": 2605.005285297486,
+          "price_usd": 0.999282,
           "price_source": "direct"
         },
         "balance_ratio_pct": [
-          50.05728782357184,
-          49.94271217642817
+          49.954242972761556,
+          50.045757027238444
         ],
-        "total_pool_usd": 5215.85632788558,
+        "total_pool_usd": 5205.247037984974,
         "total_share": "11596535545"
       },
       "amp_lp": {
-        "underlying_lp_amount": 24333873,
+        "underlying_lp_amount": 24333595,
         "shares": 29515804,
-        "ratio": 0.8244353770610484,
+        "ratio": 0.8244259583780946,
         "ratio_type": "non-amplified",
         "stake_mechanism": "custody",
         "yearly_take_rate": 0.1
@@ -636,11 +636,11 @@
         "pd_historical_count": 0
       },
       "rewards": {
-        "annual_emissions_luna": 12512.308862534182,
-        "annual_emissions_usd": 512.1958677190272,
-        "weekly_emissions_usd": 9.816211017202438,
-        "approx_apr_pct": 4679.801977613955,
-        "distribution_share_of_bucket": 0.0017700275058390486,
+        "annual_emissions_luna": 12511.816714428633,
+        "annual_emissions_usd": 510.0817438138265,
+        "weekly_emissions_usd": 9.775693926616798,
+        "approx_apr_pct": 4670.038085509201,
+        "distribution_share_of_bucket": 0.0017699578851404754,
         "bucket_weight_of_tla": 0.4,
         "source": "gauge_infos_next_fallback"
       }
@@ -659,18 +659,18 @@
       "voting_power": {
         "vp": 4183703585,
         "vp_human": 4183.703585,
-        "pct_of_bucket": 0.02100452813682116
+        "pct_of_bucket": 0.02100339303133234
       },
       "depth_usd": 72906.84,
-      "staked_in_tla_usd": 11.617409953331931,
+      "staked_in_tla_usd": 11.569781302993324,
       "lp_health": {
         "asset_0": {
           "symbol": "ampLUNA",
           "amount_raw": 403676266581,
           "amount_human": 403676.266581,
           "decimals": 6,
-          "usd_value": 37228.464332564254,
-          "price_usd": 0.09222356480819797,
+          "usd_value": 37076.259593417024,
+          "price_usd": 0.09184651826930593,
           "price_source": "direct"
         },
         "asset_1": {
@@ -678,21 +678,21 @@
           "amount_raw": 901891382230,
           "amount_human": 901891.38223,
           "decimals": 6,
-          "usd_value": 36919.24841248265,
-          "price_usd": 0.04093536,
+          "usd_value": 36768.30787075264,
+          "price_usd": 0.040768,
           "price_source": "direct"
         },
         "balance_ratio_pct": [
           50.20851345822683,
           49.79148654177315
         ],
-        "total_pool_usd": 74147.71274504691,
+        "total_pool_usd": 73844.56746416967,
         "total_share": "497078937085"
       },
       "amp_lp": {
-        "underlying_lp_amount": 77881968,
+        "underlying_lp_amount": 77881079,
         "shares": 92437900,
-        "ratio": 0.8425328571938566,
+        "ratio": 0.8425232399264804,
         "ratio_type": "non-amplified",
         "stake_mechanism": "custody",
         "yearly_take_rate": 0.1
@@ -709,11 +709,11 @@
         "pd_historical_count": 0
       },
       "rewards": {
-        "annual_emissions_luna": 742.4041227967059,
-        "annual_emissions_usd": 30.39058003216736,
-        "weekly_emissions_usd": 0.5824341142372936,
-        "approx_apr_pct": 261.59514172478,
-        "distribution_share_of_bucket": 0.0002100452813682116,
+        "annual_emissions_luna": 742.3640025431482,
+        "annual_emissions_usd": 30.264695655679066,
+        "weekly_emissions_usd": 0.5800215457625009,
+        "approx_apr_pct": 261.5839907695491,
+        "distribution_share_of_bucket": 0.0002100339303133234,
         "bucket_weight_of_tla": 0.2,
         "source": "gauge_infos_next_fallback"
       }
@@ -730,9 +730,9 @@
       "source_type": "cw20",
       "status": "active",
       "voting_power": {
-        "vp": 3185624884013,
-        "vp_human": 3185624.884013,
-        "pct_of_bucket": 15.993615740252952,
+        "vp": 3185679977759,
+        "vp_human": 3185679.977759,
+        "pct_of_bucket": 15.993028015850303,
         "lockup_contributions": [
           {
             "type": "arbLUNA",
@@ -766,15 +766,15 @@
         "votion_optimized_vp": 1566561
       },
       "depth_usd": 90222.9,
-      "staked_in_tla_usd": 76181.4662500341,
+      "staked_in_tla_usd": 76152.99314765078,
       "lp_health": {
         "asset_0": {
           "symbol": "USDC",
           "amount_raw": 45184254818,
           "amount_human": 45184.254818,
           "decimals": 6,
-          "usd_value": 45168.66625008779,
-          "price_usd": 0.999655,
+          "usd_value": 45169.97659347751,
+          "price_usd": 0.999684,
           "price_source": "direct"
         },
         "asset_1": {
@@ -782,21 +782,21 @@
           "amount_raw": 44993815014,
           "amount_human": 44993.815014,
           "decimals": 6,
-          "usd_value": 45190.188938376945,
-          "price_usd": 1.004364464856244,
+          "usd_value": 45156.137778222896,
+          "price_usd": 1.003607668391142,
           "price_source": "direct"
         },
         "balance_ratio_pct": [
-          49.98809043770848,
-          50.01190956229152
+          50.00766047302647,
+          49.99233952697352
         ],
-        "total_pool_usd": 90358.85518846473,
+        "total_pool_usd": 90326.11437170042,
         "total_share": "39587204988"
       },
       "amp_lp": {
-        "underlying_lp_amount": 33375935479,
+        "underlying_lp_amount": 33375554469,
         "shares": 40510146735,
-        "ratio": 0.8238907574769119,
+        "ratio": 0.823881352178963,
         "ratio_type": "non-amplified",
         "stake_mechanism": "astroport-incentives",
         "yearly_take_rate": 0.1
@@ -829,9 +829,9 @@
       },
       "rewards": {
         "annual_emissions_luna": 687222.5154880299,
-        "annual_emissions_usd": 28131.701071608077,
-        "weekly_emissions_usd": 539.14279945587,
-        "approx_apr_pct": 36.92722450271228,
+        "annual_emissions_usd": 28016.687511416003,
+        "weekly_emissions_usd": 536.9385696917509,
+        "approx_apr_pct": 36.79000174962957,
         "distribution_share_of_bucket": 0.19443298090059297,
         "bucket_weight_of_tla": 0.2,
         "source": "chain_distributions_current"
@@ -851,18 +851,18 @@
       "voting_power": {
         "vp": 1895404058823,
         "vp_human": 1895404.058823,
-        "pct_of_bucket": 9.515986750813928
+        "pct_of_bucket": 9.515472497471885
       },
       "depth_usd": 21074.5,
-      "staked_in_tla_usd": 18940.055812546016,
+      "staked_in_tla_usd": 18893.943831872966,
       "lp_health": {
         "asset_0": {
           "symbol": "SOLID",
           "amount_raw": 10496488177,
           "amount_human": 10496.488177,
           "decimals": 6,
-          "usd_value": 10542.299730762496,
-          "price_usd": 1.004364464856244,
+          "usd_value": 10534.356025614157,
+          "price_usd": 1.003607668391142,
           "price_source": "direct"
         },
         "asset_1": {
@@ -870,21 +870,21 @@
           "amount_raw": 258242731568,
           "amount_human": 258242.731568,
           "decimals": 6,
-          "usd_value": 10571.259184119443,
-          "price_usd": 0.04093536,
+          "usd_value": 10528.039680564223,
+          "price_usd": 0.040768,
           "price_source": "direct"
         },
         "balance_ratio_pct": [
-          49.93141977277802,
-          50.06858022722198
+          50.01499436516635,
+          49.98500563483365
         ],
-        "total_pool_usd": 21113.558914881938,
+        "total_pool_usd": 21062.39570617838,
         "total_share": "41826972827"
       },
       "amp_lp": {
-        "underlying_lp_amount": 37521158939,
+        "underlying_lp_amount": 37520730608,
         "shares": 45396196179,
-        "ratio": 0.8265264955471546,
+        "ratio": 0.8265170601530896,
         "ratio_type": "non-amplified",
         "stake_mechanism": "astroport-incentives",
         "yearly_take_rate": 0.1
@@ -917,9 +917,9 @@
       },
       "rewards": {
         "annual_emissions_luna": 258884.16217854855,
-        "annual_emissions_usd": 10597.516377077269,
-        "weekly_emissions_usd": 203.10092988238435,
-        "approx_apr_pct": 55.952931089344546,
+        "annual_emissions_usd": 10554.189523695068,
+        "weekly_emissions_usd": 202.27057266492943,
+        "approx_apr_pct": 55.86017200861354,
         "distribution_share_of_bucket": 0.0732450090413321,
         "bucket_weight_of_tla": 0.2,
         "source": "chain_distributions_current"
@@ -937,9 +937,9 @@
       "source_type": "cw20",
       "status": "active",
       "voting_power": {
-        "vp": 907153642516,
-        "vp_human": 907153.642516,
-        "pct_of_bucket": 4.55441783135961,
+        "vp": 907202786788,
+        "vp_human": 907202.786788,
+        "pct_of_bucket": 4.554418424465976,
         "lockup_contributions": [
           {
             "type": "arbLUNA",
@@ -991,15 +991,15 @@
         "votion_optimized_vp": 991559
       },
       "depth_usd": 9087.38,
-      "staked_in_tla_usd": 7881.573261213407,
+      "staked_in_tla_usd": 7865.604876628189,
       "lp_health": {
         "asset_0": {
           "symbol": "ASTRO",
           "amount_raw": 10527552499696,
           "amount_human": 10527552.499696,
           "decimals": 6,
-          "usd_value": 4426.942656897761,
-          "price_usd": 0.00042051014773145,
+          "usd_value": 4427.45640100464,
+          "price_usd": 0.00042055894768822,
           "price_source": "direct"
         },
         "asset_1": {
@@ -1007,21 +1007,21 @@
           "amount_raw": 111114485402,
           "amount_human": 111114.485402,
           "decimals": 6,
-          "usd_value": 4548.511461145615,
-          "price_usd": 0.04093536,
+          "usd_value": 4529.915340868736,
+          "price_usd": 0.040768,
           "price_source": "direct"
         },
         "balance_ratio_pct": [
-          49.32277073310718,
-          50.67722926689282
+          49.42807475888755,
+          50.57192524111246
         ],
-        "total_pool_usd": 8975.454118043375,
+        "total_pool_usd": 8957.371741873376,
         "total_share": "1007038966220"
       },
       "amp_lp": {
-        "underlying_lp_amount": 884306385479,
+        "underlying_lp_amount": 884296290465,
         "shares": 1073220028622,
-        "ratio": 0.8239749183719925,
+        "ratio": 0.8239655120864866,
         "ratio_type": "non-amplified",
         "stake_mechanism": "astroport-incentives",
         "yearly_take_rate": 0.1
@@ -1060,9 +1060,9 @@
       },
       "rewards": {
         "annual_emissions_luna": 121764.88791833926,
-        "annual_emissions_usd": 4984.489522296868,
-        "weekly_emissions_usd": 95.52751993450534,
-        "approx_apr_pct": 63.24231669362776,
+        "annual_emissions_usd": 4964.110950654855,
+        "weekly_emissions_usd": 95.13696551563034,
+        "approx_apr_pct": 63.11162368968195,
         "distribution_share_of_bucket": 0.03445042849065628,
         "bucket_weight_of_tla": 0.2,
         "source": "chain_distributions_current"
@@ -1082,10 +1082,10 @@
       "voting_power": {
         "vp": 233719867295,
         "vp_human": 233719.867295,
-        "pct_of_bucket": 1.173404240762419
+        "pct_of_bucket": 1.173340828835923
       },
       "depth_usd": 4847.06,
-      "staked_in_tla_usd": 3809.9257501236557,
+      "staked_in_tla_usd": 3797.057959006846,
       "lp_health": {
         "asset_0": {
           "symbol": "stLUNA",
@@ -1101,21 +1101,21 @@
           "amount_raw": 106186908501,
           "amount_human": 106186.908501,
           "decimals": 6,
-          "usd_value": 4346.799326775495,
-          "price_usd": 0.04093536,
+          "usd_value": 4329.027885768768,
+          "price_usd": 0.040768,
           "price_source": "direct"
         },
         "balance_ratio_pct": [
-          17.66793800973688,
-          82.33206199026311
+          17.727610235892662,
+          82.27238976410734
         ],
-        "total_pool_usd": 5279.594876768133,
+        "total_pool_usd": 5261.823435761406,
         "total_share": "55128605464"
       },
       "amp_lp": {
-        "underlying_lp_amount": 39782577722,
+        "underlying_lp_amount": 39782123574,
         "shares": 47308314104,
-        "ratio": 0.840921484425426,
+        "ratio": 0.8409118846751792,
         "ratio_type": "non-amplified",
         "stake_mechanism": "astroport-incentives",
         "yearly_take_rate": 0.1
@@ -1133,9 +1133,9 @@
       },
       "rewards": {
         "annual_emissions_luna": 36885.99834668171,
-        "annual_emissions_usd": 1509.9416212808203,
-        "weekly_emissions_usd": 28.937963994430504,
-        "approx_apr_pct": 39.631786032360694,
+        "annual_emissions_usd": 1503.7683805975198,
+        "weekly_emissions_usd": 28.81965411138299,
+        "approx_apr_pct": 39.60351400563935,
         "distribution_share_of_bucket": 0.010436000640850056,
         "bucket_weight_of_tla": 0.2,
         "source": "chain_distributions_current"
@@ -1153,9 +1153,9 @@
       "source_type": "cw20",
       "status": "active",
       "voting_power": {
-        "vp": 3153501842250,
-        "vp_human": 3153501.84225,
-        "pct_of_bucket": 15.832340133402994,
+        "vp": 3154087714825,
+        "vp_human": 3154087.714825,
+        "pct_of_bucket": 15.834425786588405,
         "lockup_contributions": [
           {
             "type": "arbLUNA",
@@ -1180,15 +1180,15 @@
         "votion_optimized_vp": 2305119
       },
       "depth_usd": 51781.4,
-      "staked_in_tla_usd": 47634.24225244178,
+      "staked_in_tla_usd": 47438.90771562483,
       "lp_health": {
         "asset_0": {
           "symbol": "CAPA",
           "amount_raw": 23232081400648,
           "amount_human": 23232081.400648,
           "decimals": 6,
-          "usd_value": 25760.685856356864,
-          "price_usd": 0.001108841063876366,
+          "usd_value": 25655.31670152524,
+          "price_usd": 0.001104305561739709,
           "price_source": "direct"
         },
         "asset_1": {
@@ -1196,21 +1196,21 @@
           "amount_raw": 635967039849,
           "amount_human": 635967.039849,
           "decimals": 6,
-          "usd_value": 26033.539724353162,
-          "price_usd": 0.04093536,
+          "usd_value": 25927.10428056403,
+          "price_usd": 0.040768,
           "price_source": "direct"
         },
         "balance_ratio_pct": [
-          49.73659817775331,
-          50.26340182224668
+          49.736550191068815,
+          50.26344980893119
         ],
-        "total_pool_usd": 51794.22558071003,
+        "total_pool_usd": 51582.42098208927,
         "total_share": "3790201604826"
       },
       "amp_lp": {
-        "underlying_lp_amount": 3485782042412,
+        "underlying_lp_amount": 3485742249620,
         "shares": 4129469704621,
-        "ratio": 0.8441234085120677,
+        "ratio": 0.8441137722161638,
         "ratio_type": "non-amplified",
         "stake_mechanism": "astroport-incentives",
         "yearly_take_rate": 0.1
@@ -1243,9 +1243,9 @@
       },
       "rewards": {
         "annual_emissions_luna": 681073.8953766768,
-        "annual_emissions_usd": 27880.005093846597,
-        "weekly_emissions_usd": 534.3190572400442,
-        "approx_apr_pct": 58.529334729613424,
+        "annual_emissions_usd": 27766.02056671636,
+        "weekly_emissions_usd": 532.1345488487735,
+        "approx_apr_pct": 58.53005877192897,
         "distribution_share_of_bucket": 0.19269337762838828,
         "bucket_weight_of_tla": 0.2,
         "source": "chain_distributions_current"
@@ -1263,9 +1263,9 @@
       "source_type": "cw20",
       "status": "active",
       "voting_power": {
-        "vp": 4176485244717,
-        "vp_human": 4176485.244717,
-        "pct_of_bucket": 20.96828803794823,
+        "vp": 4176757643661,
+        "vp_human": 4176757.643661,
+        "pct_of_bucket": 20.968522411807893,
         "lockup_contributions": [
           {
             "type": "arbLUNA",
@@ -1299,15 +1299,15 @@
         "votion_optimized_vp": 1888570
       },
       "depth_usd": 42916.8,
-      "staked_in_tla_usd": 34168.66106953711,
+      "staked_in_tla_usd": 34028.57755469446,
       "lp_health": {
         "asset_0": {
           "symbol": "FUEL",
           "amount_raw": 9541371549090,
           "amount_human": 9541371.54909,
           "decimals": 6,
-          "usd_value": 21236.741364966598,
-          "price_usd": 0.002225753525654499,
+          "usd_value": 21149.917136845954,
+          "price_usd": 0.0022166537617815656,
           "price_source": "pool_derived:LUNA-FUEL(LUNA)"
         },
         "asset_1": {
@@ -1315,21 +1315,21 @@
           "amount_raw": 518787213914,
           "amount_human": 518787.213914,
           "decimals": 6,
-          "usd_value": 21236.741364966598,
-          "price_usd": 0.04093536,
+          "usd_value": 21149.917136845954,
+          "price_usd": 0.040768,
           "price_source": "direct"
         },
         "balance_ratio_pct": [
           50,
           50
         ],
-        "total_pool_usd": 42473.482729933196,
+        "total_pool_usd": 42299.83427369191,
         "total_share": "2222646600035"
       },
       "amp_lp": {
-        "underlying_lp_amount": 1788053474137,
+        "underlying_lp_amount": 1788033062177,
         "shares": 1943300277013,
-        "ratio": 0.9201117785488993,
+        "ratio": 0.9201012747887539,
         "ratio_type": "non-amplified",
         "stake_mechanism": "astroport-incentives",
         "yearly_take_rate": 0.1
@@ -1362,9 +1362,9 @@
       },
       "rewards": {
         "annual_emissions_luna": 561990.5801716192,
-        "annual_emissions_usd": 23005.286715934093,
-        "weekly_emissions_usd": 440.8952964039388,
-        "approx_apr_pct": 67.32861632803146,
+        "annual_emissions_usd": 22911.23197243657,
+        "weekly_emissions_usd": 439.0927414293114,
+        "approx_apr_pct": 67.32938494302657,
         "distribution_share_of_bucket": 0.15900163524651698,
         "bucket_weight_of_tla": 0.2,
         "source": "chain_distributions_current"
@@ -1384,18 +1384,18 @@
       "voting_power": {
         "vp": 2517102944,
         "vp_human": 2517.102944,
-        "pct_of_bucket": 0.012637262305121785
+        "pct_of_bucket": 0.012636579374959643
       },
       "depth_usd": 4599.67,
-      "staked_in_tla_usd": 3459.790061864197,
+      "staked_in_tla_usd": 3445.605732231,
       "lp_health": {
         "asset_0": {
           "symbol": "bLUNA",
           "amount_raw": 12394624443,
           "amount_human": 12394.624443,
           "decimals": 6,
-          "usd_value": 897.9854518909377,
-          "price_usd": 0.07244958941842605,
+          "usd_value": 894.3141309295862,
+          "price_usd": 0.0721533867397378,
           "price_source": "direct"
         },
         "asset_1": {
@@ -1403,21 +1403,21 @@
           "amount_raw": 99862377786,
           "amount_human": 99862.377786,
           "decimals": 6,
-          "usd_value": 4087.9023851259126,
-          "price_usd": 0.04093536,
+          "usd_value": 4071.189417579648,
+          "price_usd": 0.040768,
           "price_source": "direct"
         },
         "balance_ratio_pct": [
           18.01054258028033,
-          81.98945741971967
+          81.98945741971968
         ],
-        "total_pool_usd": 4985.88783701685,
+        "total_pool_usd": 4965.503548509234,
         "total_share": "52307819678"
       },
       "amp_lp": {
-        "underlying_lp_amount": 36297261510,
+        "underlying_lp_amount": 36296847150,
         "shares": 39594904979,
-        "ratio": 0.916715459457499,
+        "ratio": 0.9167049944746882,
         "ratio_type": "non-amplified",
         "stake_mechanism": "astroport-incentives",
         "yearly_take_rate": 0.1
@@ -1434,11 +1434,11 @@
         "pd_historical_count": 5
       },
       "rewards": {
-        "annual_emissions_luna": 446.6634801349881,
-        "annual_emissions_usd": 18.284330358178586,
-        "weekly_emissions_usd": 0.3504183778432583,
-        "approx_apr_pct": 0.5284809202650481,
-        "distribution_share_of_bucket": 0.00012637262305121785,
+        "annual_emissions_luna": 446.63934199845613,
+        "annual_emissions_usd": 18.208592694593058,
+        "weekly_emissions_usd": 0.348966868890216,
+        "approx_apr_pct": 0.5284583933752384,
+        "distribution_share_of_bucket": 0.00012636579374959643,
         "bucket_weight_of_tla": 0.2,
         "source": "gauge_infos_next_fallback"
       }
@@ -1455,9 +1455,9 @@
       "source_type": "cw20",
       "status": "active",
       "voting_power": {
-        "vp": 2631378854485,
-        "vp_human": 2631378.854485,
-        "pct_of_bucket": 13.210991186333393,
+        "vp": 2631492797129,
+        "vp_human": 2631492.797129,
+        "pct_of_bucket": 13.210849276077594,
         "lockup_contributions": [
           {
             "type": "arbLUNA",
@@ -1482,37 +1482,37 @@
         "votion_optimized_vp": 831316
       },
       "depth_usd": 744685,
-      "staked_in_tla_usd": 92296.31308473248,
+      "staked_in_tla_usd": 91918.0375390984,
       "lp_health": {
         "asset_0": {
           "symbol": "LUNA",
-          "amount_raw": 11342252172341,
-          "amount_human": 11342252.172341,
+          "amount_raw": 11340155962227,
+          "amount_human": 11340155.962227,
           "decimals": 6,
-          "usd_value": 464299.17588556086,
-          "price_usd": 0.04093536,
+          "usd_value": 462315.4782680703,
+          "price_usd": 0.040768,
           "price_source": "direct"
         },
         "asset_1": {
           "symbol": "ampLUNA",
-          "amount_raw": 3055718191778,
-          "amount_human": 3055718.191778,
+          "amount_raw": 3056659000784,
+          "amount_human": 3056659.000784,
           "decimals": 6,
-          "usd_value": 281809.2246950279,
-          "price_usd": 0.09222356480819797,
+          "usd_value": 280743.48675854603,
+          "price_usd": 0.09184651826930593,
           "price_source": "direct"
         },
         "balance_ratio_pct": [
-          62.229452921889596,
-          37.77054707811042
+          62.21787233958077,
+          37.78212766041922
         ],
-        "total_pool_usd": 746108.4005805887,
+        "total_pool_usd": 743058.9650266164,
         "total_share": "6241358963455"
       },
       "amp_lp": {
-        "underlying_lp_amount": 772078722766,
+        "underlying_lp_amount": 772069908984,
         "shares": 936997503201,
-        "ratio": 0.8239922946735724,
+        "ratio": 0.8239828882643024,
         "ratio_type": "non-amplified",
         "stake_mechanism": "astroport-incentives",
         "yearly_take_rate": 0.1
@@ -1545,9 +1545,9 @@
       },
       "rewards": {
         "annual_emissions_luna": 700398.7059107209,
-        "annual_emissions_usd": 28671.073169989486,
-        "weekly_emissions_usd": 549.4798417246444,
-        "approx_apr_pct": 31.064158699024148,
+        "annual_emissions_usd": 28553.854442568267,
+        "weekly_emissions_usd": 547.2333500286868,
+        "approx_apr_pct": 31.06447353211012,
         "distribution_share_of_bucket": 0.1981608651346803,
         "bucket_weight_of_tla": 0.2,
         "source": "chain_distributions_current"
@@ -1567,18 +1567,18 @@
       "voting_power": {
         "vp": 2475516151974,
         "vp_human": 2475516.151974,
-        "pct_of_bucket": 12.428473387483816
+        "pct_of_bucket": 12.42780174048142
       },
       "depth_usd": 170342.76,
-      "staked_in_tla_usd": 33332.93377828954,
+      "staked_in_tla_usd": 33196.27654978645,
       "lp_health": {
         "asset_0": {
           "symbol": "bLUNA",
           "amount_raw": 1199892049350,
           "amount_human": 1199892.04935,
           "decimals": 6,
-          "usd_value": 86931.6863218413,
-          "price_usd": 0.07244958941842605,
+          "usd_value": 86576.2750826871,
+          "price_usd": 0.0721533867397378,
           "price_source": "direct"
         },
         "asset_1": {
@@ -1586,21 +1586,21 @@
           "amount_raw": 2098550369032,
           "amount_human": 2098550.369032,
           "decimals": 6,
-          "usd_value": 85904.91483445777,
-          "price_usd": 0.04093536,
+          "usd_value": 85553.70144469658,
+          "price_usd": 0.040768,
           "price_source": "direct"
         },
         "balance_ratio_pct": [
           50.29703531558545,
           49.70296468441456
         ],
-        "total_pool_usd": 172836.60115629906,
+        "total_pool_usd": 172129.97652738367,
         "total_share": "1426373068754"
       },
       "amp_lp": {
-        "underlying_lp_amount": 275087560886,
+        "underlying_lp_amount": 275084420557,
         "shares": 333847293841,
-        "ratio": 0.8239921843338792,
+        "ratio": 0.823982777850562,
         "ratio_type": "non-amplified",
         "stake_mechanism": "custody",
         "yearly_take_rate": 0.1
@@ -1618,9 +1618,9 @@
       },
       "rewards": {
         "annual_emissions_luna": 333889.6350143212,
-        "annual_emissions_usd": 13667.892409579843,
-        "weekly_emissions_usd": 261.9445499440353,
-        "approx_apr_pct": 41.00416873141253,
+        "annual_emissions_usd": 13612.012640263845,
+        "weekly_emissions_usd": 260.87361665118937,
+        "approx_apr_pct": 41.004636829823646,
         "distribution_share_of_bucket": 0.09446599254907014,
         "bucket_weight_of_tla": 0.2,
         "source": "chain_distributions_current"
@@ -1640,18 +1640,18 @@
       "voting_power": {
         "vp": 501334722,
         "vp_human": 501.334722,
-        "pct_of_bucket": 0.002516980244960259
+        "pct_of_bucket": 0.002516844224856751
       },
       "depth_usd": 2.92315,
-      "staked_in_tla_usd": 0.00011781278638446003,
+      "staked_in_tla_usd": 0.0001173311209507298,
       "lp_health": {
         "asset_0": {
           "symbol": "WHALE",
           "amount_raw": 19888679201,
           "amount_human": 19888.679201,
           "decimals": 6,
-          "usd_value": 1.36018978543392,
-          "price_usd": 0.00006839015158761925,
+          "usd_value": 1.354628789696,
+          "price_usd": 0.00006811054550208088,
           "price_source": "pool_derived:LUNA-WHALE(LUNA)"
         },
         "asset_1": {
@@ -1659,15 +1659,15 @@
           "amount_raw": 33227747,
           "amount_human": 33.227747,
           "decimals": 6,
-          "usd_value": 1.36018978543392,
-          "price_usd": 0.04093536,
+          "usd_value": 1.354628789696,
+          "price_usd": 0.040768,
           "price_source": "direct"
         },
         "balance_ratio_pct": [
           50,
           50
         ],
-        "total_pool_usd": 2.72037957086784,
+        "total_pool_usd": 2.709257579392,
         "total_share": "729712265"
       },
       "amp_lp": {
@@ -1690,11 +1690,11 @@
         "pd_historical_count": 0
       },
       "rewards": {
-        "annual_emissions_luna": 88.96255601098959,
-        "annual_emissions_usd": 3.6417142568300225,
-        "weekly_emissions_usd": 0.0697932917120059,
-        "approx_apr_pct": 3091102.730518543,
-        "distribution_share_of_bucket": 0.00002516980244960259,
+        "annual_emissions_luna": 88.95774838641597,
+        "annual_emissions_usd": 3.626629486217406,
+        "weekly_emissions_usd": 0.0695041927543377,
+        "approx_apr_pct": 3090935.684267703,
+        "distribution_share_of_bucket": 0.00002516844224856751,
         "bucket_weight_of_tla": 0.2,
         "source": "gauge_infos_next_fallback"
       }
@@ -1713,18 +1713,18 @@
       "voting_power": {
         "vp": 1130004153626,
         "vp_human": 1130004.153626,
-        "pct_of_bucket": 5.673251834728655
+        "pct_of_bucket": 5.672945246584654
       },
       "depth_usd": 27137.8,
-      "staked_in_tla_usd": 23401.042706498498,
+      "staked_in_tla_usd": 23304.90093872414,
       "lp_health": {
         "asset_0": {
           "symbol": "ROAR",
           "amount_raw": 75883764978591170,
           "amount_human": 75883764978.59117,
           "decimals": 6,
-          "usd_value": 13433.376474647996,
-          "price_usd": 1.77025698164e-7,
+          "usd_value": 13378.220041589144,
+          "price_usd": 1.76298843967e-7,
           "price_source": "direct"
         },
         "asset_1": {
@@ -1732,21 +1732,21 @@
           "amount_raw": 334996076207,
           "amount_human": 334996.076207,
           "decimals": 6,
-          "usd_value": 13713.184978120978,
-          "price_usd": 0.04093536,
+          "usd_value": 13657.120034806976,
+          "price_usd": 0.040768,
           "price_source": "direct"
         },
         "balance_ratio_pct": [
-          49.48463361748446,
-          50.51536638251552
+          49.48419366571732,
+          50.515806334282686
         ],
-        "total_pool_usd": 27146.561452768976,
+        "total_pool_usd": 27035.340076396118,
         "total_share": "155203387017630"
       },
       "amp_lp": {
-        "underlying_lp_amount": 133789360177781,
+        "underlying_lp_amount": 133787832872805,
         "shares": 162372220484833,
-        "ratio": 0.8239670540828633,
+        "ratio": 0.8239576478865852,
         "ratio_type": "non-amplified",
         "stake_mechanism": "astroport-incentives",
         "yearly_take_rate": 0.1
@@ -1779,9 +1779,9 @@
       },
       "rewards": {
         "annual_emissions_luna": 152385.2195950625,
-        "annual_emissions_usd": 6237.943822802937,
-        "weekly_emissions_usd": 119.54991583742795,
-        "approx_apr_pct": 26.6566917595969,
+        "annual_emissions_usd": 6212.440632451508,
+        "weekly_emissions_usd": 119.06114832898166,
+        "approx_apr_pct": 26.65722823188974,
         "distribution_share_of_bucket": 0.04311371036791289,
         "bucket_weight_of_tla": 0.2,
         "source": "chain_distributions_current"
@@ -1801,18 +1801,18 @@
       "voting_power": {
         "vp": 15611725077,
         "vp_human": 15611.725077,
-        "pct_of_bucket": 0.07837957732470739
+        "pct_of_bucket": 0.07837534161477602
       },
       "depth_usd": 396.321,
-      "staked_in_tla_usd": 6.997991425529332,
+      "staked_in_tla_usd": 6.986011608784015,
       "lp_health": {
         "asset_0": {
           "symbol": "SWTH",
           "amount_raw": 130738260157276,
           "amount_human": 1307382.60157276,
           "decimals": 8,
-          "usd_value": 194.8082862895036,
-          "price_usd": 0.00014900633223599,
+          "usd_value": 194.96456296876318,
+          "price_usd": 0.000149125866241622,
           "price_source": "direct"
         },
         "asset_1": {
@@ -1820,21 +1820,21 @@
           "amount_raw": 4985522179,
           "amount_human": 4985.522179,
           "decimals": 6,
-          "usd_value": 204.0841451853494,
-          "price_usd": 0.04093536,
+          "usd_value": 203.24976819347197,
+          "price_usd": 0.040768,
           "price_source": "direct"
         },
         "balance_ratio_pct": [
-          48.83729820824759,
-          51.16270179175242
+          48.95970529230736,
+          51.040294707692645
         ],
-        "total_pool_usd": 398.89243147485297,
+        "total_pool_usd": 398.2143311622351,
         "total_share": "133295243217"
       },
       "amp_lp": {
-        "underlying_lp_amount": 2338472469,
+        "underlying_lp_amount": 2338444510,
         "shares": 2794564674,
-        "ratio": 0.836793111555664,
+        "ratio": 0.8367831067773671,
         "ratio_type": "non-amplified",
         "stake_mechanism": "astroport-incentives",
         "yearly_take_rate": 0.1
@@ -1851,11 +1851,11 @@
         "pd_historical_count": 1
       },
       "rewards": {
-        "annual_emissions_luna": 2770.3227118403806,
-        "annual_emissions_usd": 113.40415752536224,
-        "weekly_emissions_usd": 2.1733856336140605,
-        "approx_apr_pct": 1620.524385206492,
-        "distribution_share_of_bucket": 0.0007837957732470739,
+        "annual_emissions_luna": 2770.1730008592276,
+        "annual_emissions_usd": 112.93441289902898,
+        "weekly_emissions_usd": 2.1643829987493577,
+        "approx_apr_pct": 1616.5792332355763,
+        "distribution_share_of_bucket": 0.0007837534161477602,
         "bucket_weight_of_tla": 0.2,
         "source": "gauge_infos_next_fallback"
       }
@@ -1874,18 +1874,18 @@
       "voting_power": {
         "vp": 6772155868,
         "vp_human": 6772.155868,
-        "pct_of_bucket": 0.034000003964512346
+        "pct_of_bucket": 0.0339981665706481
       },
       "depth_usd": 68.91,
-      "staked_in_tla_usd": 0.000852108641356573,
+      "staked_in_tla_usd": 0.0008486077843496058,
       "lp_health": {
         "asset_0": {
           "symbol": "LUNA",
           "amount_raw": 860358781,
           "amount_human": 860.358781,
           "decimals": 6,
-          "usd_value": 35.21909642939616,
-          "price_usd": 0.04093536,
+          "usd_value": 35.075106783808,
+          "price_usd": 0.040768,
           "price_source": "direct"
         },
         "asset_1": {
@@ -1893,21 +1893,21 @@
           "amount_raw": 194324233494499,
           "amount_human": 194324233.494499,
           "decimals": 6,
-          "usd_value": 34.40038310454784,
-          "price_usd": 1.77025698164e-7,
+          "usd_value": 34.259137719853555,
+          "price_usd": 1.76298843967e-7,
           "price_source": "direct"
         },
         "balance_ratio_pct": [
-          50.58799155805893,
-          49.41200844194106
+          50.58843149571736,
+          49.41156850428265
         ],
-        "total_pool_usd": 69.619479533944,
+        "total_pool_usd": 69.33424450366155,
         "total_share": "392377159380"
       },
       "amp_lp": {
-        "underlying_lp_amount": 4802506,
+        "underlying_lp_amount": 4802451,
         "shares": 5000767,
-        "ratio": 0.9603538817145449,
+        "ratio": 0.9603428834016862,
         "ratio_type": "non-amplified",
         "stake_mechanism": "custody",
         "yearly_take_rate": 0.1
@@ -1924,11 +1924,11 @@
         "pd_historical_count": 0
       },
       "rewards": {
-        "annual_emissions_luna": 1201.7286441255144,
-        "annual_emissions_usd": 49.193194669589815,
-        "weekly_emissions_usd": 0.9427853872337542,
-        "approx_apr_pct": 5773112.990765276,
-        "distribution_share_of_bucket": 0.00034000003964512347,
+        "annual_emissions_luna": 1201.6637015202282,
+        "annual_emissions_usd": 48.989425783576664,
+        "weekly_emissions_usd": 0.9388801655990051,
+        "approx_apr_pct": 5772917.322591306,
+        "distribution_share_of_bucket": 0.00033998166570648104,
         "bucket_weight_of_tla": 0.2,
         "source": "gauge_infos_next_fallback"
       }
@@ -1947,18 +1947,18 @@
       "voting_power": {
         "vp": 18131238853,
         "vp_human": 18131.238853,
-        "pct_of_bucket": 0.09102894335265474
+        "pct_of_bucket": 0.09102402405846406
       },
       "depth_usd": 344.71,
-      "staked_in_tla_usd": 33.19626662383335,
+      "staked_in_tla_usd": 33.06013792002805,
       "lp_health": {
         "asset_0": {
           "symbol": "CAPA",
           "amount_raw": 168211910811,
           "amount_human": 168211.910811,
           "decimals": 6,
-          "usd_value": 186.52027414034563,
-          "price_usd": 0.001108841063876366,
+          "usd_value": 185.7573486594512,
+          "price_usd": 0.001104305561739709,
           "price_source": "direct"
         },
         "asset_1": {
@@ -1966,21 +1966,21 @@
           "amount_raw": 4543582021,
           "amount_human": 4543.582021,
           "decimals": 6,
-          "usd_value": 185.99316571916256,
-          "price_usd": 0.04093536,
+          "usd_value": 185.232751832128,
+          "price_usd": 0.040768,
           "price_source": "direct"
         },
         "balance_ratio_pct": [
-          50.07075025553197,
-          49.92924974446803
+          50.070702267611466,
+          49.929297732388534
         ],
-        "total_pool_usd": 372.5134398595082,
+        "total_pool_usd": 370.9901004915792,
         "total_share": "27035837097"
       },
       "amp_lp": {
-        "underlying_lp_amount": 2409279131,
+        "underlying_lp_amount": 2409251627,
         "shares": 2854179998,
-        "ratio": 0.8441230520458577,
+        "ratio": 0.8441134156529114,
         "ratio_type": "non-amplified",
         "stake_mechanism": "custody",
         "yearly_take_rate": 0.1
@@ -1997,11 +1997,11 @@
         "pd_historical_count": 0
       },
       "rewards": {
-        "annual_emissions_luna": 3217.4139975260746,
-        "annual_emissions_usd": 131.70600025776895,
-        "weekly_emissions_usd": 2.524139635330274,
-        "approx_apr_pct": 396.74943495968387,
-        "distribution_share_of_bucket": 0.0009102894335265474,
+        "annual_emissions_luna": 3217.2401252893537,
+        "annual_emissions_usd": 131.16044542779636,
+        "weekly_emissions_usd": 2.513684101285625,
+        "approx_apr_pct": 396.73290457853324,
+        "distribution_share_of_bucket": 0.0009102402405846406,
         "bucket_weight_of_tla": 0.2,
         "source": "gauge_infos_next_fallback"
       }
@@ -2020,18 +2020,18 @@
       "voting_power": {
         "vp": 5053145644,
         "vp_human": 5053.145644,
-        "pct_of_bucket": 0.025369612761142416
+        "pct_of_bucket": 0.025368241762160352
       },
       "depth_usd": 68.5,
-      "staked_in_tla_usd": 0.04463620645845012,
+      "staked_in_tla_usd": 0.04452817764024841,
       "lp_health": {
         "asset_0": {
           "symbol": "LUNA",
           "amount_raw": 840137382,
           "amount_human": 840.137382,
           "decimals": 6,
-          "usd_value": 34.39132618162752,
-          "price_usd": 0.04093536,
+          "usd_value": 34.250720789376,
+          "price_usd": 0.040768,
           "price_source": "direct"
         },
         "asset_1": {
@@ -2039,21 +2039,21 @@
           "amount_raw": 34663172,
           "amount_human": 34.663172,
           "decimals": 6,
-          "usd_value": 34.81445819599994,
-          "price_usd": 1.004364464856244,
+          "usd_value": 34.78822522996112,
+          "price_usd": 1.003607668391142,
           "price_source": "direct"
         },
         "balance_ratio_pct": [
-          49.694294329456945,
-          50.30570567054306
+          49.6107237497263,
+          50.38927625027371
         ],
-        "total_pool_usd": 69.20578437762745,
+        "total_pool_usd": 69.03894601933712,
         "total_share": "163695513"
       },
       "amp_lp": {
-        "underlying_lp_amount": 105580,
+        "underlying_lp_amount": 105579,
         "shares": 121788,
-        "ratio": 0.866916280750156,
+        "ratio": 0.8669080697605676,
         "ratio_type": "non-amplified",
         "stake_mechanism": "custody",
         "yearly_take_rate": 0.1
@@ -2070,11 +2070,11 @@
         "pd_historical_count": 0
       },
       "rewards": {
-        "annual_emissions_luna": 896.6878467796173,
-        "annual_emissions_usd": 36.70623981554847,
-        "weekly_emissions_usd": 0.7034734530016133,
-        "approx_apr_pct": 82234.22805814982,
-        "distribution_share_of_bucket": 0.00025369612761142417,
+        "annual_emissions_luna": 896.6393888809201,
+        "annual_emissions_usd": 36.55419460589735,
+        "weekly_emissions_usd": 0.7005595133231525,
+        "approx_apr_pct": 82092.27626880583,
+        "distribution_share_of_bucket": 0.0002536824176216035,
         "bucket_weight_of_tla": 0.2,
         "source": "gauge_infos_next_fallback"
       }
@@ -2093,18 +2093,18 @@
       "voting_power": {
         "vp": 501965,
         "vp_human": 0.501965,
-        "pct_of_bucket": 0.000002520144592461474
+        "pct_of_bucket": 0.0000025200084013534955
       },
       "depth_usd": 1.05,
-      "staked_in_tla_usd": 0.2577856157661849,
+      "staked_in_tla_usd": 0.25729461694245975,
       "lp_health": {
         "asset_0": {
           "symbol": "LUNA",
           "amount_raw": 13043848,
           "amount_human": 13.043848,
           "decimals": 6,
-          "usd_value": 0.53395461366528,
-          "price_usd": 0.04093536,
+          "usd_value": 0.531771595264,
+          "price_usd": 0.040768,
           "price_source": "direct"
         },
         "asset_1": {
@@ -2112,21 +2112,21 @@
           "amount_raw": 1387149778,
           "amount_human": 1387.149778,
           "decimals": 6,
-          "usd_value": 0.583310558072428,
-          "price_usd": 0.00042051014773145,
+          "usd_value": 0.583378250921628,
+          "price_usd": 0.00042055894768822,
           "price_source": "direct"
         },
         "balance_ratio_pct": [
-          47.79121619219618,
-          52.20878380780382
+          47.68611116101802,
+          52.31388883898198
         ],
-        "total_pool_usd": 1.117265171737708,
+        "total_pool_usd": 1.115149846185628,
         "total_share": "130473177"
       },
       "amp_lp": {
-        "underlying_lp_amount": 30103962,
+        "underlying_lp_amount": 30103619,
         "shares": 36007940,
-        "ratio": 0.8360367741114876,
+        "ratio": 0.8360272484346508,
         "ratio_type": "non-amplified",
         "stake_mechanism": "custody",
         "yearly_take_rate": 0.1
@@ -2143,11 +2143,11 @@
         "pd_historical_count": 0
       },
       "rewards": {
-        "annual_emissions_luna": 0.08907439973418872,
-        "annual_emissions_usd": 0.0036462926199029196,
-        "weekly_emissions_usd": 0.00006988103583660626,
-        "approx_apr_pct": 1.4144670597952047,
-        "distribution_share_of_bucket": 2.5201445924614738e-8,
+        "annual_emissions_luna": 0.08906958606546965,
+        "annual_emissions_usd": 0.0036311888847170666,
+        "weekly_emissions_usd": 0.0000695915734237357,
+        "approx_apr_pct": 1.4112960962293002,
+        "distribution_share_of_bucket": 2.5200084013534955e-8,
         "bucket_weight_of_tla": 0.2,
         "source": "gauge_infos_next_fallback"
       }
@@ -2166,18 +2166,18 @@
       "voting_power": {
         "vp": 19279798454,
         "vp_human": 19279.798454,
-        "pct_of_bucket": 0.09679535389438546
+        "pct_of_bucket": 0.09679012297766205
       },
       "depth_usd": 419.75,
-      "staked_in_tla_usd": 0.001412693758914288,
+      "staked_in_tla_usd": 0.0014121816162848148,
       "lp_health": {
         "asset_0": {
           "symbol": "USDC",
           "amount_raw": 210438233,
           "amount_human": 210.438233,
           "decimals": 6,
-          "usd_value": 210.365631809615,
-          "price_usd": 0.999655,
+          "usd_value": 210.371734518372,
+          "price_usd": 0.999684,
           "price_source": "direct"
         },
         "asset_1": {
@@ -2185,15 +2185,15 @@
           "amount_raw": 209751726,
           "amount_human": 209.751726,
           "decimals": 6,
-          "usd_value": 210.6671800366635,
-          "price_usd": 1.004364464856244,
+          "usd_value": 210.50844067187765,
+          "price_usd": 1.003607668391142,
           "price_source": "direct"
         },
         "balance_ratio_pct": [
-          49.9641894623692,
-          50.03581053763081
+          49.98375949242039,
+          50.0162405075796
         ],
-        "total_pool_usd": 421.0328118462785,
+        "total_pool_usd": 420.88017519024964,
         "total_share": "205346421"
       },
       "amp_lp": {
@@ -2216,11 +2216,11 @@
         "pd_historical_count": 0
       },
       "rewards": {
-        "annual_emissions_luna": 3421.2275244014827,
-        "annual_emissions_usd": 140.04918035328348,
-        "weekly_emissions_usd": 2.6840363106720995,
-        "approx_apr_pct": 9913626.323437354,
-        "distribution_share_of_bucket": 0.0009679535389438545,
+        "annual_emissions_luna": 3421.0426378800544,
+        "annual_emissions_usd": 139.46906626109404,
+        "weekly_emissions_usd": 2.6729184499046084,
+        "approx_apr_pct": 9876142.32141125,
+        "distribution_share_of_bucket": 0.0009679012297766205,
         "bucket_weight_of_tla": 0.2,
         "source": "gauge_infos_next_fallback"
       }
@@ -2239,18 +2239,18 @@
       "voting_power": {
         "vp": 57263764790,
         "vp_human": 57263.76479,
-        "pct_of_bucket": 0.2874960747851031
+        "pct_of_bucket": 0.2874805382126851
       },
       "depth_usd": null,
-      "staked_in_tla_usd": 18.724369546892877,
+      "staked_in_tla_usd": 18.647581662236078,
       "lp_health": {
         "asset_0": {
           "symbol": "LUNA",
           "amount_raw": 3889493868,
           "amount_human": 3889.493868,
           "decimals": 6,
-          "usd_value": 159.21783170437246,
-          "price_usd": 0.04093536,
+          "usd_value": 158.566886010624,
+          "price_usd": 0.040768,
           "price_source": "direct"
         },
         "asset_1": {
@@ -2258,21 +2258,21 @@
           "amount_raw": 2220736839102,
           "amount_human": 2220736.839102,
           "decimals": 6,
-          "usd_value": 151.8765290623962,
-          "price_usd": 0.00006839015158761925,
+          "usd_value": 151.25559752780404,
+          "price_usd": 0.00006811054550208088,
           "price_source": "pool_derived:LUNA-WHALE(LUNA)"
         },
         "balance_ratio_pct": [
-          51.17991573744407,
-          48.82008426255593
+          51.17991573744406,
+          48.82008426255592
         ],
-        "total_pool_usd": 311.09436076676866,
+        "total_pool_usd": 309.82248353842806,
         "total_share": "1780727094"
       },
       "amp_lp": {
-        "underlying_lp_amount": 107179674,
+        "underlying_lp_amount": 107178322,
         "shares": 130752886,
-        "ratio": 0.8197117270512867,
+        "ratio": 0.8197013869353522,
         "ratio_type": "non-amplified",
         "stake_mechanism": "custody",
         "yearly_take_rate": 0.1
@@ -2289,11 +2289,11 @@
         "pd_historical_count": 0
       },
       "rewards": {
-        "annual_emissions_luna": 10161.536113452179,
-        "annual_emissions_usd": 415.96613895716575,
-        "weekly_emissions_usd": 7.971972546749241,
-        "approx_apr_pct": 2221.522801691292,
-        "distribution_share_of_bucket": 0.002874960747851031,
+        "annual_emissions_luna": 10160.986973983672,
+        "annual_emissions_usd": 414.24311695536636,
+        "weekly_emissions_usd": 7.938950906742134,
+        "approx_apr_pct": 2221.4307702658607,
+        "distribution_share_of_bucket": 0.002874805382126851,
         "bucket_weight_of_tla": 0.2,
         "source": "gauge_infos_next_fallback"
       }
@@ -2312,18 +2312,18 @@
       "voting_power": {
         "vp": 11856991591,
         "vp_human": 11856.991591,
-        "pct_of_bucket": 0.05961089195829362
+        "pct_of_bucket": 0.05960766608007396
       },
       "depth_usd": 430.628,
-      "staked_in_tla_usd": 1.3188822923876886,
+      "staked_in_tla_usd": 1.3154187261930796,
       "lp_health": {
         "asset_0": {
           "symbol": "BNB",
           "amount_raw": 330156824397455550,
           "amount_human": 0.33015682439745553,
           "decimals": 18,
-          "usd_value": 197.61536724309698,
-          "price_usd": 598.55,
+          "usd_value": 197.34133707884712,
+          "price_usd": 597.72,
           "price_source": "direct"
         },
         "asset_1": {
@@ -2331,21 +2331,21 @@
           "amount_raw": 4001122171,
           "amount_human": 4001.122171,
           "decimals": 6,
-          "usd_value": 163.78737647386654,
-          "price_usd": 0.04093536,
+          "usd_value": 163.117748667328,
+          "price_usd": 0.040768,
           "price_source": "direct"
         },
         "balance_ratio_pct": [
-          54.68009600886196,
-          45.31990399113804
+          54.74722232908541,
+          45.25277767091458
         ],
-        "total_pool_usd": 361.4027437169635,
+        "total_pool_usd": 360.4590857461751,
         "total_share": "36345180"
       },
       "amp_lp": {
-        "underlying_lp_amount": 132636,
+        "underlying_lp_amount": 132634,
         "shares": 146776,
-        "ratio": 0.9036627241510874,
+        "ratio": 0.9036490979451681,
         "ratio_type": "non-amplified",
         "stake_mechanism": "astroport-incentives",
         "yearly_take_rate": 0.1
@@ -2362,11 +2362,11 @@
         "pd_historical_count": 0
       },
       "rewards": {
-        "annual_emissions_luna": 2106.944353386642,
-        "annual_emissions_usd": 86.24852560584941,
-        "weekly_emissions_usd": 1.6529491560327059,
-        "approx_apr_pct": 6539.516536362477,
-        "distribution_share_of_bucket": 0.0005961089195829362,
+        "annual_emissions_luna": 2106.8303348629065,
+        "annual_emissions_usd": 85.89125909169097,
+        "weekly_emissions_usd": 1.6461021591836735,
+        "approx_apr_pct": 6529.575517011736,
+        "distribution_share_of_bucket": 0.0005960766608007396,
         "bucket_weight_of_tla": 0.2,
         "source": "gauge_infos_next_fallback"
       }
@@ -2385,18 +2385,18 @@
       "voting_power": {
         "vp": 14094726,
         "vp_human": 14.094726,
-        "pct_of_bucket": 0.00007086107654875134
+        "pct_of_bucket": 0.00007085724186022463
       },
       "depth_usd": 23.6881,
-      "staked_in_tla_usd": 7.432668081437728,
+      "staked_in_tla_usd": 7.415023059657928,
       "lp_health": {
         "asset_0": {
           "symbol": "LUNA",
           "amount_raw": 170650480,
           "amount_human": 170.65048,
           "decimals": 6,
-          "usd_value": 6.985638832972799,
-          "price_usd": 0.04093536,
+          "usd_value": 6.957078768639999,
+          "price_usd": 0.040768,
           "price_source": "direct"
         },
         "asset_1": {
@@ -2404,15 +2404,15 @@
           "amount_raw": 2813577,
           "amount_human": 0.02813577,
           "decimals": 8,
-          "usd_value": 16.846844531880315,
-          "price_usd": 598.7696278395905,
+          "usd_value": 16.818826704743728,
+          "price_usd": 597.7738197583975,
           "price_source": "direct"
         },
         "balance_ratio_pct": [
-          29.311418059247863,
-          70.68858194075213
+          29.261046551636905,
+          70.73895344836309
         ],
-        "total_pool_usd": 23.832483364853115,
+        "total_pool_usd": 23.775905473383727,
         "total_share": "1239803"
       },
       "amp_lp": {
@@ -2435,11 +2435,11 @@
         "pd_historical_count": 0
       },
       "rewards": {
-        "annual_emissions_luna": 2.5045816327282484,
-        "annual_emissions_usd": 0.10252595078511863,
-        "weekly_emissions_usd": 0.0019649052854095288,
-        "approx_apr_pct": 1.3793963306550163,
-        "distribution_share_of_bucket": 7.086107654875135e-7,
+        "annual_emissions_luna": 2.5044460958309975,
+        "annual_emissions_usd": 0.10210125843483811,
+        "weekly_emissions_usd": 0.0019567660754109973,
+        "approx_apr_pct": 1.3769513272363076,
+        "distribution_share_of_bucket": 7.085724186022462e-7,
         "bucket_weight_of_tla": 0.2,
         "source": "gauge_infos_next_fallback"
       }
@@ -2456,9 +2456,9 @@
       "source_type": "cw20",
       "status": "active",
       "voting_power": {
-        "vp": 8034223437604,
-        "vp_human": 8034223.437604,
-        "pct_of_bucket": 40.39196803271162,
+        "vp": 8035153008220,
+        "vp_human": 8035153.00822,
+        "pct_of_bucket": 40.39445535070039,
         "lockup_contributions": [
           {
             "type": "arbLUNA",
@@ -2483,15 +2483,15 @@
         "votion_optimized_vp": 4941221
       },
       "depth_usd": 301038,
-      "staked_in_tla_usd": 192968.25716166,
+      "staked_in_tla_usd": 193136.48712705652,
       "lp_health": {
         "asset_0": {
           "symbol": "USDC",
-          "amount_raw": 150188114805,
-          "amount_human": 150188.114805,
+          "amount_raw": 150360146403,
+          "amount_human": 150360.146403,
           "decimals": 6,
-          "usd_value": 150136.29990539225,
-          "price_usd": 0.999655,
+          "usd_value": 150312.63259673666,
+          "price_usd": 0.999684,
           "price_source": "direct"
         },
         "asset_1": {
@@ -2504,16 +2504,16 @@
           "price_source": "direct"
         },
         "balance_ratio_pct": [
-          69.04514392291584,
-          30.95485607708415
+          69.07022562579228,
+          30.929774374207742
         ],
-        "total_pool_usd": 217446.573900996,
-        "total_share": "138204628875"
+        "total_pool_usd": 217622.90659234038,
+        "total_share": "138283377859"
       },
       "amp_lp": {
-        "underlying_lp_amount": 122646707590,
-        "shares": 142803778217,
-        "ratio": 0.8588477778482165,
+        "underlying_lp_amount": 122724056240,
+        "shares": 142895470414,
+        "ratio": 0.8588379735511635,
         "ratio_type": "non-amplified",
         "stake_mechanism": "astroport-incentives",
         "yearly_take_rate": 0.1
@@ -2552,9 +2552,9 @@
       },
       "rewards": {
         "annual_emissions_luna": 1493944.527358961,
-        "annual_emissions_usd": 61155.157047468914,
-        "weekly_emissions_usd": 1172.0358640172003,
-        "approx_apr_pct": 31.691822244233624,
+        "annual_emissions_usd": 60905.130491370124,
+        "weekly_emissions_usd": 1167.2441161932672,
+        "approx_apr_pct": 31.534761451523735,
         "distribution_share_of_bucket": 0.4226754525763057,
         "bucket_weight_of_tla": 0.2,
         "source": "chain_distributions_current"
@@ -2574,18 +2574,18 @@
       "voting_power": {
         "vp": 15251919020,
         "vp_human": 15251.91902,
-        "pct_of_bucket": 0.07667885145064733
+        "pct_of_bucket": 0.07667470192983532
       },
       "depth_usd": 36.9481,
-      "staked_in_tla_usd": 0.7552066801893857,
+      "staked_in_tla_usd": 0.754154193522394,
       "lp_health": {
         "asset_0": {
           "symbol": "LUNA",
           "amount_raw": 446490130,
           "amount_human": 446.49013,
           "decimals": 6,
-          "usd_value": 18.2772342079968,
-          "price_usd": 0.04093536,
+          "usd_value": 18.20250961984,
+          "price_usd": 0.040768,
           "price_source": "direct"
         },
         "asset_1": {
@@ -2593,15 +2593,15 @@
           "amount_raw": 8017972845930993,
           "amount_human": 0.008017972845930994,
           "decimals": 18,
-          "usd_value": 18.599051071520748,
-          "price_usd": 2319.67,
+          "usd_value": 18.622383372502405,
+          "price_usd": 2322.58,
           "price_source": "direct"
         },
         "balance_ratio_pct": [
-          49.56365336003258,
-          50.436346639967425
+          49.42990499286758,
+          50.57009500713242
         ],
-        "total_pool_usd": 36.876285279517546,
+        "total_pool_usd": 36.824892992342406,
         "total_share": "667449"
       },
       "amp_lp": {
@@ -2624,11 +2624,11 @@
         "pd_historical_count": 5
       },
       "rewards": {
-        "annual_emissions_luna": 2710.210630653666,
-        "annual_emissions_usd": 110.94344784163485,
-        "weekly_emissions_usd": 2.126226242002584,
-        "approx_apr_pct": 14690.474905997016,
-        "distribution_share_of_bucket": 0.0007667885145064734,
+        "annual_emissions_luna": 2710.0639660231445,
+        "annual_emissions_usd": 110.48388776683156,
+        "weekly_emissions_usd": 2.1174187936148416,
+        "approx_apr_pct": 14650.039569600409,
+        "distribution_share_of_bucket": 0.0007667470192983532,
         "bucket_weight_of_tla": 0.2,
         "source": "gauge_infos_next_fallback"
       }
@@ -2645,9 +2645,9 @@
       "source_type": "cw20",
       "status": "active",
       "voting_power": {
-        "vp": 1329896354112,
-        "vp_human": 1329896.354112,
-        "pct_of_bucket": 6.68603897306239,
+        "vp": 1329912428987,
+        "vp_human": 1329912.428987,
+        "pct_of_bucket": 6.685757966039968,
         "lockup_contributions": [
           {
             "type": "arbLUNA",
@@ -2699,37 +2699,37 @@
         "votion_optimized_vp": 489475
       },
       "depth_usd": 27581.9,
-      "staked_in_tla_usd": 23556.5151338263,
+      "staked_in_tla_usd": 23421.58853765419,
       "lp_health": {
         "asset_0": {
           "symbol": "ATOM",
-          "amount_raw": 10026125669,
-          "amount_human": 10026.125669,
+          "amount_raw": 10027295669,
+          "amount_human": 10027.295669,
           "decimals": 6,
-          "usd_value": 13635.53090984,
-          "price_usd": 1.36,
+          "usd_value": 13536.84915315,
+          "price_usd": 1.35,
           "price_source": "direct"
         },
         "asset_1": {
           "symbol": "LUNA",
-          "amount_raw": 334995588464,
-          "amount_human": 334995.588464,
+          "amount_raw": 334956578853,
+          "amount_human": 334956.578853,
           "decimals": 6,
-          "usd_value": 13713.165012185686,
-          "price_usd": 0.04093536,
+          "usd_value": 13655.509806679103,
+          "price_usd": 0.040768,
           "price_source": "direct"
         },
         "balance_ratio_pct": [
-          49.85806617147847,
-          50.14193382852154
+          49.78181250529901,
+          50.21818749470099
         ],
-        "total_pool_usd": 27348.695922025683,
+        "total_pool_usd": 27192.358959829104,
         "total_share": "50365464745"
       },
       "amp_lp": {
-        "underlying_lp_amount": 43381769861,
+        "underlying_lp_amount": 43381274626,
         "shares": 52585812547,
-        "ratio": 0.8249709904591921,
+        "ratio": 0.8249615728049615,
         "ratio_type": "non-amplified",
         "stake_mechanism": "astroport-incentives",
         "yearly_take_rate": 0.1
@@ -2762,9 +2762,9 @@
       },
       "rewards": {
         "annual_emissions_luna": 235586.1383354734,
-        "annual_emissions_usd": 9643.803383772403,
-        "weekly_emissions_usd": 184.82306279645948,
-        "approx_apr_pct": 40.93900701774115,
+        "annual_emissions_usd": 9604.375687660578,
+        "weekly_emissions_usd": 184.0674327546175,
+        "approx_apr_pct": 41.006508470678284,
         "distribution_share_of_bucket": 0.0666533969756458,
         "bucket_weight_of_tla": 0.2,
         "source": "chain_distributions_current"
@@ -2784,7 +2784,7 @@
       "voting_power": {
         "vp": 112072152411,
         "vp_human": 112072.152411,
-        "pct_of_bucket": 0.56344148662267,
+        "pct_of_bucket": 0.5634109956576795,
         "lockup_contributions": [
           {
             "type": "arbLUNA",
@@ -2800,15 +2800,15 @@
         "votion_optimized_vp": 0
       },
       "depth_usd": 460.678,
-      "staked_in_tla_usd": 169.04378736539516,
+      "staked_in_tla_usd": 168.61818723750005,
       "lp_health": {
         "asset_0": {
           "symbol": "LUNA",
           "amount_raw": 5880358553,
           "amount_human": 5880.358553,
           "decimals": 6,
-          "usd_value": 240.71459429613407,
-          "price_usd": 0.04093536,
+          "usd_value": 239.730457488704,
+          "price_usd": 0.040768,
           "price_source": "direct"
         },
         "asset_1": {
@@ -2816,21 +2816,21 @@
           "amount_raw": 363093,
           "amount_human": 0.00363093,
           "decimals": 8,
-          "usd_value": 233.12386065,
-          "price_usd": 64205,
+          "usd_value": 232.92052857000002,
+          "price_usd": 64149,
           "price_source": "direct"
         },
         "balance_ratio_pct": [
-          50.8009832852208,
-          49.1990167147792
+          50.72039719788696,
+          49.27960280211304
         ],
-        "total_pool_usd": 473.8384549461341,
+        "total_pool_usd": 472.650986058704,
         "total_share": "4327878"
       },
       "amp_lp": {
-        "underlying_lp_amount": 1543988,
+        "underlying_lp_amount": 1543970,
         "shares": 1873433,
-        "ratio": 0.8241490354872579,
+        "ratio": 0.8241394274575071,
         "ratio_type": "non-amplified",
         "stake_mechanism": "astroport-incentives",
         "yearly_take_rate": 0.1
@@ -2847,11 +2847,11 @@
         "pd_historical_count": 11
       },
       "rewards": {
-        "annual_emissions_luna": 19914.81455325286,
-        "annual_emissions_usd": 815.220103070645,
-        "weekly_emissions_usd": 15.623657006145146,
-        "approx_apr_pct": 482.25380877707914,
-        "distribution_share_of_bucket": 0.0056344148662267005,
+        "annual_emissions_luna": 19913.736851436875,
+        "annual_emissions_usd": 811.8432239593785,
+        "weekly_emissions_usd": 15.55893926821533,
+        "approx_apr_pct": 481.4683619008968,
+        "distribution_share_of_bucket": 0.005634109956576795,
         "bucket_weight_of_tla": 0.2,
         "source": "gauge_infos_next_fallback"
       }
@@ -2870,18 +2870,18 @@
       "voting_power": {
         "vp": 452995218705,
         "vp_human": 452995.218705,
-        "pct_of_bucket": 2.2774283706454006
+        "pct_of_bucket": 2.277305126279541
       },
       "depth_usd": 7221.91,
-      "staked_in_tla_usd": 6015.6980167126685,
+      "staked_in_tla_usd": 5981.253416487357,
       "lp_health": {
         "asset_0": {
           "symbol": "ATOM",
           "amount_raw": 2763893990,
           "amount_human": 2763.89399,
           "decimals": 6,
-          "usd_value": 3758.8958264000003,
-          "price_usd": 1.36,
+          "usd_value": 3731.2568865000003,
+          "price_usd": 1.35,
           "price_source": "direct"
         },
         "asset_1": {
@@ -2889,21 +2889,21 @@
           "amount_raw": 92529172479,
           "amount_human": 92529.172479,
           "decimals": 6,
-          "usd_value": 3787.714985929957,
-          "price_usd": 0.04093536,
+          "usd_value": 3772.229303623872,
+          "price_usd": 0.040768,
           "price_source": "direct"
         },
         "balance_ratio_pct": [
-          49.809058925611545,
-          50.19094107438846
+          49.72697746030505,
+          50.27302253969494
         ],
-        "total_pool_usd": 7546.610812329957,
+        "total_pool_usd": 7503.486190123873,
         "total_share": "10575865937"
       },
       "amp_lp": {
-        "underlying_lp_amount": 8430435506,
+        "underlying_lp_amount": 8430339267,
         "shares": 10228654507,
-        "ratio": 0.8241978942812679,
+        "ratio": 0.8241884855169055,
         "ratio_type": "non-amplified",
         "stake_mechanism": "custody",
         "yearly_take_rate": 0.1
@@ -2921,9 +2921,9 @@
       },
       "rewards": {
         "annual_emissions_luna": 69966.88570678508,
-        "annual_emissions_usd": 2864.1196544861014,
-        "weekly_emissions_usd": 54.89072575332706,
-        "approx_apr_pct": 47.61076181897882,
+        "annual_emissions_usd": 2852.409996494214,
+        "weekly_emissions_usd": 54.6663106788761,
+        "approx_apr_pct": 47.68916810365417,
         "distribution_share_of_bucket": 0.019795437206594647,
         "bucket_weight_of_tla": 0.2,
         "source": "chain_distributions_current"
@@ -2941,9 +2941,9 @@
       "source_type": "cw20",
       "status": "active",
       "voting_power": {
-        "vp": 785560125646,
-        "vp_human": 785560.125646,
-        "pct_of_bucket": 3.949394702461611,
+        "vp": 785584561707,
+        "vp_human": 785584.561707,
+        "pct_of_bucket": 3.9493038240354195,
         "lockup_contributions": [
           {
             "type": "arbLUNA",
@@ -2968,15 +2968,15 @@
         "votion_optimized_vp": 633753
       },
       "depth_usd": 22997.1,
-      "staked_in_tla_usd": 20790.955067831033,
+      "staked_in_tla_usd": 20710.617042018075,
       "lp_health": {
         "asset_0": {
           "symbol": "LUNA",
           "amount_raw": 280278931467,
           "amount_human": 280278.931467,
           "decimals": 6,
-          "usd_value": 11473.318960016972,
-          "price_usd": 0.04093536,
+          "usd_value": 11426.411478046655,
+          "price_usd": 0.040768,
           "price_source": "direct"
         },
         "asset_1": {
@@ -2984,21 +2984,21 @@
           "amount_raw": 2.3490262079984904e+21,
           "amount_human": 2349.0262079984905,
           "decimals": 18,
-          "usd_value": 11472.73532519065,
-          "price_usd": 4.884038877951089,
+          "usd_value": 11431.238230997415,
+          "price_usd": 4.8663732197085645,
           "price_source": "direct"
         },
         "balance_ratio_pct": [
-          50.00127175421767,
-          49.99872824578233
+          49.989441712047835,
+          50.01055828795218
         ],
-        "total_pool_usd": 22946.05428520762,
+        "total_pool_usd": 22857.649709044068,
         "total_share": "24507843481083475"
       },
       "amp_lp": {
-        "underlying_lp_amount": 22206060627736012,
+        "underlying_lp_amount": 22205807129050904,
         "shares": 26406932989772900,
-        "ratio": 0.8409178239796407,
+        "ratio": 0.8409082242777287,
         "ratio_type": "non-amplified",
         "stake_mechanism": "astroport-incentives",
         "yearly_take_rate": 0.1
@@ -3031,9 +3031,9 @@
       },
       "rewards": {
         "annual_emissions_luna": 238844.26851356073,
-        "annual_emissions_usd": 9777.176115539272,
-        "weekly_emissions_usd": 187.37914526700862,
-        "approx_apr_pct": 47.02610382082487,
+        "annual_emissions_usd": 9737.203138760844,
+        "weekly_emissions_usd": 186.61306494545082,
+        "approx_apr_pct": 47.01551440503115,
         "distribution_share_of_bucket": 0.06757520606718558,
         "bucket_weight_of_tla": 0.2,
         "source": "chain_distributions_current"
@@ -3053,18 +3053,18 @@
       "voting_power": {
         "vp": 281717098525,
         "vp_human": 281717.098525,
-        "pct_of_bucket": 1.4163295465035752
+        "pct_of_bucket": 1.4162529010033011
       },
       "depth_usd": 197931,
-      "staked_in_tla_usd": 146610.9876400688,
+      "staked_in_tla_usd": 146613.24017980896,
       "lp_health": {
         "asset_0": {
           "symbol": "USDC",
           "amount_raw": 87417105081,
           "amount_human": 87417.105081,
           "decimals": 6,
-          "usd_value": 87386.94617974706,
-          "price_usd": 0.999655,
+          "usd_value": 87389.4812757944,
+          "price_usd": 0.999684,
           "price_source": "direct"
         },
         "asset_1": {
@@ -3072,21 +3072,21 @@
           "amount_raw": 110706075429,
           "amount_human": 110706.075429,
           "decimals": 6,
-          "usd_value": 110623.82081495626,
-          "price_usd": 0.999257,
+          "usd_value": 110626.58846684199,
+          "price_usd": 0.999282,
           "price_source": "direct"
         },
         "balance_ratio_pct": [
-          44.132421436499264,
-          55.86757856350073
+          44.13251984516986,
+          55.867480154830126
         ],
-        "total_pool_usd": 198010.76699470333,
+        "total_pool_usd": 198016.0697426364,
         "total_share": "98694337171"
       },
       "amp_lp": {
-        "underlying_lp_amount": 73075189126,
+        "underlying_lp_amount": 73074354919,
         "shares": 83309163510,
-        "ratio": 0.8771566781753658,
+        "ratio": 0.8771466647871039,
         "ratio_type": "non-amplified",
         "stake_mechanism": "astroport-incentives",
         "yearly_take_rate": 0.1
@@ -3119,9 +3119,9 @@
       },
       "rewards": {
         "annual_emissions_luna": 924355.5620034086,
-        "annual_emissions_usd": 37838.82769861185,
-        "weekly_emissions_usd": 725.1794493916028,
-        "approx_apr_pct": 25.808998566673928,
+        "annual_emissions_usd": 37684.12755175496,
+        "weekly_emissions_usd": 722.2146279597117,
+        "approx_apr_pct": 25.703086232552057,
         "distribution_share_of_bucket": 0.2615240381126542,
         "bucket_weight_of_tla": 0.2,
         "source": "chain_distributions_current"
@@ -3139,9 +3139,9 @@
       "source_type": "cw20",
       "status": "active",
       "voting_power": {
-        "vp": 900070826518,
-        "vp_human": 900070.826518,
-        "pct_of_bucket": 4.525095964064139,
+        "vp": 900088731281,
+        "vp_human": 900088.731281,
+        "pct_of_bucket": 4.524941096977731,
         "lockup_contributions": [
           {
             "type": "arbLUNA",
@@ -3157,15 +3157,15 @@
         "votion_optimized_vp": 382587
       },
       "depth_usd": 22086.2,
-      "staked_in_tla_usd": 20009.055308172723,
+      "staked_in_tla_usd": 19950.757481935027,
       "lp_health": {
         "asset_0": {
           "symbol": "LUNA",
           "amount_raw": 273955901390,
           "amount_human": 273955.90139,
           "decimals": 6,
-          "usd_value": 11214.48344752415,
-          "price_usd": 0.04093536,
+          "usd_value": 11168.63418786752,
+          "price_usd": 0.040768,
           "price_source": "direct"
         },
         "asset_1": {
@@ -3173,21 +3173,21 @@
           "amount_raw": 2668391585540708000,
           "amount_human": 2.6683915855407077,
           "decimals": 18,
-          "usd_value": 11084.125071514123,
-          "price_usd": 4153.86,
+          "usd_value": 11065.259543004351,
+          "price_usd": 4146.79,
           "price_source": "direct"
         },
         "balance_ratio_pct": [
-          50.2923015933903,
-          49.7076984066097
+          50.23247085309136,
+          49.76752914690864
         ],
-        "total_pool_usd": 22298.608519038273,
+        "total_pool_usd": 22233.89373087187,
         "total_share": "852140653"
       },
       "amp_lp": {
-        "underlying_lp_amount": 764645446,
+        "underlying_lp_amount": 764636717,
         "shares": 822969268,
-        "ratio": 0.929130012179264,
+        "ratio": 0.9291194054648466,
         "ratio_type": "non-amplified",
         "stake_mechanism": "astroport-incentives",
         "yearly_take_rate": 0.1
@@ -3220,9 +3220,9 @@
       },
       "rewards": {
         "annual_emissions_luna": 249132.07467073522,
-        "annual_emissions_usd": 10198.311164193427,
-        "weekly_emissions_usd": 195.4501797381355,
-        "approx_apr_pct": 50.96847905671945,
+        "annual_emissions_usd": 10156.616420176533,
+        "weekly_emissions_usd": 194.65110182405402,
+        "approx_apr_pct": 50.908425052899,
         "distribution_share_of_bucket": 0.07048589186834331,
         "bucket_weight_of_tla": 0.2,
         "source": "chain_distributions_current"
@@ -3242,18 +3242,18 @@
       "voting_power": {
         "vp": 18588506837,
         "vp_human": 18588.506837,
-        "pct_of_bucket": 0.0934535091993732
+        "pct_of_bucket": 0.09344845190816395
       },
       "depth_usd": 36.8903,
-      "staked_in_tla_usd": 0.0007225739354659672,
+      "staked_in_tla_usd": 0.0007208055095431186,
       "lp_health": {
         "asset_0": {
           "symbol": "WBTC",
           "amount_raw": 29301,
           "amount_human": 0.00029301,
           "decimals": 8,
-          "usd_value": 18.81270705,
-          "price_usd": 64205,
+          "usd_value": 18.79629849,
+          "price_usd": 64149,
           "price_source": "direct"
         },
         "asset_1": {
@@ -3261,15 +3261,15 @@
           "amount_raw": 441141341,
           "amount_human": 441.141341,
           "decimals": 6,
-          "usd_value": 18.058279604717757,
-          "price_usd": 0.04093536,
+          "usd_value": 17.984450189888,
+          "price_usd": 0.040768,
           "price_source": "direct"
         },
         "balance_ratio_pct": [
-          51.023063814846026,
-          48.97693618515399
+          51.103632102730856,
+          48.89636789726914
         ],
-        "total_pool_usd": 36.870986654717754,
+        "total_pool_usd": 36.780748679888006,
         "total_share": "357191"
       },
       "amp_lp": {
@@ -3292,11 +3292,11 @@
         "pd_historical_count": 0
       },
       "rewards": {
-        "annual_emissions_luna": 3303.110170697441,
-        "annual_emissions_usd": 135.2140039571612,
-        "weekly_emissions_usd": 2.5913703701577777,
-        "approx_apr_pct": 18712826.095777392,
-        "distribution_share_of_bucket": 0.000934535091993732,
+        "annual_emissions_luna": 3302.931420962171,
+        "annual_emissions_usd": 134.65390816978578,
+        "weekly_emissions_usd": 2.5806361593114318,
+        "approx_apr_pct": 18681032.038050868,
+        "distribution_share_of_bucket": 0.0009344845190816395,
         "bucket_weight_of_tla": 0.2,
         "source": "gauge_infos_next_fallback"
       }
@@ -3315,18 +3315,18 @@
       "voting_power": {
         "vp": 391204858,
         "vp_human": 391.204858,
-        "pct_of_bucket": 0.0019667780266875282
+        "pct_of_bucket": 0.001966671593346393
       },
       "depth_usd": 70.768,
-      "staked_in_tla_usd": 0.4392331249958543,
+      "staked_in_tla_usd": 0.43743237747001196,
       "lp_health": {
         "asset_0": {
           "symbol": "LUNA",
           "amount_raw": 311471519,
           "amount_human": 311.471519,
           "decimals": 6,
-          "usd_value": 12.75019876001184,
-          "price_usd": 0.04093536,
+          "usd_value": 12.698070886592,
+          "price_usd": 0.040768,
           "price_source": "direct"
         },
         "asset_1": {
@@ -3334,21 +3334,21 @@
           "amount_raw": 78364772,
           "amount_human": 0.78364772,
           "decimals": 8,
-          "usd_value": 12.75019876001184,
-          "price_usd": 16.270319474689263,
+          "usd_value": 12.698070886592,
+          "price_usd": 16.203799950559414,
           "price_source": "pool_derived:LUNA-wSOL.wh(LUNA)"
         },
         "balance_ratio_pct": [
           50,
           50
         ],
-        "total_pool_usd": 25.50039752002368,
+        "total_pool_usd": 25.396141773184,
         "total_share": "15273830"
       },
       "amp_lp": {
-        "underlying_lp_amount": 263085,
+        "underlying_lp_amount": 263082,
         "shares": 318237,
-        "ratio": 0.8266951988612261,
+        "ratio": 0.8266857719246976,
         "ratio_type": "non-amplified",
         "stake_mechanism": "astroport-incentives",
         "yearly_take_rate": 0.1
@@ -3365,11 +3365,11 @@
         "pd_historical_count": 0
       },
       "rewards": {
-        "annual_emissions_luna": 69.51568281503751,
-        "annual_emissions_usd": 2.8456495016793735,
-        "weekly_emissions_usd": 0.05453674609652461,
-        "approx_apr_pct": 647.8676902399454,
-        "distribution_share_of_bucket": 0.00001966778026687528,
+        "annual_emissions_luna": 69.51192093327815,
+        "annual_emissions_usd": 2.8338619926078836,
+        "weekly_emissions_usd": 0.05431083900959667,
+        "approx_apr_pct": 647.840017924178,
+        "distribution_share_of_bucket": 0.00001966671593346393,
         "bucket_weight_of_tla": 0.2,
         "source": "gauge_infos_next_fallback"
       }
@@ -3386,20 +3386,20 @@
       "source_type": "cw20",
       "status": "active",
       "voting_power": {
-        "vp": 4890826180614,
-        "vp_human": 4890826.180614,
-        "pct_of_bucket": 24.58857365309023
+        "vp": 4890914646481,
+        "vp_human": 4890914.646481,
+        "pct_of_bucket": 24.587687765155508
       },
       "depth_usd": 104488,
-      "staked_in_tla_usd": 98327.58114896288,
+      "staked_in_tla_usd": 98081.52956743153,
       "lp_health": {
         "asset_0": {
           "symbol": "LUNA",
           "amount_raw": 1284604803033,
           "amount_human": 1284604.803033,
           "decimals": 6,
-          "usd_value": 52585.76006988495,
-          "price_usd": 0.04093536,
+          "usd_value": 52370.768610049345,
+          "price_usd": 0.040768,
           "price_source": "direct"
         },
         "asset_1": {
@@ -3407,21 +3407,21 @@
           "amount_raw": 80822541,
           "amount_human": 0.80822541,
           "decimals": 8,
-          "usd_value": 51892.11244905,
-          "price_usd": 64205,
+          "usd_value": 51846.85182609,
+          "price_usd": 64149,
           "price_source": "direct"
         },
         "balance_ratio_pct": [
-          50.33195910488569,
-          49.66804089511431
+          50.251357103418215,
+          49.748642896581785
         ],
-        "total_pool_usd": 104477.87251893495,
+        "total_pool_usd": 104217.62043613935,
         "total_share": "1011053223"
       },
       "amp_lp": {
-        "underlying_lp_amount": 951535626,
+        "underlying_lp_amount": 951524763,
         "shares": 1052014134,
-        "ratio": 0.9044893934856583,
+        "ratio": 0.9044790675787632,
         "ratio_type": "non-amplified",
         "stake_mechanism": "astroport-incentives",
         "yearly_take_rate": 0.1
@@ -3454,9 +3454,9 @@
       },
       "rewards": {
         "annual_emissions_luna": 1247021.7054144847,
-        "annual_emissions_usd": 51047.28243895588,
-        "weekly_emissions_usd": 978.3188968451503,
-        "approx_apr_pct": 51.91552750760848,
+        "annual_emissions_usd": 50838.58088633771,
+        "weekly_emissions_usd": 974.3191408743709,
+        "approx_apr_pct": 51.83298130703186,
         "distribution_share_of_bucket": 0.352814615305925,
         "bucket_weight_of_tla": 0.2,
         "source": "chain_distributions_current"
@@ -3476,18 +3476,18 @@
       "voting_power": {
         "vp": 1554593352071,
         "vp_human": 1554593.352071,
-        "pct_of_bucket": 7.815700604842059
+        "pct_of_bucket": 7.8152776536409565
       },
       "depth_usd": 5382.75,
-      "staked_in_tla_usd": 5150.359670622225,
+      "staked_in_tla_usd": 5143.235864491243,
       "lp_health": {
         "asset_0": {
           "symbol": "LUNA",
           "amount_raw": 64503700095,
           "amount_human": 64503.700095,
           "decimals": 6,
-          "usd_value": 2640.482184720859,
-          "price_usd": 0.04093536,
+          "usd_value": 2629.6868454729597,
+          "price_usd": 0.040768,
           "price_source": "direct"
         },
         "asset_1": {
@@ -3495,21 +3495,21 @@
           "amount_raw": 1177673626253592300,
           "amount_human": 1.1776736262535923,
           "decimals": 18,
-          "usd_value": 2731.8141806116705,
-          "price_usd": 2319.67,
+          "usd_value": 2735.2412108640683,
+          "price_usd": 2322.58,
           "price_source": "direct"
         },
         "balance_ratio_pct": [
-          49.149972472849996,
-          50.85002752715001
+          49.01625553704836,
+          50.98374446295163
         ],
-        "total_pool_usd": 5372.29636533253,
+        "total_pool_usd": 5364.9280563370285,
         "total_share": "264306219490880"
       },
       "amp_lp": {
-        "underlying_lp_amount": 253387378690564,
+        "underlying_lp_amount": 253384428089000,
         "shares": 307435465434046,
-        "ratio": 0.8241969687291106,
+        "ratio": 0.8241873712626641,
         "ratio_type": "non-amplified",
         "stake_mechanism": "custody",
         "yearly_take_rate": 0.1
@@ -3526,11 +3526,11 @@
         "pd_historical_count": 0
       },
       "rewards": {
-        "annual_emissions_luna": 276245.59398731595,
-        "annual_emissions_usd": 11308.212838284613,
-        "weekly_emissions_usd": 216.721395942484,
-        "approx_apr_pct": 219.56161436233143,
-        "distribution_share_of_bucket": 0.07815700604842059,
+        "annual_emissions_luna": 276230.64479572285,
+        "annual_emissions_usd": 11261.370927032029,
+        "weekly_emissions_usd": 215.8236727973284,
+        "approx_apr_pct": 218.95497744484595,
+        "distribution_share_of_bucket": 0.07815277653640956,
         "bucket_weight_of_tla": 0.2,
         "source": "gauge_infos_next_fallback"
       }
@@ -3549,18 +3549,18 @@
       "voting_power": {
         "vp": 33231875439,
         "vp_human": 33231.875439,
-        "pct_of_bucket": 0.16707288026326647
+        "pct_of_bucket": 0.16706383901681246
       },
       "depth_usd": null,
-      "staked_in_tla_usd": 1.700060715705038,
+      "staked_in_tla_usd": 1.6931101927004666,
       "lp_health": {
         "asset_0": {
           "symbol": "LUNA",
           "amount_raw": 97886832,
           "amount_human": 97.886832,
           "decimals": 6,
-          "usd_value": 4.00703270717952,
-          "price_usd": 0.04093536,
+          "usd_value": 3.990650366976,
+          "price_usd": 0.040768,
           "price_source": "direct"
         },
         "asset_1": {
@@ -3568,15 +3568,15 @@
           "amount_raw": 24672744,
           "amount_human": 0.24672744,
           "decimals": 8,
-          "usd_value": 4.014334271972227,
-          "price_usd": 16.270319474689263,
+          "usd_value": 3.997922080073651,
+          "price_usd": 16.203799950559414,
           "price_source": "pool_derived:LUNA-wSOL.wh(LUNA)"
         },
         "balance_ratio_pct": [
-          49.95448678004831,
+          49.95448678004832,
           50.04551321995169
         ],
-        "total_pool_usd": 8.021366979151747,
+        "total_pool_usd": 7.98857244704965,
         "total_share": "47616649"
       },
       "amp_lp": {
@@ -3599,11 +3599,11 @@
         "pd_historical_count": 0
       },
       "rewards": {
-        "annual_emissions_luna": 5905.1836016984225,
-        "annual_emissions_usd": 241.7308166016215,
-        "weekly_emissions_usd": 4.632760345547846,
-        "approx_apr_pct": 14218.95196851087,
-        "distribution_share_of_bucket": 0.0016707288026326648,
+        "annual_emissions_luna": 5904.86403924032,
+        "annual_emissions_usd": 240.72949715174937,
+        "weekly_emissions_usd": 4.613570102839823,
+        "approx_apr_pct": 14218.182501623955,
+        "distribution_share_of_bucket": 0.0016706383901681247,
         "bucket_weight_of_tla": 0.2,
         "source": "gauge_infos_next_fallback"
       }
@@ -3622,18 +3622,18 @@
       "voting_power": {
         "vp": 159474183,
         "vp_human": 159.474183,
-        "pct_of_bucket": 0.0008017546626385345
+        "pct_of_bucket": 0.0008017112752168948
       },
       "depth_usd": 24781.9,
-      "staked_in_tla_usd": 16784.93129695922,
+      "staked_in_tla_usd": 16785.19011330365,
       "lp_health": {
         "asset_0": {
           "symbol": "USDC",
           "amount_raw": 11087267102,
           "amount_human": 11087.267102,
           "decimals": 6,
-          "usd_value": 11083.441994849809,
-          "price_usd": 0.999655,
+          "usd_value": 11083.763525595768,
+          "price_usd": 0.999684,
           "price_source": "direct"
         },
         "asset_1": {
@@ -3641,21 +3641,21 @@
           "amount_raw": 13272870579,
           "amount_human": 13272.870579,
           "decimals": 6,
-          "usd_value": 13263.008836159803,
-          "price_usd": 0.999257,
+          "usd_value": 13263.340657924278,
+          "price_usd": 0.999282,
           "price_source": "direct"
         },
         "balance_ratio_pct": [
-          45.5238509784475,
-          54.4761490215525
+          45.523949961565016,
+          54.476050038434984
         ],
-        "total_pool_usd": 24346.450831009613,
+        "total_pool_usd": 24347.104183520045,
         "total_share": "24299840852"
       },
       "amp_lp": {
-        "underlying_lp_amount": 16752797443,
+        "underlying_lp_amount": 16752606197,
         "shares": 17892983068,
-        "ratio": 0.9362774993601195,
+        "ratio": 0.9362668110361395,
         "ratio_type": "non-amplified",
         "stake_mechanism": "custody",
         "yearly_take_rate": 0.1
@@ -3673,9 +3673,9 @@
       },
       "rewards": {
         "annual_emissions_luna": 145633.70400472826,
-        "annual_emissions_usd": 5961.5681015669925,
-        "weekly_emissions_usd": 114.25318743591771,
-        "approx_apr_pct": 35.51738160910433,
+        "annual_emissions_usd": 5937.194844864762,
+        "weekly_emissions_usd": 113.78607505558749,
+        "approx_apr_pct": 35.37162704019089,
         "distribution_share_of_bucket": 0.04120353240918683,
         "bucket_weight_of_tla": 0.2,
         "source": "chain_distributions_current"
@@ -3695,18 +3695,18 @@
       "voting_power": {
         "vp": 31200940189,
         "vp_human": 31200.940189,
-        "pct_of_bucket": 0.15686237612038298
+        "pct_of_bucket": 0.15685388742132167
       },
       "depth_usd": null,
-      "staked_in_tla_usd": 0.3285400884003327,
+      "staked_in_tla_usd": 0.32854896379276116,
       "lp_health": {
         "asset_0": {
           "symbol": "USDC",
           "amount_raw": 1861330412,
           "amount_human": 1861.330412,
           "decimals": 6,
-          "usd_value": 1860.6882530078599,
-          "price_usd": 0.999655,
+          "usd_value": 1860.742231589808,
+          "price_usd": 0.999684,
           "price_source": "direct"
         },
         "asset_1": {
@@ -3714,15 +3714,15 @@
           "amount_raw": 1861433644,
           "amount_human": 1861.433644,
           "decimals": 6,
-          "usd_value": 1860.050598802508,
-          "price_usd": 0.999257,
+          "usd_value": 1860.097134643608,
+          "price_usd": 0.999282,
           "price_source": "direct"
         },
         "balance_ratio_pct": [
-          50.00856891911457,
-          49.99143108088543
+          50.00866870190708,
+          49.99133129809292
         ],
-        "total_pool_usd": 3720.738851810368,
+        "total_pool_usd": 3720.8393662334156,
         "total_share": "1853154857"
       },
       "amp_lp": {
@@ -3745,11 +3745,11 @@
         "pd_historical_count": 0
       },
       "rewards": {
-        "annual_emissions_luna": 5544.293782030388,
-        "annual_emissions_usd": 226.95766191317543,
-        "weekly_emissions_usd": 4.349633493202541,
-        "approx_apr_pct": 69080.66014660073,
-        "distribution_share_of_bucket": 0.00156862376120383,
+        "annual_emissions_luna": 5543.993749335568,
+        "annual_emissions_usd": 226.01753717291243,
+        "weekly_emissions_usd": 4.3316160443816205,
+        "approx_apr_pct": 68792.64952285087,
+        "distribution_share_of_bucket": 0.0015685388742132168,
         "bucket_weight_of_tla": 0.2,
         "source": "gauge_infos_next_fallback"
       }
@@ -3768,18 +3768,18 @@
       "voting_power": {
         "vp": 1427002753324,
         "vp_human": 1427002.753324,
-        "pct_of_bucket": 7.174240303683158
+        "pct_of_bucket": 7.173852065480743
       },
       "depth_usd": 484.81,
-      "staked_in_tla_usd": 430.0062344929411,
+      "staked_in_tla_usd": 428.9253947993482,
       "lp_health": {
         "asset_0": {
           "symbol": "WBTC",
           "amount_raw": 375886,
           "amount_human": 0.00375886,
           "decimals": 8,
-          "usd_value": 241.3376063,
-          "price_usd": 64205,
+          "usd_value": 241.12711014,
+          "price_usd": 64149,
           "price_source": "direct"
         },
         "asset_1": {
@@ -3787,21 +3787,21 @@
           "amount_raw": 6056259008,
           "amount_human": 6056.259008,
           "decimals": 6,
-          "usd_value": 247.91514274572287,
-          "price_usd": 0.04093536,
+          "usd_value": 246.901567238144,
+          "price_usd": 0.040768,
           "price_source": "direct"
         },
         "balance_ratio_pct": [
-          49.32779770184713,
-          50.67220229815287
+          49.40838957157535,
+          50.59161042842465
         ],
-        "total_pool_usd": 489.2527490457229,
+        "total_pool_usd": 488.02867737814404,
         "total_share": "43353267"
       },
       "amp_lp": {
-        "underlying_lp_amount": 38103363,
+        "underlying_lp_amount": 38102919,
         "shares": 46253325,
-        "ratio": 0.8237972729528094,
+        "ratio": 0.8237876736429219,
         "ratio_type": "non-amplified",
         "stake_mechanism": "custody",
         "yearly_take_rate": 0.1
@@ -3818,11 +3818,11 @@
         "pd_historical_count": 0
       },
       "rewards": {
-        "annual_emissions_luna": 253573.20786710785,
-        "annual_emissions_usd": 10380.110550394891,
-        "weekly_emissions_usd": 198.93435688641816,
-        "approx_apr_pct": 2413.944198421916,
-        "distribution_share_of_bucket": 0.07174240303683158,
+        "annual_emissions_luna": 253559.48560492598,
+        "annual_emissions_usd": 10337.113109141623,
+        "weekly_emissions_usd": 198.11031283775867,
+        "approx_apr_pct": 2410.00258657507,
+        "distribution_share_of_bucket": 0.07173852065480743,
         "bucket_weight_of_tla": 0.2,
         "source": "gauge_infos_next_fallback"
       }
@@ -3841,18 +3841,18 @@
       "voting_power": {
         "vp": 52845809,
         "vp_human": 52.845809,
-        "pct_of_bucket": 0.0002656817107923696
+        "pct_of_bucket": 0.0002656673332714829
       },
       "depth_usd": null,
-      "staked_in_tla_usd": 0.0000057193576705245105,
+      "staked_in_tla_usd": 0.00000570608949085451,
       "lp_health": {
         "asset_0": {
           "symbol": "LUNA",
           "amount_raw": 7605,
           "amount_human": 0.007605,
           "decimals": 6,
-          "usd_value": 0.0003113134128,
-          "price_usd": 0.04093536,
+          "usd_value": 0.00031004063999999997,
+          "price_usd": 0.040768,
           "price_source": "direct"
         },
         "asset_1": {
@@ -3860,15 +3860,15 @@
           "amount_raw": 140,
           "amount_human": 0.0000014,
           "decimals": 8,
-          "usd_value": 0.0008382774789754266,
-          "price_usd": 598.7696278395905,
+          "usd_value": 0.0008368833476617564,
+          "price_usd": 597.7738197583975,
           "price_source": "direct"
         },
         "balance_ratio_pct": [
-          27.080365287098612,
-          72.9196347129014
+          27.032361632969454,
+          72.96763836703055
         ],
-        "total_pool_usd": 0.0011495908917754265,
+        "total_pool_usd": 0.0011469239876617564,
         "total_share": "1005"
       },
       "amp_lp": {
@@ -3891,11 +3891,11 @@
         "pd_historical_count": 0
       },
       "rewards": {
-        "annual_emissions_luna": 9.39050837796103,
-        "annual_emissions_usd": 0.3844038410348508,
-        "weekly_emissions_usd": 0.007367082511277085,
-        "approx_apr_pct": 6721101.6197837815,
-        "distribution_share_of_bucket": 0.0000026568171079236962,
+        "annual_emissions_luna": 9.3900002051179,
+        "annual_emissions_usd": 0.3828115283622465,
+        "weekly_emissions_usd": 0.007336565909748735,
+        "approx_apr_pct": 6708824.4756028,
+        "distribution_share_of_bucket": 0.000002656673332714829,
         "bucket_weight_of_tla": 0.2,
         "source": "gauge_infos_next_fallback"
       }
@@ -3914,18 +3914,18 @@
       "voting_power": {
         "vp": 10940805729,
         "vp_human": 10940.805729,
-        "pct_of_bucket": 0.05500477783446704
+        "pct_of_bucket": 0.055001801218802285
       },
       "depth_usd": 551.62,
-      "staked_in_tla_usd": 7.9312453683347615,
+      "staked_in_tla_usd": 7.900591466092268,
       "lp_health": {
         "asset_0": {
           "symbol": "LUNA",
           "amount_raw": 7024203234,
           "amount_human": 7024.203234,
           "decimals": 6,
-          "usd_value": 287.5382880969542,
-          "price_usd": 0.04093536,
+          "usd_value": 286.362717443712,
+          "price_usd": 0.040768,
           "price_source": "direct"
         },
         "asset_1": {
@@ -3933,21 +3933,21 @@
           "amount_raw": 58437497352150060000,
           "amount_human": 58.437497352150054,
           "decimals": 18,
-          "usd_value": 285.4110089980647,
-          "price_usd": 4.884038877951089,
+          "usd_value": 284.3786721412932,
+          "price_usd": 4.8663732197085645,
           "price_source": "direct"
         },
         "balance_ratio_pct": [
-          50.18564287535349,
-          49.81435712464652
+          50.173812985935825,
+          49.82618701406415
         ],
-        "total_pool_usd": 572.9492970950189,
+        "total_pool_usd": 570.7413895850052,
         "total_share": "615520619297008"
       },
       "amp_lp": {
-        "underlying_lp_amount": 8520553364261,
+        "underlying_lp_amount": 8520456095812,
         "shares": 10341093813370,
-        "ratio": 0.8239508816025609,
+        "ratio": 0.8239414755908996,
         "ratio_type": "non-amplified",
         "stake_mechanism": "custody",
         "yearly_take_rate": 0.1
@@ -3964,11 +3964,11 @@
         "pd_historical_count": 0
       },
       "rewards": {
-        "annual_emissions_luna": 1944.141452349013,
-        "annual_emissions_usd": 79.58413024282969,
-        "weekly_emissions_usd": 1.5252263153998844,
-        "approx_apr_pct": 1003.4253959733327,
-        "distribution_share_of_bucket": 0.0005500477783446704,
+        "annual_emissions_luna": 1944.036243999313,
+        "annual_emissions_usd": 79.25446959536399,
+        "weekly_emissions_usd": 1.5189083837578312,
+        "approx_apr_pct": 1003.1460294524537,
+        "distribution_share_of_bucket": 0.0005500180121880228,
         "bucket_weight_of_tla": 0.2,
         "source": "gauge_infos_next_fallback"
       }
@@ -3987,18 +3987,18 @@
       "voting_power": {
         "vp": 2,
         "vp_human": 0.000002,
-        "pct_of_bucket": 1.0054977521202093e-11
+        "pct_of_bucket": 1.0054433390223354e-11
       },
       "depth_usd": 2830.42,
-      "staked_in_tla_usd": 1578.1538255340802,
+      "staked_in_tla_usd": 1578.1675024629744,
       "lp_health": {
         "asset_0": {
           "symbol": "USDC",
           "amount_raw": 1963607091,
           "amount_human": 1963.607091,
           "decimals": 6,
-          "usd_value": 1962.929646553605,
-          "price_usd": 0.999655,
+          "usd_value": 1962.9865911592442,
+          "price_usd": 0.999684,
           "price_source": "direct"
         },
         "asset_1": {
@@ -4011,16 +4011,16 @@
           "price_source": "direct"
         },
         "balance_ratio_pct": [
-          69.22587415598451,
-          30.774125844015483
+          69.22649216286135,
+          30.773507837138652
         ],
-        "total_pool_usd": 2835.543314528028,
+        "total_pool_usd": 2835.6002591336674,
         "total_share": "1807954599"
       },
       "amp_lp": {
-        "underlying_lp_amount": 1006237659,
+        "underlying_lp_amount": 1006226172,
         "shares": 1169365816,
-        "ratio": 0.860498609786623,
+        "ratio": 0.8604887865133215,
         "ratio_type": "non-amplified",
         "stake_mechanism": "custody",
         "yearly_take_rate": 0.1
@@ -4037,11 +4037,11 @@
         "pd_historical_count": 0
       },
       "rewards": {
-        "annual_emissions_luna": 3.55392738067877e-7,
-        "annual_emissions_usd": 1.454812967419425e-8,
-        "weekly_emissions_usd": 2.7881425795854823e-10,
-        "approx_apr_pct": 9.218448441976725e-10,
-        "distribution_share_of_bucket": 1.0054977521202093e-13,
+        "annual_emissions_luna": 3.5537350578237526e-7,
+        "annual_emissions_usd": 1.4487867083735875e-8,
+        "weekly_emissions_usd": 2.776593280935007e-10,
+        "approx_apr_pct": 9.180183384289259e-10,
+        "distribution_share_of_bucket": 1.0054433390223354e-13,
         "bucket_weight_of_tla": 0.2,
         "source": "gauge_infos_next_fallback"
       }
@@ -4060,18 +4060,18 @@
       "voting_power": {
         "vp": 24266430151,
         "vp_human": 24266.430151,
-        "pct_of_bucket": 0.12043337634634933
+        "pct_of_bucket": 0.12042694266756582
       },
       "depth_usd": 311.978,
-      "staked_in_tla_usd": 223.3932346749648,
+      "staked_in_tla_usd": 223.19582073909496,
       "lp_health": {
         "asset_0": {
           "symbol": "WBTC",
           "amount_raw": 253044,
           "amount_human": 0.00253044,
           "decimals": 8,
-          "usd_value": 162.4669002,
-          "price_usd": 64205,
+          "usd_value": 162.32519556,
+          "price_usd": 64149,
           "price_source": "direct"
         },
         "asset_1": {
@@ -4079,21 +4079,21 @@
           "amount_raw": 247374,
           "amount_human": 0.00247374,
           "decimals": 8,
-          "usd_value": 158.8264767,
-          "price_usd": 64205,
+          "usd_value": 158.68794726,
+          "price_usd": 64149,
           "price_source": "direct"
         },
         "balance_ratio_pct": [
           50.56652638394302,
-          49.43347361605698
+          49.43347361605697
         ],
-        "total_pool_usd": 321.2933769,
+        "total_pool_usd": 321.01314282,
         "total_share": "249916"
       },
       "amp_lp": {
-        "underlying_lp_amount": 173765,
+        "underlying_lp_amount": 173763,
         "shares": 202347,
-        "ratio": 0.8587475969497942,
+        "ratio": 0.8587377129386647,
         "ratio_type": "non-amplified",
         "stake_mechanism": "astroport-incentives",
         "yearly_take_rate": 0.1
@@ -4110,11 +4110,11 @@
         "pd_historical_count": 12
       },
       "rewards": {
-        "annual_emissions_luna": 4256.712387893158,
-        "annual_emissions_usd": 174.25005401486604,
-        "weekly_emissions_usd": 3.339494532796885,
-        "approx_apr_pct": 78.0014910784556,
-        "distribution_share_of_bucket": 0.0012043337634634933,
+        "annual_emissions_luna": 4256.484989799636,
+        "annual_emissions_usd": 173.52838006415158,
+        "weekly_emissions_usd": 3.3256636836387705,
+        "approx_apr_pct": 77.74714575278621,
+        "distribution_share_of_bucket": 0.0012042694266756581,
         "bucket_weight_of_tla": 0.2,
         "source": "gauge_infos_next_fallback"
       }
@@ -4144,7 +4144,7 @@
           "amount_human": 0,
           "decimals": 6,
           "usd_value": null,
-          "price_usd": 1.77025698164e-7,
+          "price_usd": 1.76298843967e-7,
           "price_source": "direct"
         },
         "asset_1": {
@@ -4153,7 +4153,7 @@
           "amount_human": 0,
           "decimals": 6,
           "usd_value": null,
-          "price_usd": 2.0969428533993264e-7,
+          "price_usd": 2.0883329638201847e-7,
           "price_source": "direct"
         },
         "balance_ratio_pct": [
@@ -4199,18 +4199,18 @@
       "voting_power": {
         "vp": 314601734858,
         "vp_human": 314601.734858,
-        "pct_of_bucket": 1.5613565282409934
+        "pct_of_bucket": 1.561273118918146
       },
       "depth_usd": 6142.98,
-      "staked_in_tla_usd": 133.30520450020725,
+      "staked_in_tla_usd": 132.32341067392514,
       "lp_health": {
         "asset_0": {
           "symbol": "ATOM",
           "amount_raw": 2776922231,
           "amount_human": 2776.922231,
           "decimals": 6,
-          "usd_value": 3776.6142341600003,
-          "price_usd": 1.36,
+          "usd_value": 3748.8450118500004,
+          "price_usd": 1.35,
           "price_source": "direct"
         },
         "asset_1": {
@@ -4218,21 +4218,21 @@
           "amount_raw": 876624652,
           "amount_human": 876.624652,
           "decimals": 6,
-          "usd_value": 3776.6142341600003,
-          "price_usd": 4.308131451178948,
+          "usd_value": 3748.8450118500004,
+          "price_usd": 4.276454014037927,
           "price_source": "pool_derived:ATOM-dATOM(ATOM)"
         },
         "balance_ratio_pct": [
           50,
           50
         ],
-        "total_pool_usd": 7553.2284683200005,
+        "total_pool_usd": 7497.690023700001,
         "total_share": "1664082610"
       },
       "amp_lp": {
-        "underlying_lp_amount": 29369014,
+        "underlying_lp_amount": 29368657,
         "shares": 34990372,
-        "ratio": 0.8393455776920576,
+        "ratio": 0.8393353748854113,
         "ratio_type": "non-amplified",
         "stake_mechanism": "astroport-incentives",
         "yearly_take_rate": 0.1
@@ -4249,11 +4249,11 @@
         "pd_historical_count": 3
       },
       "rewards": {
-        "annual_emissions_luna": 55186.07779099067,
-        "annual_emissions_usd": 2259.0619613622075,
-        "weekly_emissions_usd": 43.294821983669955,
-        "approx_apr_pct": 1694.6539858154565,
-        "distribution_share_of_bucket": 0.015613565282409933,
+        "annual_emissions_luna": 55183.12969214464,
+        "annual_emissions_usd": 2249.705831289353,
+        "weekly_emissions_usd": 43.11551216707863,
+        "approx_apr_pct": 1700.1570771427118,
+        "distribution_share_of_bucket": 0.01561273118918146,
         "bucket_weight_of_tla": 0.2,
         "source": "gauge_infos_next_fallback"
       }
@@ -4272,10 +4272,10 @@
       "voting_power": {
         "vp": 27860391783,
         "vp_human": 27860.391783,
-        "pct_of_bucket": 0.13827007218944015
+        "pct_of_bucket": 0.13826268565543418
       },
       "depth_usd": null,
-      "staked_in_tla_usd": 8.786495448215714,
+      "staked_in_tla_usd": 8.750463749437547,
       "lp_health": {
         "asset_0": {
           "symbol": "ampWHALE",
@@ -4291,21 +4291,21 @@
           "amount_raw": 1277973371706,
           "amount_human": 1277973.371706,
           "decimals": 6,
-          "usd_value": 87.40079261591423,
-          "price_usd": 0.00006839015158761925,
+          "usd_value": 87.04346348402925,
+          "price_usd": 0.00006811054550208088,
           "price_source": "pool_derived:LUNA-WHALE(LUNA)"
         },
         "balance_ratio_pct": [
           null,
           100
         ],
-        "total_pool_usd": 87.40079261591423,
+        "total_pool_usd": 87.04346348402925,
         "total_share": "1147077523558"
       },
       "amp_lp": {
-        "underlying_lp_amount": 115316934067,
+        "underlying_lp_amount": 115315497407,
         "shares": 138547233157,
-        "ratio": 0.8323293900523029,
+        "ratio": 0.8323190205922475,
         "ratio_type": "non-amplified",
         "stake_mechanism": "custody",
         "yearly_take_rate": 0.1
@@ -4322,11 +4322,11 @@
         "pd_historical_count": 0
       },
       "rewards": {
-        "annual_emissions_luna": 4887.149617652586,
-        "annual_emissions_usd": 200.05722897247097,
-        "weekly_emissions_usd": 3.8340878926962265,
-        "approx_apr_pct": 2276.8717078559107,
-        "distribution_share_of_bucket": 0.0013827007218944016,
+        "annual_emissions_luna": 4886.888540933152,
+        "annual_emissions_usd": 199.22867203676276,
+        "weekly_emissions_usd": 3.8182086358859393,
+        "approx_apr_pct": 2276.778439880613,
+        "distribution_share_of_bucket": 0.0013826268565543419,
         "bucket_weight_of_tla": 0.2,
         "source": "gauge_infos_next_fallback"
       }
@@ -4345,18 +4345,18 @@
       "voting_power": {
         "vp": 124550263529,
         "vp_human": 124550.263529,
-        "pct_of_bucket": 0.6181382538876204
+        "pct_of_bucket": 0.6181052322860514
       },
       "depth_usd": 805.843,
-      "staked_in_tla_usd": 1494.318226870624,
+      "staked_in_tla_usd": 1496.287008779022,
       "lp_health": {
         "asset_0": {
           "symbol": "WSTETH",
           "amount_raw": 346383066618524700,
           "amount_human": 0.3463830666185247,
           "decimals": 18,
-          "usd_value": 803.4944081429932,
-          "price_usd": 2319.67,
+          "usd_value": 804.502382866853,
+          "price_usd": 2322.58,
           "price_source": "direct"
         },
         "asset_1": {
@@ -4364,21 +4364,21 @@
           "amount_raw": 410871068512619260,
           "amount_human": 0.4108710685126193,
           "decimals": 18,
-          "usd_value": 768.3257670960619,
-          "price_usd": 1869.9923795497514,
+          "usd_value": 769.4070116019243,
+          "price_usd": 1872.6239703058895,
           "price_source": "direct"
         },
         "balance_ratio_pct": [
-          51.11872342653899,
-          48.881276573461
+          51.11491078801185,
+          48.885089211988145
         ],
-        "total_pool_usd": 1571.820175239055,
+        "total_pool_usd": 1573.9093944687775,
         "total_share": "371169456322555154"
       },
       "amp_lp": {
-        "underlying_lp_amount": 352868154116993150,
+        "underlying_lp_amount": 352864045098645100,
         "shares": 410971648198696100,
-        "ratio": 0.8586192153731949,
+        "ratio": 0.8586092170719348,
         "ratio_type": "non-amplified",
         "stake_mechanism": "astroport-incentives",
         "yearly_take_rate": 0.1
@@ -4395,11 +4395,11 @@
         "pd_historical_count": 8
       },
       "rewards": {
-        "annual_emissions_luna": 21848.069385574774,
-        "annual_emissions_usd": 894.3585856034821,
-        "weekly_emissions_usd": 17.140342503009922,
-        "approx_apr_pct": 59.8506107682587,
-        "distribution_share_of_bucket": 0.006181382538876204,
+        "annual_emissions_luna": 21846.902238520266,
+        "annual_emissions_usd": 890.6545104599942,
+        "weekly_emissions_usd": 17.06935406767956,
+        "approx_apr_pct": 59.52430952312905,
+        "distribution_share_of_bucket": 0.006181052322860514,
         "bucket_weight_of_tla": 0.2,
         "source": "gauge_infos_next_fallback"
       }
@@ -4418,7 +4418,7 @@
       "voting_power": {
         "vp": 27319534892,
         "vp_human": 27319.534892,
-        "pct_of_bucket": 0.13558581986645746,
+        "pct_of_bucket": 0.1355785767280594,
         "lockup_contributions": [
           {
             "type": "arbLUNA",
@@ -4452,15 +4452,15 @@
         "votion_optimized_vp": 778202
       },
       "depth_usd": 7328.66,
-      "staked_in_tla_usd": 5623.3597753804725,
+      "staked_in_tla_usd": 5600.302169441743,
       "lp_health": {
         "asset_0": {
           "symbol": "arbLUNA",
           "amount_raw": 9909632964,
           "amount_human": 9909.632964,
           "decimals": 6,
-          "usd_value": 1214.2288828282549,
-          "price_usd": 0.12253015699363846,
+          "usd_value": 1209.2646331959045,
+          "price_usd": 0.12202920507640957,
           "price_source": "direct"
         },
         "asset_1": {
@@ -4468,21 +4468,21 @@
           "amount_raw": 149986027848,
           "amount_human": 149986.027848,
           "decimals": 6,
-          "usd_value": 6139.732044927905,
-          "price_usd": 0.04093536,
+          "usd_value": 6114.630383307263,
+          "price_usd": 0.040768,
           "price_source": "direct"
         },
         "balance_ratio_pct": [
-          16.511222928114474,
+          16.511222928114478,
           83.48877707188554
         ],
-        "total_pool_usd": 7353.960927756159,
+        "total_pool_usd": 7323.895016503167,
         "total_share": "70129946715"
       },
       "amp_lp": {
-        "underlying_lp_amount": 53626328081,
+        "underlying_lp_amount": 53625685765,
         "shares": 64235749743,
-        "ratio": 0.834836182274713,
+        "ratio": 0.8348261829207307,
         "ratio_type": "non-amplified",
         "stake_mechanism": "astroport-incentives",
         "yearly_take_rate": 0.1
@@ -4499,11 +4499,11 @@
         "pd_historical_count": 3
       },
       "rewards": {
-        "annual_emissions_luna": 4792.274837403865,
-        "annual_emissions_usd": 196.17349568806864,
-        "weekly_emissions_usd": 3.759656317088242,
-        "approx_apr_pct": 3.4885460565218005,
-        "distribution_share_of_bucket": 0.0013558581986645745,
+        "annual_emissions_luna": 4792.018828995884,
+        "annual_emissions_usd": 195.3610236205042,
+        "weekly_emissions_usd": 3.744085326060313,
+        "approx_apr_pct": 3.4884014774506076,
+        "distribution_share_of_bucket": 0.001355785767280594,
         "bucket_weight_of_tla": 0.2,
         "source": "gauge_infos_next_fallback"
       }
@@ -4520,20 +4520,20 @@
       "source_type": "cw20",
       "status": "active",
       "voting_power": {
-        "vp": 2251510442758,
-        "vp_human": 2251510.442758,
-        "pct_of_bucket": 11.174161292497969
+        "vp": 2251525250786,
+        "vp_human": 2251525.250786,
+        "pct_of_bucket": 11.173637844699986
       },
       "depth_usd": 126177,
-      "staked_in_tla_usd": 44910.90122649361,
+      "staked_in_tla_usd": 44852.754876321174,
       "lp_health": {
         "asset_0": {
           "symbol": "PAXG",
           "amount_raw": 15217693529184401000,
           "amount_human": 15.217693529184402,
           "decimals": 18,
-          "usd_value": 63212.16844313791,
-          "price_usd": 4153.86,
+          "usd_value": 63104.57934988658,
+          "price_usd": 4146.79,
           "price_source": "direct"
         },
         "asset_1": {
@@ -4541,21 +4541,21 @@
           "amount_raw": 100041932,
           "amount_human": 1.00041932,
           "decimals": 8,
-          "usd_value": 64231.9224406,
-          "price_usd": 64205,
+          "usd_value": 64175.89895868,
+          "price_usd": 64149,
           "price_source": "direct"
         },
         "balance_ratio_pct": [
-          49.599921035808414,
-          50.400078964191586
+          49.57915006958246,
+          50.42084993041753
         ],
-        "total_pool_usd": 127444.09088373791,
+        "total_pool_usd": 127280.47830856658,
         "total_share": "3898031"
       },
       "amp_lp": {
-        "underlying_lp_amount": 1373654,
+        "underlying_lp_amount": 1373639,
         "shares": 1413931,
-        "ratio": 0.9715141686546231,
+        "ratio": 0.9715035599332641,
         "ratio_type": "non-amplified",
         "stake_mechanism": "astroport-incentives",
         "yearly_take_rate": 0.1
@@ -4588,9 +4588,9 @@
       },
       "rewards": {
         "annual_emissions_luna": 411279.63439252815,
-        "annual_emissions_usd": 16835.87989452652,
-        "weekly_emissions_usd": 322.6588891490366,
-        "approx_apr_pct": 37.48729024523512,
+        "annual_emissions_usd": 16767.04813491459,
+        "weekly_emissions_usd": 321.3397315384041,
+        "approx_apr_pct": 37.38242652240366,
         "distribution_share_of_bucket": 0.11636162013966805,
         "bucket_weight_of_tla": 0.2,
         "source": "chain_distributions_current"
@@ -4610,18 +4610,18 @@
       "voting_power": {
         "vp": 455835323314,
         "vp_human": 455835.323314,
-        "pct_of_bucket": 2.2622934936465096
+        "pct_of_bucket": 2.262172639527048
       },
       "depth_usd": null,
-      "staked_in_tla_usd": 5493.636158374351,
+      "staked_in_tla_usd": 5471.017245216164,
       "lp_health": {
         "asset_0": {
           "symbol": "ampROAR",
           "amount_raw": 14672692938842632,
           "amount_human": 14672692938.842632,
           "decimals": 6,
-          "usd_value": 3076.779859822882,
-          "price_usd": 2.0969428533993264e-7,
+          "usd_value": 3064.1468332196728,
+          "price_usd": 2.0883329638201847e-7,
           "price_source": "direct"
         },
         "asset_1": {
@@ -4629,21 +4629,21 @@
           "amount_raw": 15410369841664768,
           "amount_human": 15410369841.664768,
           "decimals": 6,
-          "usd_value": 2728.031480186156,
-          "price_usd": 1.77025698164e-7,
+          "usd_value": 2716.8303881894194,
+          "price_usd": 1.76298843967e-7,
           "price_source": "direct"
         },
         "balance_ratio_pct": [
           53.00395963976482,
-          46.99604036023518
+          46.996040360235185
         ],
-        "total_pool_usd": 5804.811340009038,
+        "total_pool_usd": 5780.977221409092,
         "total_share": "10905439780793740"
       },
       "amp_lp": {
-        "underlying_lp_amount": 10320838145042844,
+        "underlying_lp_amount": 10320720325005206,
         "shares": 11038030913184584,
-        "ratio": 0.9350252981004904,
+        "ratio": 0.935014624091823,
         "ratio_type": "non-amplified",
         "stake_mechanism": "astroport-incentives",
         "yearly_take_rate": 0.1
@@ -4661,9 +4661,9 @@
       },
       "rewards": {
         "annual_emissions_luna": 64633.44482402161,
-        "annual_emissions_usd": 2645.793331911461,
-        "weekly_emissions_usd": 50.7065114945386,
-        "approx_apr_pct": 48.161058643796146,
+        "annual_emissions_usd": 2634.976278585713,
+        "weekly_emissions_usd": 50.49920314880216,
+        "approx_apr_pct": 48.16245609332937,
         "distribution_share_of_bucket": 0.018286469170883,
         "bucket_weight_of_tla": 0.2,
         "source": "chain_distributions_current"
@@ -4681,20 +4681,20 @@
       "source_type": "cw20",
       "status": "active",
       "voting_power": {
-        "vp": 4628350093676,
-        "vp_human": 4628350.093676,
-        "pct_of_bucket": 22.970326711668076
+        "vp": 4629254728560,
+        "vp_human": 4629254.72856,
+        "pct_of_bucket": 22.973589041356355
       },
       "depth_usd": 197931,
-      "staked_in_tla_usd": 146610.9876400688,
+      "staked_in_tla_usd": 146613.24017980896,
       "lp_health": {
         "asset_0": {
           "symbol": "USDC",
           "amount_raw": 87417105081,
           "amount_human": 87417.105081,
           "decimals": 6,
-          "usd_value": 87386.94617974706,
-          "price_usd": 0.999655,
+          "usd_value": 87389.4812757944,
+          "price_usd": 0.999684,
           "price_source": "direct"
         },
         "asset_1": {
@@ -4702,21 +4702,21 @@
           "amount_raw": 110706075429,
           "amount_human": 110706.075429,
           "decimals": 6,
-          "usd_value": 110623.82081495626,
-          "price_usd": 0.999257,
+          "usd_value": 110626.58846684199,
+          "price_usd": 0.999282,
           "price_source": "direct"
         },
         "balance_ratio_pct": [
-          44.132421436499264,
-          55.86757856350073
+          44.13251984516986,
+          55.867480154830126
         ],
-        "total_pool_usd": 198010.76699470333,
+        "total_pool_usd": 198016.0697426364,
         "total_share": "98694337171"
       },
       "amp_lp": {
-        "underlying_lp_amount": 73075189126,
+        "underlying_lp_amount": 73074354919,
         "shares": 83309163510,
-        "ratio": 0.8771566781753658,
+        "ratio": 0.8771466647871039,
         "ratio_type": "non-amplified",
         "stake_mechanism": "astroport-incentives",
         "yearly_take_rate": 0.1
@@ -4749,9 +4749,9 @@
       },
       "rewards": {
         "annual_emissions_luna": 924355.5620034086,
-        "annual_emissions_usd": 37838.82769861185,
-        "weekly_emissions_usd": 725.1794493916028,
-        "approx_apr_pct": 25.808998566673928,
+        "annual_emissions_usd": 37684.12755175496,
+        "weekly_emissions_usd": 722.2146279597117,
+        "approx_apr_pct": 25.703086232552057,
         "distribution_share_of_bucket": 0.2615240381126542,
         "bucket_weight_of_tla": 0.2,
         "source": "chain_distributions_current"
@@ -4771,10 +4771,10 @@
       "voting_power": {
         "vp": 65181442677,
         "vp_human": 65181.442677,
-        "pct_of_bucket": 0.32349303823717324
+        "pct_of_bucket": 0.323475756895739
       },
       "depth_usd": null,
-      "staked_in_tla_usd": 27.92542103397375,
+      "staked_in_tla_usd": 27.81090434594389,
       "lp_health": {
         "asset_0": {
           "symbol": "bWHALE",
@@ -4790,21 +4790,21 @@
           "amount_raw": 1552682407046,
           "amount_human": 1552682.407046,
           "decimals": 6,
-          "usd_value": 106.18818518530547,
-          "price_usd": 0.00006839015158761925,
+          "usd_value": 105.75404573538705,
+          "price_usd": 0.00006811054550208088,
           "price_source": "pool_derived:LUNA-WHALE(LUNA)"
         },
         "balance_ratio_pct": [
           null,
           100
         ],
-        "total_pool_usd": 106.18818518530547,
+        "total_pool_usd": 105.75404573538705,
         "total_share": "1499599087648"
       },
       "amp_lp": {
-        "underlying_lp_amount": 394365303745,
+        "underlying_lp_amount": 394360390601,
         "shares": 473776119765,
-        "ratio": 0.8323874659208469,
+        "ratio": 0.8323770957400906,
         "ratio_type": "non-amplified",
         "stake_mechanism": "custody",
         "yearly_take_rate": 0.1
@@ -4821,11 +4821,11 @@
         "pd_historical_count": 0
       },
       "rewards": {
-        "annual_emissions_luna": 11433.847202799207,
-        "annual_emissions_usd": 468.0486514315785,
-        "weekly_emissions_usd": 8.97013158116646,
-        "approx_apr_pct": 1676.0665877236224,
-        "distribution_share_of_bucket": 0.0032349303823717324,
+        "annual_emissions_luna": 11433.236394546591,
+        "annual_emissions_usd": 466.1101813328754,
+        "weekly_emissions_usd": 8.932980887967496,
+        "approx_apr_pct": 1675.9979306492983,
+        "distribution_share_of_bucket": 0.00323475756895739,
         "bucket_weight_of_tla": 0.2,
         "source": "gauge_infos_next_fallback"
       }
@@ -4844,18 +4844,18 @@
       "voting_power": {
         "vp": 25292081896,
         "vp_human": 25292.081896,
-        "pct_of_bucket": 0.12552364722003137
+        "pct_of_bucket": 0.12551694161357535
       },
       "depth_usd": 175.903,
-      "staked_in_tla_usd": 36.55890311553871,
+      "staked_in_tla_usd": 36.58823094386209,
       "lp_health": {
         "asset_0": {
           "symbol": "SWTH",
           "amount_raw": 119751445297622,
           "amount_human": 1197514.45297622,
           "decimals": 8,
-          "usd_value": 178.43723643757446,
-          "price_usd": 0.00014900633223599,
+          "usd_value": 178.58038013694093,
+          "price_usd": 0.000149125866241622,
           "price_source": "direct"
         },
         "asset_1": {
@@ -4863,15 +4863,15 @@
           "amount_raw": 130516901689964,
           "amount_human": 1305169.01689964,
           "decimals": 8,
-          "usd_value": 178.43723643757446,
-          "price_usd": 0.00013671580778207767,
+          "usd_value": 178.58038013694093,
+          "price_usd": 0.00013682548223612387,
           "price_source": "pool_derived:SWTH-rSWTH(SWTH)"
         },
         "balance_ratio_pct": [
           50,
           50
         ],
-        "total_pool_usd": 356.8744728751489,
+        "total_pool_usd": 357.16076027388186,
         "total_share": "124949931586532"
       },
       "amp_lp": {
@@ -4894,11 +4894,11 @@
         "pd_historical_count": 0
       },
       "rewards": {
-        "annual_emissions_luna": 4436.627787951531,
-        "annual_emissions_usd": 181.61495568579957,
-        "weekly_emissions_usd": 3.480642545655296,
-        "approx_apr_pct": 496.77353587943765,
-        "distribution_share_of_bucket": 0.0012552364722003136,
+        "annual_emissions_luna": 4436.390778586389,
+        "annual_emissions_usd": 180.8627792614099,
+        "weekly_emissions_usd": 3.466227117946254,
+        "approx_apr_pct": 494.31955193163236,
+        "distribution_share_of_bucket": 0.0012551694161357534,
         "bucket_weight_of_tla": 0.2,
         "source": "gauge_infos_next_fallback"
       }
@@ -4915,9 +4915,9 @@
       "source_type": "cw20",
       "status": "active",
       "voting_power": {
-        "vp": 1291750499780,
-        "vp_human": 1291750.49978,
-        "pct_of_bucket": 6.4109089436535305,
+        "vp": 1291806048724,
+        "vp_human": 1291806.048724,
+        "pct_of_bucket": 6.410842138677289,
         "lockup_contributions": [
           {
             "type": "arbLUNA",
@@ -4951,15 +4951,15 @@
         "votion_optimized_vp": 778202
       },
       "depth_usd": 19558.1,
-      "staked_in_tla_usd": 17411.77992949433,
+      "staked_in_tla_usd": 17340.395706184936,
       "lp_health": {
         "asset_0": {
           "symbol": "LUNA",
           "amount_raw": 300966287712,
           "amount_human": 300966.287712,
           "decimals": 6,
-          "usd_value": 12320.163335354297,
-          "price_usd": 0.04093536,
+          "usd_value": 12269.793617442816,
+          "price_usd": 0.040768,
           "price_source": "direct"
         },
         "asset_1": {
@@ -4967,21 +4967,21 @@
           "amount_raw": 60580416416,
           "amount_human": 60580.416416,
           "decimals": 6,
-          "usd_value": 7422.927934192473,
-          "price_usd": 0.12253015699363846,
+          "usd_value": 7392.580058442353,
+          "price_usd": 0.12202920507640957,
           "price_source": "direct"
         },
         "balance_ratio_pct": [
-          62.4024027805506,
+          62.402402780550595,
           37.5975972194494
         ],
-        "total_pool_usd": 19743.09126954677,
+        "total_pool_usd": 19662.37367588517,
         "total_share": "143056165723"
       },
       "amp_lp": {
-        "underlying_lp_amount": 126163752227,
+        "underlying_lp_amount": 126162311974,
         "shares": 138426271757,
-        "ratio": 0.9114147959462044,
+        "ratio": 0.9114043914689205,
         "ratio_type": "non-amplified",
         "stake_mechanism": "astroport-incentives",
         "yearly_take_rate": 0.1
@@ -5014,9 +5014,9 @@
       },
       "rewards": {
         "annual_emissions_luna": 184859.45085232297,
-        "annual_emissions_usd": 7567.288170042148,
-        "weekly_emissions_usd": 145.02674110963733,
-        "approx_apr_pct": 43.46073865328205,
+        "annual_emissions_usd": 7536.350092347503,
+        "weekly_emissions_usd": 144.43381422705687,
+        "approx_apr_pct": 43.46123479557882,
         "distribution_share_of_bucket": 0.05230150826961646,
         "bucket_weight_of_tla": 0.2,
         "source": "chain_distributions_current"
@@ -5036,18 +5036,18 @@
       "voting_power": {
         "vp": 15,
         "vp_human": 0.000015,
-        "pct_of_bucket": 7.444443348090883e-11
+        "pct_of_bucket": 7.444045658026245e-11
       },
       "depth_usd": 436.19,
-      "staked_in_tla_usd": 0.02842314166596378,
+      "staked_in_tla_usd": 0.028268039884072612,
       "lp_health": {
         "asset_0": {
           "symbol": "ATOM",
           "amount_raw": 316079936,
           "amount_human": 316.079936,
           "decimals": 6,
-          "usd_value": 429.86871296,
-          "price_usd": 1.36,
+          "usd_value": 426.7079136,
+          "price_usd": 1.35,
           "price_source": "direct"
         },
         "asset_1": {
@@ -5055,15 +5055,15 @@
           "amount_raw": 99038692,
           "amount_human": 99.038692,
           "decimals": 6,
-          "usd_value": 259.6041169901791,
-          "price_usd": 2.621239353506194,
+          "usd_value": 259.00254321959466,
+          "price_usd": 2.6151652247143438,
           "price_source": "direct"
         },
         "balance_ratio_pct": [
-          62.34744783069437,
-          37.65255216930563
+          62.228584872268286,
+          37.77141512773172
         ],
-        "total_pool_usd": 689.4728299501791,
+        "total_pool_usd": 685.7104568195946,
         "total_share": "188262040"
       },
       "amp_lp": {
@@ -5086,11 +5086,11 @@
         "pd_historical_count": 0
       },
       "rewards": {
-        "annual_emissions_luna": 0.0000026312352258276495,
-        "annual_emissions_usd": 1.0771056121393613e-7,
-        "weekly_emissions_usd": 2.064268113614108e-9,
-        "approx_apr_pct": 0.0003789537500103926,
-        "distribution_share_of_bucket": 7.444443348090884e-13,
+        "annual_emissions_luna": 0.000002631094662449287,
+        "annual_emissions_usd": 1.0726446719873252e-7,
+        "weekly_emissions_usd": 2.055718741659487e-9,
+        "approx_apr_pct": 0.00037945491671380365,
+        "distribution_share_of_bucket": 7.444045658026246e-13,
         "bucket_weight_of_tla": 0.2,
         "source": "gauge_infos_next_fallback"
       }
@@ -5109,18 +5109,18 @@
       "voting_power": {
         "vp": 175,
         "vp_human": 0.000175,
-        "pct_of_bucket": 8.685183906106031e-10
+        "pct_of_bucket": 8.684719934363954e-10
       },
       "depth_usd": 64.33,
-      "staked_in_tla_usd": 1.677716090066862e-9,
+      "staked_in_tla_usd": 1.6799590654216515e-9,
       "lp_health": {
         "asset_0": {
           "symbol": "WETH",
           "amount_raw": 1821864,
           "amount_human": 0.01821864,
           "decimals": 8,
-          "usd_value": 34.068717965760285,
-          "price_usd": 1869.9923795497514,
+          "usd_value": 34.11666197037369,
+          "price_usd": 1872.6239703058895,
           "price_source": "direct"
         },
         "asset_1": {
@@ -5128,15 +5128,15 @@
           "amount_raw": 12534359891799812,
           "amount_human": 0.012534359891799811,
           "decimals": 18,
-          "usd_value": 29.07557861021127,
-          "price_usd": 2319.67,
+          "usd_value": 29.112053597496406,
+          "price_usd": 2322.58,
           "price_source": "direct"
         },
         "balance_ratio_pct": [
-          53.95375324954452,
-          46.04624675045548
+          53.95754391650207,
+          46.042456083497925
         ],
-        "total_pool_usd": 63.14429657597155,
+        "total_pool_usd": 63.2287155678701,
         "total_share": "150548229107"
       },
       "amp_lp": {
@@ -5159,11 +5159,11 @@
         "pd_historical_count": 0
       },
       "rewards": {
-        "annual_emissions_luna": 0.00003069774430132258,
-        "annual_emissions_usd": 0.0000012566232141625883,
-        "weekly_emissions_usd": 2.4083127992164594e-8,
-        "approx_apr_pct": 74900.82628417232,
-        "distribution_share_of_bucket": 8.68518390610603e-12,
+        "annual_emissions_luna": 0.000030696104395241684,
+        "annual_emissions_usd": 0.0000012514187839852129,
+        "weekly_emissions_usd": 2.3983385319360684e-8,
+        "approx_apr_pct": 74491.02836747516,
+        "distribution_share_of_bucket": 8.684719934363954e-12,
         "bucket_weight_of_tla": 0.2,
         "source": "gauge_infos_next_fallback"
       }
@@ -5182,18 +5182,18 @@
       "voting_power": {
         "vp": 1041266782326,
         "vp_human": 1041266.782326,
-        "pct_of_bucket": 5.167767714183193
+        "pct_of_bucket": 5.167491646547213
       },
       "depth_usd": 216.66,
-      "staked_in_tla_usd": 108.26370389868102,
+      "staked_in_tla_usd": 108.16786971377931,
       "lp_health": {
         "asset_0": {
           "symbol": "WBTC",
           "amount_raw": 168458,
           "amount_human": 0.00168458,
           "decimals": 8,
-          "usd_value": 108.1584589,
-          "price_usd": 64205,
+          "usd_value": 108.06412242,
+          "price_usd": 64149,
           "price_source": "direct"
         },
         "asset_1": {
@@ -5201,21 +5201,21 @@
           "amount_raw": 170263,
           "amount_human": 0.00170263,
           "decimals": 8,
-          "usd_value": 109.31735914999999,
-          "price_usd": 64205,
+          "usd_value": 109.22201186999999,
+          "price_usd": 64149,
           "price_source": "direct"
         },
         "balance_ratio_pct": [
-          49.73355652587233,
-          50.266443474127676
+          49.733556525872324,
+          50.26644347412766
         ],
-        "total_pool_usd": 217.47581805,
+        "total_pool_usd": 217.28613429,
         "total_share": "154552"
       },
       "amp_lp": {
-        "underlying_lp_amount": 76939,
+        "underlying_lp_amount": 76938,
         "shares": 92030,
-        "ratio": 0.8360208627621428,
+        "ratio": 0.8360099967401934,
         "ratio_type": "non-amplified",
         "stake_mechanism": "custody",
         "yearly_take_rate": 0.1
@@ -5232,11 +5232,11 @@
         "pd_historical_count": 0
       },
       "rewards": {
-        "annual_emissions_luna": 182654.52247602554,
-        "annual_emissions_usd": 7477.028633184196,
-        "weekly_emissions_usd": 143.29692110140826,
-        "approx_apr_pct": 6906.311500465197,
-        "distribution_share_of_bucket": 0.05167767714183193,
+        "annual_emissions_luna": 182644.76487757883,
+        "annual_emissions_usd": 7446.061774529133,
+        "weekly_emissions_usd": 142.70344263300186,
+        "approx_apr_pct": 6883.801811232853,
+        "distribution_share_of_bucket": 0.051674916465472134,
         "bucket_weight_of_tla": 0.2,
         "source": "gauge_infos_next_fallback"
       }
@@ -5255,18 +5255,18 @@
       "voting_power": {
         "vp": 1027167567661,
         "vp_human": 1027167.567661,
-        "pct_of_bucket": 5.0977938442990824
+        "pct_of_bucket": 5.097521514741498
       },
       "depth_usd": 24781.9,
-      "staked_in_tla_usd": 16784.93129695922,
+      "staked_in_tla_usd": 16785.19011330365,
       "lp_health": {
         "asset_0": {
           "symbol": "USDC",
           "amount_raw": 11087267102,
           "amount_human": 11087.267102,
           "decimals": 6,
-          "usd_value": 11083.441994849809,
-          "price_usd": 0.999655,
+          "usd_value": 11083.763525595768,
+          "price_usd": 0.999684,
           "price_source": "direct"
         },
         "asset_1": {
@@ -5274,21 +5274,21 @@
           "amount_raw": 13272870579,
           "amount_human": 13272.870579,
           "decimals": 6,
-          "usd_value": 13263.008836159803,
-          "price_usd": 0.999257,
+          "usd_value": 13263.340657924278,
+          "price_usd": 0.999282,
           "price_source": "direct"
         },
         "balance_ratio_pct": [
-          45.5238509784475,
-          54.4761490215525
+          45.523949961565016,
+          54.476050038434984
         ],
-        "total_pool_usd": 24346.450831009613,
+        "total_pool_usd": 24347.104183520045,
         "total_share": "24299840852"
       },
       "amp_lp": {
-        "underlying_lp_amount": 16752797443,
+        "underlying_lp_amount": 16752606197,
         "shares": 17892983068,
-        "ratio": 0.9362774993601195,
+        "ratio": 0.9362668110361395,
         "ratio_type": "non-amplified",
         "stake_mechanism": "custody",
         "yearly_take_rate": 0.1
@@ -5306,9 +5306,9 @@
       },
       "rewards": {
         "annual_emissions_luna": 145633.70400472826,
-        "annual_emissions_usd": 5961.5681015669925,
-        "weekly_emissions_usd": 114.25318743591771,
-        "approx_apr_pct": 35.51738160910433,
+        "annual_emissions_usd": 5937.194844864762,
+        "weekly_emissions_usd": 113.78607505558749,
+        "approx_apr_pct": 35.37162704019089,
         "distribution_share_of_bucket": 0.04120353240918683,
         "bucket_weight_of_tla": 0.2,
         "source": "chain_distributions_current"
@@ -5326,17 +5326,17 @@
       "source_type": "native-single",
       "status": "active",
       "voting_power": {
-        "vp": 5240636077102,
-        "vp_human": 5240636.077102,
-        "pct_of_bucket": 26.00907892263139
+        "vp": 5240683034878,
+        "vp_human": 5240683.034878,
+        "pct_of_bucket": 26.007922527250255
       },
       "depth_usd": null,
-      "staked_in_tla_usd": 145940.67551238276,
+      "staked_in_tla_usd": 145342.0739059031,
       "lp_health": null,
       "amp_lp": {
-        "underlying_lp_amount": 119051117807952,
+        "underlying_lp_amount": 119049758750966,
         "shares": 141078542460884,
-        "ratio": 0.8438641038622907,
+        "ratio": 0.8438544705264035,
         "ratio_type": "non-amplified",
         "stake_mechanism": "custody",
         "yearly_take_rate": 0.1
@@ -5369,9 +5369,9 @@
       },
       "rewards": {
         "annual_emissions_luna": 1104423.2026530816,
-        "annual_emissions_usd": 45209.96139295685,
-        "weekly_emissions_usd": 866.4468987014318,
-        "approx_apr_pct": 30.97831446526427,
+        "annual_emissions_usd": 45025.12512576083,
+        "weekly_emissions_usd": 862.9045198639994,
+        "approx_apr_pct": 30.97872757403397,
         "distribution_share_of_bucket": 0.31246981964076614,
         "bucket_weight_of_tla": 0.2,
         "source": "chain_distributions_current"
@@ -5391,18 +5391,18 @@
       "voting_power": {
         "vp": 7896793112,
         "vp_human": 7896.793112,
-        "pct_of_bucket": 0.039191485969252204
+        "pct_of_bucket": 0.039189392318476776
       },
       "depth_usd": null,
-      "staked_in_tla_usd": 8.298072039028579,
+      "staked_in_tla_usd": 8.236961325169135,
       "lp_health": {
         "asset_0": {
           "symbol": "ATOM",
           "amount_raw": 839342975,
           "amount_human": 839.342975,
           "decimals": 6,
-          "usd_value": 1141.506446,
-          "price_usd": 1.36,
+          "usd_value": 1133.11301625,
+          "price_usd": 1.35,
           "price_source": "direct"
         },
         "asset_1": {
@@ -5410,21 +5410,21 @@
           "amount_raw": 442571087,
           "amount_human": 442.571087,
           "decimals": 6,
-          "usd_value": 1906.6544192871543,
-          "price_usd": 4.308131451178948,
+          "usd_value": 1892.6349014982784,
+          "price_usd": 4.276454014037927,
           "price_source": "pool_derived:ATOM-dATOM(ATOM)"
         },
         "balance_ratio_pct": [
           37.449022425280155,
-          62.55097757471984
+          62.550977574719845
         ],
-        "total_pool_usd": 3048.1608652871546,
+        "total_pool_usd": 3025.7479177482783,
         "total_share": "602118214"
       },
       "amp_lp": {
-        "underlying_lp_amount": 1639159,
+        "underlying_lp_amount": 1639140,
         "shares": 1961829,
-        "ratio": 0.8355259301396809,
+        "ratio": 0.8355162452996668,
         "ratio_type": "non-amplified",
         "stake_mechanism": "custody",
         "yearly_take_rate": 0.1
@@ -5441,11 +5441,11 @@
         "pd_historical_count": 0
       },
       "rewards": {
-        "annual_emissions_luna": 1385.2213471578364,
-        "annual_emissions_usd": 56.704534525591,
-        "weekly_emissions_usd": 1.086739881393941,
-        "approx_apr_pct": 683.3458935869779,
-        "distribution_share_of_bucket": 0.000391914859692522,
+        "annual_emissions_luna": 1385.1473471632996,
+        "annual_emissions_usd": 56.4696870491534,
+        "weekly_emissions_usd": 1.0822390399563964,
+        "approx_apr_pct": 685.5645525080072,
+        "distribution_share_of_bucket": 0.00039189392318476776,
         "bucket_weight_of_tla": 0.2,
         "source": "gauge_infos_next_fallback"
       }
@@ -5464,18 +5464,18 @@
       "voting_power": {
         "vp": 1448417839554,
         "vp_human": 1448417.839554,
-        "pct_of_bucket": 7.188443033949296
+        "pct_of_bucket": 7.1880590196931395
       },
       "depth_usd": 32207.18,
-      "staked_in_tla_usd": 26688.54781290119,
+      "staked_in_tla_usd": 26578.66322500799,
       "lp_health": {
         "asset_0": {
           "symbol": "ampROAR",
           "amount_raw": 77032854035469120,
           "amount_human": 77032854035.46912,
           "decimals": 6,
-          "usd_value": 16153.349274663042,
-          "price_usd": 2.0969428533993264e-7,
+          "usd_value": 16087.02483794189,
+          "price_usd": 2.0883329638201847e-7,
           "price_source": "direct"
         },
         "asset_1": {
@@ -5483,21 +5483,21 @@
           "amount_raw": 91284160501537090,
           "amount_human": 91284160501.5371,
           "decimals": 6,
-          "usd_value": 16159.642244099237,
-          "price_usd": 1.77025698164e-7,
+          "usd_value": 16093.291968919071,
+          "price_usd": 1.76298843967e-7,
           "price_source": "direct"
         },
         "balance_ratio_pct": [
-          49.99026247781401,
+          49.990262477814014,
           50.00973752218599
         ],
-        "total_pool_usd": 32312.99151876228,
+        "total_pool_usd": 32180.31680686096,
         "total_share": "82270457736467813"
       },
       "amp_lp": {
-        "underlying_lp_amount": 67950348812925110,
+        "underlying_lp_amount": 67949573109194240,
         "shares": 81295221889666290,
-        "ratio": 0.8358467722143276,
+        "ratio": 0.8358372304022402,
         "ratio_type": "non-amplified",
         "stake_mechanism": "custody",
         "yearly_take_rate": 0.1
@@ -5515,9 +5515,9 @@
       },
       "rewards": {
         "annual_emissions_luna": 205940.31972495085,
-        "annual_emissions_usd": 8430.241126455963,
-        "weekly_emissions_usd": 161.5651961264661,
-        "approx_apr_pct": 31.58748533474272,
+        "annual_emissions_usd": 8395.774954546796,
+        "weekly_emissions_usd": 160.90465347522948,
+        "approx_apr_pct": 31.58840188263182,
         "distribution_share_of_bucket": 0.058265829988570605,
         "bucket_weight_of_tla": 0.2,
         "source": "chain_distributions_current"
@@ -5537,18 +5537,18 @@
       "voting_power": {
         "vp": 15878661880,
         "vp_human": 15878.66188,
-        "pct_of_bucket": 0.0788051992061002
+        "pct_of_bucket": 0.07880098934872058
       },
       "depth_usd": 1002.49,
-      "staked_in_tla_usd": 22.82419400997201,
+      "staked_in_tla_usd": 22.73062025346363,
       "lp_health": {
         "asset_0": {
           "symbol": "LUNA",
           "amount_raw": 12430367991,
           "amount_human": 12430.367991,
           "decimals": 6,
-          "usd_value": 508.8415886440617,
-          "price_usd": 0.04093536,
+          "usd_value": 506.76124225708793,
+          "price_usd": 0.040768,
           "price_source": "direct"
         },
         "asset_1": {
@@ -5556,21 +5556,21 @@
           "amount_raw": 4152379860,
           "amount_human": 4152.37986,
           "decimals": 6,
-          "usd_value": 508.7917561430225,
-          "price_usd": 0.12253015699363846,
+          "usd_value": 506.71161349109286,
+          "price_usd": 0.12202920507640957,
           "price_source": "direct"
         },
         "balance_ratio_pct": [
           50.00244845067697,
           49.99755154932302
         ],
-        "total_pool_usd": 1017.6333447870842,
+        "total_pool_usd": 1013.4728557481808,
         "total_share": "7142199009"
       },
       "amp_lp": {
-        "underlying_lp_amount": 160190246,
+        "underlying_lp_amount": 160188418,
         "shares": 191592794,
-        "ratio": 0.8360974473810325,
+        "ratio": 0.8360879063123846,
         "ratio_type": "non-amplified",
         "stake_mechanism": "custody",
         "yearly_take_rate": 0.1
@@ -5587,11 +5587,11 @@
         "pd_historical_count": 0
       },
       "rewards": {
-        "annual_emissions_luna": 2785.3662985108467,
-        "annual_emissions_usd": 114.01997216140897,
-        "weekly_emissions_usd": 2.185187693716257,
-        "approx_apr_pct": 499.55749636369654,
-        "distribution_share_of_bucket": 0.000788051992061002,
+        "annual_emissions_luna": 2785.2175012869975,
+        "annual_emissions_usd": 113.54774709246831,
+        "weekly_emissions_usd": 2.1761375212793377,
+        "approx_apr_pct": 499.53650989865184,
+        "distribution_share_of_bucket": 0.0007880098934872058,
         "bucket_weight_of_tla": 0.2,
         "source": "gauge_infos_next_fallback"
       }
@@ -5610,15 +5610,15 @@
       "voting_power": {
         "vp": 718428974971,
         "vp_human": 718428.974971,
-        "pct_of_bucket": 3.5655358691990755
+        "pct_of_bucket": 3.5653453944887463
       },
       "depth_usd": null,
-      "staked_in_tla_usd": 12867.538361351666,
+      "staked_in_tla_usd": 12868.841347204385,
       "lp_health": null,
       "amp_lp": {
-        "underlying_lp_amount": 23097881458932,
+        "underlying_lp_amount": 23097617779449,
         "shares": 27652039767667,
-        "ratio": 0.8353047967889844,
+        "ratio": 0.8352952611639378,
         "ratio_type": "non-amplified",
         "stake_mechanism": "custody",
         "yearly_take_rate": 0.1
@@ -5636,9 +5636,9 @@
       },
       "rewards": {
         "annual_emissions_luna": 111756.1767418307,
-        "annual_emissions_usd": 4574.779327150466,
-        "weekly_emissions_usd": 87.67544227256198,
-        "approx_apr_pct": 35.55287109841505,
+        "annual_emissions_usd": 4556.075813410954,
+        "weekly_emissions_usd": 87.31699026386495,
+        "approx_apr_pct": 35.40393179531047,
         "distribution_share_of_bucket": 0.031618705860556366,
         "bucket_weight_of_tla": 0.2,
         "source": "chain_distributions_current"
